@@ -1,0 +1,118 @@
+\documentclass{hogent-article}
+
+\addbibresource{voorstel.bib}
+
+
+\studyprogramme{Professionele bachelor toegepaste informatica}
+\course{Bachelorproef}
+\assignmenttype{Onderzoeksvoorstel}
+\academicyear{2023-2024}
+
+\title{TODO}
+
+
+\author{Thomas Vanderveken}
+\email{thomas.vanderveken@student.hogent.be}
+
+
+\specialisation{AI \& Data Engineering}
+
+\keywords{NLP, ML, financial forms, 13F}
+
+\begin{document}
+
+\begin{abstract}
+
+    Deze bachelorproef onderzoekt hoe AI-technologieën, zoals Natural Language Processing (NLP) en Machine Learning (ML), gebruikt kunnen worden om 13F-meldingen van de SEC van voor het jaar 2013 te standaardiseren. Dit kan historisch financieel onderzoek en investeringsanalyse vergemakkelijken, omdat deze documenten momenteel allemaal handmatig moeten worden bekeken. Het doel is om efficiënte en nauwkeurige data-extractie uit deze meldingen te realiseren, wat essentieel is voor het verkrijgen van inzichten in historische beleggingstrends. Door middel van een literatuurstudie zal onderzocht worden welke NLP-technieken en ML-modellen het meest effectief zijn voor deze taak. Het uiteindelijke doel is om een proof-of-concept te ontwikkelen die deze 13F-meldingen verwerkt, de benodigde gegevens extraheert en deze opslaat in een databank voor gemakkelijke toegang tot de informatie.\end{abstract}
+
+\tableofcontents
+
+\bigskip
+
+\section{Inleiding}
+\subsection{Achtergrond en Context}
+
+13F-meldingen, ingediend bij de SEC zijn ingediend, bevatten essentiële informatie over de beleggingsportefeuilles van institutionele investeerders en zijn van cruciaal belang voor financieel onderzoek en investeringsanalyse. Maar voorafgaand aan 2013 vertonen 13F-rapporten vaak inconsistenties in formaat en structuur, waardoor handmatige verwerking extreem tijdrovend en foutgevoelig is. 
+
+AI-technologieën zoals NLP en ML kunnen helpen deze oudere documenten te standaardiseren en vervolgens te integreren in een gestructureerde databank. Dit zou de efficiëntie van gegevensverwerking verbeteren en de toegankelijkheid van historische financiële data vergroten. Een proof-of-concept applicatie die deze AI-technieken toepast, zal niet alleen de analyse van historische beleggingstrends vergemakkelijken, maar ook het ontwikkelen van voorspellende modellen eenvoudiger maken.
+
+\subsection{Probleemstelling}
+
+13F meldingen van de SEC voor 2013, zijn belangrijke bestanden voor financieel onderzoek, ze bevatten namelijk data over de stocks dat investment managers beheren. Maar deze zijn vaak inconsistent in opmaak en moeilijker toegankelijk, wat manuele analyse bemoeilijkt. Er ontbreekt namelijk een geautomatiseerd systeem om deze gegevens te standaardiseren en in een databank te integreren. Dit bemoeilijkt de opportuniteiten voor diepgaande analyses en het verkrijgen van inzichten in beleggingstrends. Dit onderzoek gaat opzoek naar hoe AI-technologieën zoals NLP en ML, ingezet kunnen worden om deze meldingen te extraheren, te structuren en te integreren in een databank, wat als gevolg het gebruik en de toegankelijkheid van historische financiële gegevens te verbeteren.
+
+\subsection{Hoofonderzoeksvraag}
+
+Hoe kunnen AI-technologieën zoals Natural Language Processing (NLP) en Machine Learning (ML) effectief worden toegepast om 13F-meldingen van de SEC van vóór 2013 te standaardiseren en te integreren in een gestructureerde databank, zodat de historische gegevens efficiënter kunnen worden geanalyseerd en vergeleken?
+
+\subsection{Deelonderzoeksvragen}
+\begin{itemize}
+    \item Wat zijn de potentiële voordelen en beperkingen van het gebruik van AI-technologieën voor dit doel vergeleken met traditionele methoden?
+    \item Wat zijn de belangrijkste uitdagingen bij het standaardiseren van de verschillende formaten en structuren van 13F-meldingen?
+    \item Hoe kan de ontwikkelde proof-of-concept worden gevalideerd en geëvalueerd op basis van nauwkeurigheid, efficiëntie en bruikbaarheid?
+\end{itemize}
+    
+    
+
+\subsection{Onderzoeksdoelstelling}
+Het hoofddoel van dit onderzoek is het ontwikkelen van een geautomatiseerde methode die gebruikmaakt van AI-technologieën, zoals NLP en ML, om de data uit de 13F meldingen van voor 2013 te extraheren, standaardiseren en te integreren in een relationele databank. Dit moet leiden tot een efficiëntere en meer accurate extractie van gegevens uit deze documenten, waardoor de toegankelijkheid en bruikbaarheid van de data voor financieel onderzoek en investeringsanalyse aanzienlijk worden verbeterd. 
+
+
+
+\section{Literatuurstudie}%
+\label{sec:literatuurstudie}
+
+TODO
+
+\section{Methodologie}
+
+
+Dit onderzoek richt zich op het ontwikkelen van een proof-of-concept applicatie die AI- technologieën, zoals Natural Language Processing (NLP) en Machine Learning (ML), gebruikt om 13F-meldingen van vóór 2013 te standaardiseren en te integreren in een relationele databank. De methodologie omvat vier hoofdfasen: literatuurstudie, systeemontwikkeling, evaluatie, en implementatie.
+
+In de eerste fase zal de literatuurstudie worden voorbereid, deze zal zich focussen op het analyseren van bestaande technieken en benaderingen te analyseren. Dit zal bestaan uit het verkennen van relevante NLP-technieken zoals Named Entity Recognition (NER), tekstclassificatie en tokenisatie, die nuttig kunnen zijn voor het extraheren van de nodige gegevens. Alssok zal er een analyse gedaan worden naar al bestaande modellen en bibliotheken zoals BERT, GPT en Spacy.
+
+Op basis van de bevindingen uit de eerste fase zal er een proof-of-concept systeem ontwikkeld met de volgende stappen:
+\begin{itemize}
+    \item \textbf{Data Voorbereiding:} Verzamelen en voorbereiden van een dataset van 13F-meldingen van vóór 2013. Dit kan bestaan uit het downloaden van historische rapporten en het opschonen van gegevens om consistentie en kwaliteit te waarborgen.
+    \item \textbf{NLP- en ML-implementatie:} Het tepassen van NLP-technieken voor het extraheren van relevante informatie zoals bedrijfsnamen, aandelen en aantallen. Vervolgens worden ML-modellen getraind om patronen en structuren te herkennen, en om de gegevens te classificeren en te structureren.
+    \item \textbf{Integratie:} Integreren van deze gegevens in een relationele databank die ontworpen is voor efficiënte opslag en toegang.
+\end{itemize}
+
+In de derde fase zal het systeem worden geëvalueerd op basis van enkele criteria: accuraatheid en efficiëntie en kwaliteit van de geëxtraheerde gegevens.
+
+De resultaten van de gegevensextractie worden vergeleken met handmatig gecodeerde gegevens en de verwerkingstijd om de efficiëntie en nauwkeurigheid te evalueren. 
+
+De kwaliteit van de gegevens wordt gemeten door fouten en inconsistenties in de geëxtraheerde en genormaliseerde gegevens te vinden, naast de consistentie en volledigheid van de gestandaardiseerde gegevens.
+
+
+Na evaluatie van het proof-of-concept systeem, worden de bevindingen gepresenteerd en aanbevelingen gedaan voor verdere verbeteringen en mogelijke toepassingen. Dit kan ook aanbevelingen omvatten voor bredere implementatie, zoals integratie met andere financiële analysetools en verdere verfijning van de AI-modellen op basis van feedback en aanvullende gegevens.
+
+Deze gestructureerde aanpak zorgt ervoor dat het proof-of-concept systeem effectief en efficiënt de historische 13F-meldingen kan verwerken, waardoor de toegankelijkheid en analyse van historische financiële gegevens wordt verbeterd.
+
+
+
+\section{Verwachte resultaten, conclusie}%
+\label{sec:verwachte-resultaten}
+
+
+Het verwachte resultaat van het onderzoek is een werkende proof-of-concept applicatie te ontwikkelen die AI-technologieën gebruikt, waaronder NLP en ML- technologieën, om alle 13f-meldingen van voor 2013 te standaardiseren en integreren in een relationele databank. De applicatie die wordt ontwikkeld moet de gegevens binnen ene acceptabele tijd extraheren en verwerken naar een uniform formaat en vervolgens naar een databank weg te schrijven.  Het gevolg hiervan is dat de toegankelijkheid en analyse van de historische financiële gegevens worden verbeterd en vergemakkelijkt. Hierdoor kunnen onderzoekers met minder inspanning en kosten diepere inzichten verkrijgen in historische beleggingstrends en gemakkelijker voorspellende modellen maken. 
+\\
+\\
+Kortom, AI-technologieën zoals NLP en ML kunnen een machtige oplossing bieden bij het standaardiseren en normaliseren van historische 13F-meldingen. Het systeem zal automatisch de inconsistenties in dergelijke documenten op. Het daaropvolgende bewijs-of-concept systeem zal een waardevolle input zijn voor financieel onderzoek en investeringsanalyse en zal fungeren als basis voor toekomstige toepassingen in de analyse van historische financiële data-analyse en de ontwikkeling van voorspellende modellen.
+
+
+
+
+
+
+
+
+
+
+
+%------------------------------------------------------------------------------
+% Referentielijst
+%------------------------------------------------------------------------------
+
+\printbibliography[heading=bibintoc]
+
+\end{document}
