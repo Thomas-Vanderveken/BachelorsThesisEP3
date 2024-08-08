@@ -7,65 +7,77 @@
 
 % Pas na deze inleidende paragraaf komt de eerste sectiehoofding.
 
-Dit hoofdstuk bevat je literatuurstudie. De inhoud gaat verder op de inleiding, maar zal het onderwerp van de bachelorproef *diepgaand* uitspitten. De bedoeling is dat de lezer na lezing van dit hoofdstuk helemaal op de hoogte is van de huidige stand van zaken (state-of-the-art) in het onderzoeksdomein. Iemand die niet vertrouwd is met het onderwerp, weet nu voldoende om de rest van het verhaal te kunnen volgen, zonder dat die er nog andere informatie moet over opzoeken \autocite{Pollefliet2011}.
-
-Je verwijst bij elke bewering die je doet, vakterm die je introduceert, enz.\ naar je bronnen. In \LaTeX{} kan dat met het commando \texttt{$\backslash${textcite\{\}}} of \texttt{$\backslash${autocite\{\}}}. Als argument van het commando geef je de ``sleutel'' van een ``record'' in een bibliografische databank in het Bib\LaTeX{}-formaat (een tekstbestand). Als je expliciet naar de auteur verwijst in de zin (narratieve referentie), gebruik je \texttt{$\backslash${}textcite\{\}}. Soms is de auteursnaam niet expliciet een onderdeel van de zin, dan gebruik je \texttt{$\backslash${}autocite\{\}} (referentie tussen haakjes). Dit gebruik je bv.~bij een citaat, of om in het bijschrift van een overgenomen afbeelding, broncode, tabel, enz. te verwijzen naar de bron. In de volgende paragraaf een voorbeeld van elk.
-
-\textcite{Knuth1998} schreef een van de standaardwerken over sorteer- en zoekalgoritmen. Experten zijn het erover eens dat cloud computing een interessante opportuniteit vormen, zowel voor gebruikers als voor dienstverleners
- op vlak van informatietechnologie~\autocite{Creeger2009}.
-
-Let er ook op: het \texttt{cite}-commando voor de punt, dus binnen de zin. Je verwijst meteen naar een bron in de eerste zin die erop gebaseerd is, dus niet pas op het einde van een paragraaf.
-
-
-\begin{figure}
-  \centering
-  \includegraphics[width=0.8\textwidth]{grail.jpg}
-  \caption[Voorbeeld figuur.]{\label{fig:grail}Voorbeeld van invoegen van een figuur. Zorg altijd voor een uitgebreid bijschrift dat de figuur volledig beschrijft zonder in de tekst te moeten gaan zoeken. Vergeet ook je bronvermelding niet!}
-\end{figure}
-
-\begin{listing}
-  \begin{minted}{python}
-    import pandas as pd
-    import seaborn as sns
-
-    penguins = sns.load_dataset('penguins')
-    sns.relplot(data=penguins, x="flipper_length_mm", y="bill_length_mm", hue="species")
-  \end{minted}
-  \caption[Voorbeeld codefragment]{Voorbeeld van het invoegen van een codefragment.}
-\end{listing}
-
-
-\begin{table}
-  \centering
-  \begin{tabular}{lcr}
-    \toprule
-    \textbf{Kolom 1} & \textbf{Kolom 2} & \textbf{Kolom 3} \\
-    $\alpha$         & $\beta$          & $\gamma$         \\
-    \midrule
-    A                & 10.230           & a                \\
-    B                & 45.678           & b                \\
-    C                & 99.987           & c                \\
-    \bottomrule
-  \end{tabular}
-  \caption[Voorbeeld tabel]{\label{tab:example}Voorbeeld van een tabel.}
-\end{table}
-
-
-
+De Securities and Exchange Commission (SEC) vereist dat institutionele vermogensbeheerders een kwartaalrapport indienen dat bekend staat als Form 13F als ze zeggenschap hebben over \$100 miljoen of meer in Section 13(f) effecten. Sectie 13(f) van de Securities Exchange Act van 1934 verplicht de openbaarmaking van effectenbezit door grote institutionele beleggers om de transparantie te vergroten. In 1975 implementeerde het Congres deze bepaling om de toegankelijkheid van informatie over de investeringsactiviteiten van deze bedrijven te verbeteren. De bedoeling was om het vertrouwen van beleggers in de integriteit van de effectenmarkten in de Verenigde Staten te vergroten door middel van een openbaarmakingsprogramma\autocite(SECform13F2024).\\
+Formulier 13F biedt een uitgebreid overzicht van de aandelenbeleggingen van prominente beleggingsmaatschappijen wereldwijd en is een zeer belangrijk hulpmiddel voor analisten, onderzoekers en beleggers die inzicht willen krijgen in markttrends en de beleggingsbenaderingen van belangrijke marktspelers. Het onverwerkte tekstformaat waarin deze inzendingen worden aangeleverd, vormt echter een aanzienlijke belemmering voor effectieve gegevensextractie en -analyse, vooral voor inzendingen van vóór 2013. Vóór 2013 ontbrak het bij 13F-aanmeldingen vaak aan standaardisatie en systematische opmaak, wat nu wel gebruikelijk is bij recentere aanmeldingen.\\
+Kunstmatige intelligentie (AI) en machine learning (ML) technologieën hebben de extractie en organisatie van gegevens uit ongestructureerde tekst de afgelopen jaren aanzienlijk veranderd. Geavanceerde methodologieën zoals Natural Language Processing (NLP) en deep learning modellen vergemakkelijken de omzetting van tekstuele 13F aanvragen in gestructureerde datasets die geschikt zijn voor grondige analyse en studie. Standaardisatie is cruciaal voor historische gegevens, omdat het ontbreken van uniformiteit geautomatiseerde verwerking kan bemoeilijken. Door gebruik te maken van deze technologieën kunnen we zowel huidige als vroegere 13F aanvragen omzetten in georganiseerde gegevens, die vervolgens kunnen worden opgeslagen in databases, waardoor patronen eenvoudiger kunnen worden opgehaald, gevisualiseerd en geanalyseerd.\\
+\\
+Het doel van deze literatuurstudie is het onderzoeken en beoordelen van de verschillende Artificial Intelligence (AI) en Machine Learning (ML) technieken die kunnen worden gebruikt om gegevens uit 13F-formulieren van voor 2013 te extraheren, te organiseren en op te slaan. Het doel van het onderzoek is het bepalen van de meest efficiënte methoden om de ongeorganiseerde inhoud van deze documenten om te zetten in een gestructureerd formaat dat geschikt is voor analyse en opslag in een database. Dit houdt in dat er een vergelijkend onderzoek wordt gedaan naar verschillende kunstmatige intelligentie methodologieën, zoals Natural Language Processing (NLP) en Deep Learning modellen, en dat bepaalde tools zoals BERT, GPT en SpaCy worden geëvalueerd. De evaluatie zal ook de integratie van gestructureerde gegevens in databasemanagementsystemen (DBMS) onderzoeken, om te garanderen dat de geëxtraheerde gegevens gemakkelijk beschikbaar zijn voor later onderzoek en analyse. Het doel van deze evaluatie is om een uitgebreide kennis te krijgen van de meest effectieve procedures en technologie voor het verwerken van 13F-formulieren. 
 
 % ----------------------------------------------------------------------------
-Het 13F formulier van de Securities and Exchange Commission (SEC) is een rapport dat institutionele vermogensbeheerders elk kwartaal moeten indienen als ze voor meer dan \$100 miljoen of meer aan Section 13(f) effecten bezitten. Sectie 13(f) van de Securities Exchange Act van 1934 legt deze verplichting op met als doel de transparantie van het effectenbezit van grote institutionele beleggers te vergroten. In 1975 implementeerde het Congres deze bepaling om de toegankelijkheid van informatie over de investeringsactiviteiten van deze bedrijven te verbeteren. Ze geloofden dat dit openbaarmakingsprogramma het vertrouwen van beleggers in de integriteit van de effectenmarkten van de Verenigde Staten zou versterken~\autocite(SECform13F2024).\\
-Formulier 13F biedt een uitgebreid overzicht van de aandelenbeleggingen van prominente beleggingsentiteiten wereldwijd, waardoor het een uiterst belangrijk hulpmiddel is voor analisten, onderzoekers en beleggers die inzicht willen krijgen in markttrends en de beleggingsbenaderingen van belangrijke marktspelers. Het onverwerkte tekstuele formaat waarin deze inzendingen worden aangeleverd, vormt echter een aanzienlijke belemmering voor effectieve gegevensextractie en -analyse.\\
-Kunstmatige intelligentie (AI) en Machine Learning (ML) technologieën hebben de extractie en organisatie van gegevens uit ongestructureerde tekst de afgelopen jaren aanzienlijk veranderd. Geavanceerde methodologieën zoals Natural Language Processing (NLP) en deep learning modellen maken het mogelijk om tekstuele 13F aanvragen om te zetten in gestructureerde datasets die geschikt zijn voor grondige analyse en studie. Vervolgens kunnen deze georganiseerde gegevens worden opgeslagen in databases, zodat ze eenvoudiger kunnen worden opgevraagd, weergegeven en onderzocht.\\
-\\
-Het doel van deze literatuurstudie is het onderzoeken en beoordelen van de verschillende Artificial Intelligence (AI) en Machine Learning (ML) technieken die kunnen worden gebruikt om gegevens uit 13F-formulieren te extraheren, te organiseren en op te slaan. Het doel van het onderzoek is het bepalen van de meest efficiënte methoden om de ongeorganiseerde inhoud van deze documenten om te zetten in een gestructureerd formaat dat geschikt is voor analyse en opslag in een database. Dit houdt in dat er een vergelijkend onderzoek wordt gedaan naar verschillende kunstmatige intelligentie methodologieën, zoals Natural Language Processing (NLP) en Deep Learning modellen, en dat bepaalde tools zoals BERT, GPT en SpaCy worden geëvalueerd. De evaluatie zal ook de integratie van gestructureerde gegevens in databasemanagementsystemen (DBMS) onderzoeken, om te garanderen dat de geëxtraheerde gegevens gemakkelijk beschikbaar zijn voor later onderzoek en analyse. Het doel van deze evaluatie is om een uitgebreide kennis te krijgen van de meest effectieve procedures en technologie voor het verwerken van 13F-formulieren. 
+\section{Wat zijn 13F meldingen}
+Hier bespreken we kort wat 13F-meldingen zijn, we gaan dieper in op waarvoor ze dienen, welke structuur ze hebben, en wat er in vermeld word.
+\subsection{Definitie en doel}
+13F-aanmeldingen zijn verplichte wettelijke documenten die de Amerikaanse Securities and Exchange Commission (SEC) vereist onder Sectie 13(f) van de Securities Exchange Act van 1934. Deze deponeringen worden gebruikt om de portefeuilles van institutionele beleggingsbeheerders te rapporteren.
 
+Doel: Het belangrijkste doel van 13F filings is om duidelijkheid en openheid te bieden over de beleggingsactiviteiten van belangrijke institutionele beleggers. Deze vereiste vergemakkelijkt het toezicht op beleggingsposities van verschillende instellingen, zoals beleggingsfondsen, pensioenfondsen en andere belangrijke beleggingsbeheerders, door het publiek en regelgevende instanties.
+
+
+\subsection{Belanrijke kenmerken}
+
+\subsubsection{Vereisten voor rapportage:}
+
+Frequentie: Institutionele beleggingsbeheerders met minimaal \$100 miljoen aan beheerd vermogen moeten elk kwartaal een 13F-rapport indienen.
+Inhoud: De rapporten bevatten uitgebreide informatie over het aandelenbezit van de instelling, waaronder de naam, het tickersymbool, het aantal aandelen en de marktwaarde.
+\subsubsection{Omvang van de informatie:}
+
+Aandelenbezit: De openbaarmakingen concentreren zich voornamelijk op aandelen, terwijl andere soorten activa zoals obligaties, derivaten en private equity worden uitgesloten.
+Disclaimer: Elk bestand biedt een kort overzicht van de aandelenportefeuille van de instelling aan het einde van de rapportageperiode, wat een waardevol inzicht geeft in hun investeringsmethoden.
+\subsubsection{Opmaak en toegankelijkheid:}
+
+Vanaf 2013 is het verplicht om alle 13F-dossiers elektronisch in te dienen via het EDGAR-systeem van de SEC. De elektronische deponeringen zijn gemakkelijk toegankelijk voor het publiek, wat transparantie garandeert en het bestuderen van het materiaal vergemakkelijkt.
+Papieren indieningen (vóór 2013): Vóór 2013 werd een aanzienlijk aantal 13F-dossiers op papier ingediend, wat resulteerde in een moeilijker en tijdrovender proces om toegang te krijgen tot de informatie en deze te analyseren. Deze dossiers moesten vaak door mensen in systemen worden ingevoerd voor verdere verwerking.
+
+Illustraties van 13F indieningsformaten:
+
+\begin{itemize}
+  \item Voorbeeld van papieren indiening vóór 2013:
+  \begin{itemize}
+    \item Dit is een gedigitaliseerde afbeelding van een standaard 13F-bestand dat traditioneel op papier werd ingediend voordat elektronische indiening verplicht werd. Dit formaat omvatte handmatig geschreven of getypte informatie over de activa van de instelling.
+    \item Het analyseren van papieren bestanden leverde aanzienlijke problemen op bij het extraheren en analyseren van gegevens, waardoor het gebruik van handmatige gegevensinvoer- en validatieprocedures noodzakelijk werd.
+  \end{itemize}
+  \item Na het jaar 2013, als voorbeeld van elektronische archivering:
+
+  \begin{itemize}
+    \item Vanaf 2013 werd het elektronische formaat gestandaardiseerd, waardoor onmiddellijke toegang tot en analyse van deponeringen vanuit het EDGAR-systeem mogelijk werd. Hieronder ziet u een momentopname van een elektronische 13F indiening.
+    \item Het gebruik van elektronische deponeringen heeft de efficiëntie van gegevensanalyse aanzienlijk verbeterd door geautomatiseerde extractie en vereenvoudigde aggregatie van financiële gegevens mogelijk te maken.
+  \end{itemize}
+
+\end{itemize}
+
+
+
+Historisch onderzoek van deponeringen van vóór 2013: 
+\begin{itemize}
+  \item Hoewel deponeringen van na 2013 gemakkelijk beschikbaar zijn en door machines verwerkt kunnen worden, bieden deponeringen van voor 2013 rijke historische informatie die essentieel is voor het doen van diepgaande marktanalyses en onderzoek over een langere periode. Niettemin moeten de eerdere dossiers meer bewerkingen ondergaan om de gegevens te converteren en te organiseren voor analyse.
+  \item Er ontstaan uitdagingen bij het extraheren van gegevens wanneer geprobeerd wordt om informatie uit papieren bestanden van voor 2013 te halen. Dit proces vereist het gebruik van OCR-technologie (Optical Character Recognition), handmatige gegevensinvoer of methoden voor gegevensinvoer via crowdsourcing. Deze gebreken en inconsistenties moeten in elke analyse worden meegenomen.
+
+  \item De periode voorafgaand aan het elektronische indieningsmandaat in 2013 markeerde een belangrijke verschuiving in de rapportage en toegankelijkheid van financiële gegevens. Deze periode toonde de vooruitgang in financiële rapportagepraktijken en het toenemende belang van digitale gegevensverwerking in financiële analyses.
+
+\end{itemize}
+
+Samenvatting van de structuur en het gebruiksgemak
+De overgang van papieren naar elektronische 13F-bestanden betekende een aanzienlijke verbetering in de beschikbaarheid en gebruiksvriendelijkheid van financiële gegevens voor zowel beleggers als wetenschappers. Desondanks heeft het bestaan van bestanden die vóór 2013 zijn gemaakt specifieke moeilijkheden en voordelen voor het uitvoeren van historische analyses. Het is van cruciaal belang om de verschillende formaten en hun gevolgen voor de extractie en analyse van gegevens te begrijpen.
+
+
+
+\subsubsection{}
+\subsection{Belang en gevolgen}
 % ----------------------------------------------------------------------------
 \section{AI- en Tekstextractietechnieken}
 \subsection{Natural Language Processing (NLP)}
 \subsection{Machine Learning (ML) benaderingen}
 % ----------------------------------------------------------------------------
-\subsection{Vergelijkende analuyse van techologiën}
+\subsection{Vergelijkende analyse van techologiën}
 To be reviewed
 % ----------------------------------------------------------------------------
 \section{Technieken en Tools}
@@ -81,7 +93,6 @@ To be reviewed
 \section{Leemtes in huidig onderzoek}
 \subsection{Onbehandelde kwesties}
 \subsection{Verbeteringsmogelijkehden}
-
 % ----------------------------------------------------------------------------
 \section{Toekomstige richtingen}
 \subsection{Voortgang in AI en NLP}
