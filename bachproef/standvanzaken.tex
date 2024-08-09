@@ -15,6 +15,8 @@ Het doel van deze literatuurstudie is het onderzoeken en beoordelen van de versc
 
 % ----------------------------------------------------------------------------
 \section{Wat zijn 13F meldingen}
+
+
 Hier bespreken we kort wat 13F-meldingen zijn, we gaan dieper in op waarvoor ze dienen, welke structuur ze hebben, en wat er in vermeld word.
 \subsection{Definitie en doel}
 13F-aanmeldingen zijn verplichte wettelijke documenten die de Amerikaanse Securities and Exchange Commission (SEC) vereist onder Sectie 13(f) van de Securities Exchange Act van 1934. Deze deponeringen worden gebruikt om de portefeuilles van institutionele beleggingsbeheerders te rapporteren.
@@ -69,22 +71,99 @@ Samenvatting van de structuur en het gebruiksgemak
 De overgang van papieren naar elektronische 13F-bestanden betekende een aanzienlijke verbetering in de beschikbaarheid en gebruiksvriendelijkheid van financiële gegevens voor zowel beleggers als wetenschappers. Desondanks heeft het bestaan van bestanden die vóór 2013 zijn gemaakt specifieke moeilijkheden en voordelen voor het uitvoeren van historische analyses. Het is van cruciaal belang om de verschillende formaten en hun gevolgen voor de extractie en analyse van gegevens te begrijpen.
 
 
+% ----------------------------------------------------------------------------
 
-\subsubsection{}
-\subsection{Belang en gevolgen}
+
+
+
+\section{AI en Machine learning in financiële data extractie}
+Dit hoofdstuk onderzoekt de significante invloed van kunstmatige intelligentie (AI) en machinaal leren (ML) op het ophalen van financiële gegevens, met name op 13F-formulieren van vóór 2013. Deze tekst presenteert de basisprincipes van kunstmatige intelligentie (AI) en machinaal leren (ML), onderzoekt hoe ze worden gebruikt bij het extraheren van financiële gegevens en analyseert praktijkvoorbeelden die de doeltreffendheid ervan aantonen. Het hoofdstuk bespreekt ook specifieke moeilijkheden in verband met gegevenskwaliteit, de veranderende financiële terminologie en de noodzaak om AI-modellen aan te passen en aan te passen om de complexiteit van historische financiële documentatie effectief te beheren.
+
 % ----------------------------------------------------------------------------
-\section{AI- en Tekstextractietechnieken}
-\subsection{Natural Language Processing (NLP)}
-\subsection{Machine Learning (ML) benaderingen}
-% ----------------------------------------------------------------------------
-\subsection{Vergelijkende analyse van techologiën}
-To be reviewed
+
+\section{Text mining en gerelateerde technieken}
+Text mining, of ook bekend tekstdatamining, is de procedure om ongestructureerde tekst om te zetten in een gestructureerd formaat om significante patronen te ontdekken en nieuwe inzichten te verwerven. Text mining maakt de analyse van uitgebreide tekstdatasets mogelijk om significante thema's, patronen en verborgen verbanden bloot te leggen. Deze techniek is essentieel voor het omzetten van ongestructureerde gegevens in gestructureerde gegevens, die vervolgens kunnen worden gebruikt voor analyse en besluitvorming\autocite{IBM2024}.
+
+\subsection{Document datatypes}
+Text mining kan verschillende soorten gegevens omvatten, waaronder:
+
+\begin{itemize}
+  \item \textbf{Gestructureerde Gegevens}: Deze gegevens zijn gestandaardiseerd in een tabelvorm, wat ze makkelijker maakt om op te slaan en te verwerken voor analyse en machine learning-algoritmen. Voorbeelden includeren databanken met kolommen en rijen%TODO INSERT IMAGE
+  \item \textbf{Ongestructureerde Gegevens}: Deze gegevens hebben geen vooraf gedefinieerd formaat en kunnen tekst uit bronnen zoals sociale media of productrecensies bevatten, evenals rijke media zoals video- en audiobestanden. Aangezien financiële documenten vaak in ongestructureerd formaat bestaan, is text mining essentieel om deze gegevens om te zetten in een bruikbaar formaat.
+  \item \textbf{Semi-gestructureerde Gegevens}: Deze gegevens vormen een mix tussen gestructureerde en ongestructureerde formaten. Ze hebben enige organisatie, maar voldoen niet volledig aan de vereisten van een relationele database. Voorbeelden hiervan zijn XML, JSON en HTML-bestanden.
+\end{itemize}
+
+Dit onderscheid zijn van groot belang voor het begrijpen van hoe text mining toegepast kan worden over de verschillende data structuren, dit opent de mogelijkheid om de data de extraheren en belanrijke inzichten te verwerven\autocite(AWS2024).
+
+\subsection{Text mining vs. Text analytics}
+Hoewel text mining en text analytics vaak door elkaar worden gebruikt, kan er een genuanceerd onderscheid tussen de twee bestaan. Bij text mining gaat het meestal om het identificeren van patronen en trends in ongestructureerde gegevens, terwijl text analytics gericht is op het afleiden van kwantitatieve inzichten door gegevens op een gestructureerde manier te analyseren. Deze observaties kunnen vervolgens grafisch worden weergegeven om de ontdekkingen effectief over te brengen aan een breder publiek.\autocite{IBM2024}
+\subsubsection{Text mining: vinden van verstopte patronen}
+Text mining omvat het extraheren van waardevolle informatie en het identificeren van verborgen patronen uit uitgebreide verzamelingen ongeorganiseerde of gedeeltelijk georganiseerde tekstuele gegevens. Text mining is een gespecialiseerde vorm van datamining die is ontworpen om vooral tekstuele informatie te verwerken. Het belangrijkste doel van text mining is om tekst om te zetten in analyseerbare gegevens om inzichten, trends en patronen te ontdekken die niet direct voor de hand liggen. Deze aanpak omvat een reeks methodologieën, waaronder het ophalen van informatie, natuurlijke taalverwerking (NLP) en machinaal leren. Het primaire doel is het begrijpen en analyseren van uitgebreide tekstdatabases \autocite{gaikwad2014text}.
+
+\paragraph{Voor en nadelen text mining}
+Volgens \autocite{Kinter2024} en \autocite{gaikwad2014text} zijn er veel voor en nadelen aan text mining:
+\begin{itemize}
+    \item Voordelen:
+  \begin{itemize}
+    \item Het corpus van teksten kan worden geanalyseerd met technieken zoals informatie-extractie om de namen van verschillende entiteiten en hun relaties te identificeren. 
+    \item De complexe taak om effectief om te gaan met grote hoeveelheden ongestructureerde gegevens om patronen bloot te leggen, wordt aangepakt door het gebruik van text mining.
+    \item Bedrijven kunnen een uitgebreid inzicht krijgen in huidige trends en patronen door inzichten te analyseren die zijn verkregen uit vele gegevensbronnen. Deze inzichten helpen bedrijven bij het nemen van weloverwogen zakelijke beslissingen.
+
+  \end{itemize}
+  \item Nadelen
+  \begin{itemize}
+    \item Text mining gebruikt vaak een grote hoeveelheid gegevens. Het efficiënt opslaan, beheren en verwerken van deze gegevens vereist daarom een grote hoeveelheid opslagruimte en rekenkracht, wat duur kan zijn.
+    \item Text mining, gegevensanalyse en patroonherkenning zijn sterk afhankelijk van de kwaliteit van de gegevens. De nauwkeurigheid van de resultaten kan worden beïnvloed door variaties in de gegevenskwaliteit, die worden beïnvloed door de structuur en voorbewerking van de gegevens.
+  \end{itemize}
+\end{itemize}
+
+\subsubsection{Text analyse: het afleiden van semantische beteknis}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Text mining techniques}
+\subsubsection{Information retreival}
+\subsubsection{NLP}
+\paragraph{Summarization}
+Samenvatting: Het genereren van een beknopte, coherente samenvatting van de belangrijkste punten in een lang stuk tekst. Dit kan bijzonder nuttig zijn bij het analyseren van grote hoeveelheden financiële rapporten.
+
+\paragraph{Part of speeck tagging}
+Positietagging: Het toewijzen van tags aan elk token in een document op basis van hun functie in de zin, zoals zelfstandig naamwoorden, werkwoorden of bijvoeglijke naamwoorden, wat semantische analyse van ongestructureerde tekst mogelijk maakt.
+
+\paragraph{Text categorization}
+Tekstcategorisatie: Het analyseren en classificeren van tekstdocumenten op basis van vooraf gedefinieerde onderwerpen of categorieën. Dit is nuttig voor het categoriseren van synoniemen en afkortingen in financiële documenten.
+
+\paragraph{Sentiment analysis}
+Sentimentanalyse: Het detecteren van positieve of negatieve sentimenten binnen gegevensbronnen, wat organisaties in staat stelt om klantattitudes in de tijd te volgen en te begrijpen.
+
+\subsubsection{Information extraction}
+\subsubsection{Data mining}
+
+
 % ----------------------------------------------------------------------------
 \section{Technieken en Tools}
 \subsection{Tekstverwerkingtools}
 \subsection{Database Management Systemen (DBMS)}
 \subsection{ETL Tools}
 % ----------------------------------------------------------------------------
+
+
+
 \section{Uitdagingen en beperkingen}
 \subsection{Camplexiteit van financiële Tekst}
 \subsection{Gegevenskwaliteit en Validatie}
