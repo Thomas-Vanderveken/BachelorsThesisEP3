@@ -78,7 +78,25 @@ De overgang van papieren naar elektronische 13F-bestanden betekende een aanzienl
 
 \section{AI en Machine learning in financiële data extractie}
 Dit hoofdstuk onderzoekt de significante invloed van kunstmatige intelligentie (AI) en machinaal leren (ML) op het ophalen van financiële gegevens, met name op 13F-formulieren van vóór 2013. Deze tekst presenteert de basisprincipes van kunstmatige intelligentie (AI) en machinaal leren (ML), onderzoekt hoe ze worden gebruikt bij het extraheren van financiële gegevens en analyseert praktijkvoorbeelden die de doeltreffendheid ervan aantonen. Het hoofdstuk bespreekt ook specifieke moeilijkheden in verband met gegevenskwaliteit, de veranderende financiële terminologie en de noodzaak om AI-modellen aan te passen en aan te passen om de complexiteit van historische financiële documentatie effectief te beheren.
+2.1 Introduction to AI and Machine Learning
+2.1.1 Overview of AI and Machine Learning
+Artificial Intelligence (AI) and Machine Learning (ML) have revolutionized the way data is processed and analyzed, particularly in fields that deal with large volumes of unstructured or semi-structured data, such as finance. AI involves the development of systems capable of performing tasks that typically require human intelligence, while ML, a subset of AI, focuses on the creation of algorithms that can learn from data and make predictions or decisions.
 
+2.1.2 Applications of AI in Financial Data Extraction
+In the financial sector, AI is used extensively for tasks like automated trading, risk assessment, and regulatory compliance. Specifically, AI plays a crucial role in the extraction of data from financial documents. Techniques such as Natural Language Processing (NLP) and Optical Character Recognition (OCR) are essential for interpreting and converting textual information from forms like 13F filings into structured data that can be analyzed.
+
+2.1.3 Case Studies in AI-Driven Data Extraction
+There are numerous examples where AI has been applied successfully to extract data from financial documents. For instance, AI-driven systems have been developed to analyze 10-K and 10-Q filings, which share similarities with 13F forms in terms of structure and complexity. These case studies highlight the potential for AI to automate and improve the accuracy of data extraction processes, particularly for regulatory filings.
+
+2.2 Challenges in Applying AI to Pre-2013 13F Forms
+2.2.1 Data Quality and Format Issues
+Pre-2013 13F forms present unique challenges due to their non-standardized formats and the potential for poor data quality, such as low-resolution scans or handwritten annotations. These factors can significantly hinder the effectiveness of AI tools, particularly OCR systems, which rely on clear and consistent text patterns.
+
+2.2.2 Evolution of Financial Language
+The financial terminology used in older 13F forms may differ from modern usage, posing additional challenges for NLP models that are trained on contemporary datasets. This evolution of language requires the customization of AI tools to accurately interpret and extract relevant information from these historical documents.
+
+2.2.3 Customization and Adaptation of AI Models
+Addressing these challenges requires adapting existing AI models. For example, OCR models might need retraining to recognize outdated fonts or handwritten text, while NLP models may require fine-tuning to understand the specific financial terminology of the time. Additionally, hybrid approaches that combine rule-based systems with machine learning may be necessary to handle the inconsistencies and complexities of these older documents.
 % ----------------------------------------------------------------------------
 
 \section{Text mining en gerelateerde technieken}
@@ -118,31 +136,62 @@ Volgens \autocite{Kinter2024} en \autocite{gaikwad2014text} zijn er veel voor en
 \end{itemize}
 
 \subsubsection{Text analyse: het afleiden van semantische beteknis}
+Tekstanalyse daarentegen houdt zich meer bezig met het begrijpen en interpreteren van de inhoud van tekst om er informatie van hoge kwaliteit uit af te leiden. In tegenstelling tot text mining, dat zich richt op het ontdekken van nieuwe patronen, is tekstanalyse gericht op het extraheren en interpreteren van bestaande informatie uit tekstgegevens. Dit proces omvat de toepassing van semantische analysetechnieken om de betekenis, context en bedoeling achter de woorden in de tekst te begrijpen (International Journal of Computer Applications, 2014).
 
+Tekstanalyse maakt vaak gebruik van Natural Language Processing (NLP) om de structuur van zinnen te ontleden, entiteiten te identificeren en sentiment te analyseren. Deze technieken zijn cruciaal voor taken zoals sentimentanalyse, waarbij het doel is om de emotionele toon van een tekst te bepalen, of onderwerpmodellering, waarbij het doel is om de belangrijkste thema's te identificeren die in een set documenten worden besproken. Tekstanalyse kan ook meer geavanceerde methoden omvatten, zoals entiteitherkenning, waarbij belangrijke stukken informatie (zoals namen, data en locaties) in een tekst worden geïdentificeerd en geclassificeerd.
 
-
-
-
-
-
-
-
-
-
-
-
-
+\paragraph{conclusie}
+Terwijl text mining vaak verkennend is, waarbij gezocht wordt naar onbekende patronen, is tekstanalyse gerichter, waarbij de nadruk ligt op het extraheren van specifieke informatie van hoge kwaliteit uit de tekst. In een juridische context kan tekstanalyse bijvoorbeeld worden gebruikt om relevante clausules uit een contract te halen, terwijl text mining kan worden gebruikt om trends in juridische beslissingen in de loop van de tijd te identificeren (International Journal of Computer Applications, 2014).
 
 
 
 
 \subsection{Text mining techniques}
+\autocite{Talib2016TextMining} spreekt over enkele technieken zoals Information Extraction (IE), Information retreival (IR), en Meerdere NLP technieken die gebruikt worden in data mining, deze zullen hier besproken worden
+
 \subsubsection{Information retreival}
+Information Retrieval (IR) is een gespecialiseerd studiegebied dat zich richt op het lokaliseren en extraheren van relevante informatie uit uitgebreide gegevensverzamelingen of opslagplaatsen, meestal als antwoord op een vraag van een gebruiker. Het doel van Information Retrieval (IR) is het identificeren van documenten of informatiefragmenten die het meest overeenkomen met de zoekcriteria van de gebruiker, vaak uit ongeorganiseerde gegevensbronnen zoals tekstdocumenten, databases of het internet. Deze procedure omvat vele stappen, waaronder het voorbereiden van documenten om een efficiënte indexering mogelijk te maken, het formuleren van zoekopdrachten en het weergeven van resultaten in een lijst met prioriteiten, afhankelijk van hun relevantie. Technologieën voor het ophalen van informatie (Information Retrieval, IR) worden veel gebruikt in zoekmachines, waardoor gebruikers snel en effectief informatie kunnen vinden \autocite{Krallinger2024}.
+\subsubsection{Information extraction}
+Volgens \autocite{Gupta2020} word informatie extraction (IE) gebruikt om vooraf gedefinieerde gegevenstypen uit een tekstdocument te extraheren. IE-systemen zijn voornamelijk gericht op objectidentificatie door relevante informatie uit de fragmenten te extraheren en vervolgens alle geëxtraheerde stukken in een kader te plaatsen.
+In de financiële sector wordt named-entity recognition (NER) gebruikt voor het extraheren van vooraf gedefinieerde soorten gegevens uit een document.
+
+\subsubsection{Information retreival vs Information extraction}
+\paragraph{Information retrieval}
+Informatieophaling (Information Retrieval, IR) verwijst naar de interactie tussen mens en computer wanneer een gebruiker informatie zoekt die overeenkomt met zijn of haar zoekopdracht in een database of computersysteem. Dit proces omvat het ophalen van relevante inhoud op basis van de behoeften van de gebruiker. Het systeem vergelijkt de zoekopdracht van de gebruiker met een reeks documenten om de meest relevante te identificeren en presenteert deze uiteindelijk in een geprioriteerde lijst. Dit gespecialiseerde vakgebied, zoals beschreven door Krallinger (2024), is essentieel om gebruikers in staat te stellen snel en efficiënt informatie te lokaliseren en extraheren uit uitgebreide en vaak ongestructureerde gegevensbronnen zoals tekstdocumenten, databases of het internet.
+
+De effectiviteit van een IR-systeem wordt gemeten aan de hand van metrics zoals precisie en recall. Precisie is de verhouding tussen het aantal relevante documenten dat wordt opgehaald en het totale aantal opgehaalde documenten, terwijl recall de verhouding is tussen het aantal relevante documenten dat wordt opgehaald en het totale aantal relevante documenten in de dataset \autocite{Javija2024}. Deze metrics helpen om informatie-overload te verminderen door ervoor te zorgen dat alleen de meest relevante informatie aan de gebruiker wordt gepresenteerd. De methoden en technieken die worden gebruikt in IR-systemen zijn fundamenteel voor het aandrijven van technologieën zoals zoekmachines, die een snelle en efficiënte informatieophaling mogelijk maken \autocite{Krallinger2024}.
+\paragraph{Information extraction}
+Information Extraction (IE) aims to extract structured information from unstructured documents using techniques like Natural Language Processing (NLP). Unlike Information Retrieval (IR), which retrieves relevant documents, IE focuses on identifying specific data within these texts, making information more accessible and analyzable \autocite{Javija2024}. IE systems need to be cost-effective, adaptable, and capable of scaling across domains. In fields like finance, Named-Entity Recognition (NER) is used to extract predefined data types, such as names and dates, from documents, facilitating efficient data management (Gupta2020). Automated learning in IE reduces errors and dependency on manual supervision, making the process more efficient and contextually valuable. The increasing volume of unstructured data, particularly online, emphasizes the importance of effective IE systems \autocite{Javija2024}.
+
+
+\paragraph{conclusie}
+Information Retrieval (IR) en Information Extraction (IE) zijn twee technologieën die informatie toegankelijk maken via verschillende methodologieën.IR richt zich op het ophalen van relevante documenten, terwijl IE specifieke, gestructureerde informatie extraheert voor nauwkeurige gegevensanalyse.IR is essentieel voor grote datasets en zoekmachines, terwijl IE cruciaal is voor het extraheren van bruikbare inzichten.De kracht van IR ligt in het beheren en ophalen van informatie uit ongestructureerde bronnen, waardoor het onmisbaar is voor grote databases. IE is van vitaal belang voor datamining, kennisbeheer en geautomatiseerde processen.Naarmate het datavolume toeneemt, zal de wisselwerking tussen IR en IE steeds belangrijker worden.Het begrijpen en benutten van beide technologieën zal cruciaal zijn voor het optimaliseren van informatieverwerkingssystemen en om ervoor te zorgen dat gebruikers snel en accuraat de benodigde informatie kunnen verkrijgen.
+
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{|p{4cm}|p{5cm}|p{5cm}|}
+  \hline
+  \textbf{Aspect} & \textbf{Information Retrieval} & \textbf{Information Extraction} \\ \hline
+  \textbf{Focus} & Document Retrieval & Feature Retrieval \\ \hline
+  \textbf{Output} & Return set of relevant documents & Return facts out of documents \\ \hline
+  \textbf{Goal} & The goal is to find documents that are relevant to the user’s information need & The goal is to extract pre-specified features from documents or display information. \\ \hline
+  \textbf{Nature of Information} & Real information is buried inside documents & Extract information from within the documents \\ \hline
+  \textbf{Result Format} & The long listing of documents & Aggregate over the entire set \\ \hline
+  \textbf{Application} & Used in many search engines – Google is the best IR system for the web. & Used in database systems to enter extracted features automatically. \\ \hline
+  \textbf{Methodology} & Typically uses a bag of words model of the source text. & Typically based on some form of semantic analysis of the source text. \\ \hline
+  \textbf{Theoretical Basis} & Mostly use the theory of information, probability, and statistics. & Emerged from research into rule-based systems. \\ \hline
+  \end{tabular}
+  \caption{Comparison of Information Retrieval and Information Extraction}
+  \label{tab:ir_vs_ie}
+  \end{table}
+  
+
+
 \subsubsection{NLP}
 \paragraph{Summarization}
-Samenvatting: Het genereren van een beknopte, coherente samenvatting van de belangrijkste punten in een lang stuk tekst. Dit kan bijzonder nuttig zijn bij het analyseren van grote hoeveelheden financiële rapporten.
+Samenvatting: Het genereren van een beknopte, coherente samenvatting van de belangrijkste punten in een lang stuk tekst. Dit kan bijzonder nuttig zijn bij het analyseren van grote hoeveelheden financiële rapporten. 
 
-\paragraph{Part of speeck tagging}
+\paragraph{Part of speech tagging}
 Positietagging: Het toewijzen van tags aan elk token in een document op basis van hun functie in de zin, zoals zelfstandig naamwoorden, werkwoorden of bijvoeglijke naamwoorden, wat semantische analyse van ongestructureerde tekst mogelijk maakt.
 
 \paragraph{Text categorization}
@@ -151,8 +200,21 @@ Tekstcategorisatie: Het analyseren en classificeren van tekstdocumenten op basis
 \paragraph{Sentiment analysis}
 Sentimentanalyse: Het detecteren van positieve of negatieve sentimenten binnen gegevensbronnen, wat organisaties in staat stelt om klantattitudes in de tijd te volgen en te begrijpen.
 
-\subsubsection{Information extraction}
 \subsubsection{Data mining}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 % ----------------------------------------------------------------------------
