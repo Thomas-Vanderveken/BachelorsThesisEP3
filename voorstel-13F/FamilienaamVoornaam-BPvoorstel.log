@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.21)  5 AUG 2024 13:42
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.21)  11 AUG 2024 17:00
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1494,9 +1494,16 @@ File: graphics//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 ] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (FamilienaamVoornaam-BPvoorstel.aux)
-Package rerunfilecheck Info: File `FamilienaamVoornaam-BPvoorstel.out' has not 
-changed.
-(rerunfilecheck)             Checksum: 7E3C0A460B1F9D98FFFDE540B78BEE57;1304.
+
+Package rerunfilecheck Warning: File `FamilienaamVoornaam-BPvoorstel.out' has c
+hanged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `FamilienaamVoornaam-BPvoorstel.out'
+:
+(rerunfilecheck)             Before: B3B9DC00675DB42706202B6E6C50DD4C;1313
+(rerunfilecheck)             After:  7E3C0A460B1F9D98FFFDE540B78BEE57;1304.
 Package logreq Info: Writing requests to 'FamilienaamVoornaam-BPvoorstel.run.xm
 l'.
 \openout1 = `FamilienaamVoornaam-BPvoorstel.run.xml'.
