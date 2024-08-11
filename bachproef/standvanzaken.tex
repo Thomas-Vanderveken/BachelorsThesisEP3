@@ -155,7 +155,7 @@ De effectiviteit van een IR-systeem wordt gemeten aan de hand van metrics zoals 
 
 Enkele IR technieken zijn maar niet gelimiteerd tot \autocite{IBM2024}:
 \begin{itemize}
-  \item Tokenizatie: Dit is het proces van het opbreken van text in zinnen en woorden genoemd 'tokens'. Deze zijn dan gebruikt in de modellen voor clustering en documentmatching taken\autocite{IBM}.
+  \item Tokenizatie: Dit is het proces van het opbreken van text in zinnen en woorden genoemd 'tokens'. Deze zijn dan gebruikt in de modellen voor clustering en documentmatching taken\autocite{IBM2024}.
   \item Stemming is een tekstvoorbewerkingsmethode die wordt gebruikt in natuurlijke taalverwerking (NLP) om woorden te vereenvoudigen door ze om te zetten naar hun basisvorm. Het doel van stemming is om woorden te stroomlijnen en te normaliseren en zo de efficiëntie van het ophalen van informatie, het categoriseren van teksten en andere natuurlijke taalverwerkingsactiviteiten (NLP) te verbeteren\autocite{SC2024}.
 \end{itemize}
 
@@ -203,7 +203,7 @@ Information Retrieval (IR) en Information Extraction (IE) zijn twee technologie�
 Een andere kritische NLP techniek is tekstsamenvatting, waarbij een beknopte weergave van originele tekstdocumenten wordt gegenereerd. Dit proces omvat voorbewerkingsstappen zoals tokeniseren, stopwoorden verwijderen en stemmen, gevolgd door het creëren van lexiconlijsten tijdens de verwerkingsfase. Historisch gezien was het samenvatten van tekst gebaseerd op woordfrequentie, maar moderne methoden maken gebruik van geavanceerde text mining technieken om de relevantie en nauwkeurigheid van de resultaten te verbeteren. Kenmerken zoals zinslengte, thematische woorden en vaste zinnen worden gebruikt om belangrijke informatie te extraheren en deze technieken kunnen op meerdere documenten tegelijk worden toegepast\autocite{Talib2016TextMining}.
 
 \paragraph{Part of speech tagging}
-Part-of-speech (POS) tagging is een essentiële activiteit in natuurlijke taalverwer-king (NLP) waarbij een grammaticale classificatie, zoals zelfstandig naamwoord,werkwoord of bijvoeglijk naamwoord, wordt toegewezen aan elk woord in een zin.Tagging vergemakkelijkt computationeel begrip van de syntactische organisatievan tekst, een kritisch onderdeel voor veel toepassingen van natuurlijke taalverwer-king (NLP) (Martinez,2012).Ondanks de uitdagingen zoals tweeslachtige woorden bereiken moderne POS tag-gers hoge nauwkeurigheidspercentages (rond 96-97%) en worden ze veel gebruiktbij het ophalen van informatie, tekstanalyse en andere NLP-taken.(Martinez,2012)
+Part-of-speech (POS) tagging is een essentiële activiteit in natuurlijke taalverwer-king (NLP) waarbij een grammaticale classificatie, zoals zelfstandig naamwoord,werkwoord of bijvoeglijk naamwoord, wordt toegewezen aan elk woord in een zin.Tagging vergemakkelijkt computationeel begrip van de syntactische organisatievan tekst, een kritisch onderdeel voor veel toepassingen van natuurlijke taalverwer-king (NLP) (Martinez,2012).Ondanks de uitdagingen zoals tweeslachtige woorden bereiken moderne POS tag-gers hoge nauwkeurigheidspercentages (rond 96-97\%) en worden ze veel gebruiktbij het ophalen van informatie, tekstanalyse en andere NLP-taken.(Martinez,2012)
 \paragraph{Text categorization}
 Tekstclassificatie is een methodische procedure die bestaat uit vier essentiële stap-pen: kenmerken extraheren, de dimensionaliteit verminderen, een classificator se-lecteren en de resultaten evalueren.Eerst wordt tekst omgezet in een numeriek for-maatdoormiddelvankenmerkextractie, zoalswoordfrequentieofWord2Vec.Dimensionaliteitsreductiewordt gebruikt om de gegevens te vereenvoudigen en cruciale informatie te be-houden.Dit wordt bereikt door technieken zoals principale componentenanalyse(PCA) of lineaire discriminantanalyse (LDA) toe te passen.De selectie van een clas-sifier is essentieel, omdat deep learning-methoden vaak conventionele machinelearning-algoritmen overtreffen in termen van nauwkeurigheid.Uiteindelijk wordtde doeltreffendheid van het model beoordeeld door de prestaties te meten met be-hulp van metrieken zoals de Matthews correlatiecoëfficiënt (MCC), oppervlakte on-der de ROC-curve (AUC) en nauwkeurigheid.Van deze maatstaven wordt nauwkeu-righeid beschouwd als de meest directe en eenvoudige manier om de prestatiesvan het model te evalueren. Gupta et al. (2020) ontdekten dat supportvectorma-chines (SVM) beter presteerden dan andere benaderingen zoals Naive Bayes (NB),k-nearest neighbour (KNN), beslisbomen en regressie in termen van nauwkeurig-heid, recall en F1-maatstaven.
 \paragraph{Sentiment analysis}
@@ -230,28 +230,91 @@ SA kan worden benaderd met lexicongebaseerde methoden, die vertrouwen op tools z
 
 % ----------------------------------------------------------------------------
 \section{Technieken en Tools}
-\subsection{Tekstverwerkingtools}
 \subsection{Spacy vs NLTK}
+Tabel \ref{tab:comparison} geeft een vergelijkende analyse van SpaCy en NLTK op basis van belangrijke functies die relevant zijn voor tekstsamenvatting.
+
+\begin{table}[h!]
+\centering
+\caption{Vergelijkende Analyse van SpaCy en NLTK}
+\label{tab:comparison}
+\begin{tabular}{@{}|l|l|l|@{}}
+\toprule
+\textbf{Functie} & \textbf{NLTK} & \textbf{SpaCy} \\ \midrule
+\textbf{Precisie} & 0.51 & 0.72 \\ \midrule
+\textbf{Recall} & 0.65 & 0.65 \\ \midrule
+\textbf{F-Score} & 0.58 & 0.69 \\ \midrule
+\textbf{Tokenisatiesnelheid} & 4 ms & 0.2 ms \\ \midrule
+\textbf{Taggingsnelheid} & 443 ms & 1 ms \\ \midrule
+\textbf{Ondersteuning voor Classificatie} & Ja & Ja \\ \midrule
+\textbf{Onderwerpmodellering} & Nee & Ja \\ \midrule
+\textbf{Vectorisatie} & Nee & Ja \\ \midrule
+\textbf{Parsing} & Ja & Ja \\ \midrule
+\textbf{TF-IDF Implementatie} & Nee & Ja \\ \midrule
+\textbf{Programmeerparadigma} & Procedureel & Objectgeoriënteerd \\ \midrule
+\textbf{Gebruiksvriendelijkheid} & Vereist meer aanpassing en tijd & Meer geautomatiseerd en gebruiksvriendelijk \\ \midrule
+\textbf{Ondersteunde Taalmodellen} & Basis tokenisatie en parsing & Geavanceerde modellen met voorgetrainde vectors \\ \midrule
+\textbf{Grootte en Afhankelijkheden van de Bibliotheek} & Lichtgewicht, minimale afhankelijkheden & Zwaarder, meer afhankelijkheden door geavanceerde functies \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Prestatiewaarden (Precisie, Recall, F-Score):} SpaCy toont hogere precisie (0.72 vs. 0.51) en F-Score (0.69 vs. 0.58) in vergelijking met NLTK, wat wijst op superieure nauwkeurigheid bij het genereren van samenvattingen.
+
+\textbf{Snelheid van Tokenisatie en Tagging:} SpaCy is aanzienlijk sneller dan NLTK in zowel tokeniseren als taggen. SpaCy kan bijvoorbeeld tekst tokenen in 0,2 milliseconden vergeleken met de 4 milliseconden van NLTK, waardoor het geschikter is voor toepassingen die real-time verwerking vereisen.
+\textbf{Ondersteuning voor Geavanceerde NLP-functies:} SpaCy ondersteunt geavanceerde functies zoals topic modellering, vectorisatie en TF-IDF (Term Frequency-Inverse Document Frequency), die niet standaard beschikbaar zijn in NLTK. Dit maakt SpaCy een meer uitgebreide tool voor taken die diep semantisch begrip en machine learning integratie vereisen.
+
+
+\textbf{Gebruiksvriendelijkheid:} SpaCy is gebruiksvriendelijker met ingebouwde mogelijkheden, wat de behoefte aan maatwerkprogrammering vermindert, in tegenstelling tot NLTK, dat meer tijd en inspanning vergt.
+
+\paragraph{subsubsection}{Conclusie}
+Samenvattend, SpaCy is een krachtigere en efficiëntere tool voor tekstsamenvatting vanwege zijn hogere precisie, snelheid en ondersteuning voor geavanceerde NLP-functies. NLTK, hoewel veelzijdig, is beter geschikt voor eenvoudigere taken of projecten die meer aanpassing vereisen. De keuze tussen deze tools hangt af van de specifieke eisen van het project, waaronder de complexiteit van de taak, de benodigde functies en de beschikbare middelen.
+
+
 
 \subsection{Database Management Systemen (DBMS)}
-\subsection{ETL Tools}
-% ----------------------------------------------------------------------------
+In deze sectie gaan wij bekijken welke databank gebruikt zal worden na het structuren en standardiseren van de 13f meldingen. Hier zal besproken worden of er SQL of nosql gebruikt zal worden vervolgens zal er een specifieke databank gekozen worden
+\subsubection{SQL vs NOSQL}
+Bij het kiezen tussen SQL- en NoSQL-databases is het belangrijk om de onderliggende architectuur en toepassingsmogelijkheden te begrijpen. SQL-databases zijn ontworpen voor het organiseren van gestructureerde data, waardoor ze ideaal zijn voor online transaction processing (OLTP). Ze presteren uitstekend in situaties waarin complexe queries, consistentie en relationeel databeheer vereist zijn. NoSQL-databases daarentegen ondersteunen horizontale schaalbaarheid en zijn geoptimaliseerd voor het verwerken van grote hoeveelheden ongestructureerde data, wat hen geschikt maakt voor big data-analyse. De keuze tussen beide hangt grotendeels af van de specifieke behoeften van de organisatie, zoals de focus op datastructuur of schaalbaarheid \autocite{khan2023performance}.
 
+In dit onderzoek is gekozen voor een SQL-database. Deze keuze is gebaseerd op de noodzaak om gestructureerde data uit de 13F-meldingen te beheren, waarbij consistente gegevensintegriteit en de mogelijkheid om complexe queries uit te voeren cruciaal zijn. SQL-databases bieden de benodigde functionaliteiten voor het beheer van relationele gegevens en het uitvoeren van geavanceerde analyses, wat essentieel is voor het succes van dit project \autocite{khan2023performance}.
+
+\paragraph{SQL databank}
+Op basis van de gedetailleerde analyse in het GeeksforGeeks-artikel werd PostgreSQL gekozen voor ons proefschrift vanwege de geavanceerde functies, robuuste gegevensintegriteit en uitbreidbare architectuur. In tegenstelling tot andere SQL databases, blinkt PostgreSQL uit in het verwerken van complexe datamanipulatie, het bieden van sterke ACID compliance en het ondersteunen van aangepaste datatypes en functies. Dit maakt PostgreSQL bijzonder geschikt voor bedrijfstoepassingen en datawarehousing waar schaalbaarheid en geavanceerd databeheer cruciaal zijn. Hoewel PostgreSQL een steilere leercurve heeft dan sommige alternatieven, maken de uitgebreide functieset en betrouwbaarheid het een optimale keuze om aan de complexe eisen van ons project te voldoen.
+
+\subsubsection{Review}
+Dus voor dit onderzoek hebben we voor de data mining gekozen voor Spacy en voor de DB PostgreSQL
+
+
+
+
+
+
+
+
+% ----------------------------------------------------------------------------
 
 
 \section{Uitdagingen en beperkingen}
-\subsection{Camplexiteit van financiële Tekst}
+\subsection{Complexiteit van financiële Tekst}
 \subsection{Gegevenskwaliteit en Validatie}
 \subsection{Databaseprestaties}
+Uitdaging: Hoewel PostgreSQL goed presteert bij grote hoeveelheden gestructureerde data, kan het moeilijk zijn om de prestaties te optimaliseren naarmate de hoeveelheid data en het aantal gelijktijdige gebruikers toeneemt.
+
+Beperking: Bij zeer grote datasets of een hoge mate van gelijktijdige toegang kunnen er prestatieproblemen optreden. Het kan nodig zijn om uitgebreide optimalisaties en schaalstrategieën te implementeren, zoals partitionering of het gebruik van read replicas.
 % ----------------------------------------------------------------------------
 \section{Leemtes in huidig onderzoek}
 \subsection{Onbehandelde kwesties}
+Training van Eigen Large Language Models (LLMs)
+Het trainen van een eigen LLM voor financiële toepassingen vereist veel tijd en middelen. Het model moet worden getraind op uitgebreide financiële datasets voor nauwkeurige resultaten. Dit kan uw infrastructuur belasten en vereist expertise in machine learning en datawetenschap, met mogelijke problemen op het gebied van data-integriteit en privacy. Overweeg het gebruik van bestaande financiële NLP-modellen die al getraind zijn en efficiënt kunnen worden aangepast aan uw behoeften.
+
+Beveiliging en Privacy
+Het beschermen van gevoelige financiële gegevens tegen ongeautoriseerde toegang en datalekken is complex en vereist naleving van privacywetgeving. Onvoldoende beveiliging kan leiden tot datalekken, verlies van vertrouwen en juridische problemen. Implementeer encryptie, toegangscontrole en regelmatige beveiligingsaudits om gegevens te beschermen. Zorg ervoor dat uw systemen voldoen aan relevante regelgeving en best practices voor gegevensbeveiliging.
+
+Schaalbaarheid en Prestaties
+Groeiende hoeveelheden gegevens kunnen leiden tot prestatieproblemen bij opslag en analyse, wat complexe oplossingen vereist voor snelle toegang. Slechte prestaties kunnen vertragingen veroorzaken in rapportage en analyse, wat de besluitvorming en efficiëntie beïnvloedt. Gebruik schaalbare databases en technieken zoals gegevenspartitionering en caching. Monitor en optimaliseer regelmatig de prestaties om problemen te voorkomen.
+
 \subsection{Verbeteringsmogelijkehden}
 % ----------------------------------------------------------------------------
-\section{Toekomstige richtingen}
-\subsection{Voortgang in AI en NLP}
-\subsection{Integration with financiele analyse}
-% ----------------------------------------------------------------------------
+
 \section{conclusie}
 \subsection{Samenvatting van Bevindingen}
 \subsection{Implicaties van het onderzoek}
