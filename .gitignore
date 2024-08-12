@@ -132,5 +132,6 @@ sympy-plots-for-*.tex/
 *.latexmain
 
 # output directory - see make_thesis.sh
-output/
+output/*
+!output/*.pdf
 out/
