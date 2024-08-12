@@ -26,5 +26,41 @@
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
 
-\lipsum[21-25]
+Dit hoofdstuk geeft een overzicht van de methodologie die is gebruikt om dit onderzoek uit te voeren en de Proof of Concept (POC) te creëren. De tekst biedt een uitgebreide analyse van het belang van elke fase van het onderzoek en licht de redenering achter de gekozen methodologieën en benaderingen toe. Dit hoofdstuk maakt duidelijk hoe de gekozen benaderingen helpen om de onderzoeksdoelen te bereiken door een goed georganiseerd overzicht te bieden. Het belang van elke fase wordt benadrukt, waardoor inzicht wordt verkregen in de achterliggende gedachte van de beslissingen die tijdens het onderzoeksproces zijn genomen.
 
+\section{Literatuur studie}
+De eerste fase van dit onderzoek bestond uit een uitgebreid onderzoek van bestaande literatuur. Het doel van deze fase was om een grondig begrip te krijgen van de concepten en technologieën die gebruikt zouden worden bij de implementatie van de Proof of Concept (POC). De bovengenoemde stap omvatte een uitgebreide analyse van verschillende publicaties, papers, blogs en handleidingen om relevante toepassingen en benaderingen te ontdekken. De belangrijkste onderwerpen die in deze fase werden onderzocht waren Text Mining, Natural Language Processing (NLP) en Database Management Systemen (DBMS).
+
+\section{Requirements analyse}
+
+%\section{Comparitive study (NLP vs ML vs DM)}
+
+\section{Dataset creation}
+Tijdens deze fase hebben we een dataset gegenereerd met de 13F-dossiers als basis, die de basis vormde voor de constructie van het Proof of Concept (POC). De informatie werd zorgvuldig samengesteld door pertinente financiële gegevens uit de 13F-papieren te halen, waarbij gegarandeerd werd dat de informatie geordend en geformatteerd werd op een manier die geschikt is voor latere analyse en verwerking binnen het POC-kader.
+
+\section{POC}
+
+
+In het volgende deel van ons onderzoek willen we een Proof of Concept (POC) uitvoeren met SpaCy, een zeer gewaardeerd Python framework voor natuurlijke taalverwerking (NLP). SpaCy werd geselecteerd vanwege zijn sterke vaardigheid in het beheren van uitgebreide tekstdatasets, wat cruciaal is voor het analyseren van ingewikkelde financiële informatie, zoals die in 13F filings.
+
+Het doel van de proof of concept (POC) is het onderzoeken en verifiëren van de doeltreffendheid van SpaCy bij het uitvoeren van essentiële NLP (natural language processing) activiteiten, zoals het extraheren van tekst, het herkennen van named entities (NER) en het ophalen van informatie. Het uitvoeren van deze taken is cruciaal voor de nauwkeurige identificatie en extractie van belangrijke entiteiten, zoals bedrijfsnamen en financiële statistieken, uit het ongeorganiseerde materiaal in 13F-papers.
+
+Een cruciaal onderdeel van deze proof of concept (POC) is het aanpassen van SpaCy's natuurlijke taalverwerking (NLP) aan de specifieke eisen van het project. Een van deze benaderingen is het trainen van gespecialiseerde NER-modellen met behulp van domeinspecifieke gegevens. Dit kan helpen om de nauwkeurigheid van het herkennen van financiële woorden en entiteiten te verhogen, waardoor de algehele betrouwbaarheid van het systeem toeneemt.
+
+Door de implementatie van deze proof of concept (POC) willen we de haalbaarheid van het gebruik van SpaCy voor dit project aantonen en een basis leggen voor de uitgebreide implementatie van de natuurlijke taalverwerkingsoplossingen (NLP) die nodig zijn voor het verwerken en onderzoeken van financiële gegevens uit 13F filings.
+
+\section{Database}
+PostgreSQL is gekozen als databasebeheeroplossing voor dit project om te voldoen aan de vereisten voor gegevensbeheer. PostgreSQL is een vrij beschikbaar databasesysteem dat de eigenschappen van objectgeoriënteerde en relationele databases combineert. Het is zeer betrouwbaar, kan grote hoeveelheden gegevens aan en heeft uitstekende mogelijkheden voor het uitvoeren van gecompliceerde queries. Deze kwaliteiten maken het een uitstekende optie voor het beheren van de gedetailleerde financiële informatie uit 13F deponeringen.
+
+De keuze voor PostgreSQL werd beïnvloed door drie belangrijke factoren:
+
+PostgreSQL garandeert de integriteit van gegevens door de ACID (Atomicity, Consistency, Isolation, Durability) principes volledig te ondersteunen. Precisie en consistentie zijn van het grootste belang bij het verwerken van gevoelige financiële gegevens.
+
+PostgreSQL heeft geavanceerde mogelijkheden, waaronder ondersteuning voor JSON-gegevenstypen, full-text zoeken en aangepaste indexering. Deze functies zijn met name voordelig voor het effectief verwerken van semigestructureerde gegevens die kunnen voortkomen uit natuurlijke taalverwerkingstaken (NLP).
+
+Het flexibele ontwerp van PostgreSQL maakt het mogelijk om de database aan te passen aan de unieke eisen van ons project, met name wat betreft het opslaan en opvragen van financiële informatie. Dit wordt bereikt door de mogelijkheid om nieuwe functies, operatoren en datatypes te bouwen.
+
+Schaalbaarheid is een belangrijke factor bij het overwegen van PostgreSQL's vermogen om enorme datasets goed te beheren, vooral gezien de omvang en complexiteit van de gegevens die geproduceerd worden tijdens het verwerken van 13F aanvragen. PostgreSQL heeft de mogelijkheid om zowel horizontaal als verticaal uit te breiden, zodat het effectief kan voldoen aan de toenemende eisen van het project naarmate er meer gegevens worden toegevoegd.
+
+\section{Analyse van de resultaten}
+%TODO
