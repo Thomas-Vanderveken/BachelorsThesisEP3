@@ -7,18 +7,17 @@
 
 % Pas na deze inleidende paragraaf komt de eerste sectiehoofding.
 
-De Securities and Exchange Commission (SEC) vereist dat institutionele vermogensbeheerders een kwartaalrapport indienen dat bekend staat als Form 13F als ze zeggenschap hebben over \$100 miljoen of meer in sectie 13(f) effecten. Sectie 13(f) van de Securities Exchange Act van 1934 verplicht de openbaarmaking van effectenbezit door grote institutionele beleggers om de transparantie te vergroten. In 1975 implementeerde het Congres deze bepaling om de toegankelijkheid van informatie over de investeringsactiviteiten van deze bedrijven te verbeteren. De bedoeling was om het vertrouwen van beleggers in de integriteit van de effectenmarkten in de Verenigde Staten te vergroten door middel van een openbaarmakingsprogramma\autocite{SECform13F2024}.\\
-Formulier 13F biedt een uitgebreid overzicht van de aandelenbeleggingen van prominente beleggingsmaatschappijen wereldwijd en is een zeer belangrijk hulpmiddel voor analisten, onderzoekers en beleggers die inzicht willen krijgen in markttrends en de beleggingsbenaderingen van belangrijke marktspelers. Het onverwerkte tekstformaat waarin deze inzendingen worden aangeleverd, vormt echter een aanzienlijke belemmering voor effectieve gegevensextractie en -analyse, vooral voor inzendingen van vóór 2013. Vóór 2013 ontbrak het bij 13F-meldingen vaak aan standaardisatie en systematische opmaak, wat nu wel gebruikelijk is bij recentere aanmeldingen.\\
-Kunstmatige intelligentie (AI) en machine learning (ML) technologieën hebben de extractie en organisatie van gegevens uit ongestructureerde tekst de afgelopen jaren aanzienlijk veranderd. Geavanceerde methodologieën zoals Natural Language Processing (NLP) en deep learning modellen vergemakkelijken de omzetting van tekstuele 13F aanvragen in gestructureerde datasets die geschikt zijn voor grondige analyse en studie. Standaardisatie is cruciaal voor historische gegevens, omdat het ontbreken van uniformiteit geautomatiseerde verwerking kan bemoeilijken. Door gebruik te maken van deze technologieën kunnen we zowel huidige als vroegere 13F aanvragen omzetten in georganiseerde gegevens, die vervolgens kunnen worden opgeslagen in databases, waardoor patronen eenvoudiger kunnen worden opgehaald, gevisualiseerd en geanalyseerd.\\
+De Securities and Exchange Commission (SEC) vereist dat institutionele vermogensbeheerders een kwartaalrapport indienen dat bekend staat als Form 13F als ze zeggenschap hebben over \$100 miljoen of meer in sectie 13(f) effecten. Sectie 13(f) van de Securities Exchange Act van 1934 verplicht de openbaarmaking van effectenbezit door grote institutionele beleggers om de transparantie te vergroten. In 1975 implementeerde het Congres deze bepaling om de toegankelijkheid van informatie over de investeringsactiviteiten van deze bedrijven te verbeteren. De bedoeling was om het vertrouwen van beleggers in de integriteit van de effectenmarkten in de Verenigde Staten te vergroten door middel van een openbaarmakingsprogramma \textcite{SECform13F2024}.
+Melding 13F biedt een uitgebreid overzicht van de aandelenbeleggingen van S\&P 500 bedrijven en is een zeer belangrijk hulpmiddel voor analisten, onderzoekers en beleggers die inzicht willen verkrijgen in markttrends en de beleggingsbenaderingen van belangrijke marktspelers. Het onverwerkte tekstformaat waarin deze inzendingen worden aangeleverd, vormt echter een aanzienlijke belemmering voor effectieve gegevensextractie en -analyse, vooral voor inzendingen van voor 2013. Voor 2013 ontbrak het bij 13F-meldingen vaak aan standaardisatie en systematische opmaak, wat nu wel gebruikelijk is bij recentere aanmeldingen.
+Kunstmatige intelligentie (AI) en Machine Learning (ML) technologieën hebben de extractie en organisatie van gegevens uit ongestructureerde tekst de afgelopen jaren aanzienlijk veranderd. Geavanceerde methodologieën zoals Natural Language Processing (NLP) en Deep Learning (DL) modellen vergemakkelijken de omzetting van tekstuele 13F meldingen in gestructureerde datasets die geschikt zijn voor grondige analyse en studie. Standaardisatie is cruciaal voor historische gegevens, omdat het ontbreken van uniformiteit geautomatiseerde verwerking kan bemoeilijken. Door gebruik te maken van deze technologieën kunnen we zowel huidige als oudere 13F aanvragen omzetten in georganiseerde gegevens, die vervolgens kunnen worden opgeslagen in databanken, waardoor patronen eenvoudiger kunnen worden opgehaald, gevisualiseerd en geanalyseerd.
 \\
 
-
-Het doel van deze literatuurstudie is het onderzoeken en beoordelen van de verschillende Artificial Intelligence (AI) en Machine Learning (ML) technieken die kunnen worden gebruikt om gegevens uit 13F-meldingen van voor 2013 te extraheren, te organiseren en op te slaan. Het doel van het onderzoek is het bepalen van de meest efficiënte methoden om de ongeorganiseerde inhoud van deze documenten om te zetten in een gestructureerd formaat dat geschikt is voor analyse en opslag in een database. Dit houdt in dat er een vergelijkend onderzoek wordt gedaan naar verschillende kunstmatige intelligentie methodologieën, zoals Natural Language Processing (NLP) en Deep Text mining, en dat bepaalde tools zoals NLTK en SpaCy worden geëvalueerd. De evaluatie zal ook de integratie van gestructureerde gegevens in databasemanagementsystemen (DBMS) onderzoeken, om te garanderen dat de geëxtraheerde gegevens gemakkelijk beschikbaar zijn voor later onderzoek en analyse. Het doel van deze evaluatie is om een uitgebreide kennis te krijgen van de meest effectieve procedures en technologie voor het verwerken van 13F-meldingen. 
+Het doel van deze literatuurstudie is het onderzoeken en beoordelen van de verschillende Artificial Intelligence (AI) en Machine Learning (ML) technieken die kunnen worden gebruikt om gegevens uit 13F-meldingen van voor 2013 te extraheren, te organiseren en op te slaan. Het doel van het onderzoek is het bepalen van de meest efficiënte methoden om de ongeorganiseerde inhoud van deze documenten om te zetten in een gestructureerd formaat dat geschikt is voor analyse en opslag in een database. Dit houdt in dat er een onderzoek wordt gedaan naar verschillende kunstmatige intelligentie methodologieën, zoals Natural Language Processing (NLP) en Text mining, en dat bepaalde tools zoals NLTK en SpaCy worden geëvalueerd. De literatuurstudie zal ook de integratie van gestructureerde gegevens in een Database Management System (DBMS) onderzoeken, om te garanderen dat de geëxtraheerde gegevens gemakkelijk beschikbaar zijn voor later onderzoek en analyse. Het doel van deze evaluatie is om een uitgebreide kennis te krijgen van de meest effectieve procedures en technologie voor het verwerken van 13F-meldingen. 
 
 % ----------------------------------------------------------------------------
 \section{Wat zijn 13F meldingen}
 
-Het doel van dit gedeelte is om een beknopte introductie te geven tot 13F deponeringen, met de nadruk op de structuur, de informatie die ze bevatten en hun doel.
+Het doel van deze sectie is om een beknopte inleiding te geven aan 13F-meldingen, met bijzondere aandacht voor de structuur van deze meldingen, de informatie die ze bevatten en de reden van hun bestaan.
 
 
 \subsection{Definitie en doel}
@@ -27,80 +26,27 @@ Volgens \autocite{SECform13F2024} zijn 13F-meldingen verplichte wettelijke docum
 Het belangrijkste doel van 13F meldingen is om duidelijkheid en openheid te bieden over de beleggingsactiviteiten van belangrijke institutionele beleggers. Deze vereiste vergemakkelijkt het toezicht op beleggingsposities van verschillende instellingen, zoals beleggingsfondsen, pensioenfondsen en andere belangrijke beleggingsbeheerders, door het publiek en regelgevende instanties.
 
 \subsection{Belangrijke kenmerken}
-Het doel van dit gedeelte is om een beknopte introductie te geven tot 13F deponeringen, met de nadruk op de structuur, de informatie die ze bevatten en hun doel.
+Het doel van dit deel is het bespreken van enkele kenmerken van de 13F-meldigen waaronder wie het moet indienen en wat ze moeten inhouden.
 
 
 \subsubsection{Vereisten voor rapportage:}
 
-Frequentie: Institutionele beleggingsbeheerders met minimaal \$100 miljoen aan beheerd vermogen moeten elk kwartaal een 13F-meldingen indienen.
-Inhoud: De rapporten bevatten uitgebreide informatie over het aandelenbezit van de instelling, waaronder de naam, CUSIP-nummer, het aantal aandelen en de marktwaarde.
+Institutionele beleggingsbeheerders die minimaal \$100 miljoen aan beheerd vermogen beheren, zijn verplicht om elk kwartaal een 13F-melding in te dienen. Deze rapporten moeten gedetailleerde informatie bevatten over de aandelenportefeuille van de instelling. Dit omvat onder andere de naam van het aandeel, het CUSIP-nummer, het aantal aandelen dat wordt gehouden, en de marktwaarde ervan. 
+
 \subsubsection{Omvang van de informatie:}
 
-Aandelenbezit: De openbaarmakingen concentreren zich voornamelijk op aandelen, terwijl andere soorten activa zoals obligaties, derivaten en private equity worden uitgesloten.
-Disclaimer: Elk bestand biedt een kort overzicht van de aandelenportefeuille van de instelling aan het einde van de rapportageperiode, wat een waardevol inzicht geeft in hun investeringsmethoden.
+De rapportages over het aandelenbezit van grote beleggingsinstellingen richten zich voornamelijk op aandelen, terwijl andere soorten activa, zoals obligaties, derivaten en private equity, buiten beschouwing worden gelaten. Elk kwartaalrapport biedt een beknopt overzicht van de aandelenportefeuille van de instelling aan het einde van de rapportageperiode. Dit overzicht geeft waardevolle inzichten in de investeringsstrategieën en methoden die de instelling hanteert, wat bijdraagt aan de transparantie en begrip van hun beleggingsbenadering.
+
+
 \subsubsection{Opmaak en toegankelijkheid:}
+TODO
+<INSERT IMAGE FROM BEFORE 2013 2-4x>
+<INSERT IMAGE FROM AFTER 2013 1-2x>
 
-Vanaf 2013 is het verplicht om alle 13F-meldingen elektronisch in te dienen via het EDGAR-systeem van de SEC. De elektronische deponeringen zijn gemakkelijk toegankelijk voor het publiek, wat transparantie garandeert en het bestuderen van het materiaal vergemakkelijkt.
-Papieren meldingen (vóór 2013): Vóór 2013 werd een aanzienlijk aantal 13F-meldingen op papier ingediend, wat resulteerde in een moeilijker en tijdrovender proces om toegang te krijgen tot de informatie en deze te analyseren. Deze dossiers moesten vaak door mensen in systemen worden ingevoerd voor verdere verwerking.
-
-Illustraties van 13F indieningsformaten:
-
-\begin{itemize}
-  \item Voorbeeld van papieren indiening vóór 2013:
-  \begin{itemize}
-    \item Dit is een gedigitaliseerde afbeelding van een standaard 13F-meldingen dat traditioneel op papier werd ingediend voordat elektronische indiening verplicht werd. Dit formaat omvatte handmatig geschreven of getypte informatie over de activa van de instelling.
-    \item Het analyseren van papieren bestanden leverde aanzienlijke problemen op bij het extraheren en analyseren van gegevens, waardoor het gebruik van handmatige gegevensinvoer- en validatieprocedures noodzakelijk werd.
-  \end{itemize}
-  \item Na het jaar 2013, als voorbeeld van elektronische archivering:
-
-  \begin{itemize}
-    \item Vanaf 2013 werd het elektronische formaat gestandaardiseerd, waardoor onmiddellijke toegang tot en analyse van deponeringen vanuit het EDGAR-systeem mogelijk werd. Hieronder ziet u een momentopname van een elektronische 13F indiening.
-    \item Het gebruik van elektronische deponeringen heeft de efficiëntie van gegevensanalyse aanzienlijk verbeterd door geautomatiseerde extractie en vereenvoudigde aggregatie van financiële gegevens mogelijk te maken.
-  \end{itemize}
-
-\end{itemize}
-
-
-Historisch onderzoek van deponeringen van vóór 2013: 
-\begin{itemize}
-  \item Hoewel deponeringen van na 2013 gemakkelijk beschikbaar zijn en door machines verwerkt kunnen worden, bieden deponeringen van voor 2013 rijke historische informatie die essentieel is voor het doen van diepgaande marktanalyses en onderzoek over een langere periode. Niettemin moeten de eerdere dossiers meer bewerkingen ondergaan om de gegevens te converteren en te organiseren voor analyse.
-  \item Er ontstaan uitdagingen bij het extraheren van gegevens wanneer geprobeerd wordt om informatie uit papieren bestanden van voor 2013 te halen. Dit proces vereist het gebruik van OCR-technologie (Optical Character Recognition), handmatige gegevensinvoer of methoden voor gegevensinvoer via crowdsourcing. Deze gebreken en inconsistenties moeten in elke analyse worden meegenomen.
-
-  \item De periode voorafgaand aan het elektronische indieningsmandaat in 2013 markeerde een belangrijke verschuiving in de rapportage en toegankelijkheid van financiële gegevens. Deze periode toonde de vooruitgang in financiële rapportagepraktijken en het toenemende belang van digitale gegevensverwerking in financiële analyses.
-
-\end{itemize}
-
-Samenvatting van de structuur en het gebruiksgemak
-De overgang van papieren naar elektronische 13F-meldingen betekende een aanzienlijke verbetering in de beschikbaarheid en gebruiksvriendelijkheid van financiële gegevens voor zowel beleggers als wetenschappers. Desondanks heeft het bestaan van bestanden die vóór 2013 zijn gemaakt specifieke moeilijkheden en voordelen voor het uitvoeren van historische analyses. Het is van cruciaal belang om de verschillende formaten en hun gevolgen voor de extractie en analyse van gegevens te begrijpen.
 
 % ----------------------------------------------------------------------------
 
 
-\paragraph{CHAPTER UNDER REVIEW TODO}
-    
-\section{AI en Machine learning in financiële data extractie}
-
-Dit hoofdstuk onderzoekt de significante invloed van kunstmatige intelligentie (AI) en machinaal leren (ML) op het ophalen van financiële gegevens, met name op 13F-meldingen van vóór 2013. Deze tekst presenteert de basisprincipes van kunstmatige intelligentie (AI) en machinaal leren (ML), onderzoekt hoe ze worden gebruikt bij het extraheren van financiële gegevens en analyseert praktijkvoorbeelden die de doeltreffendheid ervan aantonen. Het hoofdstuk bespreekt ook specifieke moeilijkheden in verband met gegevenskwaliteit, de veranderende financiële terminologie en de noodzaak om AI-modellen aan te passen en aan te passen om de complexiteit van historische financiële documentatie effectief te beheren.
-2.1 Introduction to AI and Machine Learning
-2.1.1 Overview of AI and Machine Learning
-Artificial Intelligence (AI) and Machine Learning (ML) have revolutionized the way data is processed and analyzed, particularly in fields that deal with large volumes of unstructured or semi-structured data, such as finance. AI involves the development of systems capable of performing tasks that typically require human intelligence, while ML, a subset of AI, focuses on the creation of algorithms that can learn from data and make predictions or decisions.
-
-2.1.2 Applications of AI in Financial Data Extraction
-In the financial sector, AI is used extensively for tasks like automated trading, risk assessment, and regulatory compliance. Specifically, AI plays a crucial role in the extraction of data from financial documents. Techniques such as Natural Language Processing (NLP) and Optical Character Recognition (OCR) are essential for interpreting and converting textual information from forms like 13F meldingen into structured data that can be analyzed.
-
-2.1.3 Case Studies in AI-Driven Data Extraction
-There are numerous examples where AI has been applied successfully to extract data from financial documents. For instance, AI-driven systems have been developed to analyze 10-K and 10-Q meldingen, which share similarities with 13F forms in terms of structure and complexity. These case studies highlight the potential for AI to automate and improve the accuracy of data extraction processes, particularly for regulatory meldingen.
-
-2.2 Challenges in Applying AI to Pre-2013 13F Forms
-2.2.1 Data Quality and Format Issues
-Pre-2013 13F forms present unique challenges due to their non-standardized formats and the potential for poor data quality, such as low-resolution scans or handwritten annotations. These factors can significantly hinder the effectiveness of AI tools, particularly OCR systems, which rely on clear and consistent text patterns.
-
-2.2.2 Evolution of Financial Language
-The financial terminology used in older 13F forms may differ from modern usage, posing additional challenges for NLP models that are trained on contemporary datasets. This evolution of language requires the customization of AI tools to accurately interpret and extract relevant information from these historical documents.
-
-2.2.3 Customization and Adaptation of AI Models
-Addressing these challenges requires adapting existing AI models. For example, OCR models might need retraining to recognize outdated fonts or handwritten text, while NLP models may require fine-tuning to understand the specific financial terminology of the time. Additionally, hybrid approaches that combine rule-based systems with machine learning may be necessary to handle the inconsistencies and complexities of these older documents.
-\\
 \section{Text mining en gerelateerde technieken}
 Text mining, of ook bekend tekstdatamining, is de procedure om ongestructureerde tekst om te zetten in een gestructureerd formaat om significante patronen te ontdekken en nieuwe inzichten te verwerven. Text mining maakt de analyse van uitgebreide tekstdatasets mogelijk om significante thema's, patronen en verborgen verbanden bloot te leggen. Deze techniek is essentieel voor het omzetten van ongestructureerde gegevens in gestructureerde gegevens, die vervolgens kunnen worden gebruikt voor analyse en besluitvorming\autocite{IBM2024}.
 
@@ -108,7 +54,7 @@ Text mining, of ook bekend tekstdatamining, is de procedure om ongestructureerde
 Text mining kan verschillende soorten gegevens omvatten, waaronder:
 
 \begin{itemize}
-  \item \textbf{Gestructureerde Gegevens}: Deze gegevens zijn gestandaardiseerd in een tabelvorm, wat ze makkelijker maakt om op te slaan en te verwerken voor analyse en machine learning-algoritmen. Voorbeelden includeren databanken met kolommen en rijen. %TODO INSERT IMAGE
+  \item \textbf{Gestructureerde Gegevens}: Deze gegevens zijn gestandaardiseerd in een tabelvorm, wat ze makkelijker maakt om op te slaan en te verwerken voor analyse en machine learning-algoritmen. Voorbeelden includeren databanken met kolommen en rijen.
   \item \textbf{Ongestructureerde Gegevens}: Deze gegevens hebben geen vooraf gedefinieerd formaat en kunnen tekst uit bronnen zoals sociale media of productrecensies bevatten, evenals rijke media zoals video- en audiobestanden. Aangezien financiële documenten vaak in ongestructureerd formaat bestaan, is text mining essentieel om deze gegevens om te zetten in een bruikbaar formaat.
   \item \textbf{Semi-gestructureerde Gegevens}: Deze gegevens vormen een mix tussen gestructureerde en ongestructureerde formaten. Ze hebben enige organisatie, maar voldoen niet volledig aan de vereisten van een relationele database. Voorbeelden hiervan zijn XML, JSON en Html-bestanden.
 \end{itemize}
@@ -138,12 +84,12 @@ Volgens \autocite{Kinter2024} en \autocite{gaikwad2014text} zijn er veel voor- e
 \end{itemize}
 
 \subsubsection{Text analyse: het afleiden van semantische betekenis}
-Tekstanalyse daarentegen houdt zich meer bezig met het begrijpen en interpreteren van de inhoud van tekst om er informatie van hoge kwaliteit uit af te leiden. In tegenstelling tot text mining, dat zich richt op het ontdekken van nieuwe patronen, is tekstanalyse gericht op het extraheren en interpreteren van bestaande informatie uit tekstgegevens. Dit proces omvat de toepassing van semantische analysetechnieken om de betekenis, context en bedoeling achter de woorden in de tekst te begrijpen (International Journal of Computer Applications, 2014).
+Tekstanalyse daarentegen houdt zich meer bezig met het begrijpen en interpreteren van de inhoud van tekst om er informatie van hoge kwaliteit uit af te leiden. In tegenstelling tot text mining, dat zich richt op het ontdekken van nieuwe patronen, is tekstanalyse gericht op het extraheren en interpreteren van bestaande informatie uit tekstgegevens. Dit proces omvat de toepassing van semantische analysetechnieken om de betekenis, context en bedoeling achter de woorden in de tekst te begrijpen \autocite{gaikwad2014text}.
 
 Tekstanalyse maakt vaak gebruik van Natural Language Processing (NLP) om de structuur van zinnen te ontleden, entiteiten te identificeren en sentiment te analyseren. Deze technieken zijn cruciaal voor taken zoals sentimentanalyse, waarbij het doel is om de emotionele toon van een tekst te bepalen, of onderwerpmodellering, waarbij het doel is om de belangrijkste thema's te identificeren die in een set documenten worden besproken. Tekstanalyse kan ook meer geavanceerde methoden omvatten, zoals entiteitherkenning, waarbij belangrijke stukken informatie (zoals namen, data en locaties) in een tekst worden geïdentificeerd en geclassificeerd.
 
 \paragraph{conclusie}
-Terwijl text mining vaak verkennend is, waarbij gezocht wordt naar onbekende patronen, is tekstanalyse gerichter, waarbij de nadruk ligt op het extraheren van specifieke informatie van hoge kwaliteit uit de tekst. In een juridische context kan tekstanalyse bijvoorbeeld worden gebruikt om relevante clausules uit een contract te halen, terwijl text mining kan worden gebruikt om trends in juridische beslissingen in de loop van de tijd te identificeren (International Journal of Computer Applications, 2014).
+Terwijl text mining vaak verkennend is, waarbij gezocht wordt naar onbekende patronen, is tekstanalyse gerichter, waarbij de nadruk ligt op het extraheren van specifieke informatie van hoge kwaliteit uit de tekst. In een juridische context kan tekstanalyse bijvoorbeeld worden gebruikt om relevante clausules uit een contract te halen, terwijl text mining kan worden gebruikt om trends in juridische beslissingen in de loop van de tijd te identificeren \autocite{gaikwad2014text}.
 
 \subsection{Text mining technieken}
 \autocite{Talib2016TextMining} spreekt over enkele technieken zoals Information Extraction (IE), Information retrieval (IR), en Meerdere NLP technieken die gebruikt worden in data mining, deze zullen hier besproken worden
@@ -160,8 +106,9 @@ Enkele IR technieken zijn maar niet gelimiteerd tot \autocite{IBM2024}:
   \item Stemming is een tekstvoorbewerkingsmethode die wordt gebruikt in natuurlijke taalverwerking (NLP) om woorden te vereenvoudigen door ze om te zetten naar hun basisvorm. Het doel van stemming is om woorden te stroomlijnen en te normaliseren en zo de efficiëntie van het ophalen van informatie, het categoriseren van teksten en andere natuurlijke taalverwerkingsactiviteiten (NLP) te verbeteren\autocite{SC2024}.
 \end{itemize}
 
-\paragraph{Information extraction}
-Information Extraction (IE) aims to extract structured information from unstructured documents using techniques like Natural Language Processing (NLP). Unlike Information Retrieval (IR), which retrieves relevant documents, IE focuses on identifying specific data within these texts, making information more accessible and analyseerbare \autocite{Javija2024}. IE systems need to be cost-effective, adaptable, and capable of scaling across domains. In fields like finance, Named-Entity Recognition (NER) is used to extract predefined data types, such as names and dates, from documents, facilitating efficient data management (Gupta2020). Automated learning in IE reduces errors and dependency on manual supervision, making the process more efficient and contextually valuable. The increasing volume of unstructured data, particularly online, emphasizes the importance of effective IE systems \autocite{Javija2024}.
+\paragraph{Information Extraction}
+Informatie-extractie (IE) is gericht op het extraheren van gestructureerde informatie uit ongestructureerde documenten met behulp van technieken zoals Natural Language Processing (NLP). In tegenstelling tot Information Retrieval (IR), waarbij relevante documenten worden opgehaald, richt IE zich op het identificeren van specifieke gegevens binnen deze teksten, waardoor informatie toegankelijker en analyseerbaarder wordt \autocite{Javija2024}. IE-systemen moeten kosteneffectief en aanpasbaar zijn en in staat zijn om zich over verschillende domeinen uit te breiden. Op gebieden zoals financiën wordt Named-Entity Recognition (NER) gebruikt om vooraf gedefinieerde gegevenstypen, zoals namen en data, uit documenten te extraheren, wat efficiënt gegevensbeheer vergemakkelijkt \autocite{Gupta2020}. Geautomatiseerd leren in IE vermindert fouten en afhankelijkheid van handmatig toezicht, waardoor het proces efficiënter en contextueel waardevoller wordt. De toenemende hoeveelheid ongestructureerde gegevens, vooral online, benadrukt het belang van effectieve IE-systemen \autocite{Javija2024}.
+
 
 Enkele IE technieken zijn maar niet gelimiteerd tot \autocite{IBM2024}:
 \begin{itemize}
@@ -171,14 +118,14 @@ Enkele IE technieken zijn maar niet gelimiteerd tot \autocite{IBM2024}:
     \item Feature extraction: is een essentiële stap in machinaal leren, omdat het uitgebreide invoergegevens omzet in een beter hanteerbare en lager-dimensionale kenmerkenset. Deze procedure vereenvoudigt de gegevens door de complexiteit ervan te verminderen, terwijl belangrijke informatie toch behouden blijft. Het is vooral nuttig bij taken zoals categorisatie. Kenmerkextractietechnieken transformeren de initiële kenmerkruimte in een gecondenseerde, alternatieve ruimte door een gereduceerde, representatieve verzameling kenmerken te behouden in plaats van ze weg te gooien. Principale Componenten Analyse (PCA) en Bag of Words zijn vaak gebruikte technieken. PCA vermindert bijvoorbeeld de dimensionaliteit van gegevens door de oorspronkelijke variabelen om te zetten in ongecorrigeerde componenten. Dit proces verbetert de rekenefficiëntie en verhoogt de nauwkeurigheid van modellen voor machinaal leren \autocite{Mustazzihim}.
     \item Verschil? FS behoud de originele features terwijl FE nieuwe maakt.
   \end{itemize}
-    \item Named Entity Recognition (NER) is a core job in Natural Language Processing (NLP) that aims to recognise and categorise entities, such as individuals, organisations, and places, within a given text. NER, or Named Entity Recognition, is extensively utilised in a variety of applications, spanning from information retrieval to automated customer care.
+    \item  Named Entity Recognition (NER) is een kerntaak in Natural Language Processing (NLP) die tot doel heeft entiteiten, zoals personen, organisaties en plaatsen, binnen een gegeven tekst te herkennen en te categoriseren. NER, of Named Entity Recognition, wordt op grote schaal gebruikt in een verscheidenheid aan toepassingen, variërend van het ophalen van informatie tot geautomatiseerde klantenservice.
+    
 
-    Recent research emphasises that although NER models have attained remarkable performance on typical datasets, frequently exhibiting high F-scores, this measure alone does not offer a thorough comprehension of their efficacy. For instance, cutting-edge NER models typically exhibit F-scores over 90\% on datasets such as OntoNotes. Nevertheless, this solitary metric may obscure variations in performance across various categories of entities, kinds of language, and unfamiliar data \autocite{vajjala2022reallyknowstateart}.
+
+    Recent onderzoek benadrukt dat, hoewel NER-modellen opmerkelijke prestaties hebben behaald op typische datasets en vaak hoge F-scores laten zien, deze maat alleen geen goed inzicht geeft in hun effectiviteit. Geavanceerde NER-modellen vertonen bijvoorbeeld F-scores van meer dan 90\% op datasets zoals OntoNotes. Desalniettemin kan deze eenzame metriek variaties in prestaties verdoezelen tussen verschillende categorieën entiteiten, soorten taal en onbekende data \autocite{vajjala2022reallyknowstateart}.
     
 \end{itemize}
 
-\paragraph{conclusie}
-Information Retrieval (IR) en Information Extraction (IE) zijn twee technologieën die informatie toegankelijk maken via verschillende methodologieën.IR richt zich op het ophalen van relevante documenten, terwijl IE specifieke, gestructureerde informatie extraheert voor nauwkeurige gegevensanalyse.IR is essentieel voor grote datasets en zoekmachines, terwijl IE cruciaal is voor het extraheren van bruikbare inzichten. De kracht van IR ligt in het beheren en ophalen van informatie uit ongestructureerde bronnen, waardoor het onmisbaar is voor grote databases. IE is van vitaal belang voor datamining, kennisbeheer en geautomatiseerde processen. Naarmate het datavolume toeneemt, zal de wisselwerking tussen IR en IE steeds belangrijker worden. Het begrijpen en benutten van beide technologieën zal cruciaal zijn voor het optimaliseren van informatieverwerkingssystemen en om ervoor te zorgen dat gebruikers snel en accuraat de benodigde informatie kunnen verkrijgen.
 
 \begin{table}[h!]
   \centering
@@ -186,10 +133,9 @@ Information Retrieval (IR) en Information Extraction (IE) zijn twee technologie�
   \hline
   \textbf{Aspect} & \textbf{Information Retrieval} & \textbf{Information Extraction} \\ \hline
   \textbf{Focus} & Document Retrieval & Feature Retrieval \\ \hline
-  \textbf{Output} & Return set of relevant documents & Return facts out of documents \\ \hline
-  \textbf{Goal} & The goal is to find documents that are relevant to the user’s information need & The goal is to extract pre-specified features from documents or display information. \\ \hline
-  \textbf{Nature of Information} & Real information is buried inside documents & Extract information from within the documents \\ \hline
-  \textbf{Result Format} & The long listing of documents & Aggregate over the entire set \\ \hline
+  \textbf{Uitvoer} & Geeft een set van documenten terug & Geeft feiten van een document terug \\ \hline
+  \textbf{Doel} & Het doel is om documenten te vinden die relevant zijn voor de informatiebehoefte van de gebruiker. & Het doel is om vooraf gespecificeerde kenmerken uit documenten te halen of informatie weer te geven. \\ \hline
+  \textbf{Aard van informatie} & Echte informatie ligt verborgen in documenten & Extraheer informatie uit de documenten \\ \hline
   \textbf{Application} & Used in many search engines – Google is the best IR system for the web. & Used in database systems to enter extracted features automatically. \\ \hline
   \textbf{Methodology} & Typically uses a bag of words model of the source text. & Typically based on some form of semantic analysis of the source text. \\ \hline
   \textbf{Theoretical Basis} & Mostly use the theory of information, probability, and statistics. & Emerged from research into rule-based systems. \\ \hline
@@ -198,6 +144,9 @@ Information Retrieval (IR) en Information Extraction (IE) zijn twee technologie�
   \label{tab:ir_vs_ie}
   \end{table}
   
+ \paragraph{conclusie}
+ Information Retrieval (IR) en Information Extraction (IE) zijn twee technologieën die informatie toegankelijk maken via verschillende methodologieën.IR richt zich op het ophalen van relevante documenten, terwijl IE specifieke, gestructureerde informatie extraheert voor nauwkeurige gegevensanalyse.IR is essentieel voor grote datasets en zoekmachines, terwijl IE cruciaal is voor het extraheren van bruikbare inzichten. De kracht van IR ligt in het beheren en ophalen van informatie uit ongestructureerde bronnen, waardoor het onmisbaar is voor grote databases. IE is van vitaal belang voor datamining, kennisbeheer en geautomatiseerde processen. Naarmate het datavolume toeneemt, zal de wisselwerking tussen IR en IE steeds belangrijker worden. Het begrijpen en benutten van beide technologieën zal cruciaal zijn voor het optimaliseren van informatieverwerkingssystemen en om ervoor te zorgen dat gebruikers snel en accuraat de benodigde informatie kunnen verkrijgen. Voor dit onderzoek zal men informatie extractie gebruiken.
+ 
 \subsubsection{NLP}
 \paragraph{Summarization}
 
@@ -206,15 +155,13 @@ Een andere kritische NLP techniek is tekstsamenvatting, waarbij een beknopte wee
 \paragraph{Part of speech tagging}
 Part-of-speech (POS) tagging is een essentiële activiteit in natuurlijke taalverwerking (NLP) waarbij een grammaticale classificatie, zoals zelfstandig naamwoord, werkwoord of bijvoeglijk naamwoord, wordt toegewezen aan elk woord in een zin. Tagging vergemakkelijkt computationeel begrip van de syntactische organisatie van tekst, een kritisch onderdeel voor veel toepassingen van natuurlijke taalverwerking (NLP) (Martinez,2012).Ondanks de uitdagingen zoals tweeslachtige woorden bereiken moderne POS taggers hoge nauwkeurigheidspercentages (rond 96-97\%) en worden ze veel gebruik bij het ophalen van informatie, tekstanalyse en andere NLP-taken\autocite{Martinez2024}.
 \paragraph{Text categorization}
-Tekstclassificatie is een methodische procedure die bestaat uit vier essentiële stappen: kenmerken extraheren, de dimensionaliteit verminderen, een classificator selecteren en de resultaten evalueren. Eerst wordt tekst omgezet in een numeriek formaat door middel van kenmerkextractie, zoalswoordfrequentieofWord2Vec.Dimensionaliteitsreductiewordt gebruikt om de gegevens te vereenvoudigen en cruciale informatie te behouden. Dit wordt bereikt door technieken zoals principale componentenanalyse(PCA) of lineaire discriminantanalyse (LDA) toe te passen. De selectie van een classificeer is essentieel, omdat deep learning-methoden vaak conventionele machinelearning-algoritmen overtreffen in termen van nauwkeurigheid. Uiteindelijk wordt de doeltreffendheid van het model beoordeeld door de prestaties te meten met behulp van metrieken zoals de Matthews correlatiecoëfficiënt (MCC), oppervlakte onder de ROC-curve (AUC) en nauwkeurigheid. Van deze maatstaven wordt nauwkeurigheid beschouwd als de meest directe en eenvoudige manier om de prestatie van het model te evalueren. Gupta et al. (2020) ontdekten dat supportvectormachines (SVM) beter presteerden dan andere benaderingen zoals Naive Bayes (NB),k-nearest neighbour (KNN), beslisbomen en regressie in termen van nauwkeurigheid, recall en F1-maatstaven.
+Tekstclassificatie is een methodische procedure die bestaat uit vier essentiële stappen: kenmerken extraheren, de dimensionaliteit verminderen, een classificator selecteren en de resultaten evalueren. Eerst wordt tekst omgezet in een numeriek formaat door middel van kenmerkextractie, zoals woord frequentie of Word2Vec. Dimensionaliteitsreductiewordt gebruikt om de gegevens te vereenvoudigen en cruciale informatie te behouden. Dit wordt bereikt door technieken zoals principale componentenanalyse(PCA) of lineaire discriminantanalyse (LDA) toe te passen. De selectie van een classificeer is essentieel, omdat deep learning-methoden vaak conventionele machinelearning-algoritmen overtreffen in termen van nauwkeurigheid. Uiteindelijk wordt de doeltreffendheid van het model beoordeeld door de prestaties te meten met behulp van metrieken zoals de Matthews correlatiecoëfficiënt (MCC), oppervlakte onder de ROC-curve (AUC) en nauwkeurigheid. Van deze maatstaven wordt nauwkeurigheid beschouwd als de meest directe en eenvoudige manier om de prestatie van het model te evalueren. Gupta et al. (2020) ontdekten dat supportvectormachines (SVM) beter presteerden dan andere benaderingen zoals Naive Bayes (NB),k-nearest neighbour (KNN), beslisbomen en regressie in termen van nauwkeurigheid, recall en F1-maatstaven.
 \paragraph{Sentiment analysis}
 Natural Language Processing (NLP) omvat verschillende technieken om onnauwkeurig en dubbelzinnig taalgebruik om te zetten in nauwkeurige en ondubbelzinnige berichten, met toepassingen in sectoren als financiën, e-commerce en sociale media. Een belangrijke techniek binnen NLP is Sentimentanalyse (SA), ook wel bekend als opinion mining, waarbij onderliggende meningen uit tekstgegevens worden gehaald. SA is vooral nuttig voor taken als emotieherkenning en polariteitsdetectie, met toepassingen variërend van voorspelling van de aandelenmarkt tot analyse van feedback van klanten \autocite{Gupta2020}.
 
 SA kan worden benaderd met lexicon gebaseerde methoden, die vertrouwen op tools zoals SentiWordNet voor woord-naar-sentiment mappen, of machine learning (ML) technieken die tekst classificeren met behulp van algoritmes zoals Naïve Bayes (NB) en support vectormachines (SVM's). Hoewel ML-benaderingen geen kostbare woordenboeken vereisen, vereisen ze wel domein specifieke datasets, wat een beperking kan zijn. Bovendien zijn deep learning-methoden onlangs gecombineerd met traditionele ML-technieken om de nauwkeurigheid en betrouwbaarheid van SA te verbeteren, met name in financiële voorspellingen \autocite{Gupta2020}.
 
 
-\subsubsection{Testing}
-%TODO
 
 
 
@@ -277,7 +224,7 @@ Bij het kiezen tussen SQL- en Nosql-databases is het belangrijk om de onderligge
 In dit onderzoek is gekozen voor een SQL-database. Deze keuze is gebaseerd op de noodzaak om gestructureerde data uit de 13F-meldingen te beheren, waarbij consistente gegevensintegriteit en de mogelijkheid om complexe query’s uit te voeren cruciaal zijn. SQL-databases bieden de benodigde functionaliteiten voor het beheer van relationele gegevens en het uitvoeren van geavanceerde analyses, wat essentieel is voor het succes van dit project \autocite{khan2023performance}.
 
 \paragraph{SQL-databank}
-Op basis van de gedetailleerde analyse in het GeeksforGeeks-artikel werd PostgreSQL gekozen voor ons proefschrift vanwege de geavanceerde functies, robuuste gegevensintegriteit en uitbreidbare architectuur. In tegenstelling tot andere SQL-databases, blinkt PostgreSQL uit in het verwerken van complexe datamanipulatie, het bieden van sterke ACID compliance en het ondersteunen van aangepaste datatypes en functies. Dit maakt PostgreSQL bijzonder geschikt voor bedrijfstoepassingen en datawarehousing waar schaalbaarheid en geavanceerd databeheer cruciaal zijn. Hoewel PostgreSQL een steilere leercurve heeft dan sommige alternatieven, maken de uitgebreide functie set en betrouwbaarheid het een optimale keuze om aan de complexe eisen van ons project te voldoen.
+Op basis van de gedetailleerde analyse die door \autocite{Javija2024} werd PostgreSQL gekozen voor ons proefschrift vanwege de geavanceerde functies, robuuste gegevensintegriteit en uitbreidbare architectuur. In tegenstelling tot andere SQL-databases, blinkt PostgreSQL uit in het verwerken van complexe datamanipulatie, het bieden van sterke ACID compliance en het ondersteunen van aangepaste datatypes en functies. Dit maakt PostgreSQL bijzonder geschikt voor bedrijfstoepassingen en datawarehousing waar schaalbaarheid en geavanceerd databeheer cruciaal zijn. Hoewel PostgreSQL een steilere leercurve heeft dan sommige alternatieven, maken de uitgebreide functie set en betrouwbaarheid het een optimale keuze om aan de complexe eisen van ons project te voldoen.
 
 \subsubsection{Review}
 Dus voor dit onderzoek hebben we voor de data mining gekozen voor SpaCy en voor de DB PostgreSQL
@@ -291,28 +238,27 @@ Dus voor dit onderzoek hebben we voor de data mining gekozen voor SpaCy en voor 
 % ----------------------------------------------------------------------------
 
 \section{Uitdagingen en beperkingen}
-\subsection{Complexiteit van financiële Tekst}
+In dit hoofdstuk zullen enkele uitdagingen en beperkingen benoemt worden
+\subsection{Variable structuur}
+Vóór 2013 bevatten 13F-meldingen enigszins verschillende variabele structuren, maar deze variaties zijn belangrijk omdat ze het moeilijk maken om de gegevens te lezen en te analyseren. Vóór 2013 waren de 13F-meldingen variabeler in de manier waarop ze gegevens verstrekten, waardoor het moeilijk was om beleggingsportefeuilles door de tijd heen te vergelijken. Door dit gebrek aan standaardisatie moesten onderzoekers en analisten zorgvuldig omgaan met deze gegevens om consistente en nauwkeurige bevindingen te krijgen. Diepgaand onderzoek is nodig om interpretatiefouten te minimaliseren en investeringen en investeringspatronen als gevolg van verschillende rapportagestandaarden volledig te begrijpen.
 \subsection{Gegevenskwaliteit en Validatie}
+TODO
 \subsection{Databaseprestaties}
 Uitdaging: Hoewel PostgreSQL goed presteert bij grote hoeveelheden gestructureerde data, kan het moeilijk zijn om de prestaties te optimaliseren naarmate de hoeveelheid data en het aantal gelijktijdige gebruikers toeneemt.
 
 Beperking: Bij zeer grote datasets of een hoge mate van gelijktijdige toegang kunnen er prestatieproblemen optreden. Het kan nodig zijn om uitgebreide optimalisaties en schaalstrategieën te implementeren, zoals partitionering of het gebruik van read replicas.
 % ----------------------------------------------------------------------------
 \section{Leemtes in huidig onderzoek}
+Dit hoofdstuk geeft enkele gaten weer in het huidig onderzoek.
 \subsection{Onbehandelde kwesties}
-Training van Eigen Large Language Models (LLMs)
-Het trainen van een eigen LLM voor financiële toepassingen vereist veel tijd en middelen. Het model moet worden getraind op uitgebreide financiële datasets voor nauwkeurige resultaten. Dit kan uw infrastructuur belasten en vereist expertise in machine learning en datawetenschap, met mogelijke problemen op het gebied van data-integriteit en privacy. Overweeg het gebruik van bestaande financiële NLP-modellen die al getraind zijn en efficiënt kunnen worden aangepast aan uw behoeften.
+\paragraph{Training van Eigen Large Language Models (LLMs)}
+Het trainen van een eigen LLM voor financiële toepassingen vereist veel tijd en middelen. Het model moet worden getraind op uitgebreide financiële datasets voor nauwkeurige resultaten. Dit kan uw infrastructuur belasten en vereist expertise in machine learning en datawetenschap, met mogelijke problemen op het gebied van data-integriteit en privacy.
 
-Beveiliging en Privacy
+\paragraph{Beveiliging en Privacy}
 Het beschermen van gevoelige financiële gegevens tegen ongeautoriseerde toegang en datalekken is complex en vereist naleving van privacywetgeving. Onvoldoende beveiliging kan leiden tot datalekken, verlies van vertrouwen en juridische problemen. Implementeer encryptie, toegangscontrole en regelmatige beveiligingsaudits om gegevens te beschermen. Zorg ervoor dat uw systemen voldoen aan relevante regelgeving en best practices voor gegevensbeveiliging.
 
-Schaalbaarheid en Prestaties
+\paragraph{Schaalbaarheid en Prestaties}
 Groeiende hoeveelheden gegevens kunnen leiden tot prestatieproblemen bij opslag en analyse, wat complexe oplossingen vereist voor snelle toegang. Slechte prestaties kunnen vertragingen veroorzaken in rapportage en analyse, wat de besluitvorming en efficiëntie beïnvloedt. Gebruik schaalbare databases en technieken zoals gegevenspartitionering en caching. Monitor en optimaliseer regelmatig de prestaties om problemen te voorkomen.
 
-\subsection{Verbeteringsmogelijkheden}
-% ----------------------------------------------------------------------------
 
-\section{conclusie}
-\subsection{Samenvatting van Bevindingen}
-\subsection{Implicaties van het onderzoek}
 

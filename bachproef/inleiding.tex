@@ -5,29 +5,19 @@
 \chapter{\IfLanguageName{dutch}{Inleiding}{Introduction}}%
 \label{ch:inleiding}
 
-Regelgevende filings door institutionele beleggers, zoals pensioenfondsen en vermogensbeheerders, bieden belangrijke inzichten in marktpatronen en beleggingsstrategie. De 13F-bestanden die worden ingediend bij de Amerikaanse Securities and Exchange Commission (SEC) zijn een van de belangrijkste bronnen van deze informatie. Deze registraties geven informatie over de bezittingen van institutionele beleggers, waardoor ze cruciaal zijn voor het doen van financieel onderzoek en het analyseren van beleggingen. 13F-bestanden van vóór 2013 leveren echter aanzienlijke problemen op vanwege hun variabele vormen en structuren, die de menselijke verwerking en analyse complexer maken.
+Regelgevende filings die door institutionele beleggers, zoals pensioenfondsen en vermogensbeheerders worden ingediend, bieden belangrijke inzichten in marktpatronen en beleggingsstrategie. De 13F-meldingen die worden ingediend bij de Amerikaanse Securities and Exchange Commission (SEC) zijn een van de belangrijkste bronnen van deze informatie. Deze registraties geven informatie weer over de bezittingen van institutionele beleggers, waardoor ze van cruciaal belang zijn voor het uitvoeren van financieel onderzoek en het analyseren van beleggingen. 13F-meldingen van voor 2013 leveren echter aanzienlijke problemen op vanwege hun variabele vormen en structuren, die de menselijke verwerking en analyse complexer maken.
+De opkomst van geavanceerde AI-technologie biedt een potentiële kans om deze problemen aan te pakken. Natural Language Processing (NLP) en Machine Learning (ML) bieden geavanceerde technieken aan voor het extraheren en organiseren van gegevens uit tekst zonder vooraf gedefinieerde structuur. Door gebruik te maken van deze technologieën is het mogelijk om het proces van het standaardiseren en combineren van eerdere 13F meldingen in een goed georganiseerde relationele databank te automatiseren, waardoor de toegang en het gebruik wordt verbeterd.
 
+Het doel van dit proefschrift is het creëren van een proof-of-concept toepassing die Natural Language Processing (NLP) en Machine Learning (ML) technieken gebruikt om 13F aanvragen van voor 2013 te standaardiseren en te integreren in een relationele databank. Het voorgestelde systeem is gericht op het stroomlijnen van het gegevens extractieproces door de meldingen automatisch om te zetten in een gestandaardiseerd formaat met een hoge efficiëntie en nauwkeurigheid. Dit zou niet alleen de analyse van financiële gegevens uit het verleden optimaliseren, maar ook het werk en de kosten verminderen die gepaard gaan met handmatige gegevensverwerking.
 
+Bovendien zouden de gestandaardiseerde gegevens het begrip van investeringspatronen uit het verleden verbeteren en het creëren van voorspellingsmodellen ondersteunen. Het onderzoek zal beginnen met een uitgebreide literatuurstudie om de meest efficiënte Natural Language Processing (NLP) en Machine Learning (ML) strategieën voor dit specifiek doel te bepalen. Daarna zal een proof-of-concept toepassing worden gecreëerd en beoordeeld worden op nauwkeurigheid, efficiëntie en bruikbaarheid.
 
-De opkomst van geavanceerde AI-technologie biedt een potentiële kans om deze problemen aan te pakken. Natural Language Processing (NLP) en Machine Learning (ML) bieden geavanceerde technieken voor het extraheren en organiseren van gegevens uit tekst zonder vooraf gedefinieerde structuur. Door gebruik te maken van deze technologieën is het mogelijk om het proces van het standaardiseren en combineren van eerdere 13F aanvragen in een goed georganiseerde relationele database te automatiseren, waardoor de toegang en het gebruik wordt verbeterd.
-
-
-
-Het doel van dit proefschrift is het creëren van een proof-of-concept toepassing die Natural Language Processing (NLP) en Machine Learning (ML) technieken gebruikt om 13F aanvragen van vóór 2013 te uniformeren en te integreren in een relationele database. Het voorgestelde systeem is gericht op het stroomlijnen van het gegevensextractieproces door de deponeringen automatisch om te zetten in een gestandaardiseerd formaat met een hoge efficiëntie en nauwkeurigheid. Dit zou niet alleen de analyse van financiële gegevens uit het verleden optimaliseren, maar ook het werk en de kosten verminderen die gepaard gaan met handmatige gegevensverwerking.
-
-
-
-Bovendien zouden de gestandaardiseerde gegevens het begrip van investeringspatronen uit het verleden verbeteren en het creëren van voorspellingsmodellen ondersteunen. Het onderzoek zal beginnen met een uitgebreide literatuurstudie om de meest efficiënte Natural Language Processing (NLP) en Machine Learning (ML) strategieën voor deze specifieke onderneming te bepalen. Daarna zal een proof-of-concept toepassing worden gecreëerd en beoordeeld op nauwkeurigheid, efficiëntie en bruikbaarheid.
-
-
-
-Deze inleiding geeft een beknopt overzicht van de redenen, doelen en het belang van het onderzoek. Dit werk wil een nuttige bijdrage leveren aan de analyse van financiële gegevens en onderzoekers en analisten een nuttig hulpmiddel bieden door de moeilijkheden aan te pakken die gepaard gaan met het verwerken van oudere 13F-bestanden.
+De inleiding geeft een beknopt overzicht van de redenen, doelen en het belang van het onderzoek weer. Dit werk wil een nuttige bijdrage leveren aan de analyse van financiële gegevens en onderzoekers en analisten een nuttig hulpmiddel bieden door de moeilijkheden aan te pakken die gepaard gaan met het verwerken van oudere 13F-meldingen.
 
 \section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}%
 \label{sec:probleemstelling}
 
-13F meldingen van de SEC voor 2013, zijn belangrijke bestanden voor financieel onderzoek, ze bevatten namelijk data over de stocks dat investment managers beheren. Maar deze zijn vaak inconsistent in opmaak en moeilijker toegankelijk, wat manuele analyse bemoeilijkt. Er ontbreekt namelijk een geautomatiseerd systeem om deze gegevens te standaardiseren en in een databank te integreren. Dit bemoeilijkt de opportuniteiten voor diepgaande analyses en het verkrijgen van inzichten in beleggingstrends. Dit onderzoek gaat opzoek naar hoe AI-technologieën zoals NLP en ML, ingezet kunnen worden om deze meldingen te extraheren, te structuren en te integreren in een databank, wat als gevolg het gebruik en de toegankelijkheid van historische financiële gegevens te verbeteren.
-
+13F meldingen van de SEC voor 2013, zijn belangrijke bestanden voor financieel onderzoek, ze bevatten namelijk data over de stocks dat investment managers beheren. Maar deze zijn vaak inconsistent in opmaak en moeilijker toegankelijk, wat manuele analyse bemoeilijkt. Er ontbreekt namelijk een geautomatiseerd systeem om deze gegevens te standaardiseren en in een databank te integreren. Dit bemoeilijkt de opportuniteiten voor diepgaande analyses en het verkrijgen van inzichten in beleggingstrends.
 
 \section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}%
 \label{sec:onderzoeksvraag}
