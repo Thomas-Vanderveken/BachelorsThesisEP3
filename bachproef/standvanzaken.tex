@@ -39,11 +39,46 @@ De rapportages over het aandelenbezit van grote beleggingsinstellingen richten z
 
 
 \subsubsection{Opmaak en toegankelijkheid:}
-TODO
-<INSERT IMAGE FROM BEFORE 2013 2-4x>
-<INSERT IMAGE FROM AFTER 2013 1-2x>
+De 13F-meldingen van voor 2013 zijn varierend in opmaak, dit is wat data extractie moeilijk maakt
+Dit zijn enkele afbeeldingen van enkele van de tienduizenden 13F-meldingen
+
+\paragraph{Voor 2013}
+Hier ziet men een aantal voorbeelden van informatie tabel van enkele 13F meldigen. Zoals men ziet zijn er veel verschillende manieren waarop deze meldingen zijn ingediend.
+\begin{figure}[hbt!]
+     \includegraphics[width=0.8\textwidth]{13F_EX0.png}
+     \caption[13F voorbeeld 1]{\label{fig:voorbeeld 1}Een correcte 13F melding duidelijk gestructureerd en geen missende waarden}
+\end{figure}
 
 
+\begin{figure}[hbt!]
+    \includegraphics[width=0.8\textwidth]{13F_EX2.png}
+    \caption[13F voorbeeld 3]{\label{fig:voorbeeld 2}Een 13F melding met missende waarden}
+\end{figure}
+\begin{figure}[hbt!]
+    \includegraphics[width=0.8\textwidth]{13F_EX3.png}
+    \caption[13F voorbeeld 4]{\label{fig:voorbeeld 3}Een 13F melding met missende waarden en één entry overspant minstens één rij}
+\end{figure}
+
+\begin{figure}[hbt!]
+    \includegraphics[width=0.8\textwidth]{13F_EX4.png}
+    \caption[13F voorbeeld 5]{\label{fig:voorbeeld 4}Een 13F melding gebruik makend van `X` in plaats van Bv. Sole}
+\end{figure}
+
+\begin{figure}[hbt!]
+    \includegraphics[width=0.8\textwidth]{13F_EX5.png}
+    \caption[13F voorbeeld 6]{\label{fig:voorbeeld 5}Een 13F melding zonder cijfer datas in de laatste kolommen}
+\end{figure}
+
+\begin{figure}[hbt!]
+    \includegraphics[width=0.8\textwidth]{13F_EX6.png}
+    \caption[13F voorbeeld 7]{\label{fig:voorbeeld 6}Een 13F melding zonder gestructureerde data maar werkend met tabs, geen tabel structuur}
+\end{figure}
+\paragraph{Na 2013}
+
+\begin{figure}[hbt!]
+    \includegraphics[width=0.8\textwidth]{13F_24_EX1.png}
+    \caption[13F voorbeeld 7]{\label{fig:voorbeeld 2024 1}Een recente (2024) 13F melding gestructureerd in XML}
+\end{figure}
 % ----------------------------------------------------------------------------
 
 
@@ -144,7 +179,7 @@ Enkele IE technieken zijn maar niet gelimiteerd tot \autocite{IBM2024}:
   \label{tab:ir_vs_ie}
   \end{table}
   
- \paragraph{conclusie}
+ \paragraph{Conclusie}
  Information Retrieval (IR) en Information Extraction (IE) zijn twee technologieën die informatie toegankelijk maken via verschillende methodologieën.IR richt zich op het ophalen van relevante documenten, terwijl IE specifieke, gestructureerde informatie extraheert voor nauwkeurige gegevensanalyse.IR is essentieel voor grote datasets en zoekmachines, terwijl IE cruciaal is voor het extraheren van bruikbare inzichten. De kracht van IR ligt in het beheren en ophalen van informatie uit ongestructureerde bronnen, waardoor het onmisbaar is voor grote databases. IE is van vitaal belang voor datamining, kennisbeheer en geautomatiseerde processen. Naarmate het datavolume toeneemt, zal de wisselwerking tussen IR en IE steeds belangrijker worden. Het begrijpen en benutten van beide technologieën zal cruciaal zijn voor het optimaliseren van informatieverwerkingssystemen en om ervoor te zorgen dat gebruikers snel en accuraat de benodigde informatie kunnen verkrijgen. Voor dit onderzoek zal men informatie extractie gebruiken.
  
 \subsubsection{NLP}
@@ -154,15 +189,108 @@ Een andere kritische NLP techniek is tekstsamenvatting, waarbij een beknopte wee
 
 \paragraph{Part of speech tagging}
 Part-of-speech (POS) tagging is een essentiële activiteit in natuurlijke taalverwerking (NLP) waarbij een grammaticale classificatie, zoals zelfstandig naamwoord, werkwoord of bijvoeglijk naamwoord, wordt toegewezen aan elk woord in een zin. Tagging vergemakkelijkt computationeel begrip van de syntactische organisatie van tekst, een kritisch onderdeel voor veel toepassingen van natuurlijke taalverwerking (NLP) (Martinez,2012).Ondanks de uitdagingen zoals tweeslachtige woorden bereiken moderne POS taggers hoge nauwkeurigheidspercentages (rond 96-97\%) en worden ze veel gebruik bij het ophalen van informatie, tekstanalyse en andere NLP-taken\autocite{Martinez2024}.
-\paragraph{Text categorization}
-Tekstclassificatie is een methodische procedure die bestaat uit vier essentiële stappen: kenmerken extraheren, de dimensionaliteit verminderen, een classificator selecteren en de resultaten evalueren. Eerst wordt tekst omgezet in een numeriek formaat door middel van kenmerkextractie, zoals woord frequentie of Word2Vec. Dimensionaliteitsreductiewordt gebruikt om de gegevens te vereenvoudigen en cruciale informatie te behouden. Dit wordt bereikt door technieken zoals principale componentenanalyse(PCA) of lineaire discriminantanalyse (LDA) toe te passen. De selectie van een classificeer is essentieel, omdat deep learning-methoden vaak conventionele machinelearning-algoritmen overtreffen in termen van nauwkeurigheid. Uiteindelijk wordt de doeltreffendheid van het model beoordeeld door de prestaties te meten met behulp van metrieken zoals de Matthews correlatiecoëfficiënt (MCC), oppervlakte onder de ROC-curve (AUC) en nauwkeurigheid. Van deze maatstaven wordt nauwkeurigheid beschouwd als de meest directe en eenvoudige manier om de prestatie van het model te evalueren. Gupta et al. (2020) ontdekten dat supportvectormachines (SVM) beter presteerden dan andere benaderingen zoals Naive Bayes (NB),k-nearest neighbour (KNN), beslisbomen en regressie in termen van nauwkeurigheid, recall en F1-maatstaven.
-\paragraph{Sentiment analysis}
-Natural Language Processing (NLP) omvat verschillende technieken om onnauwkeurig en dubbelzinnig taalgebruik om te zetten in nauwkeurige en ondubbelzinnige berichten, met toepassingen in sectoren als financiën, e-commerce en sociale media. Een belangrijke techniek binnen NLP is Sentimentanalyse (SA), ook wel bekend als opinion mining, waarbij onderliggende meningen uit tekstgegevens worden gehaald. SA is vooral nuttig voor taken als emotieherkenning en polariteitsdetectie, met toepassingen variërend van voorspelling van de aandelenmarkt tot analyse van feedback van klanten \autocite{Gupta2020}.
+%\paragraph{Text categorization}
+%TTODO - REview use
+%Tekstclassificatie is een methodische procedure die bestaat uit vier essentiële stappen: kenmerken extraheren, de dimensionaliteit verminderen, een classificator selecteren en de resultaten evalueren. Eerst wordt tekst omgezet in een numeriek formaat door middel van kenmerkextractie, zoals woord frequentie of Word2Vec. Dimensionaliteitsreductiewordt gebruikt om de gegevens te vereenvoudigen en cruciale informatie te behouden. Dit wordt bereikt door technieken zoals principale componentenanalyse(PCA) of lineaire discriminantanalyse (LDA) toe te passen. De selectie van een classificeer is essentieel, omdat deep learning-methoden vaak conventionele machinelearning-algoritmen overtreffen in termen van nauwkeurigheid. Uiteindelijk wordt de doeltreffendheid van het model beoordeeld door de prestaties te meten met behulp van metrieken zoals de Matthews correlatiecoëfficiënt (MCC), oppervlakte onder de ROC-curve (AUC) en nauwkeurigheid. Van deze maatstaven wordt nauwkeurigheid beschouwd als de meest directe en eenvoudige manier om de prestatie van het model te evalueren. Gupta et al. (2020) ontdekten dat supportvectormachines (SVM) beter presteerden dan andere benaderingen zoals Naive Bayes (NB),k-nearest neighbour (KNN), beslisbomen en regressie in termen van nauwkeurigheid, recall en F1-maatstaven.
+%\paragraph{Sentiment analysis}
+%TTODO - DEL (unrelated)
+%Natural Language Processing (NLP) omvat verschillende technieken om onnauwkeurig en dubbelzinnig taalgebruik om te zetten in nauwkeurige en ondubbelzinnige berichten, met toepassingen in sectoren als financiën, e-commerce en sociale media. Een belangrijke techniek binnen NLP is Sentimentanalyse (SA), ook wel bekend als opinion mining, waarbij onderliggende meningen uit tekstgegevens worden gehaald. SA %is vooral nuttig voor taken als emotieherkenning en polariteitsdetectie, met toepassingen variërend van voorspelling van de aandelenmarkt tot analyse van feedback van klanten \autocite{Gupta2020}.
 
-SA kan worden benaderd met lexicon gebaseerde methoden, die vertrouwen op tools zoals SentiWordNet voor woord-naar-sentiment mappen, of machine learning (ML) technieken die tekst classificeren met behulp van algoritmes zoals Naïve Bayes (NB) en support vectormachines (SVM's). Hoewel ML-benaderingen geen kostbare woordenboeken vereisen, vereisen ze wel domein specifieke datasets, wat een beperking kan zijn. Bovendien zijn deep learning-methoden onlangs gecombineerd met traditionele ML-technieken om de nauwkeurigheid en betrouwbaarheid van SA te verbeteren, met name in financiële voorspellingen \autocite{Gupta2020}.
+%SA kan worden benaderd met lexicon gebaseerde methoden, die vertrouwen op tools zoals SentiWordNet voor woord-naar-sentiment mappen, of machine learning (ML) technieken die tekst classificeren met behulp van algoritmes zoals Naïve Bayes (NB) en support vectormachines (SVM's). Hoewel ML-benaderingen geen kostbare woordenboeken vereisen, vereisen ze wel domein specifieke datasets, wat een beperking kan zijn. nauwkeurigheid en betrouwbaarheid van SA te verbeteren, met name in financiële voorspellingen \autocite{Gupta2020}.
 
 
 
+
+\subsection{REGEX in gegevens extractie}
+
+Reguliere expressies (regex) zijn een krachtig hulpmiddel voor patroonherkenning in tekst. Ze stellen gebruikers in staat om zoekpatronen te definiëren die specifieke reeksen van tekens kunnen identificeren en extraheren uit een grotere tekst, wat ze onmisbaar maakt bij taken zoals gegevensreiniging, parsing en informatie-extractie.
+
+\paragraph{Gebruik van Regex}
+Regex wordt vaak gebruikt voor:
+\begin{itemize}
+    \item \textbf{Tekstvoorverwerking}: Regex kan tekstgegevens opschonen en standaardiseren door ongewenste tekens, witruimtes of inconsistenties in de opmaak te verwijderen.
+    \item \textbf{Patroonherkenning}: Het is effectief voor het vinden van specifieke patronen in tekst, zoals datums, telefoonnummers of e-mailadressen.
+    \item \textbf{Tokenisatie}: Regex kan helpen om tekst op te splitsen in tokens (woorden, zinnen) door patronen voor delimiters zoals spaties of interpunctie te definiëren.
+\end{itemize}
+
+\paragraph{Voordelen en Beperkingen}
+\begin{itemize}
+    \item \textbf{Voordelen}
+    \begin{itemize}
+        \item \textbf{Efficiëntie}: Regex is zeer efficiënt voor eenvoudige patroonherkenningstaken.
+        \item \textbf{Flexibiliteit}: Het kan worden aangepast om complexe tekstpatronen met nauwkeurige controle te herkennen.
+    \end{itemize}
+    \item \textbf{Beperkingen}
+    \begin{itemize}
+        \item \textbf{Complexiteit}: Het opstellen van complexe regex-patronen kan uitdagend en foutgevoelig zijn.
+        \item \textbf{Schaalbaarheid}: Regex kan moeite hebben met zeer grote tekstcorpora of wanneer de logica van het patroon te complex wordt, waardoor het minder geschikt is voor sommige NLP-taken die een diepgaande semantische begrip vereisen.
+    \end{itemize}
+\end{itemize}
+
+
+%TODO - Add statistical table extraction?
+
+\section{LLM's: GPT vs Llama}
+
+Large Language Models (LLM's) zoals GPT (Generative Pre-trained Transformer) en Llama (Large Language Model Meta AI) hebben de verwerking van natuurlijke taal (NLP) gerevolutioneerd  door  transformer architecturen te gebruiken om tekst te begrijpen en te produceren die sterk lijkt op menselijke taal. Deze modellen worden getraind met behulp van uitgebreide datasets en hebben een breed spectrum aan toepassingen, inclusief maar niet beperkt tot tekstproductie en het beantwoorden van vragen.
+
+
+
+\subsection{Generatieve Pre-trained Transformer (GPT)}
+
+GPT is ontwikkeld door OpenAI en heeft zich ontwikkeld tot een van de meest prominente LLM. Het staat bekend om zijn vermogen om logische en contextueel geschikte taal te produceren als reactie op invoerprompts. Het ontwerp en de trainingsgegevens van GPT zorgen ervoor dat het model in veel taken uitblinkt, met name in taken waarbij ingewikkelde redeneringen en begrip van subtiele taalkundige aanwijzingen nodig zijn.
+
+
+
+\paragraph{Sterktes en Restricties}
+
+\begin{itemize}
+    \item \textbf{Sterktes}
+    \begin{itemize}
+        \item \textit{Prestaties}: GPT-modellen, vooral in hun meest recente versies zoals GPT-4, hebben uitstekende prestaties laten zien in taken met betrekking tot taalbegrip en productie.
+        \item  \textit{Veelzijdigheid}: GPT's uitgebreide training op een verscheidenheid aan datasets maakt het zeer aanpasbaar, in staat om een breed scala aan taaltaken te beheren zonder dat gespecialiseerde fine-tuning nodig is.
+    \end{itemize}
+    \item \textbf{Restricties}
+    \begin{itemize}
+        \item \textit{Kosten}: De belangrijkste beperking van GPT is de betaalbaarheid. Toegang tot meer geavanceerde iteraties van GPT, zoals GPT-4, wordt meestal beperkt door een betalingsbarrière, waardoor het minder beschikbaar is voor projecten met beperkte financiële middelen.
+        \item \textit{Gesloten systeem}:  GPT-modellen zijn vaak closed-source, waardoor gebruikers slechts beperkte toegang hebben tot de trainingsgegevens en de fine-tuning procedures van het model.
+    \end{itemize}
+\end{itemize}
+ 
+
+
+
+\subsection{Het grote taalmodel Meta AI (LLaMA)}
+
+Meta AI heeft LLaMA gemaakt, een open-source alternatief voor modellen zoals GPT. Het presenteert een vergelijkbaar op transformers gebaseerd ontwerp, maar geeft prioriteit aan toegankelijkheid, flexibiliteit en kosteneffectiviteit, vooral voor academische en onderzoekstoepassingen. LLaMA modellen worden aangeboden in verschillende groottes, zoals LLaMA-3 en LLaMA-3.1, die elk verschillende prestaties en verwerkingscapaciteit bieden.
+
+
+\begin{itemize}
+    \item \textbf{Sterktes}
+    \begin{itemize}
+        \item \textit{Open source}:  LLaMA is open source model waarmee gebruikers volledige controle hebben over de structuur van het model, de trainingsgegevens en de fine-tunings strategiën. Deze eigenschap maakt het een aantrekkelijke keuze voor academici en ontwikkelaars die het model op maat willen maken voor bepaalde opdrachten.
+        \item \textit{Kosteneffectiviteit}: LLaMA's open-source karakter maakt lidmaatschapskosten overbodig die vaak geassocieerd worden met commerciële modellen zoals GPT. Het is vooral voordelig voor academische instellingen, kleine bedrijven en zelfstandige ontwikkelaars.
+        \item \textit{Schaalbaarheid}: LLaMA biedt een uitgebreid scala aan groottes, wat flexibiliteit biedt voor verschillende computerbronnen en toepassingen. LLaMA-3(.1) 8B, het kleinere model, met 8 miljard parameters, kan bijvoorbeeld geschikt zijn voor activiteiten met beperkte rekencapaciteit, terwijl LLaMA-3.1-405B, het grotere model, meer mogelijkheden biedt, maar meer rekenkosten zoals meer opslag en sterkere GPU's met zich meebrengt.
+            
+       
+      
+    \end{itemize}
+    
+    \item \textbf{Restricties}
+    \begin{itemize}
+        \item \textbf{Prestatievariabiliteit}: Hoewel LLaMA modellen over aanzienlijke mogelijkheden beschikken, is het mogelijk dat ze niet consistent hetzelfde prestatieniveau halen als de meest recente GPT modellen, vooral wanneer ze meer ingewikkelde opdrachten verwerken. Dit fenomeen kan worden toegeschreven aan variaties in de omvang van de trainingsgegevens en de kwaliteit van optimalisaties.
+    \end{itemize}
+\end{itemize}
+
+
+\begin{figure}[hbt!]
+    \includegraphics[width=0.8\textwidth]{medium_llama-gpt.png}
+    \caption[13F voorbeeld 4]{\label{fig:gpt-vs-llama-benchmarks} Afbeeldingtoont een statistische vergelijking van GPT- en LLaMA-modellen op veelgebruikte NLP-benchmarks.}
+\end{figure}
+ 
+\paragraph{Conclusie}
+
+Samengevat is GPT een geavanceerde, commercieel verkrijgbare optie voor sommige NLP-taken, terwijl LLaMA een praktisch open-source alternatief is, vooral wanneer financiële beperkingen of de behoefte aan personalisatie van het grootste belang zijn. Door een zorgvuldige selectie, training en fijnafstemming van LLaMA-modellen is het mogelijk om betrouwbare resultaten te verkrijgen die op maat zijn gemaakt voor gerichte toepassingen, zonder de kosten te hoeven maken die gepaard gaan met aangeschafte modellen zoals GPT.
 
 
 
@@ -178,7 +306,8 @@ SA kan worden benaderd met lexicon gebaseerde methoden, die vertrouwen op tools 
 % ----------------------------------------------------------------------------
 \section{Technieken en Tools}
 \subsection{SpaCy vs NLTK}
-Tabel geeft een vergelijkende analyse van SpaCy en NLTK op basis van belangrijke functies die relevant zijn voor tekstsamenvatting.
+De volgende tabel geeft een vergelijkende analyse van SpaCy en NLTK op basis van belangrijke functies die relevant zijn voor tekstsamenvatting.
+
 \autocite{amade2024automatic}
 \begin{table}[h!]
     \centering
@@ -226,14 +355,6 @@ In dit onderzoek is gekozen voor een SQL-database. Deze keuze is gebaseerd op de
 \paragraph{SQL-databank}
 Op basis van de gedetailleerde analyse die door \autocite{Javija2024} werd PostgreSQL gekozen voor ons proefschrift vanwege de geavanceerde functies, robuuste gegevensintegriteit en uitbreidbare architectuur. In tegenstelling tot andere SQL-databases, blinkt PostgreSQL uit in het verwerken van complexe datamanipulatie, het bieden van sterke ACID compliance en het ondersteunen van aangepaste datatypes en functies. Dit maakt PostgreSQL bijzonder geschikt voor bedrijfstoepassingen en datawarehousing waar schaalbaarheid en geavanceerd databeheer cruciaal zijn. Hoewel PostgreSQL een steilere leercurve heeft dan sommige alternatieven, maken de uitgebreide functie set en betrouwbaarheid het een optimale keuze om aan de complexe eisen van ons project te voldoen.
 
-\subsubsection{Review}
-Dus voor dit onderzoek hebben we voor de data mining gekozen voor SpaCy en voor de DB PostgreSQL
-
-
-
-
-
-
 
 % ----------------------------------------------------------------------------
 
@@ -242,13 +363,24 @@ In dit hoofdstuk zullen enkele uitdagingen en beperkingen benoemt worden
 \subsection{Variable structuur}
 Vóór 2013 bevatten 13F-meldingen enigszins verschillende variabele structuren, maar deze variaties zijn belangrijk omdat ze het moeilijk maken om de gegevens te lezen en te analyseren. Vóór 2013 waren de 13F-meldingen variabeler in de manier waarop ze gegevens verstrekten, waardoor het moeilijk was om beleggingsportefeuilles door de tijd heen te vergelijken. Door dit gebrek aan standaardisatie moesten onderzoekers en analisten zorgvuldig omgaan met deze gegevens om consistente en nauwkeurige bevindingen te krijgen. Diepgaand onderzoek is nodig om interpretatiefouten te minimaliseren en investeringen en investeringspatronen als gevolg van verschillende rapportagestandaarden volledig te begrijpen.
 \subsection{Gegevenskwaliteit en Validatie}
-TODO
+Het valideren van grote taalmodellen (LLM's) brengt verschillende uitdagingen met zich mee:
+
+\begin{itemize}
+    \item \textbf{Complexiteit van metrieken}: Geen enkele metriek omvat alle prestatieaspecten en het combineren van metrieken kan leiden tot inconsistenties.
+    \item \textbf{Contextgevoeligheid}: Modelprestaties variëren met de context, wat de evaluatie bemoeilijkt.
+    \item \textbf{Subjectiviteit}: Menselijke evaluaties zijn subjectief en kunnen variëren tussen verschillende personen.
+    \item \textbf{Rekenkracht}: Uitgebreide validatie vereist aanzienlijke rekenkracht.
+    \item  \textbf{Dynamische industrie} Met de snelle vooruitgang in NLP kunnen validatiemethoden snel verouderen.
+\end{itemize}
+
+
+
 \subsection{Databaseprestaties}
 Uitdaging: Hoewel PostgreSQL goed presteert bij grote hoeveelheden gestructureerde data, kan het moeilijk zijn om de prestaties te optimaliseren naarmate de hoeveelheid data en het aantal gelijktijdige gebruikers toeneemt.
 
 Beperking: Bij zeer grote datasets of een hoge mate van gelijktijdige toegang kunnen er prestatieproblemen optreden. Het kan nodig zijn om uitgebreide optimalisaties en schaalstrategieën te implementeren, zoals partitionering of het gebruik van read replicas.
 % ----------------------------------------------------------------------------
-\section{Leemtes in huidig onderzoek}
+\section{Tekortkomingen in huidig onderzoek}
 Dit hoofdstuk geeft enkele gaten weer in het huidig onderzoek.
 \subsection{Onbehandelde kwesties}
 \paragraph{Training van Eigen Large Language Models (LLMs)}
@@ -259,6 +391,3 @@ Het beschermen van gevoelige financiële gegevens tegen ongeautoriseerde toegang
 
 \paragraph{Schaalbaarheid en Prestaties}
 Groeiende hoeveelheden gegevens kunnen leiden tot prestatieproblemen bij opslag en analyse, wat complexe oplossingen vereist voor snelle toegang. Slechte prestaties kunnen vertragingen veroorzaken in rapportage en analyse, wat de besluitvorming en efficiëntie beïnvloedt. Gebruik schaalbare databases en technieken zoals gegevenspartitionering en caching. Monitor en optimaliseer regelmatig de prestaties om problemen te voorkomen.
-
-
-

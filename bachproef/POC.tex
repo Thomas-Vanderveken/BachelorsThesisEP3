@@ -1,0 +1,146 @@
+%%=============================================================================
+%% Methodologie
+%%=============================================================================
+
+\chapter{\IfLanguageName{dutch}{POC}{POC}}%
+\label{ch:methodologie}
+
+\section{Apparaten}
+In dit onderzoek zijn verschillende apparaten en omgevingen gebruikt om de benodigde taken uit te voeren en de prestaties te evalueren. Hieronder volgt een gedetailleerd overzicht van de specificaties van de gebruikte apparatuur, inclusief de laptop die als primaire werkstation fungeerde en de Google Colab-omgevingen die werden ingezet voor aanvullende rekenkracht en resources.
+
+De laptop die voor de meeste van de berekeningen en data-analyse werd gebruikt, is de Dell XPS 15 9500. 
+
+Daarnaast zijn voor bepaalde taken en analyses Google Colab-omgevingen benut. Google Colab biedt zowel CPU- als GPU-resources. Deze omgevingen zijn vooral nuttig gebleken voor het uitvoeren van zwaardere berekeningen en experimenten.
+
+Een overzicht van de specificaties van de gebruikte apparaten en omgevingen is weergegeven in Tabel~\ref{tab:specs}.
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|l|}
+        \hline
+        \textbf{Component} & \textbf{Specifications} \\ \hline
+        \textbf{Laptop Dell XPS 15 9500} & \\
+        \quad OS & Windows 11 Pro \\
+        \quad CPU & Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz \\
+        \quad RAM & 32 GB \\
+        \quad GPU & NVIDIA GeForce GTX 1650 Ti 4GB VRAM \\ \hline
+        \textbf{Google Colab Base} & \\
+        \quad OS & Ubuntu 20.04 TLS \\
+        \quad RAM & 13 GB \\
+        \quad CPU & Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz \\ \hline
+        \textbf{Google Colab GPU (free credits)} & \\
+        \quad GPU & Nvidia T4 15GB VRAM \\ \hline
+    \end{tabular}
+    \caption{Specifications of Laptop and Google Colab Environments}
+    \label{tab:specs}
+\end{table}
+
+\section{Toegang en Libraries}
+Hier wordt er kort overlopen over wat er nodig is van toegangen en bibliotheken om de POC te kunnen uitvoeren
+\paragraph{Toegang tot Llama}
+ In bezit zijn van een Hugging Face aacount met toegang tot de Llama3(.1) modellen. Toegang kan verkregen worden de Llama model page van Hugging Face
+\paragraph{Bibliotheken}
+\begin{itemize}
+    \item \textbf{Python}: Zorg ervoor dat je een werkende installatie van Python hebt. Python is de programmeertaal die nodig is voor het uitvoeren van de code.
+    \item \textbf{Regex}: Voor reguliere expressies. Dit is standaard in Python en wordt vaak gebruikt voor patroonherkenning in tekst.
+    \item \textbf{Spacy}: Een krachtige NLP-bibliotheek voor tekstverwerking en natuurlijke taalverwerking.
+    \item \textbf{Pandas (pd)}: Voor gegevensmanipulatie en analyse.
+    \item \textbf{NumPy (np)}: Voor numerieke berekeningen en array-manipulatie.
+    \item \textbf{BeautifulSoup (bs4)}: Voor webscraping en het parseren van HTML en XML.
+    \item \textbf{psql}: De command-line interface voor PostgreSQL. Zorg ervoor dat je toegang hebt tot een PostgreSQL-database en dat je de juiste inloggegevens hebt.
+    \item \textbf{pyodbc}: Een ODBC-connector voor toegang tot databases via Python.
+    \item \textbf{Torch}: De PyTorch-bibliotheek voor machine learning en deep learning.
+\end{itemize}
+
+
+\section{Data}
+In deze sectie zak er gesproken worden over de voorbereiding op de POC het gaat hier onder andere over de data verzamelen en voorbereiden.
+
+\subsection{Data verzamelen}
+Als een subsectie van de POC behandelt dit segment het proces van het ophalen van 13F filings van voor 2013 met behulp van een web scraper. De scraper is ontworpen om het ophalen van deze historische deponeringen rechtstreeks uit SEC-archieven te automatiseren. Het primaire doel was om de bestanden efficiënt te vinden en te downloaden, ongeacht hun formaat (HTML, PDF, tekst). Door zich te richten op specifieke URL's en variaties in de bestandsstructuur te verwerken, haalde de scraper met succes de benodigde documenten op, zodat de gegevens vervolgens verwerkt en geanalyseerd konden worden.
+\subsection{Data verwerking}
+De procedure voor het maken van de dataset begon met het opschonen van de opgehaalde 13F-bestanden. Om de integriteit van de gegevens te behouden, werden eerst alle lege rijen, rijen die alleen uit streepjes ('-') bestonden en andere irrelevante lijnen verwijderd. Vervolgens werden de gegevens verdeeld in twee afzonderlijke elementen: de koptekst en de tabel. De bovengenoemde onderdelen werden onafhankelijk van elkaar beheerd, waarbij het bestandsnummer als cruciale verbindingsfactor fungeerde.
+
+De tabelgegevens werden vervolgens op een methodische manier georganiseerd. Deze gestructureerde tabelgegevens werden, samen met het bijbehorende oorspronkelijke bestand, gebruikt om trainingsdatasets te genereren. De trainingsdataset bestond uit twee componenten: het originele (opgeschoonde) bestand en een vers georganiseerd CSV-bestand dat de gesplitste header en tabelgegevensstructuren bevatte. Deze methodologie garandeerde dat de dataset nauwkeurig gestructureerd was, waardoor verdere verwerking en analyse mogelijk was.
+
+
+
+
+\section{Praktische Vergelijking Technieken}
+TODO- Expand intro
+Llama, Statisticly table extraction, Spacy (IR, IE, NER), REGEX
+TODO - show outputs to serve as example and to make it visualy more intresting
+\paragraph{Manuele extractie}
+Handmatige extractie houdt in dat documenten of bestanden met de hand worden doorgenomen en dat de benodigde informatie wordt overgezet in een gestructureerd formaat, zoals een spreadsheet of een database. Dit proces wordt vaak gebruikt bij kleine datasets of wanneer de gegevens niet beschikbaar zijn in een digitaal formaat.
+
+\begin{itemize}
+    \item \textbf{Voordelen}:
+    \begin{itemize}
+        \item Nauwkeurig voor kleine datasets
+        \item Simpel
+    \end{itemize}
+    \item \textbf{Nadelen}:
+    \begin{itemize}
+        \item Niet praktisch voor grote datasets
+        \item Tijdrovend
+        \item Menselijke fouten
+        \item Niet schaalbaar
+    \end{itemize}
+\end{itemize}
+Vanwege de aard van handmatige extractie is deze niet geschikt voor deze POC, omdat de volledige 13F dataset honderdduizenden bestanden bevat.
+
+\paragraph{REGEX}
+Reguliere expressies (regex) zijn patronen die gebruikt worden om opeenvolgingen van tekens in tekst te matchen. Ze kunnen worden gebruikt om specifieke patronen te identificeren en te extraheren uit tekstbestanden, wat bijzonder nuttig kan zijn voor het parsen van gestructureerde of semigestructureerde gegevens.
+\begin{itemize}
+    \item \textbf{Voordelen}:
+    \begin{itemize}
+        \item Flexibel: Regex laat toe om op maat gemaakte patronen maken die passen bij een grote verscheidenheid aan gegevens formaten.
+        \item Integratie: Regex is gemakkelijk te integreren in bestaande software
+    \end{itemize}
+    \item \textbf{Nadelen}:
+    \begin{itemize}
+        \item Complex: naarmate patronen ingewikkelder worden, kan regex moeilijk te lezen en onderhouden beginnen worden.
+        \item Gelimiteerd: Regex kan moeite hebben met ongestructureerde of zeer variabele gegevens. Als de gegevens niet voldoen aan een voorspelbaar patroon of als er significante afwijkingen zijn, kan regex niet goed presteren en belangrijke informatie missen of fouten genereren.
+    \end{itemize}
+\end{itemize}
+
+
+
+Vanwege de aard van de informatie in de 13F-rapportagetabellen bleek het schrijven van een regex aanvankelijk een noodzakelijke stap voor het ontwikkelen van een werkend proof of concept (POC). Dit werd echter al snel stopgezet door de grote variëteit in opmaak en structuur, een missende/extra waarden, indentatie verschillen en extra spaties. Deze werd hierdoor niet gebruikt voor het extraheren van de tabel informatie maar wel voor de algeme informatie van het indiendende bedrijf.
+
+\paragraph{Statistic table extraction}
+
+\begin{itemize}
+    \item \textbf{Voordelen}:
+    \begin{itemize}
+        \item Reliable
+    \end{itemize}
+    \item \textbf{Nadelen}:
+    \begin{itemize}
+        \item 
+    \end{itemize}
+\end{itemize}
+\paragraph{IR en IE met Spacy}
+Het verschil tussen Information Retrieval en Information Extraction blijkt klein, maar beide methoden hebben moeite om missende data op te vangen. Dit was deels verwacht omdat het model vooral getraind is op gestructureerde data en minder goed kan omgaan met ontbrekende of ongestructureerde informatie. Information Retrieval richt zich op het vinden van relevante informatie op basis van zoektermen, terwijl Information Extraction specifieke entiteiten of relaties uit een tekst haalt. 
+
+Het ontbreken van gegevens kan tot onnauwkeurigheden leiden, wat aangeeft dat aanvullende technieken nodig zijn om nauwkeuriger resultaten te verkrijgen. Het model presteert minder goed wanneer de gegevens inconsistent of onvolledig zijn, wat het belang benadrukt van kwalitatief goede, goed gestructureerde data bij deze methoden. 
+\paragraph{Named entity recognition met Spacy}
+Hoewel deze benadering beter presteert dan IR (Information Retrieval) en IE (Information Extraction), is het nog steeds niet voldoende. Named Entity Recognition (NER) ondervindt ook problemen, vooral met ontbrekende gegevens. De tool heeft moeite om correcte entiteiten te identificeren en te extraheren wanneer er data ontbreekt of incompleet is, wat de nauwkeurigheid en effectiviteit van het systeem beïnvloedt. Hierdoor blijft de algehele prestatiesubstantie onder de verwachtingen, en zijn er aanvullende aanpassingen en verbeteringen nodig om de resultaten te optimaliseren.
+\paragraph{Llama}
+Llama presteert het beste in vergelijking met alle andere technieken, maar ondervindt nog steeds moeilijkheden wanneer het wordt geconfronteerd met structuren die aanzienlijk afwijken van wat het eerder heeft gezien. Ondanks deze uitdaging, heeft Llama echter wel de capaciteit om effectief om te gaan met ontbrekende waarden. Het systeem kan robuust omgaan met gegevenshiaten, maar de prestaties kunnen worden beperkt wanneer het wordt geconfronteerd met ongebruikelijke of radicaal verschillende structuren die het nog niet eerder heeft aangetroffen.
+\paragraph{Analyse resulaten LLama?}
+TODO review neccessity
+
+
+\section{Databank}
+\section{Implementatie}
+\subsection{Header}
+\subsection{Table}
+
+
+
+\section{Conclusie}
+TODO - 
+summrisation
+It is possible but not now by because, dont want to spend money (not literally), do not have the time to expand the trainings data set which is recommended when you want to implement this als it will be a good choice to choose a stronger variant of llama3.1 (ipv 8B params 70B or maybe 405B (rivals gpt4o - best llm)params) or maybe a GPT model but ofcourse better models require better hardware which requires more money
+-> Expad this + transl
