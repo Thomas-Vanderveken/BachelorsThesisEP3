@@ -12,13 +12,13 @@ De laptop die voor de meeste van de berekeningen en data-analyse werd gebruikt, 
 
 Daarnaast zijn voor bepaalde taken en analyses Google Colab-omgevingen benut. Google Colab biedt zowel CPU- als GPU-resources. Deze omgevingen zijn vooral nuttig gebleken voor het uitvoeren van zwaardere berekeningen en experimenten.
 
-Een overzicht van de specificaties van de gebruikte apparaten en omgevingen is weergegeven in Tabel~\ref{tab:specs}.
+Een overzicht van de specificaties van de gebruikte apparaten en omgevingen is weergegeven in Tabel~\ref{tab:specificaties}.
 
 \begin{table}[H]
     \centering
     \begin{tabular}{|l|l|}
         \hline
-        \textbf{Component} & \textbf{Specifications} \\ \hline
+        \textbf{Component} & \textbf{Specificaties} \\ \hline
         \textbf{1. Laptop Dell XPS 15 9500} & \\
         \quad OS & Windows 11 Pro \\
         \quad CPU & Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz \\
@@ -31,14 +31,14 @@ Een overzicht van de specificaties van de gebruikte apparaten en omgevingen is w
         \textbf{3. Google Colab GPU (free credits)} & \\
         \quad GPU & Nvidia T4 15GB VRAM \\ \hline
     \end{tabular}
-    \caption{Specifications of Laptop and Google Colab Environments}
-    \label{tab:specs}
+    \caption{Specificaties of Laptop and Google Colab Environments}
+    \label{tab:specificaties}
 \end{table}
 
-\section{Toegang en Libraries}
+\section{Toegang en Bibliotheken}
 Hier wordt er kort overlopen over wat er nodig is van toegangen en bibliotheken om de POC te kunnen uitvoeren
 \paragraph{Toegang tot Llama}
- In bezit zijn van een Hugging Face aacount met toegang tot de Llama3(.1) modellen. Toegang kan verkregen worden de Llama model page van Hugging Face
+ In bezit zijn van een Hugging Face account met toegang tot de Llama3(.1) modellen. Toegang kan verkregen worden de Llama model page van Hugging Face
 \paragraph{Bibliotheken}
 \begin{enumerate}
     \item \textbf{Python}: Zorg ervoor dat je een werkende installatie van Python hebt. Python is de programmeertaal die nodig is voor het uitvoeren van de code.
@@ -58,7 +58,7 @@ Hier wordt er kort overlopen over wat er nodig is van toegangen en bibliotheken 
 In deze sectie zak er gesproken worden over de voorbereiding op de POC het gaat hier onder andere over de data verzamelen en voorbereiden.
 
 \subsection{Data verzamelen}
-Als een subsectie van de POC behandelt dit segment het proces van het ophalen van 13F filings van voor 2013 met behulp van een web scraper. De scraper is ontworpen om het ophalen van deze historische deponeringen rechtstreeks uit SEC-archieven te automatiseren. Het primaire doel was om de bestanden efficiënt te vinden en te downloaden, ongeacht hun formaat (HTML, PDF, tekst). Door zich te richten op specifieke URL's en variaties in de bestandsstructuur te verwerken, haalde de scraper met succes de benodigde documenten op, zodat de gegevens vervolgens verwerkt en geanalyseerd konden worden.
+Als een subsectie van de POC behandelt dit segment het proces van het ophalen van 13F filings, die voor 2013 gepubliceerd zijn, met behulp van een web scraper. De scraper is ontworpen om het ophalen van deze historische meldingen rechtstreeks uit SEC-archieven te automatiseren. Het primaire doel was om de bestanden efficiënt te vinden en te downloaden, ongeacht hun formaat (HTML, PDF, tekst). Door zich te richten op specifieke URL's en variaties in de bestandsstructuur te verwerken, haalde de scraper met succes de benodigde documenten op, zodat de gegevens vervolgens verwerkt en geanalyseerd konden worden.
 
 Dit werd gedaan aan de hand van bs4 in volgende stappen:
 \begin{enumerate}
@@ -91,7 +91,7 @@ Dit werd gedaan aan de hand van bs4 in volgende stappen:
         \label{fig:result_s1_2}
     \end{figure}
      \textbf{Het resultaat} van deze stap is de resultaatpagina van de query, zoals weergegeven in \autoref{fig:result_s1_1} en \autoref{fig:result_s1_2} , die meerdere pagina's bevat met elk maximaal 100 links naar unieke filings.\\
-    \item \textbf{Stap 2:} Op basis van het resultaat van de vorige stap wordt elke link op elke pagina gevolgd, wat resulteert in de weergave van een popup (zie \autoref{fig:result_s2_1}) met de details van de filing. Vervolgens wordt op de knop in deze pop-up geklikt om toegang te krijgen tot het overzicht van de gerelateerde bestanden van de filing (zie \autoref{fig:result_s2_2}).\\
+    \item \textbf{Stap 2:} Op basis van het resultaat van de vorige stap wordt elke link op elke pagina gevolgd, wat resulteert in de weergave van een pop-up (zie \autoref{fig:result_s2_1}) met de details van de filing. Vervolgens wordt op de knop in deze pop-up geklikt om toegang te krijgen tot het overzicht van de gerelateerde bestanden van de filing (zie \autoref{fig:result_s2_2}).\\
     \textbf{Resultaat:} Het resultaat van deze stap is een overzicht van de bestanden die behoren tot de specifieke filing. In dit geval bevat het overzicht slechts twee bestanden, zoals geïllustreerd in \autoref{fig:result_s2_2}.
 
   
@@ -127,7 +127,7 @@ Dit werd gedaan aan de hand van bs4 in volgende stappen:
 \end{enumerate}
 
 \subsection{Data verwerking}
-De procedure voor het samenstellen van de dataset begon met het splitsen van de bestanden in twee afzonderlijke componenten: de koptekst \autoref{fig:header} en de tabel \autoref{fig:table_proc} met als essentiële het unieke bestandsnummer. Vervolgens werd het tabelbestand opgeschoond, wat inhield dat HTML-tags werden verwijderd, entries die over meerdere lijnen waren verspreid op een enkele regel werden gezet, lege lijnen werden verwijderd, en het bestandsnummer werd toegevoegd aan de eerste rij van het bestand.
+De procedure voor het samenstellen van de dataset begon met het splitsen van de bestanden in twee afzonderlijke componenten: de koptekst \autoref{fig:header} en de tabel \autoref{fig:table_proc} met als essentiële het unieke bestandsnummer. Vervolgens werd het tabelbestand opgeschoond, wat inhield dat HTML-tags werden verwijderd, inzendingen die over meerdere lijnen waren verspreid op een enkele regel werden gezet, lege lijnen werden verwijderd, en het bestandsnummer werd toegevoegd aan de eerste rij van het bestand.
 
 De tabelgegevens werden vervolgens op een methodische manier georganiseerd. Deze gestructureerde tabelgegevens werden, samen met het bijbehorende oorspronkelijke bestand, gebruikt om training sets te genereren. De training set bestond uit twee componenten: het originele (opgeschoonde) bestand \autoref{fig:table_og} en een georganiseerd CSV-bestand \autoref{fig:table_proc} dat de opgeschoonde tabel bevatte. Alsook wordt er een 'Gouden Dataset gemaakt' \autoref{sec:LLMValidation} om het model te kunnen evalueren.  Deze methodologie garandeerde dat de dataset nauwkeurig gestructureerd was, waardoor verdere verwerking, analyse en modellering mogelijk was.
 
@@ -162,7 +162,7 @@ In deze sectie wordt de benodigde hoeveelheid trainingsdata en de tijd die nodig
     \item \textbf{Aantal filings per jaar:} 4
     \item \textbf{Aantal bedrijven (incl. marge):} 510
     \item \textbf{Aantal jaren:} 12
-    \item \textbf{Hoeveel percent van originele data}: 0,5\% Zoals vermeld in subsectie: Data vereisten voor LLMs te trainen \ref{sec:DataVereisten} van de literatuurstudie.
+    \item \textbf{Hoeveel percent van originele data}: 0,5\% Zoals vermeld in subsectie: Data vereisten voor LLM's te trainen \ref{sec:DataVereisten} van de literatuurstudie.
 \end{enumerate}
 
 \textbf{Het totaal aantal bestanden}, niet meegerekend dat een bedrijf ene dubbelle filing kan doen:
@@ -258,7 +258,7 @@ Het verschil tussen Information Retrieval en Information Extraction blijkt klein
 Het ontbreken van gegevens kan tot onnauwkeurigheden leiden, wat aangeeft dat aanvullende technieken nodig zijn om nauwkeuriger resultaten te verkrijgen. Het model presteert minder goed wanneer de gegevens inconsistent of onvolledig zijn, wat het belang benadrukt van kwalitatief goede, goed gestructureerde data bij deze methoden. 
 
 
-\paragraph{Named entity recognition met Spacy}
+\paragraph{NER met Spacy}
 Hoewel deze benadering beter presteert dan IR (Information Retrieval) en IE (Information Extraction), is het nog steeds niet voldoende. Named Entity Recognition (NER) ondervindt ook problemen, vooral met ontbrekende gegevens. De tool heeft moeite om correcte entiteiten te identificeren en te extraheren wanneer er data ontbreekt of incompleet is, wat de nauwkeurigheid en effectiviteit van het systeem beïnvloedt. Hierdoor blijft de algehele prestatiesubstantie onder de verwachtingen, en zijn er aanvullende aanpassingen en verbeteringen nodig om de resultaten te optimaliseren.
 \paragraph{Llama}
 Llama presteerde het beste in vergelijking met alle andere technieken, maar ondervindt nog steeds moeilijkheden wanneer het wordt geconfronteerd met structuren die aanzienlijk afwijken van wat het eerder heeft gezien. Ondanks deze uitdaging, heeft Llama echter wel de capaciteit om effectief om te gaan met ontbrekende waarden. Het systeem kan robuust omgaan met ontbrekende gegevens, maar de prestaties kunnen worden beperkt wanneer het wordt geconfronteerd met ongebruikelijke of radicaal verschillende structuren die het nog niet eerder heeft aangetroffen.
@@ -266,11 +266,11 @@ Llama presteerde het beste in vergelijking met alle andere technieken, maar onde
 \paragraph{Conclusie}
 
 
-Na evaluatie van de technieken voor gegevensextractie blijkt dat REGEX en Llama de beste resultaten opleveren voor hun specifieke taken. REGEX is bijzonder effectief gebleken voor het extraheren van gegevens uit headers. Zijn vermogen om op maat gemaakte patronen te herkennen maakt het geschikt voor het accuraat extraheren van headerinformatie. 
+Na evaluatie van de technieken voor gegevensextractie blijkt dat REGEX en Llama de beste resultaten opleveren voor hun specifieke taken. REGEX is bijzonder effectief gebleken voor het extraheren van gegevens uit headers. Zijn vermogen om op maat gemaakte patronen te herkennen maakt het geschikt voor het accuraat extraheren van header informatie. 
 
 Llama blijkt de meest robuuste keuze voor het extraheren van gegevens uit tabellen. Het kan effectief omgaan met ontbrekende waarden en complexe structuren, wat essentieel is voor de verwerking van de tabellen in deze dataset. Hoewel Llama uitdagingen ondervindt bij ongebruikelijke structuren, biedt het de beste prestaties voor tabellen.
 
-In samenvatting zal REGEX worden ingezet voor headerextractie, terwijl Llama zal worden gebruikt voor tabelgegevens. Deze aanpak benut de sterke punten van beide technieken en optimaliseert de efficiëntie van de gegevensverwerking.
+In samenvatting zal REGEX worden ingezet voor header extractie, terwijl Llama zal worden gebruikt voor tabelgegevens. Deze aanpak benut de sterke punten van beide technieken en optimaliseert de efficiëntie van de gegevensverwerking.
 
 \section{Databank}
 In dit deel van de POC word de relationele databank ontworpen om de geëxtraheerde gegevens in op te beheren en organiseren. De databank zal bestaan uit 4 tabellen: 'Company', 'Person', 'InformationTabel' en 'GeneralInformation'. Dit schema zal dienen als basis voor gegevensextractie- en beheer.
@@ -341,12 +341,12 @@ De \textbf{InformationTable} bevat gedetailleerde informatie over financiële en
 \end{enumerate}
 
 \section{Implementatie}
-In deze sectie van de proof of concept wordt het proces beschreven voor het extraheren van gegevens uit de 13F-rapporten, zoals eerder besproken in de sectie over gegevensverwerking. De implementatie is verdeeld in drie hoofdsecties: headerextractie, tabelextractie, en de invoer in de database.
+In deze sectie van de proof of concept wordt het proces beschreven voor het extraheren van gegevens uit de 13F-rapporten, zoals eerder besproken in de sectie over gegevensverwerking. De implementatie is verdeeld in drie hoofdsecties: header extractie, tabelextractie, en de invoer in de database.
 
 
 
 \subsection{Header data extractie}
-De header van elk bestand bevat essentiële informatie, zoals het bestandnummer, de naam van het bedrijf en andere meta-informatie die cruciaal is voor verdere verwerking en organisatie. Voor de extractie van deze gegevens zijn reguliere expressies (regex) gebruikt, een techniek die bijzonder effectief blijkt te zijn voor het extraheren van gestructureerde informatie uit de headers vanwege het voorspelbare patroon van de informatie.
+De header van elk bestand bevat essentiële informatie, zoals het bestandsnummer, de naam van het bedrijf en andere meta-informatie die cruciaal is voor verdere verwerking en organisatie. Voor de extractie van deze gegevens zijn reguliere expressies (regex) gebruikt, een techniek die bijzonder effectief blijkt te zijn voor het extraheren van gestructureerde informatie uit de headers vanwege het voorspelbare patroon van de informatie.
 
 
 
@@ -356,11 +356,11 @@ Na het identificeren van de relevante metadata worden patronen voor extractie on
 
 
 
-Vervolgens worden de gedefinieerde patronen toegepast op de tekst van de header. De reguliere expressies worden uitgevoerd op elke headertekst om de gegevens te identificeren en te extraheren. Dit proces houdt in dat gezocht wordt naar overeenkomsten in de tekst die voldoen aan de gedefinieerde structuren, wat het mogelijk maakt om snel en nauwkeurig de gewenste informatie te vinden.
+Vervolgens worden de gedefinieerde patronen toegepast op de tekst van de header. De reguliere expressies worden uitgevoerd op elke header tekst om de gegevens te identificeren en te extraheren. Dit proces houdt in dat gezocht wordt naar overeenkomsten in de tekst die voldoen aan de gedefinieerde structuren, wat het mogelijk maakt om snel en nauwkeurig de gewenste informatie te vinden.
 
 
 
-Wanneer de regex-patronen overeenkomsten vinden, worden de relevante gegevens uit de tekst gehaald en verzameld. In gevallen waar geen tekstuele overeenkomsten worden gevonden, worden deze gevallen genoteerd als N/A (Not Applicable). Deze aanpak helpt om een compleet overzicht te krijgen van de gegevens die niet konden worden geëxtraheerd, wat belangrijk is voor latere analyses en correcties.
+Wanneer de regex-patronen overeenkomsten vinden, worden de relevante gegevens uit de tekst gehaald en verzameld. In gevallen waar geen tekstuele overeenkomsten worden gevonden, worden deze gevallen genoteerd als N/A (Not Available). Deze aanpak helpt om een compleet overzicht te krijgen van de gegevens die niet konden worden geëxtraheerd, wat belangrijk is voor latere analyses en correcties.
 
 De verzamelde gegevens worden vervolgens opgeslagen in een CSV-bestand. Dit bestand fungeert als een tussenoplossing en maakt het mogelijk om de gegevens op een gestructureerde manier te bewaren. Later kunnen deze gegevens in bulk naar de databank worden geschreven, waar ze verder kunnen worden verwerkt en geïntegreerd in de bestaande gegevenssystemen. Het gebruik van een CSV-bestand zorgt ervoor dat de gegevens gemakkelijk kunnen worden gecontroleerd en beheerd voordat ze definitief worden overgedragen aan de databank.
 
@@ -374,10 +374,10 @@ Door deze gestructureerde aanpak kan de data-integriteit worden gewaarborgd en k
 \item \textbf{Voorbereiding van de Trainingsdata}:
     De eerste stap betrof de voorbereiding van de trainingsdata. Hiervoor werden zowel de oorspronkelijke gegevens als de opgeschoonde versies gebruikt. Deze combinatie van datasets biedt een uitgebreid spectrum aan voorbeelden, wat het model helpt om robuust te leren en te generaliseren over verschillende datastijlen en formaten.
 \item \textbf{Model Laden}:
-Het LLaMA 3.18B-model werd gedownload vanuit de Unsloth-repository. Tijdens het laden van het model werd de parameter \texttt{params\_max\_seq\_length} ingesteld op basis van de vereiste sequentielengte voor de specifieke data. Deze instelling is cruciaal om ervoor te zorgen dat het model effectief omgaat met de lengte van de inputgegevens.
+Het Llama 3.18B-model werd gedownload vanuit de Unsloth-repository. Tijdens het laden van het model werd de parameter \texttt{params\_max\_seq\_length} ingesteld op basis van de vereiste sequentielengte voor de specifieke data. Deze instelling is cruciaal om ervoor te zorgen dat het model effectief omgaat met de lengte van de inputgegevens.
 
 \item \textbf{Model Initialiseren}:
-Na het laden van het model werd het geconfigureerd met de nodige parameters die specifiek zijn afgestemd op de tabelextractietaak. Dit omvatte het afstemmen van hyperparameters en andere instellingen om de prestaties van het model te optimaliseren voor de taak van gegevensextractie.
+Na het laden van het model werd het geconfigureerd met de nodige parameters die specifiek zijn afgestemd op de tabel extractietaak. Dit omvatte het afstemmen van hyper parameters en andere instellingen om de prestaties van het model te optimaliseren voor de taak van gegevensextractie.
 
 \item \textbf{Dataset Structureren}:
 De dataset werd gestructureerd volgens een format dat lijkt op de Alpaca-prompt. Deze prompt zorgt voor een gestructureerde en herhaalbare manier om instructies, context en verwachte antwoorden te definiëren. Het format is als volgt:
@@ -396,13 +396,13 @@ De dataset werd gestructureerd volgens een format dat lijkt op de Alpaca-prompt.
     ### Reactie:
     {}"""
         \end{minted}
-        \caption{Prompt van LLM traings data}
+        \caption{Prompt van LLM trainings data}
 \end{listing}
 
 Dit formaat helpt om duidelijke en consistente voorbeelden te genereren voor het trainen van het model, wat bijdraagt aan een betere prestaties bij het uitvoeren van de extractietaak.
 
 \item\textbf{ Model Training}:
-Het model werd getraind gedurende 30 epochs met een batchgrootte van 2. Tijdens het trainen werd de AdamW-optimalisator met 8-bits precisie gebruikt, met een leerschema ingesteld op 2e-4. Zowel trainings- als validatiesets werden ingezet om de modelprestaties te optimaliseren en overfitting te voorkomen. De training werd zorgvuldig gevolgd om te waarborgen dat het model goed presteerde op zowel bekende als nieuwe data.
+Het model werd getraind gedurende 30 epochs met een batchgrootte van 2. Tijdens het trainen werd de AdamW-optimalisator met 8-bits precisie gebruikt, met een leerschema ingesteld op 2e-4. Zowel trainings- als validatie sets werden ingezet om de modelprestaties te optimaliseren en over fitting te voorkomen. De training werd zorgvuldig gevolgd om te waarborgen dat het model goed presteerde op zowel bekende als nieuwe data.
 
 \item \textbf{Inferentie Uitvoeren}:
 Na de training werd het model opgeslagen voor latere toepassing. Dit betekent dat het model kan worden geladen om inferentie uit te voeren. Tijdens de inferentie wordt het model toegepast op nieuwe gegevens om voorspellingen te doen of gegevens te extraheren op basis van de getrainde kennis.
@@ -431,7 +431,7 @@ Deze formattering zorgt ervoor dat de gegevens correct worden geïnterpreteerd d
 De evaluatie van het model werd uitgevoerd door het gebruik van een gouden dataset, een zorgvuldig samengestelde dataset met een hoge kwaliteit en nauwkeurigheid. Deze gouden dataset fungeerde als een referentie om de prestaties van het model te meten. De resultaten van het model werden vergeleken met deze gouden standaard om te beoordelen hoe goed het model de gegevens kon extraheren en verwerken.
 
 \item \textbf{Resultaten Opslaan}:
-De uiteindelijke resultaten van de extractie werden opgeslagen in CSV-bestanden. Elk bestand werd benoemd op basis van het bestandnummer en opgeslagen in een aangewezen map. Deze gestructureerde aanpak zorgt ervoor dat de resultaten gemakkelijk toegankelijk en controleerbaar zijn voor verdere analyse en rapportage.
+De uiteindelijke resultaten van de extractie werden opgeslagen in CSV-bestanden. Elk bestand werd benoemd op basis van het bestandsnummer en opgeslagen in een aangewezen map. Deze gestructureerde aanpak zorgt ervoor dat de resultaten gemakkelijk toegankelijk en controleerbaar zijn voor verdere analyse en rapportage.
 
 \item \textbf{Toevoegen aan de databank: }Na het opslaan van de resultaten werden alle CSV-bestanden in een opgegeven map doorgelopen en toegevoegd aan de database. Dit werd bereikt met behulp van een script dat elke CSV in de map doorloopt, de gegevens inleest en deze gegevens vervolgens naar de database pushte. Het script zorgde ervoor dat alle gegevens op een gestructureerde manier in de database werden opgeslagen, wat de latere toegang en analyse vergemakkelijkte.
 
@@ -445,7 +445,7 @@ Dataset Voorbereiding:
 Het opzetten van een adequaat dataset vereiste een aanzienlijke hoeveelheid tijd, met name het voorbereiden van een representatieve subset van de volledige dataset. Dit proces zou in totaal minstens 15 uur \autoref{sec:tijdberekenen} in beslag nemen. De beperking in beschikbare tijd betekende dat alleen een deel van de volledige dataset werd verwerkt, wat mogelijk invloed heeft gehad op de algehele prestaties en representativiteit van het model.
 
 GPU Vermogen en Trainingstijd:
-Het finetunen van het LLaMA 3.18B-model vereiste net niet meer GPU-kracht dan beschikbaar was, wat resulteerde in een verlengde trainingstijd. De beperkte rekenkracht vertraagde het trainingproces aanzienlijk, wat het moeilijk maakte om de volledige dataset binnen de beschikbare tijd te verwerken en het model optimaal te finetunen.
+Het finetunen van het Llama 3.18B-model vereiste net niet meer GPU-kracht dan beschikbaar was, wat resulteerde in een verlengde trainingstijd. De beperkte rekenkracht vertraagde het trainingsproces aanzienlijk, wat het moeilijk maakte om de volledige dataset binnen de beschikbare tijd te verwerken en het model optimaal te finetunen.
 
 Resultaten:
 De evaluatie op basis van de gouden dataset toonde aan dat het model goed presteerde bij het extraheren en verwerken van gegevens, maar alleen op data die vergelijkbaar was met de getrainde subset. Het model vertoonde aanzienlijke beperkingen wanneer het werd toegepast op radicaal andere of onbekende data. Deze beperking kan worden toegeschreven aan het feit dat het model voornamelijk is getraind op een beperkte en specifieke subset van gegevens, waardoor de prestaties op afwijkende of nieuwe data minder robuust waren.
@@ -454,7 +454,7 @@ De evaluatie op basis van de gouden dataset toonde aan dat het model goed preste
 
 
 \section{Conclusie}
-Deze proof of concept (POC) heeft aangetoond dat het gebruik van machine learning-technieken, met name het LLaMA 3.18B-model, veelbelovend is voor het extraheren van zowel header- als tabelgegevens uit 13F-rapporten. De implementatie omvatte een gestructureerde aanpak waarbij gebruik werd gemaakt van regex voor de headerextractie en een getraind model voor tabelextractie. Dit heeft geleid tot een succesvolle en efficiënte gegevensverwerking.
+Deze proof of concept (POC) heeft aangetoond dat het gebruik van machine learning-technieken, met name het Llama 3.18B-model, veelbelovend is voor het extraheren van zowel header- als tabelgegevens uit 13F-rapporten. De implementatie omvatte een gestructureerde aanpak waarbij gebruik werd gemaakt van regex voor de header extractie en een getraind model voor tabelextractie. Dit heeft geleid tot een succesvolle en efficiënte gegevensverwerking.
 
 De evaluatie met een gouden dataset heeft bevestigd dat het model in staat is om gegevens met een hoge mate van nauwkeurigheid te extraheren. Ondanks de positieve resultaten zijn er enkele beperkingen vastgesteld. Door tijdsbeperkingen konden niet alle gegevens in de gouden dataset volledig worden verzameld en schoongemaakt. Dit heeft geleid tot een beperkte representativiteit van de gegevens, wat mogelijk invloed heeft gehad op de volledigheid en consistentie van de resultaten.
 
@@ -487,7 +487,7 @@ De evaluatie met een gouden dataset heeft bevestigd dat het model in staat is om
 \begin{enumerate}
     \item \textbf{Dataset Voorbereiding}: Het opzetten van een representatieve subset van de volledige dataset vereiste aanzienlijke tijd en middelen. Dit heeft geleid tot een beperkte representativiteit van de gegevens, wat mogelijk invloed heeft gehad op de volledigheid en consistentie van de resultaten.
     
-    \item \textbf{GPU Vermogen en Trainingstijd}: De beperkte rekenkracht vertraagde het trainingproces, wat het moeilijk maakte om de volledige dataset binnen de beschikbare tijd te verwerken en het model optimaal te finetunen.
+    \item \textbf{GPU Vermogen en Trainingstijd}: De beperkte rekenkracht vertraagde het trainingsproces, wat het moeilijk maakte om de volledige dataset binnen de beschikbare tijd te verwerken en het model optimaal te finetunen.
     
     \item \textbf{Modelprestaties}: Het model vertoonde beperkingen bij het extraheren van gegevens uit radicaal andere of onbekende datastijlen, wat kan worden toegeschreven aan de beperkte subset van getrainde gegevens.
 \end{enumerate}
