@@ -2,18 +2,18 @@
 %% Methodologie
 %%=============================================================================
 
-\chapter{\IfLanguageName{dutch}{Benodigdheden}{NEeds}}%
-\label{ch:methodologie}
+\chapter{\IfLanguageName{dutch}{Benodigdheden}{Needs}}%
+\label{ch:benodigdheden}
 
 %
 %\section{Must Have}
-%\begin{itemize}
+%\begin{enumerate}
 %    \item De gekozen tools en resources moeten gratis toegankelijk zijn.
 %    \item Model of script voor header extractie
 %    \item Model of script voor het extraheren van tabel data uit de text bestanden
 %    \item Databank om ge-extraheerde data in op te slagen.
 %
-%\end{itemize}
+%\end{enumerate}
 %
 %
 %\section{Should Have}
@@ -25,10 +25,10 @@
 %
 %
 %\section{Won't Have}
-%\begin{itemize}
+%\begin{enumerate}
 %    \item  Het ontwikkelen van een centrale interface voor het maken van een dashboard of vergelijkbare functionaliteiten.
 %    \item Betalende technieken
-%\end{itemize}
+%\end{enumerate}
 Dit hoofdstuk van deze bachelorproef bespreekt de vereisten voor de ontwikkeling van de proof of concept. De lijst van benodigdheden is opgesteld volgens de MoSCoW-methode, waarmee duidelijk kan worden bepaald wat absoluut noodzakelijk is en wat buiten het bereik van dit project valt.
 
 De MoSCoW-methode, zoals onderzocht door \textcite{ACHIMUGU2014}, is een acroniem dat de prioriteiten van de vereisten aangeeft. De \textbf{M} staat voor "must have", de essentiële vereisten met de hoogste prioriteit. De \textbf{S} staat voor "should have", de vereisten die wenselijk zijn maar niet absoluut noodzakelijk. De \textbf{C} vertegenwoordigt "could have", de optie die een meerwaarde biedt indien mogelijk, maar niet cruciaal is. Tot slot staat de \textbf{W} voor "won’t have", wat verwijst naar de vereisten die niet zullen worden behandeld in dit project, hoewel ze mogelijk in de toekomst worden ontwikkeld.
@@ -36,55 +36,55 @@ De MoSCoW-methode, zoals onderzocht door \textcite{ACHIMUGU2014}, is een acronie
     
 \section{Must Have}
 
-\begin{itemize}
+\begin{enumerate}
     \item \textbf{De gekozen tools en resources moeten gratis toegankelijk zijn.}
-    \begin{itemize}
-        \item Alle software en tools die gebruikt worden in dit project moeten volledig gratis toegankelijk zijn. Dit betekent dat er geen kosten verbonden mogen zijn aan licenties of gebruik. Het gebruik van gratis tools garandeert dat het project toegankelijk blijft voor iedereen zonder financiële barrières, en zorgt ervoor dat de implementatie en het onderhoud kosteneffectief blijven. Voorbeelden van gratis tools zijn die welke onder open-source licenties vallen, zoals de GNU General Public License (GPL) of de MIT-licentie.
-    \end{itemize}
+
+        Alle software en tools die gebruikt worden in dit project moeten volledig gratis toegankelijk zijn. Dit betekent dat er geen kosten verbonden mogen zijn aan licenties of gebruik. Het gebruik van gratis tools garandeert dat het project toegankelijk blijft voor iedereen zonder financiële barrières, en zorgt ervoor dat de implementatie en het onderhoud kosteneffectief blijven. Voorbeelden van gratis tools zijn die welke onder open-source licenties vallen, zoals de GNU General Public License (GPL) of de MIT-licentie.
+
     
     \item \textbf{Model of script voor header extractie}
-    \begin{itemize}
-        \item Er moet een model of script worden ontwikkeld dat in staat is om headers te extraheren uit tekstbestanden. Headers zijn vaak belangrijk voor het identificeren en structureren van gegevens in bestanden, zoals tabelkoppen of sectietitels. Het model of script moet betrouwbaar en accuraat headers kunnen identificeren en extraheren, zodat de gegevens correct kunnen worden verwerkt en opgeslagen.
-    \end{itemize}
+
+       Er moet een model of script worden ontwikkeld dat in staat is om headers te extraheren uit tekstbestanden. Headers zijn vaak belangrijk voor het identificeren en structureren van gegevens in bestanden, zoals tabelkoppen of sectietitels. Het model of script moet betrouwbaar en accuraat headers kunnen identificeren en extraheren, zodat de gegevens correct kunnen worden verwerkt en opgeslagen.
+
     
     \item \textbf{Model of script voor het extraheren van tabel data uit de tekstbestanden}
-    \begin{itemize}
-        \item Naast header extractie moet er een model of script beschikbaar zijn voor het extraheren van tabulaire gegevens uit tekstbestanden. Dit betekent dat het script in staat moet zijn om gestructureerde data, zoals rijen en kolommen in tabellen, correct te identificeren en te extraheren. Dit is essentieel voor het omzetten van ongestructureerde gegevens naar een gestructureerd formaat dat verder kan worden geanalyseerd of opgeslagen.
-    \end{itemize}
+
+         Naast header extractie moet er een model of script beschikbaar zijn voor het extraheren van tabulaire gegevens uit tekstbestanden. Dit betekent dat het script in staat moet zijn om gestructureerde data, zoals rijen en kolommen in tabellen, correct te identificeren en te extraheren. Dit is essentieel voor het omzetten van ongestructureerde gegevens naar een gestructureerd formaat dat verder kan worden geanalyseerd of opgeslagen.
+
     
     \item \textbf{Databank om ge-extraheerde data in op te slaan}
-    \begin{itemize}
-        \item Een database is nodig om de data die uit de tekstbestanden wordt geëxtraheerd op te slaan. Deze databank moet in staat zijn om de gestructureerde gegevens op een georganiseerde manier te bewaren, zodat ze eenvoudig kunnen worden geraadpleegd, geanalyseerd of verder verwerkt. De databank moet bovendien voldoende capaciteit en functionaliteit bieden om aan de vereisten van het project te voldoen.
-    \end{itemize}
-\end{itemize}
+
+         Een database is nodig om de data die uit de tekstbestanden wordt geëxtraheerd op te slaan. Deze databank moet in staat zijn om de gestructureerde gegevens op een georganiseerde manier te bewaren, zodat ze eenvoudig kunnen worden geraadpleegd, geanalyseerd of verder verwerkt. De databank moet bovendien voldoende capaciteit en functionaliteit bieden om aan de vereisten van het project te voldoen.
+
+\end{enumerate}
 
 \section{Should Have}
 
-\begin{itemize}
+\begin{enumerate}
     \item \textbf{Script dat de data (13F-meldingen) downloadt van de SEC en voorbereidt op data-extractie}
-    \begin{itemize}
-        \item Er moet een script beschikbaar zijn dat automatisch 13F-meldingen van de SEC downloadt. 13F-meldingen zijn rapporten die worden ingediend door institutionele beleggers en bevatten informatie over hun beleggingen. Dit script moet niet alleen de gegevens downloaden, maar ook voorbereiden op extractie door bijvoorbeeld de bestanden te parseren of te converteren naar een geschikt formaat.
-    \end{itemize}
+
+         Er moet een script beschikbaar zijn dat automatisch 13F-meldingen van de SEC downloadt. 13F-meldingen zijn rapporten die worden ingediend door institutionele beleggers en bevatten informatie over hun beleggingen. Dit script moet niet alleen de gegevens downloaden, maar ook voorbereiden op extractie door bijvoorbeeld de bestanden te parseren of te converteren naar een geschikt formaat.
+
     
     
     \item \textbf{Er moet gebruik worden gemaakt van open-source software of diensten met een volledig gratis licenties.}
-    \begin{itemize}
-        \item Het is belangrijk dat alle software en diensten die worden gebruikt in dit project open-source zijn of een volledig gratis licentie hebben. Dit betekent dat de broncode beschikbaar moet zijn en er geen verborgen kosten of verplichtingen aan het gebruik van de software verbonden mogen zijn. Dit bevordert transparantie, aanpasbaarheid, en zorgt ervoor dat het project kosten-effectief blijft zonder juridische complicaties.
-    \end{itemize}
-\end{itemize}
+
+         Het is belangrijk dat alle software en diensten die worden gebruikt in dit project open-source zijn of een volledig gratis licentie hebben. Dit betekent dat de broncode beschikbaar moet zijn en er geen verborgen kosten of verplichtingen aan het gebruik van de software verbonden mogen zijn. Dit bevordert transparantie, aanpasbaarheid, en zorgt ervoor dat het project kosten-effectief blijft zonder juridische complicaties.
+
+\end{enumerate}
 
 \section{Won't Have}
 
-\begin{itemize}
+\begin{enumerate}
     \item \textbf{Het ontwikkelen van een centrale interface voor het maken van een dashboard of vergelijkbare functionaliteiten}
-    \begin{itemize}
-        \item Het project omvat niet het ontwikkelen van een centrale interface voor het creëren van dashboards of andere visuele representaties van de gegevens. Dit betekent dat er geen functionaliteit wordt geïmplementeerd die zich richt op het presenteren van gegevens op een interactieve of visuele manier. De focus ligt puur op het extraheren en opslaan van gegevens, niet op hun presentatie of visualisatie.
-    \end{itemize}
+
+         Het project omvat niet het ontwikkelen van een centrale interface voor het creëren van dashboards of andere visuele representaties van de gegevens. Dit betekent dat er geen functionaliteit wordt geïmplementeerd die zich richt op het presenteren van gegevens op een interactieve of visuele manier. De focus ligt puur op het extraheren en opslaan van gegevens, niet op hun presentatie of visualisatie.
+
     
     \item \textbf{Betalende technieken}
-    \begin{itemize}
-        \item Er zullen geen betaalde technologieën of tools worden gebruikt in dit project. Alle gebruikte software, diensten, en tools moeten gratis zijn en mogen geen kosten met zich meebrengen. Dit sluit commerciële software en betaalde licenties uit, en garandeert dat het project volledig kosteloos blijft voor gebruikers en ontwikkelaars.
-    \end{itemize}
-\end{itemize}
+
+         Er zullen geen betaalde technologieën of tools worden gebruikt in dit project. Alle gebruikte software, diensten, en tools moeten gratis zijn en mogen geen kosten met zich meebrengen. Dit sluit commerciële software en betaalde licenties uit, en garandeert dat het project volledig kosteloos blijft voor gebruikers en ontwikkelaars.
+
+\end{enumerate}
 
 
