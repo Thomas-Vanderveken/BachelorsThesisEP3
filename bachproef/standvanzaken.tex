@@ -9,16 +9,15 @@
 
 % Pas na deze inleidende paragraaf komt de eerste sectiehoofding.
 
-De Securities and Exchange Commission (SEC) vereist dat institutionele vermogensbeheerders een kwartaalrapport indienen dat bekend staat als Form 13F als ze zeggenschap hebben over USD 100 miljoen of meer in sectie 13(f) effecten. Sectie 13(f) van de Securities Exchange Act van 1934 verplicht de openbaarmaking van effectenbezit door grote institutionele beleggers om de transparantie te vergroten. In 1975 implementeerde het Amerikaanse Congres deze bepaling om de toegankelijkheid van informatie over de investeringsactiviteiten van deze bedrijven te verbeteren. De bedoeling was om het vertrouwen van beleggers in de integriteit van de effectenmarkten in de Verenigde Staten te vergroten door middel van een openbaarmakingsprogramma \textcite{SECform13F2024}.
-Melding 13F biedt een uitgebreid overzicht van de aandelenbeleggingen van S\&P 500 bedrijven en is een zeer belangrijk hulpmiddel voor analisten, onderzoekers en beleggers die inzicht willen verkrijgen in markttrends en de beleggingsbenaderingen van belangrijke marktspelers. Het onverwerkte tekstformaat waarin deze inzendingen worden aangeleverd, vormt echter een aanzienlijke belemmering voor effectieve gegevensextractie en -analyse, vooral voor inzendingen van voor 2013. Voor 2013 ontbrak het bij 13F-meldingen vaak aan standaardisatie en systematische opmaak, wat nu wel gebruikelijk is bij recentere aanmeldingen.
-Kunstmatige intelligentie (AI) en Machine Learning (ML) technologieën hebben de extractie en organisatie van gegevens uit ongestructureerde tekst de afgelopen jaren aanzienlijk veranderd. Geavanceerde methodologieën zoals Natural Language Processing (NLP) en Deep Learning (DL) modellen vergemakkelijken de omzetting van tekstuele 13F-meldingen in gestructureerde datasets die geschikt zijn voor grondige analyse en studie. Standaardisatie is cruciaal voor historische gegevens, omdat het ontbreken van uniformiteit geautomatiseerde verwerking kan bemoeilijken. Door gebruik te maken van deze technologieën kunnen zowel huidige als oudere 13F-meldingen worden omgezet in georganiseerde gegevens, die vervolgens kunnen worden opgeslagen in databanken, waardoor patronen eenvoudiger kunnen worden opgehaald, gevisualiseerd en geanalyseerd.
+De Securities and Exchange Commission (SEC) vereist dat institutionele vermogensbeheerders een kwartaalrapport indienen dat bekend staat als Form 13F als ze zeggenschap hebben over USD 100 miljoen of meer in sectie 13(f) effecten. Deze sectie van de Securities Exchange Act van 1934 verplicht de openbaarmaking van effectenbezit door grote institutionele beleggers om de transparantie te vergroten. In 1975 implementeerde het Amerikaanse Congres deze bepaling om de toegankelijkheid van informatie over de investeringsactiviteiten van deze bedrijven te verbeteren. De bedoeling was om het vertrouwen van beleggers in de integriteit van de effectenmarkten in de Verenigde Staten te vergroten door middel van een openbaarmakingsprogramma \textcite{SECform13F2024}.
+13F-meldingen bieden een uitgebreid overzicht van de investeringen in aandelen van  de S\&P500 bedrijven en is een zeer belangrijk hulpmiddel voor analisten, onderzoekers en beleggers die inzicht willen verkrijgen in markttrends en de beleggingsbenaderingen van belangrijke marktspelers. Het onverwerkte tekstformaat waarin deze inzendingen worden aangeleverd, vormt echter een aanzienlijke belemmering voor effectieve gegevensextractie en -analyse, vooral voor inzendingen van voor 2013. Destijds ontbrak het bij 13F-meldingen vaak aan standaardisatie en systematische opmaak, wat nu wel gebruikelijk is bij recentere aanmeldingen.
+Kunstmatige intelligentie (AI) en Machine Learning (ML) technologieën hebben de extractie en organisatie van gegevens uit ongestructureerde tekst de afgelopen jaren aanzienlijk veranderd. Geavanceerde methodologieën zoals Natural Language Processing (NLP) en Deep Learning (DL) modellen vergemakkelijken de omzetting van tekstuele 13F-meldingen in gestructureerde datasets die geschikt zijn voor grondige analyse en studie. Standaardisatie is cruciaal voor historische gegevens, omdat het ontbreken van uniformiteit geautomatiseerde verwerking kan bemoeilijken. Door gebruik te maken van deze technologieën kunnen zowel huidige als oudere 13F-meldingen worden omgezet in georganiseerde gegevens, die vervolgens kunnen worden opgeslagen in een databank, met als gevolg de gestandaardiseerde data eenvoudiger kan worden opgehaald, gevisualiseerd en geanalyseerd.
 
-Het doel van deze literatuurstudie is het onderzoeken en beoordelen van de verschillende Artificial Intelligence (AI) en Machine Learning (ML) technieken die kunnen worden gebruikt om gegevens uit 13F-meldingen van voor 2013 te extraheren, te organiseren en op te slaan. Het doel van het onderzoek is het bepalen van de meest efficiënte methoden om de ongeorganiseerde inhoud van deze documenten om te zetten in een gestructureerd formaat dat geschikt is voor analyse en opslag in een database. Dit houdt in dat er een onderzoek wordt gedaan naar verschillende kunstmatige intelligentie methodologieën, zoals Natural Language Processing (NLP) en Text mining, en dat bepaalde tools zoals NLTK en SpaCy worden geëvalueerd. De literatuurstudie zal ook de integratie van gestructureerde gegevens in een Database Management System (DBMS) onderzoeken, om te garanderen dat de geëxtraheerde gegevens gemakkelijk beschikbaar zijn voor later onderzoek en analyse. Het doel van deze evaluatie is om een uitgebreide kennis te krijgen van de meest effectieve procedures en technologie voor het verwerken van 13F-meldingen. 
+Het doel van deze literatuurstudie is het onderzoeken en beoordelen van de verschillende Artificial Intelligente (AI) en Machine Learning (ML) technieken die kunnen worden gebruikt om gegevens uit 13F-meldingen van voor 2013 te extraheren, te standaardiseren en te integreren in een relationele databank. Het doel van dit onderzoek is het bepalen van de meest efficiënte methoden om de ongeorganiseerde inhoud van deze documenten om te zetten in een gestructureerd formaat dat geschikt is voor analyse en opslag in een database. Dit houdt in dat er een onderzoek wordt gedaan naar verschillende kunstmatige intelligentie methodologieën, zoals Natural Language Processing (NLP) en text mining, en dat bepaalde tools zoals NLTK en SpaCy worden geëvalueerd. De literatuurstudie zal ook de integratie van gestructureerde gegevens in een Database Management System (DBMS) onderzoeken, om te garanderen dat de geëxtraheerde gegevens gemakkelijk beschikbaar zijn voor later onderzoek en analyse. Het doel van deze evaluatie is om een uitgebreide kennis te krijgen van de meest effectieve procedures en technologie voor het verwerken van 13F-meldingen. 
 \section{Achtergrond informatie}
-\subsection{Reden voor 13F-meldingen}
-TODO
-\subsection{Andere filings}
-Naast de 13F filings zijn er verschillende andere belangrijke SEC-filings die investeringsbedrijven systematisch moeten indienen en die nuttig kunnen zijn voor het opbouwen van een eigen investeringsportfolio. Hier zijn enkele van de meest relevante:
+
+\subsection{Andere SEC meldingen}
+Naast de 13F meldingen zijn er verschillende andere belangrijke SEC-filings die investeringsbedrijven systematisch moeten indienen en die nuttig kunnen zijn voor het opbouwen van een eigen investeringsportfolio. Hier zijn enkele van de meest relevante filings:
 
 \paragraph{Form 10-K}
 De 10-K is een jaarlijkse rapportage die een uitgebreid overzicht biedt van de prestaties van een bedrijf gedurende het afgelopen jaar. Deze filing bevat gedetailleerde financiële gegevens, informatie over bedrijfsactiviteiten, risicofactoren en managementanalyses. Het is een cruciaal document voor investeerders die inzicht willen krijgen in de financiële gezondheid en strategie van een bedrijf \autocite{SECfiling2024} .
@@ -29,14 +28,14 @@ De 10-Q is een kwartaalrapportage die bedrijven verplicht zijn in te dienen. Het
 \paragraph{Form 8-K}
 De 8-K is een actuele rapportage die bedrijven moeten indienen wanneer er belangrijke gebeurtenissen plaatsvinden die van invloed kunnen zijn op de aandelenprijs of de operationele status van het bedrijf. Dit kan bijvoorbeeld gaan om fusies, overnames, wijzigingen in het management of andere significante gebeurtenissen. Het is belangrijk voor investeerders om deze filings te volgen, omdat ze snel inzicht geven in belangrijke veranderingen binnen een bedrijf  \autocite{SECfiling2024}\autocite{CFI2024} \autocite{Baker2022}.
 
-\paragraph{Roxy Statement (DEF 14A)}
+\paragraph{Proxy Statement (DEF 14A)}
 De Proxy Statement bevat informatie over de jaarlijkse aandeelhoudersvergadering, inclusief details over stemprocedures, bestuursleden, en compensatie van het management. Dit document is waardevol voor investeerders die geïnteresseerd zijn in corporate governance en de belangen van aandeelhouders  \autocite{SECfiling2024} \autocite{Baker2022}.
 
 \paragraph{Schedule 13D}
 Schedule 13D moet worden ingediend door elke persoon of entiteit die meer dan 5\% van de aandelen van een publiek bedrijf aanschaft. Dit document bevat de identiteit van de aandeelhouder en de redenen voor de aankoop, wat nuttig kan zijn voor investeerders die de bewegingen van grote aandeelhouders willen volgen \autocite{CFI2024} \autocite{Baker2022}.
 
 \paragraph{Form D}
-Form D wordt gebruikt voor het melden van een privéplaatsing van effecten. Dit document kan nuttig zijn voor investeerders die geïnteresseerd zijn in alternatieve investeringsmogelijkheden of startups die kapitaal aantrekken zonder een volledige openbare aanbieding te doen  \autocite{SECfiling2024}.
+Form D wordt gebruikt voor het melden van een privéplaatsing van effecten. Dit document kan nuttig zijn voor investeerders die geïnteresseerd zijn in alternatieve investeringsmogelijkheden of start-ups die kapitaal aantrekken zonder een volledige openbare aanbieding te doen  \autocite{SECfiling2024}.
 
 Door deze verschillende SEC-filings te analyseren, kunnen investeerders een beter begrip krijgen van de bedrijven waarin ze geïnteresseerd zijn en weloverwogen beslissingen nemen bij het opbouwen van hun investeringsportefeuille.
 
@@ -47,35 +46,35 @@ Het doel van deze sectie is om een beknopte inleiding te geven aan 13F-meldingen
 
 
 \subsection{Definitie en doel}
-Volgens \autocite{SECform13F2024} zijn 13F-meldingen verplichte wettelijke documenten die de Amerikaanse Securities and Exchange Commission (SEC) vereist onder Sectie 13(f) van de Securities Exchange Act van 1934. Deze deponeringen worden gebruikt om de portefeuilles van institutionele beleggingsbeheerders te rapporteren.
+Volgens \autocite{SECform13F2024} zijn 13F-meldingen verplichte wettelijke documenten die de Amerikaanse Securities and Exchange Commission (SEC) vereist onder Sectie 13(f) van de Securities Exchange Act van 1934. Deze depotneringen worden gebruikt om de portefeuilles van institutionele beleggingsbeheerders te rapporteren.
 
-Het belangrijkste doel van 13F-meldingen is om duidelijkheid en openheid te bieden over de beleggingsactiviteiten van belangrijke institutionele beleggers. Deze vereiste vergemakkelijkt het toezicht op beleggingsposities van verschillende instellingen, zoals beleggingsfondsen, pensioenfondsen en andere belangrijke beleggingsbeheerders, door het publiek en regelgevende instanties.
+Het belangrijkste doel van 13F-meldingen is om duidelijkheid en openheid te bieden over de beleggingsactiviteiten van belangrijke institutionele beleggers. Deze vereiste versoepeld het toezicht op beleggingsposities van verschillende instellingen, zoals beleggingsfondsen, pensioenfondsen en andere belangrijke beleggingsbeheerders, door het publiek en regelgevende instanties.
 
 \subsection{Belangrijke kenmerken}
-Het doel van dit deel is het bespreken van enkele kenmerken van de 13F-meldigen waaronder wie het moet indienen en wat ze moeten inhouden.
+Het doel van deze sectie is het bespreken van enkele kenmerken die men kan terugvinden in de 13F-meldingen waaronder wie het moet indienen en wat ze moeten inhouden.
 
 
 \subsubsection{Vereisten voor rapportage:}
 
-Institutionele beleggingsbeheerders die minimaal USD 100 miljoen aan beheerd vermogen beheren, zijn verplicht om elk kwartaal een 13F-melding in te dienen. Deze rapporten moeten gedetailleerde informatie bevatten over de aandelenportefeuille van de instelling. Dit omvat onder andere de naam van het aandeel, het CUSIP-nummer, het aantal aandelen dat wordt gehouden, en de marktwaarde ervan. 
+Institutionele beleggingsbeheerders die minimaal USD 100 miljoen aan beheerd vermogen beheren, zijn verplicht om elk kwartaal een 13F-melding in te dienen. Deze rapporten moeten gedetailleerde informatie bevatten over de aandelenportefeuille van een instelling. Dit omvat onder andere de naam van het aandeel, het CUSIP-nummer, het aantal aandelen dat wordt gehouden, en de marktwaarde ervan. 
 \paragraph{CUSIP}
 Volgens \autocite{Hayes_2024} is CUSIP een afkorting voor "Committee on Uniform Security Identification Procedures". Het is een comité binnen de American Bankers Association (ABA) dat een systeem heeft ontwikkeld voor het identificeren van Amerikaanse en Canadese effecten.
 
-Een CUSIP-nummer is een uniek nummer bestaande uit 9 cijfers en letters dat aan elk effect wordt toegekend. Ze bieden een gestandaardiseerde methode voor het identificeren van effecten om de clearing en afwikkeling van transacties op de handelsmarkt te vergemakkelijken. Deze nummers werden beheerd door Standard \& Poor's maar FactSet Research Systems heeft dit overgekocht in naam van American Bankers Association(ABA) in 2022 zij beheren deze nummer nu ook \autocite{Hayes_2024}.
+Het CUSIP-nummer is een uniek nummer bestaande uit 9 cijfers en letters dat aan elk effect wordt toegekend. Ze bieden een gestandaardiseerde methode voor het identificeren van effecten om de clearing en afwikkeling van transacties op de handelsmarkt te vergemakkelijken. Deze nummers werden beheerd door Standard \& Poor's maar FactSet Research Systems heeft dit overgekocht in naam van American Bankers Association(ABA) in 2022 zij beheren deze nummer nu ook \autocite{Hayes_2024}.
 
-De CUSIP-code is een voorbeeld van een National Securities Identifying Number, een standaard identificatiemethode voor effecten.
+De CUSIP-code is een voorbeeld van een National Securities Identifying Number (NISN), een standaard identificatiemethode voor effecten.
 
 \subsubsection{Omvang van de informatie:}
 
-De rapportages over het aandelenbezit van grote beleggingsinstellingen richten zich voornamelijk op aandelen, terwijl andere soorten activa, zoals obligaties, derivaten en private equity, buiten beschouwing worden gelaten \autocite{SECform13F2024}. Elk kwartaalrapport biedt een beknopt overzicht van de aandelenportefeuille van de instelling aan het einde van de rapportageperiode. Dit overzicht geeft waardevolle inzichten in de investeringsstrategieën en methoden die de instelling hanteert, wat bijdraagt aan de transparantie en begrip van hun beleggingsbenadering.
+De rapportages over het aandelenbezit van grote beleggingsinstellingen richten zich voornamelijk op aandelen, terwijl andere soorten activa, zoals obligaties, derivaten en privévermogen, buiten beschouwing worden gelaten \autocite{SECform13F2024}. Elk kwartaalrapport biedt een beknopt overzicht van de aandelenportefeuille die een instelling aan het einde van de rapportageperiode. Dit overzicht geeft waardevolle inzichten in de investeringsstrategieën en methoden die de instelling hanteert, wat bijdraagt aan de transparantie en begrip van hun beleggingsbenadering.
 
 
 \subsubsection{Opmaak en toegankelijkheid:}
 De 13F-meldingen van voor 2013 zijn variërend in opmaak, dit is wat data extractie moeilijk maakt
-Dit zijn enkele afbeeldingen van enkele van de tienduizenden 13F-meldingen
+Dit zijn enkele afbeeldingen van de tienduizenden 13F-meldingen:
 
 \paragraph{Voor 2013}
-Hieronder zijn een aantal voorbeelden van de informatie tabel van enkele 13F-meldigen zichtbaar. Zoals te zien is, zijn er veel verschillende manieren waarop deze meldingen zijn ingediend.
+Hieronder zijn een aantal voorbeelden van de informatie tabel van enkele 13F-meldingen zichtbaar. Zoals te zien is, zijn er veel verschillende manieren waarop deze meldingen zijn ingediend.
 
 \begin{figure}[hbt!]
     \includegraphics[width=0.8\textwidth]{13F_EX0.png}
@@ -94,12 +93,12 @@ Hieronder zijn een aantal voorbeelden van de informatie tabel van enkele 13F-mel
 
 \begin{figure}[hbt!]
     \includegraphics[width=0.8\textwidth]{13F_EX4.png}
-    \caption[13F voorbeeld 5]{\label{fig:voorbeeld 4}Een 13F-melding gebruik makend van `X` in plaats van Bv. Sole}
+    \caption[13F voorbeeld 5]{\label{fig:voorbeeld 4}Een 13F-melding gebruik makend van `X` in plaats van bijvoorbeeld Sole}
 \end{figure}
 
 \begin{figure}[hbt!]
     \includegraphics[width=0.8\textwidth]{13F_EX5.png}
-    \caption[13F voorbeeld 6]{\label{fig:voorbeeld 5}Een 13F-melding zonder cijfer datas in de laatste kolommen}
+    \caption[13F voorbeeld 6]{\label{fig:voorbeeld 5}Een 13F-melding zonder cijfer gegevens in de laatste kolommen}
 \end{figure}
 
 \begin{figure}[hbt!]
@@ -116,10 +115,10 @@ Hieronder zijn een aantal voorbeelden van de informatie tabel van enkele 13F-mel
 
 
 \section{Text mining en gerelateerde technieken}
-Text mining, of ook bekend tekstdatamining, is de procedure om ongestructureerde tekst om te zetten in een gestructureerd formaat om significante patronen te ontdekken en nieuwe inzichten te verwerven \autocite{IBM2024}. Text mining maakt de analyse van uitgebreide tekstdatasets mogelijk om significante thema's, patronen en verborgen verbanden bloot te leggen. Deze techniek is essentieel voor het omzetten van ongestructureerde gegevens in gestructureerde gegevens, die vervolgens kunnen worden gebruikt voor analyse en besluitvorming.
+Text mining, of ook bekend tekst data mining, is de procedure om ongestructureerde tekst om te zetten in een gestructureerd formaat om significante patronen te ontdekken en nieuwe inzichten te verwerven \autocite{IBM2024}. Text mining maakt de analyse van uitgebreide tekstuele datasets mogelijk om significante thema's, patronen en verborgen verbanden bloot te leggen. Deze techniek is essentieel voor het omzetten van ongestructureerde gegevens in gestructureerde gegevens, die vervolgens kunnen worden gebruikt voor analyse en besluitvorming.
 
 \subsection{Document datatypes}
-Volgens \autocite{AWS2024} kan text mining kan verschillende soorten gestructureerde gegevens omvatten, waaronder:
+Volgens \autocite{AWS2024} kan text mining verschillende soorten gestructureerde gegevens omvatten, waaronder:
 
 \begin{enumerate}
     \item \textbf{Gestructureerde Gegevens}: Deze gegevens worden in tabelvorm gebracht, wat het opslaan en verwerken voor analyse en machine learning-algoritmen vergemakkelijkt. Voorbeelden includeren databanken met kolommen en rijen.
@@ -127,20 +126,20 @@ Volgens \autocite{AWS2024} kan text mining kan verschillende soorten gestructure
     \item \textbf{Semi-gestructureerde Gegevens}: Deze gegevens vormen een mix tussen gestructureerde en ongestructureerde formaten. Ze hebben enige organisatie, maar voldoen niet volledig aan de vereisten van een relationele database. Voorbeelden hiervan zijn XML, JSON en Html-bestanden.
 \end{enumerate}
 
-Dit onderscheid zijn van groot belang voor het begrijpen van hoe text mining toegepast kan worden over de verschillende datastructuren, dit opent de mogelijkheid om de data de extraheren en belangrijke inzichten te verwerven.
+Dit onderscheid zijn van groot belang voor het begrijpen van hoe text mining toegepast kan worden over de verschillende datastructuren, dit opent de mogelijkheid om de data te extraheren en belangrijke inzichten te verwerven.
 
 \subsection{Text mining versus Text analytics}
-Hoewel text mining en text analytics vaak door elkaar worden gebruikt, kan er een genuanceerd onderscheid tussen de twee gemaakt worden. Bij text mining gaat het meestal om het identificeren van patronen en trends in ongestructureerde gegevens, terwijl text analytics gericht is op het afleiden van kwantitatieve inzichten door gegevens op een gestructureerde manier te analyseren. Deze observaties kunnen vervolgens grafisch worden weergegeven om de ontdekkingen effectief over te brengen aan een breder publiek.\autocite{IBM2024}
+Hoewel text mining en text analytics vaak door elkaar worden gebruikt, kan er een genuanceerd onderscheid tussen de twee gemaakt worden. Bij text mining gaat het meestal om de identificatie van patronen en trends in ongestructureerde gegevens, terwijl text analytics gericht is op het afleiden van kwantitatieve inzichten door gegevens op een gestructureerde manier te analyseren. Deze observaties kunnen vervolgens grafisch worden weergegeven om de ontdekkingen effectief over te brengen aan een breder publiek.\autocite{IBM2024}
 \subsubsection{Text mining: vinden van verstopte patronen}
-Text mining omvat het extraheren van waardevolle informatie en het identificeren van verborgen patronen uit uitgebreide verzamelingen ongeorganiseerde of gedeeltelijk georganiseerde tekstuele gegevens. Text mining is een gespecialiseerde vorm van datamining die is ontworpen om vooral tekstuele informatie te verwerken. Het belangrijkste doel van text mining is om tekst om te zetten in analyseerbare gegevens om inzichten, trends en patronen te ontdekken die niet direct voor de hand liggen. Deze aanpak omvat een reeks methodologieën, waaronder het ophalen van informatie, natuurlijke taalverwerking (NLP) en machinaal leren. Het primaire doel is het begrijpen en analyseren van uitgebreide tekstdatabases \autocite{gaikwad2014text}.
+Text mining omvat het extraheren van waardevolle informatie en het identificeren van verborgen patronen uit uitgebreide verzamelingen ongeorganiseerde of gedeeltelijk georganiseerde tekstuele gegevens. Text mining is een gespecialiseerde vorm van datamining die is ontworpen om vooral tekstuele informatie te verwerken. Het belangrijkste doel van text mining is om te zetten in analyseerbare gegevens om inzichten, trends en patronen te ontdekken die niet direct voor de hand liggen. Deze aanpak omvat een reeks methodologieën, waaronder het ophalen van informatie, natuurlijke taalverwerking (NLP) en machinaal leren. Het primaire doel is het begrijpen en analyseren van uitgebreide tekstdatabases \autocite{gaikwad2014text}.
 
 \paragraph{Voor- en nadelen text mining}
 Volgens \autocite{Kinter2024} en \autocite{gaikwad2014text} zijn er veel voor- en nadelen aan text mining:
 \subparagraph{Voordelen:}
 \begin{enumerate}
     \item Het corpus van teksten kan worden geanalyseerd met technieken zoals informatie-extractie om de namen van verschillende entiteiten en hun relaties te identificeren. 
-    \item De complexe taak om effectief om te gaan met grote hoeveelheden ongestructureerde gegevens om patronen bloot te leggen, wordt aangepakt door het gebruik van text mining.
-    \item Bedrijven kunnen een uitgebreid inzicht krijgen in huidige trends en patronen door inzichten te analyseren die zijn verkregen uit vele gegevensbronnen. Deze inzichten helpen bedrijven bij het nemen van weloverwogen zakelijke beslissingen.
+    \item De complexe taak om effectief grote hoeveelheden ongestructureerde gegevens te behandelen om patronen bloot te leggen, wordt aangepakt door het gebruik van text mining.
+    \item Bedrijven kunnen een uitgebreid inzicht krijgen in huidige trends en patronen door inzichten te analyseren die zijn verkregen uit vele gegevensbronnen. De verworven inzichten kunnen bedrijven helpen bij het nemen van weloverwogen zakelijke beslissingen.
     
 \end{enumerate}
 \subparagraph{Nadelen}
@@ -151,7 +150,7 @@ Volgens \autocite{Kinter2024} en \autocite{gaikwad2014text} zijn er veel voor- e
 
 
 \subsubsection{Text analyse: het afleiden van semantische betekenis}
-Tekstanalyse daarentegen houdt zich meer bezig met het begrijpen en interpreteren van de inhoud van tekst om er informatie van hoge kwaliteit uit af te leiden. In tegenstelling tot text mining, dat zich richt op het ontdekken van nieuwe patronen, is tekstanalyse gericht op het extraheren en interpreteren van bestaande informatie uit tekstgegevens. Dit proces omvat de toepassing van semantische analysetechnieken om de betekenis, context en bedoeling achter de woorden in de tekst te begrijpen \autocite{gaikwad2014text}.
+Tekstanalyse aan de andere hand houdt zich meer bezig met het begrijpen en interpreteren van de inhoud om er informatie van hoge kwaliteit uit af te leiden. In tegenstelling tot text mining, dat zich richt op het ontdekken van nieuwe patronen, is tekstanalyse gericht op het extraheren en interpreteren van bestaande informatie uit tekstgegevens. Dit proces omvat de toepassing van semantische analysetechnieken om de betekenis, context en bedoeling achter de woorden in de tekst te begrijpen \autocite{gaikwad2014text}.
 
 Tekstanalyse maakt vaak gebruik van Natural Language Processing (NLP) om de structuur van zinnen te ontleden, entiteiten te identificeren en sentiment te analyseren. Deze technieken zijn cruciaal voor taken zoals sentimentanalyse, waarbij het doel is om de emotionele toon van een tekst te bepalen, of onderwerpmodellering, waarbij het doel is om de belangrijkste thema's te identificeren die in een set documenten worden besproken. Tekstanalyse kan ook meer geavanceerde methoden omvatten, zoals entiteitsherkenning, waarbij belangrijke stukken informatie (zoals namen, data en locaties) in een tekst worden geïdentificeerd en geclassificeerd.
 
@@ -168,25 +167,25 @@ Informatie retrieval (Information Retrieval, IR) verwijst , zoals beschreven doo
 
 Enkele IR technieken zijn maar niet gelimiteerd tot \autocite{IBM2024}:
 \begin{enumerate}
-    \item Tokenizatie: Dit is het proces van het opbreken van text in zinnen en woorden genoemd tokens. Deze zijn dan gebruikt in de modellen voor clustering en documentmatching taken \autocite{IBM2024}.
-    \item Stemming is een tekstvoorbewerkingsmethode die wordt gebruikt in natuurlijke taalverwerking (NLP) om woorden te vereenvoudigen door ze om te zetten naar hun basisvorm. Het doel van stemming is om woorden te stroomlijnen en te normaliseren en zo de efficiëntie van het ophalen van informatie, het categoriseren van teksten en andere natuurlijke taalverwerkingsactiviteiten (NLP) te verbeteren \autocite{SC2024}.
+    \item Tokenisatie: Dit is het proces breekt tekst op in zinnen en woorden deze worden 'tokens' genoemd. Deze zijn dan gebruikt in de modellen voor clustering en document matching taken \autocite{IBM2024}.
+    \item Stemming is een tekstvoorbewerkingsmethode die wordt gebruikt in natuurlijke taalverwerking (NLP) om woorden te vereenvoudigen door ze om te zetten naar hun basisvorm. Het doel van stemming is om woorden te stroomlijnen en te normaliseren om zo de efficiëntie van het ophalen van informatie, het categoriseren van teksten en andere natuurlijke taalverwerkingsactiviteiten (NLP) te verbeteren \autocite{SC2024}.
 \end{enumerate}
 
 \paragraph{Information Extraction}
-Informatie-extractie (IE) is gericht op het extraheren van gestructureerde informatie uit ongestructureerde documenten met behulp van technieken zoals Natural Language Processing (NLP). In tegenstelling tot Information Retrieval (IR), waarbij relevante documenten worden opgehaald, richt IE zich op het identificeren van specifieke gegevens binnen deze teksten, waardoor informatie toegankelijker en analyseerbaarder wordt \autocite{Javija2024}. IE-systemen moeten kosteneffectief en aanpasbaar zijn en in staat zijn om zich over verschillende domeinen uit te breiden. Op gebieden zoals financiën wordt Named-Entity Recognition (NER) gebruikt om vooraf gedefinieerde gegevenstypen, zoals namen en data, uit documenten te extraheren, wat efficiënt gegevensbeheer vergemakkelijkt \autocite{Gupta2020}. Geautomatiseerd leren in IE vermindert fouten en afhankelijkheid van handmatig toezicht, waardoor het proces efficiënter en contextueel waardevoller wordt. De toenemende hoeveelheid ongestructureerde gegevens, vooral online, benadrukt het belang van effectieve IE-systemen \autocite{Javija2024}.
+Informatie-extractie (IE) is gericht op het extraheren van gestructureerde informatie uit ongestructureerde documenten met behulp van technieken zoals Natural Language Processing (NLP). In tegenstelling tot Information Retrieval (IR), waarbij relevante documenten worden opgehaald, richt IE zich op het identificeren van specifieke gegevens binnen deze teksten, waardoor informatie toegankelijker alsook beter analyseerbaar wordt \autocite{Javija2024}. IE-systemen moeten kosteneffectief en aanpasbaar zijn en in staat zijn om zich over verschillende domeinen uit te breiden. Op gebieden zoals financiën wordt Named-Entity Recognition (NER) gebruikt om vooraf gedefinieerde gegevenstypen, zoals namen en data, uit documenten te extraheren, wat efficiënt gegevensbeheer vergemakkelijkt \autocite{Gupta2020}. Geautomatiseerd leren in IE vermindert fouten en afhankelijkheid van handmatig toezicht, waardoor het proces efficiënter en contextueel waardevoller wordt. De toenemende hoeveelheid ongestructureerde gegevens, vooral online, benadrukt het belang van effectieve IE-systemen \autocite{Javija2024}.
 
 
 Enkele IE technieken zijn maar niet gelimiteerd tot \autocite{IBM2024}:
 \begin{enumerate}
-    \item Feature selection en Feature extraction
+    \item Feature Selection en Feature Extraction
     \begin{enumerate}
-        \item \textbf{Feature selection}: Volgens  \textcite{CAI201870} is Feature Selection een essentiële stap bij het verwerken van gegevens met een groot aantal dimensies. Het gaat om het kiezen van een kleinere set belangrijke kenmerken uit de originele set om de efficiëntie en nauwkeurigheid van het leren te verbeteren. Door overbodige en inconsequente kenmerken te elimineren, wordt de omvang van de gegevensverwerking verkleind, wordt de tijd die nodig is voor het leren verminderd en worden de resultaten gestroomlijnd. Eigenschapsselectie is een proces dat de belangrijkste oorspronkelijke kenmerken behoudt, in tegenstelling tot kenmerkextractie waarbij gegevens worden veranderd in kenmerken die goed zijn in het herkennen van patronen. Eigenschapsselectie is cruciaal voor het verminderen van de dimensionaliteit van gegevens. Technieken voor kenmerkselectie omvatten een reeks benaderingen, zoals supervised, unsupervised en semi-supervised modellen. Deze methoden worden geclassificeerd op basis van hun associatie met leermethoden (filter, wrapper, inbeddingsmodellen) en andere criteria. Eigenschapsselectie is een veelgebruikte techniek in gebieden zoals beeldherkenning en tekst mining. Het verbetert de prestaties van modellen voor machinaal leren door een evenwicht te bereiken tussen hoge nauwkeurigheid en lage rekenvereisten.
-        \item \textbf{Feature extraction}: is een essentiële stap in machinaal leren, omdat het uitgebreide invoergegevens omzet in een beter hanteerbare en lager-dimensionale kenmerkenset \autocite{Mustazzihim}. Deze procedure vereenvoudigt de gegevens door de complexiteit ervan te verminderen, terwijl belangrijke informatie toch behouden blijft. Het is vooral nuttig bij taken zoals categorisatie. Kenmerkextractietechnieken transformeren de initiële kenmerkruimte in een gecondenseerde, alternatieve ruimte door een gereduceerde, representatieve verzameling kenmerken te behouden in plaats van ze weg te gooien. Principale Componenten Analyse (PCA) en Bag of Words zijn vaak gebruikte technieken. PCA vermindert bijvoorbeeld de dimensionaliteit van gegevens door de oorspronkelijke variabelen om te zetten in ongecorrigeerde componenten. Dit proces verbetert de rekenefficiëntie en verhoogt de nauwkeurigheid van modellen voor machinaal leren.
+        \item \textbf{Feature selection}: Volgens  \textcite{CAI201870} is Feature Selection een essentiële stap bij het verwerken van gegevens met een groot aantal dimensies. Het gaat om het kiezen van een kleinere set belangrijke kenmerken uit de originele set om de efficiëntie en nauwkeurigheid van het leren te verbeteren. Door overbodige en inconsequente kenmerken te elimineren, wordt de omvang van de gegevensverwerking verkleind, wordt de tijd die nodig is voor het leren verminderd en worden de resultaten gestroomlijnd. Eigenschap selectie is een proces dat de belangrijkste oorspronkelijke kenmerken behoudt, in tegenstelling tot kenmerkextractie waarbij gegevens worden veranderd in kenmerken die goed zijn in het herkennen van patronen. Eigenschap selectie is cruciaal voor het verminderen van de dimensionaliteit van gegevens. Technieken voor kenmerkselectie omvatten een reeks benaderingen, zoals supervised, unsupervised en semi-supervised modellen. Deze methoden worden geclassificeerd op basis van hun associatie met leermethoden (filter, wrapper, inbeddingsmodellen) en andere criteria. Eigenschap selectie is een veelgebruikte techniek in gebieden zoals beeldherkenning en tekst mining. Het verbetert de prestaties van modellen voor machinaal leren door een evenwicht te bereiken tussen hoge nauwkeurigheid en lage rekenvereisten.
+        \item \textbf{Feature extraction}: is een essentiële stap in machinaal leren, omdat het uitgebreide invoergegevens omzet in een beter hanteerbare en lager-dimensionale kenmerken set \autocite{Mustazzihim}. Deze procedure vereenvoudigt de gegevens door de complexiteit ervan te verminderen, terwijl belangrijke informatie toch behouden blijft. Het is vooral nuttig bij taken zoals categorisatie. Kenmerkextractietechnieken transformeren de initiële kenmerkruimte in een gecondenseerde, alternatieve ruimte door een gereduceerde, representatieve verzameling kenmerken te behouden in plaats van ze weg te gooien. Principale Componenten Analyse (PCA) en Bag of Words zijn vaak gebruikte technieken. PCA vermindert bijvoorbeeld de dimensionaliteit van gegevens door de oorspronkelijke variabelen om te zetten in ongecorrigeerde componenten. Dit proces verbetert de rekenefficiëntie en verhoogt de nauwkeurigheid van modellen voor machinaal leren.
         \item Het verschil is dat FS de originele features behoud terwijl FE nieuwe maakt.
     \end{enumerate}
     \item Volgens \textcite{vajjala2022reallyknowstateart} is \textbf{Named Entity Recognition (NER)} een kerntaak in Natural Language Processing (NLP) die tot doel heeft entiteiten, zoals personen, organisaties en plaatsen, binnen een gegeven tekst te herkennen en te categoriseren. NER, of Named Entity Recognition, wordt op grote schaal gebruikt in een verscheidenheid aan toepassingen, variërend van het ophalen van informatie tot geautomatiseerde klantenservice.
   
-    Recent onderzoek benadrukt dat, hoewel NER-modellen opmerkelijke prestaties hebben behaald op typische datasets en vaak hoge F-scores laten zien, deze maat alleen geen goed inzicht geeft in hun effectiviteit \autocite{vajjala2022reallyknowstateart}. Geavanceerde NER-modellen vertonen bijvoorbeeld F-scores van meer dan 90\% op datasets zoals OntoNotes. Deze kan echter eenzame metriek variaties in prestaties verdoezelen tussen verschillende categorieën entiteiten, soorten taal en onbekende data.
+    Recent onderzoek benadrukt dat, hoewel NER-modellen opmerkelijke prestaties hebben behaald op typische datasets en vaak hoge F-scores laten zien, deze maat alleen geen goed inzicht geeft in hun effectiviteit \autocite{vajjala2022reallyknowstateart}. Geavanceerde NER-modellen vertonen bijvoorbeeld F-scores van meer dan 90\% op datasets zoals OntoNotes\footnote{\href{https://paperswithcode.com/dataset/ontonotes-5-0}{OntoNotes}}. Deze kan echter eenzame metriek variaties in prestaties verdoezelen tussen verschillende categorieën entiteiten, soorten taal en onbekende data.
 \end{enumerate}
 
 
@@ -213,30 +212,19 @@ Information Retrieval (IR) en Information Extraction (IE) zijn twee technologie�
 \subsubsection{Natural Language Processing}
 \paragraph{Samenvatten van tekst }
 
-Een andere kritische NLP techniek is tekstsamenvatting, waarbij een beknopte weergave van originele tekstdocumenten wordt gegenereerd \autocite{Talib2016TextMining}. Dit proces omvat voorbewerkingsstappen zoals tokeniseren, stopwoorden verwijderen en stemmen, gevolgd door het creëren van lexiconlijsten tijdens de verwerkingsfase. Historisch gezien was het samenvatten van tekst gebaseerd op woordfrequentie, maar moderne methoden maken gebruik van geavanceerde text mining technieken om de relevantie en nauwkeurigheid van de resultaten te verbeteren. Kenmerken zoals zinslengte, thematische woorden en vaste zinnen worden gebruikt om belangrijke informatie te extraheren en deze technieken kunnen op meerdere documenten tegelijk worden toegepast.
+Een andere kritische NLP techniek is tekstsamenvatting, waarbij een beknopte weergave van originele tekstdocumenten wordt gegenereerd \autocite{Talib2016TextMining}. Dit proces omvat voorbewerkingsstappen zoals , stopwoorden verwijderen en stemmen, gevolgd door het creëren van lexicon lijsten tijdens de verwerkingsfase. Historisch gezien was het samenvatten van tekst gebaseerd op woordfrequentie, maar moderne methoden maken gebruik van geavanceerde text mining technieken om de relevantie en nauwkeurigheid van de resultaten te verbeteren. Kenmerken zoals zinslengte, thematische woorden en vaste zinnen worden gebruikt om belangrijke informatie te extraheren en deze technieken kunnen op meerdere documenten tegelijk worden toegepast.
 
 \paragraph{Part Of Speech (POS)}
-Volgens \textcite{Martinez2024} is Part-of-speech (POS) tagging een essentiële activiteit in natuurlijke taalverwerking (NLP) waarbij een grammaticale classificatie, zoals zelfstandig naamwoord, werkwoord of bijvoeglijk naamwoord, wordt toegewezen aan elk woord in een zin. Tagging vergemakkelijkt computationeel begrip van de syntactische organisatie van tekst, een kritisch onderdeel voor veel toepassingen van natuurlijke taalverwerking (NLP) (Martinez,2012).Ondanks de uitdagingen zoals tweeslachtige woorden bereiken moderne POS taggers hoge nauwkeurigheidspercentages (rond 96-97\%) en worden ze veel gebruik bij het ophalen van informatie, tekstanalyse en andere NLP-taken.
-%\paragraph{Text categorization}
-%T - REview use
-%Tekstclassificatie is een methodische procedure die bestaat uit vier essentiële stappen: kenmerken extraheren, de dimensionaliteit verminderen, een classificator selecteren en de resultaten evalueren. Eerst wordt tekst omgezet in een numeriek formaat door middel van kenmerkextractie, zoals woord frequentie of Word2Vec. Dimensionaliteitsreductiewordt gebruikt om de gegevens te vereenvoudigen en cruciale informatie te behouden. Dit wordt bereikt door technieken zoals principale componentenanalyse(PCA) of lineaire discriminantanalyse (LDA) toe te passen. De selectie van een classificeer is essentieel, omdat deep learning-methoden vaak conventionele machinelearning-algoritmen overtreffen in termen van nauwkeurigheid. Uiteindelijk wordt de doeltreffendheid van het model beoordeeld door de prestaties te meten met behulp van metrieken zoals de Matthews correlatiecoëfficiënt (MCC), oppervlakte onder de ROC-curve (AUC) en nauwkeurigheid. Van deze maatstaven wordt nauwkeurigheid beschouwd als de meest directe en eenvoudige manier om de prestatie van het model te evalueren. Gupta et al. (2020) ontdekten dat supportvectormachines (SVM) beter presteerden dan andere benaderingen zoals Naive Bayes (NB),k-nearest neighbour (KNN), beslisbomen en regressie in termen van nauwkeurigheid, recall en F1-maatstaven.
-%\paragraph{Sentiment analysis}
-%T - DEL (unrelated)
-%Natural Language Processing (NLP) omvat verschillende technieken om onnauwkeurig en dubbelzinnig taalgebruik om te zetten in nauwkeurige en ondubbelzinnige berichten, met toepassingen in sectoren als financiën, e-commerce en sociale media. Een belangrijke techniek binnen NLP is Sentimentanalyse (SA), ook wel bekend als opinion mining, waarbij onderliggende meningen uit tekstgegevens worden gehaald. SA %is vooral nuttig voor taken als emotieherkenning en polariteitsdetectie, met toepassingen variërend van voorspelling van de aandelenmarkt tot analyse van feedback van klanten \autocite{Gupta2020}.
-
-%SA kan worden benaderd met lexicon gebaseerde methoden, die vertrouwen op tools zoals SentiWordNet voor woord-naar-sentiment mappen, of machine learning (ML) technieken die tekst classificeren met behulp van algoritmes zoals Naïve Bayes (NB) en support vectormachines (SVM's). Hoewel ML-benaderingen geen kostbare woordenboeken vereisen, vereisen ze wel domein specifieke datasets, wat een beperking kan zijn. nauwkeurigheid en betrouwbaarheid van SA te verbeteren, met name in financiële voorspellingen \autocite{Gupta2020}.
-
-
-
+Volgens \textcite{Martinez2024} is Part-of-speech (POS) tagging een essentiële activiteit in natuurlijke taalverwerking (NLP) waarbij een grammaticale classificatie, zoals zelfstandig naamwoord, werkwoord of bijvoeglijk naamwoord, wordt toegewezen aan elk woord in een zin. Tagging vergemakkelijkt het computationeel begrip van de syntactische organisatie van tekst, een kritisch onderdeel voor veel toepassingen van natuurlijke taalverwerking (NLP) (Martinez,2012).Ondanks de uitdagingen zoals tweeslachtige woorden bereiken moderne POS taggers hoge nauwkeurigheidspercentages (rond 96-97\%) en worden ze veel gebruik bij het ophalen van informatie, tekstanalyse en andere NLP-taken.
 
 \subsection{REGEX in gegevens extractie}
 
-Reguliere expressies (regex) zijn een krachtig hulpmiddel voor patroonherkenning in tekst. Ze stellen gebruikers in staat om zoekpatronen te definiëren die specifieke reeksen van tekens kunnen identificeren en extraheren uit een grotere tekst, wat ze onmisbaar maakt bij taken zoals gegevensreiniging, parsing en informatie-extractie.
+Reguliere expressies (regex) zijn een krachtig hulpmiddel voor patroonherkenning in tekst. Ze stellen gebruikers in staat om zoekpatronen te definiëren die specifieke reeksen van tekens kunnen identificeren en extraheren uit een grotere tekst, wat ze onmisbaar maakt bij taken zoals gegevensreiniging, ontleding en informatie-extractie.
 
 \subsubsection{Gebruik van Regex}
 Regex kan gebruikt worden voor:
 \begin{enumerate}
-    \item \textbf{Tekstvoorverwerking}: Regex kan tekstgegevens opschonen en standaardiseren door ongewenste tekens, witruimtes of inconsistenties in de opmaak te verwijderen.
+    \item \textbf{Tekst voor verwerking}: Regex kan tekstgegevens opschonen en standaardiseren door ongewenste tekens, witruimte of inconsistenties in de opmaak te verwijderen.
     \item \textbf{Patroonherkenning}: Het is effectief voor het vinden van specifieke patronen in tekst, zoals datums, telefoonnummers of e-mailadressen.
     \item \textbf{Tokenisatie}: Regex kan helpen om tekst op te splitsen in tokens (woorden, zinnen) door patronen voor delimiters zoals spaties of interpunctie te definiëren.
 \end{enumerate}
@@ -251,7 +239,7 @@ Volgens \textcite{B_2022} zijn er enkele voordelen en beperkingen die gepaard ga
 \paragraph{Beperkingen}
 \begin{enumerate}
     \item \textbf{Complexiteit}: Het opstellen van complexe regex-patronen kan uitdagend en foutgevoelig zijn.
-    \item \textbf{Schaalbaarheid}: Regex kan moeite hebben met zeer grote tekstcorpora of wanneer de logica van het patroon te complex wordt, waardoor het minder geschikt is voor sommige NLP-taken die een diepgaande semantische begrip vereisen.
+    \item \textbf{Schaalbaarheid}: Regex kan moeite hebben met zeer grote tekst corpora of wanneer de logica van het patroon te complex wordt, waardoor het minder geschikt is voor sommige NLP-taken die een diepgaande semantische begrip vereisen.
 \end{enumerate}
 
 
@@ -263,7 +251,7 @@ Large Language Models (LLM's) zoals GPT (Generative Pre-trained Transformer) en 
 
 \subsection{Generatieve Pre-trained Transformer (GPT)}
 
-GPT is ontwikkeld door OpenAI en heeft zich ontwikkeld tot een van de meest prominente LLM. Het staat bekend om zijn vermogen om logische en contextueel geschikte taal te produceren als reactie op invoerprompts. Het ontwerp en de trainingsgegevens van GPT zorgen ervoor dat het model in veel taken uitblinkt, met name in taken waarbij ingewikkelde redeneringen en begrip van subtiele taalkundige aanwijzingen nodig zijn.
+GPT is ontwikkeld door OpenAI en heeft zich opgeklommen tot een van de meest prominente LLM's. Het staat bekend voor zijn vermogen om logische en contextueel geschikte taal te produceren als reactie op invoer prompts. Het ontwerp en de trainingsgegevens van GPT zorgen ervoor dat het model in veel taken uitblinkt, met name in taken waarbij ingewikkelde redeneringen en begrip van subtiele taalkundige aanwijzingen nodig zijn.
 
 
 
@@ -283,9 +271,9 @@ GPT is ontwikkeld door OpenAI en heeft zich ontwikkeld tot een van de meest prom
 
 
 
-\subsection{Het grote taalmodel Meta AI (LLaMA3.1)}
+\subsection{Het grote taalmodel Meta AI (Llama3.1)}
 
-Meta AI heeft LLaMA gemaakt, een open-source alternatief voor modellen zoals GPT. Het presenteert een vergelijkbaar op transformers gebaseerd ontwerp, maar geeft prioriteit aan toegankelijkheid, use the flexibiliteit en kosteneffectiviteit, vooral voor academische en onderzoekstoepassingen. LLaMA modellen worden aangeboden in verschillende groottes, zoals LLaMA-3 en LLaMA-3.1, die elk verschillende prestaties en verwerkingscapaciteit bieden.
+Meta AI heeft Llama gemaakt, een open-source alternatief voor modellen zoals GPT. Het presenteert een vergelijkbaar op transformers gebaseerd ontwerp, maar geeft prioriteit aan toegankelijkheid, flexibiliteit en kosteneffectiviteit, het wordt vooral voor academische en onderzoekstoepassingen gebruikt. Llama modellen worden aangeboden in verschillende versies en groottes, zoals Llama-3 en Llama-3.1 voor de versies en 8B, 70B en 405B (enkel 3.1) in de groottes, die elk verschillende prestaties en verwerkingscapaciteit bieden.
 
 \subsubsection{Voordelen}
 \begin{enumerate}
@@ -301,23 +289,23 @@ Meta AI heeft LLaMA gemaakt, een open-source alternatief voor modellen zoals GPT
 \end{enumerate}
 
 \begin{figure}[hbt!]
-    \includegraphics[width=0.8\textwidth]{medium_llama-gpt.png}
-    \caption[13F voorbeeld 4]{\label{fig:gpt-versus-llama-benchmarks} Afbeelding toont een statistische vergelijking van GPT- en LlaMA-modellen op veelgebruikte NLP-benchmarks. \autocite{ResearchGRaph2024}}
+    \includegraphics[width=0.8\textwidth]{medium_Llama-gpt.png}
+    \caption[13F voorbeeld 4]{\label{fig:gpt-versus-Llama-benchmarks} Afbeelding toont een statistische vergelijking van GPT- en Llama-modellen op veelgebruikte NLP-benchmarks. \autocite{ResearchGRaph2024}}
 \end{figure}
 
-\subsection{Validatie van Large Language Models (LLMs) voor Gegevensextractie uit 13F-bestanden}
+\subsection{Validatie van Large Language Models (LLM's) voor Gegevensextractie uit 13F-bestanden}
 
-Volgens \autocite{Huang2024} zijn er bij de evaluatie van Large Language Models (LLMs) voor het extraheren van gegevens uit 13F-bestanden specifieke uitdagingen en metrieken die in overweging moeten worden genomen
-In de bredere context van modelvalidatie, zoals besproken door \textcite{Islam2024}, zijn er verschillende technieken die kunnen worden aangepast om de prestaties van LLMs bij gegevensextractie uit 13F-bestanden te evalueren. Deze technieken variëren afhankelijk van de specifieke aspecten van het model en de aard van de data.
+Volgens \autocite{Huang2024} zijn er bij de evaluatie van Large Language Models (LLM's) voor het extraheren van gegevens uit 13F-bestanden specifieke uitdagingen en metrieken die in overweging moeten worden genomen
+In de bredere context van modelvalidatie, zoals besproken door \textcite{Islam2024}, zijn er verschillende technieken die kunnen worden aangepast om de prestaties van LLM's bij gegevensextractie uit 13F-bestanden te evalueren. Deze technieken variëren afhankelijk van de specifieke aspecten van het model en de aard van de data.
 
-\subsubsection{Validatiemetrics en Uitdagingen}
+\subsubsection{Validatie metrieken en Uitdagingen}
 \label{sec:LLMValidation}
 
 \begin{enumerate}
     \item \textcite{Islam2024} benadrukt dat de nauwkeurigheid van een LLM bij het extraheren van specifieke gegevens zoals aandelenposities, waarden en data uit de complexe structuur van 13F-bestanden moet worden gemeten. Dit kan worden gedaan door de geëxtraheerde gegevens te vergelijken met een gecontroleerde dataset van handmatig gevalideerde informatie. Holdout Validation kan hier worden toegepast, waarbij het model wordt getraind op een deel van de data en getest op een ander deel om de nauwkeurigheid te evalueren.
-    \item \textcite{Islam2024} geeft aan dat 13F-bestanden een strikte structuur en format hebben. Het is cruciaal om te controleren of de LLM in staat is om gegevens correct te interpreteren en om te zetten naar het gewenste formaat. Metrics zoals precisie en recall kunnen helpen bij het beoordelen van hoe goed de LLM voldoet aan de specificaties van het document. Hier kunnen de F1 Score en Cross-Validation nuttig zijn om een gebalanceerd beeld te krijgen van het model's prestaties over verschillende datasplitsingen.
+    \item \textcite{Islam2024} geeft aan dat 13F-bestanden een strikte structuur en format hebben. Het is cruciaal om te controleren of de LLM in staat is om gegevens correct te interpreteren en om te zetten naar het gewenste formaat. Metrieken zoals precisie en recall kunnen helpen bij het beoordelen van hoe goed de LLM voldoet aan de specificaties van het document. Hier kunnen de F1 Score en Cross-Validation nuttig zijn om een gebalanceerd beeld te krijgen van het model zijn prestaties over verschillende datasplitsingen.
     \item \textcite{Islam2024} merkt op dat de validatie ook de robuustheid van het model onder verschillende omstandigheden moet testen. Dit houdt in dat de LLM moet presteren bij variaties in de indeling van 13F-bestanden, of bij fouten en inconsistenties in de gegevens. Adversarial Testing kan hierbij worden ingezet om specifieke zwakheden in het model bloot te leggen.
-    \item \textcite{Islam2024} wijst erop dat naast nauwkeurigheid, de snelheid waarmee een LLM gegevens kan extraheren ook belangrijk is. Evalueren hoe snel en efficiënt een model grote hoeveelheden 13F-bestanden kan verwerken, is cruciaal voor praktische toepassingen. Human Evaluation kan nuttig zijn om niet alleen de snelheid, maar ook de praktische bruikbaarheid en de outputkwaliteit van het model te beoordelen.
+    \item \textcite{Islam2024} wijst erop dat naast nauwkeurigheid, de snelheid waarmee een LLM gegevens kan extraheren ook belangrijk is. Evalueren hoe snel en efficiënt een model grote hoeveelheden 13F-bestanden kan verwerken, is cruciaal voor praktische toepassingen. Human Evaluation of menselijke evaluatie kan nuttig zijn om niet alleen de snelheid, maar ook de praktische bruikbaarheid en de outputkwaliteit van het model te beoordelen.
 \end{enumerate}
 
 \subsubsection{Best Practices voor Evaluatie}
@@ -325,19 +313,19 @@ In de bredere context van modelvalidatie, zoals besproken door \textcite{Islam20
 \begin{enumerate}
     \item \textcite{Huang2024} beveelt het gebruik van een gouden dataset aan, bestaande uit 13F-bestanden met handmatig gevalideerde gegevens, om de prestaties van de LLM te meten. Deze dataset moet divers en representatief zijn voor de variaties in 13F-bestanden. Het gebruik van Zero-shot Evaluation kan helpen om het vermogen van het model te beoordelen om goed te presteren op onverwachte varianten binnen deze dataset.
     \item \textcite{Islam2024} stelt voor om een iteratief evaluatieproces te implementeren waarbij feedback van eerdere evaluaties wordt gebruikt om het model verder te verfijnen. Dit helpt bij het verbeteren van de nauwkeurigheid en robuustheid van het model. Cross-Validation kan hier opnieuw nuttig zijn om het model te blijven testen tijdens het verfijningsproces.
-    \item \textcite{Islam2024} suggereert dat offline evaluaties, zoals het testen van het model op een vaste dataset, gecombineerd moeten worden met online evaluaties door het model te testen op echte gegevensstromen. Dit biedt een uitgebreide beoordeling van zowel de theoretische als praktische prestaties van de LLM. Perplexity kan hierbij worden gebruikt om de voorspellende kwaliteit van het model in online settings te meten.
+    \item \textcite{Islam2024} suggereert dat offline evaluaties, zoals het testen van het model op een vaste dataset, gecombineerd moeten worden met online evaluaties door het model te testen op echte gegevensstromen. Dit biedt een uitgebreide beoordeling van zowel de theoretische als praktische prestaties van de LLM. Perplexity kan hierbij worden gebruikt om de voorspellende kwaliteit van het model in online omstandigheden te meten.
 \end{enumerate}
-Door deze benaderingen en metrics te integreren in het validatieproces, kan er een effectieve en betrouwbare LLM ontwikkeld worden voor het extraheren van gegevens uit 13F-bestanden, waardoor de nauwkeurigheid en efficiëntie van de gegevensverwerking verbeterd.
+Door deze benaderingen en metrieken te integreren in het validatieproces, kan er een effectieve en betrouwbare LLM ontwikkeld worden voor het extraheren van gegevens uit 13F-bestanden, waardoor de nauwkeurigheid en efficiëntie van de gegevensverwerking verbeterd.
 
 
 
 
 \paragraph{Conclusie}
 
-Samengevat is GPT een geavanceerde, commercieel verkrijgbare optie voor sommige NLP-taken, terwijl LLaMA een praktisch open-source alternatief is, vooral wanneer financiële beperkingen of de behoefte aan personalisatie van het grootste belang zijn. Door zorgvuldige selectie, training en finetuning van LLaMA-modellen kunnen betrouwbare, op maat gemaakte resultaten worden verkregen voor gerichte toepassingen, zonder de kosten van betalende modellen zoals GPT4o.\\
+Samengevat is GPT een geavanceerde, commercieel verkrijgbare optie voor sommige NLP-taken, terwijl Llama een praktisch open-source alternatief is, vooral wanneer financiële beperkingen of de behoefte aan personalisatie van het grootste belang zijn. Door zorgvuldige selectie, training en finetuning van Llama-modellen kunnen betrouwbare, op maat gemaakte resultaten worden verkregen voor gerichte toepassingen, zonder de kosten van betalende modellen zoals GPT4o.\\
 Dus wordt voor dit onderzoek Llama geselecteerd om de POC te ontwikkelen.
 
-\subsection{Data vereisten voor LLMs te trainen}
+\subsection{Data vereisten voor LLM's te trainen}
 \label{sec:DataVereisten}
 Volgens \textcite{Scispace} is er minstens 0.5\% van de originele dataset nodig om een LLM effectief te trainen. Dit minimale percentage kan leiden tot verbeterde prestaties, waarbij modellen, ondanks het gebruik van een fractie van de data, een aanzienlijke nauwkeurigheid behalen in specifieke taken.
 
@@ -364,12 +352,12 @@ De volgende tabel geeft een vergelijkende analyse van SpaCy en NLTK op basis van
         \textbf{01. Precisie} & 0.51 & 0.72 \\ \hline
         \textbf{02. Recall} & 0.65 & 0.65 \\ \hline
         \textbf{03. F-Score} & 0.58 & 0.69 \\ \hline
-        \textbf{04. Tokenisatiesnelheid} & 4 ms & 0.2 ms \\ \hline
-        \textbf{05. Taggingsnelheid} & 443 ms & 1 ms \\ \hline
+        \textbf{04. Tokenisatie snelheid} & 4 ms & 0.2 ms \\ \hline
+        \textbf{05. Tagging snelheid} & 443 ms & 1 ms \\ \hline
         \textbf{06. Ondersteuning voor Classificatie} & Ja & Ja \\ \hline
         \textbf{07. Onderwerpmodellering} & Nee & Ja \\ \hline
         \textbf{08. Vectorisatie} & Nee & Ja \\ \hline
-        \textbf{09. Ondersteunde Taalmodellen} & Basis Tokenizatie en parsing & Geavanceerde modellen met voorgetrainde vectors \\ \hline
+        \textbf{09. Ondersteunde Taalmodellen} & Basis Tokenisatie en ontleding & Geavanceerde modellen met voorgetrainde vectoren \\ \hline
         \textbf{10. Grootte en Afhankelijkheden van de Bibliotheek} & Lichtgewicht, minimale afhankelijkheden & Zwaarder, meer afhankelijkheden door geavanceerde functies \\ \hline
     \end{tabular}
     \caption{Vergelijkende Analyse van SpaCy en NLTK \autocite{amade2024automatic}}
@@ -377,13 +365,13 @@ De volgende tabel geeft een vergelijkende analyse van SpaCy en NLTK op basis van
 \end{table}
 
 
-Here are some examples demonstrating the strengths of SpaCy over NLTK:
 
+Hier zijn enkele voordelen die de sterktes over van SpaCy over NLTK demonstreren:
 \paragraph{Prestatiewaarden (Precisie, Recall, F-Score):} SpaCy behaalt een precisie van 0.72 en een F-Score van 0.69 bij het genereren van samenvattingen, terwijl NLTK respectievelijk 0.51 en 0.58 scoort. Dit wijst op een betere nauwkeurigheid en effectiviteit van SpaCy in vergelijking met NLTK.
 
-\paragraph{Snelheid van Tokenizatie en Tagging:} Volgens \textcite{Saadani_2024} tokeniseert SpaCy tekst in 0,2 milliseconden, terwijl NLTK 4 milliseconden nodig heeft. Dit maakt SpaCy veel sneller en geschikter voor real-time toepassingen zoals chatbots en live datastreams.
+\paragraph{Snelheid van Tokenisatie en Tagging:} Volgens \textcite{Saadani_2024} voer SpaCy de  van tekst in 0,2 milliseconden uit, terwijl NLTK 4 milliseconden nodig heeft. Dit maakt SpaCy veel sneller en geschikter voor real-time toepassingen zoals chat bots en live datastreams.
 
-\textbf{Tokenisatie} is het proces van het splitsen van tekst in kleinere eenheden, zoals woorden of zinnen, die "tokens" worden genoemd. Bijvoorbeeld, de zin "Het is een mooie dag" wordt getokeniseerd in de tokens: ["Het", "is", "een", "mooie", "dag"].
+\textbf{Tokenisatie} is het proces van het splitsen van tekst in kleinere eenheden, zoals woorden of zinnen, die "tokens" worden genoemd. Bijvoorbeeld, de zin "Het is een mooie dag" wordt omgezet in de tokens: ["Het", "is", "een", "mooie", "dag"].
 
 \textbf{Tagging} verwijst naar het toewijzen van labels of tags aan de getokeniseerde eenheden om hun grammaticale rol of betekenis te identificeren. Bijvoorbeeld, in de zin "Het is een mooie dag," zou tagging de woorden als volgt kunnen labelen: [("Het", B-ARTIKEL), ("is", B-WERKWOORD), ("een", B-ARTIKEL), ("mooie", B-BIJVOEGLIJK NAAMWOORD), ("dag", B-NAAMWOORD)].
 
@@ -396,7 +384,7 @@ Samenvattend, SpaCy is een krachtigere en efficiëntere tool voor tekstsamenvatt
 
 
 \subsection{Database Management Systemen (DBMS)}
-In deze sectie gaat er bekeken worden welke databank gebruikt zal worden na het structuren en standaardiseren van de 13F-meldingen. Hier zal besproken worden of er SQL of nosql gebruikt zal worden vervolgens zal er een specifieke databank gekozen worden die aan ACID voldoet.
+In deze sectie gaat er bekeken worden welke databank gebruikt zal worden na het structuren en standaardiseren van de 13F-meldingen. Hier zal besproken worden of er SQL of  gebruikt zal worden, vervolgens zal er een specifieke databank worden geselecteerd die aan ACID voldoet.
 
 \subsubsection{ACID}
 Volgens \autocite{Kaur2024} zijn de ACID-eigenschappen—Atomiciteit, Consistentie, Isolatie, en Duurzaamheid—zijn fundamenteel voor het waarborgen van betrouwbare transacties in een Database Management Systeem (DBMS). Hieronder volgt een korte uitleg van elke eigenschap:
@@ -412,22 +400,22 @@ Volgens \autocite{Kaur2024} zijn de ACID-eigenschappen—Atomiciteit, Consistent
 \end{enumerate}
 
 Deze eigenschappen vormen samen een kader voor het waarborgen van de consistentie, integriteit en betrouwbaarheid van gegevens in een DBMS. Ze zorgen ervoor dat transacties op een betrouwbare en consistente manier worden uitgevoerd, zelfs in het geval van systeemfouten, netwerkproblemen of andere complicaties. Dankzij de ACID-eigenschappen blijft een database een betrouwbaar en efficiënt hulpmiddel voor het beheren van gegevens in moderne organisaties.
-\subsubsection{SQL versus NOSQL}
-Bij het kiezen tussen SQL- en Nosql-databases is het belangrijk om de onderliggende architectuur en toepassingsmogelijkheden te begrijpen \autocite{khan2023performance}. SQL-databases zijn ontworpen voor het organiseren van gestructureerde data, waardoor ze ideaal zijn voor online transaction processing (OLTP). Ze presteren uitstekend in situaties waarin complexe query’s, consistentie en relationeel databeheer vereist zijn.NoSQL-databases ondersteunen horizontale schaalbaarheid en zijn geschikt voor het verwerken van grote hoeveelheden ongestructureerde data, waardoor ze ideaal zijn voor big data-analyse. De keuze tussen beide hangt grotendeels af van de specifieke behoeften van het onderzoek, zoals de focus op datastructuur of schaalbaarheid.
+\subsubsection{SQL versus }
+Bij het kiezen tussen SQL- en -databases is het belangrijk om de onderliggende architectuur en toepassingsmogelijkheden te begrijpen \autocite{khan2023performance}. SQL-databases zijn ontworpen voor het organiseren van gestructureerde data, waardoor ze ideaal zijn voor online transaction processing (OLTP). Ze presteren uitstekend in situaties waarin complexe query’s, consistentie en relationeel databeheer vereist zijn.-databases ondersteunen horizontale schaalbaarheid en zijn geschikt voor het verwerken van grote hoeveelheden ongestructureerde data, waardoor ze ideaal zijn voor big data-analyse. De keuze tussen beide hangt grotendeels af van de specifieke behoeften van het onderzoek, zoals de focus op datastructuur of schaalbaarheid.
 
 In dit onderzoek is gekozen voor een SQL-database. Deze keuze is gebaseerd op de noodzaak om gestructureerde data uit de 13F-meldingen te beheren, waarbij consistente gegevensintegriteit en de mogelijkheid om complexe query’s uit te voeren cruciaal zijn. SQL-databases bieden de benodigde functionaliteiten voor het beheer van relationele gegevens en het uitvoeren van geavanceerde analyses, wat essentieel is voor het succes van dit project \autocite{khan2023performance}.
 
 \paragraph{SQL-databank}
 Op basis van de gedetailleerde analyse die door \autocite{Javija2024} werd uitgevoerd is PostgreSQL gekozen voor dit proefschrift vanwege de geavanceerde functies, robuuste gegevensintegriteit en uitbreidbare architectuur. In tegenstelling tot andere SQL-databases, blinkt PostgreSQL uit in het verwerken van complexe datamanipulatie, het bieden van sterke ACID compliance en het ondersteunen van aangepaste datatypes en functies. Dit maakt PostgreSQL bijzonder geschikt voor bedrijfstoepassingen en datawarehousing waar schaalbaarheid en geavanceerd databeheer cruciaal zijn. Hoewel PostgreSQL een steilere leercurve heeft dan sommige alternatieven, maken de uitgebreide functie set en betrouwbaarheid het een optimale keuze om aan de complexe eisen van dit project te voldoen.
 \subsection{Unsloth.AI}
-Volgens \textcite{unsloth2024} is unsloth een platform dat zich richt op het verbeteren van de snelheid en efficiëntie van het trainen van grote taalmodellen (LLMs). Traditioneel gezien kunnen deze trainingsprocessen lang duren en veel geheugen vereisen, maar Unsloth heeft technologie ontwikkeld die dit proces tot 30 keer sneller maakt dan gebruikelijke methoden zoals Flash Attention 2 (FA2). Bovendien verbruikt Unsloth hierbij tot 90\% minder geheugen. Het platform werkt met verschillende soorten GPU's, waaronder die van NVIDIA, AMD en Intel, zonder dat er dure hardware-upgrades nodig zijn. Dit maakt het trainen van AI-modellen toegankelijker en goedkoper, met mogelijkheden variërend van gratis tot uitgebreide enterprise-oplossingen.
+Volgens \textcite{unsloth2024} is Unsloth een platform dat zich richt op het verbeteren van de snelheid en efficiëntie van het trainen van grote taalmodellen (LLM's). Traditioneel gezien kunnen deze trainingsprocessen lang duren en veel geheugen vereisen, maar Unsloth heeft technologie ontwikkeld die dit proces tot 30 keer sneller maakt dan gebruikelijke methoden zoals Flash Attention 2 (FA2). Bovendien verbruikt Unsloth hierbij tot 90\% minder geheugen. Het platform werkt met verschillende soorten GPU's, waaronder die van NVIDIA, AMD en Intel, zonder dat er dure hardware-upgrades nodig zijn. Dit maakt het trainen van AI-modellen toegankelijker en goedkoper, met mogelijkheden variërend van gratis tot uitgebreide enterprise-oplossingen.
 
 
 % ----------------------------------------------------------------------------
 
 \section{Uitdagingen en beperkingen}
 In dit hoofdstuk zullen enkele uitdagingen en beperkingen benoemt worden
-\subsection{Variable structuur}
+\subsection{Variabele structuur}
 voor 2013 bevatten 13F-meldingen enigszins verschillende variabele structuren, maar deze variaties zijn belangrijk omdat ze het moeilijk maken om de gegevens te lezen en te analyseren. voor 2013 waren de 13F-meldingen variabeler in de manier waarop ze gegevens verstrekten, waardoor het moeilijk was om beleggingsportefeuilles door de tijd heen te vergelijken. Door dit gebrek aan standaardisatie moesten onderzoekers en analisten zorgvuldig omgaan met deze gegevens om consistente en nauwkeurige bevindingen te krijgen. Diepgaand onderzoek is nodig om interpretatiefouten te minimaliseren en investeringen en investeringspatronen als gevolg van verschillende rapportagestandaarden volledig te begrijpen.
 
 
@@ -444,4 +432,4 @@ Dit hoofdstuk geeft enkele tekortkomingen weer in het huidig onderzoek.
 Het beschermen van gevoelige financiële gegevens tegen ongeautoriseerde toegang en datalekken is complex en vereist naleving van privacywetgeving. Onvoldoende beveiliging kan leiden tot datalekken, verlies van vertrouwen en juridische problemen. Implementeer encryptie, toegangscontrole en regelmatige beveiligingsaudits om gegevens te beschermen. Zorg ervoor dat uw systemen voldoen aan relevante regelgeving en best practices voor gegevensbeveiliging.
 
 \paragraph{Schaalbaarheid en Prestaties}
-Groeiende hoeveelheden gegevens kunnen leiden tot prestatieproblemen bij opslag en analyse, wat complexe oplossingen vereist voor snelle toegang. Slechte prestaties kunnen vertragingen veroorzaken in rapportage en analyse, wat de besluitvorming en efficiëntie beïnvloedt. Gebruik schaalbare databases en technieken zoals gegevenspartitionering en caching. Monitor en optimaliseer regelmatig de prestaties om problemen te voorkomen.
+Groeiende hoeveelheden gegevens kunnen leiden tot prestatieproblemen bij opslag en analyse, wat complexe oplossingen vereist voor snelle toegang. Slechte prestaties kunnen vertragingen veroorzaken in rapportage en analyse, wat de besluitvorming en efficiëntie beïnvloedt. Gebruik schaalbare databases en technieken zoals gegevens partitionering en caching. Monitor en optimaliseer regelmatig de prestaties om problemen te voorkomen.
