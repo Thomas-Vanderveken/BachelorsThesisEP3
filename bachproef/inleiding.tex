@@ -4,7 +4,7 @@
 
 \chapter{\IfLanguageName{dutch}{Inleiding}{Introduction}}%
 \label{ch:inleiding}
-Amerikaanse investeringsmaatschappijen met een jaaromzet van ten minste USD 100.000.000, zoals Soros Fund Management, Appaloosa Management en Berkshire Hathaway, zijn periodiek verplicht hun financiële posities te rapporteren aan de Securities and Exchange Commission (SEC). Dit doen ze onder andere via de zogenaamde 13F-meldingen. Deze meldingen worden opgeslagen in de EDGAR-database\footnote{\href{https://www.sec.gov/edgar/search/\#/dateRange=custom\&category=custom\&startdt=2001-01-01\&enddt=2012-12-31\&forms=13F-HR}{SEC EDGAR zoeken voor 13F-HR meldigen (2001-2012)}}\footnote{\href{https://www.sec.gov/edgar/search/}{SEC EDGAR zoeken thuispagina}}
+Amerikaanse investeringsmaatschappijen met een jaaromzet van ten minste USD 100.000.000, zoals Soros Fund Management, Appaloosa Management en Berkshire Hathaway, zijn periodiek verplicht hun financiële posities te rapporteren aan de Securities and Exchange Commission (SEC). Dit doen ze onder andere via de zogenaamde 13F-meldingen. Deze meldingen worden opgeslagen in de EDGAR-database\footnote{\href{https://www.sec.gov/edgar/search/\#/dateRange=custom\&category=custom\&startdt=2001-01-01\&enddt=2012-12-31\&forms=13F-HR}{SEC EDGAR zoeken voor 13F-HR meldingen (2001-2012)}}\footnote{\href{https://www.sec.gov/edgar/search/}{SEC EDGAR zoeken thuispagina}}
  en zijn openbaar toegankelijk. Enkel 13F meldingen van na 1 januari 2001 zijn beschikbaar in de EDGAR databank.
 
 
@@ -16,9 +16,9 @@ De opkomst van geavanceerde AI-technologie biedt mogelijkheden om deze problemen
 
 Sinds 2013 verplicht de SEC bedrijven om hun rapporten in .xml-formaat in te dienen, wat de structuur van de gegevens aanzienlijk heeft verbeterd. Toch blijven de gegevens van voor 2013 belangrijk, omdat ze kunnen dienen als testdata voor het ontwikkelen van beleggingsstrategieën.
 
-Dit proefschrift richt zich op het ontwikkelen van een proof-of-concept toepassing die NLP en ML-technieken gebruikt om 13F-meldingen van voor 2013 te standaardiseren en te integreren in een relationele databank. Het doel is om het proces van gegevensextractie te stroomlijnen door de meldingen automatisch om te zetten in een gestandaardiseerd formaat met hoge efficiëntie en nauwkeurigheid. Dit zou niet alleen de analyse van historische financiële gegevens optimaliseren, maar ook de werklast en kosten van handmatige gegevensverwerking verminderen.
+Dit proefschrift richt zich op het ontwikkelen van een proof of concept toepassing die NLP en ML-technieken gebruikt om 13F-meldingen van voor 2013 te standaardiseren en te integreren in een relationele databank. Het doel is om het proces van gegevensextractie te stroomlijnen door de meldingen automatisch om te zetten in een gestandaardiseerd formaat met hoge efficiëntie en nauwkeurigheid. Dit zou niet alleen de analyse van historische financiële gegevens optimaliseren, maar ook de werklast en kosten van handmatige gegevensverwerking verminderen.
 
-De gestandaardiseerde gegevens zouden bovendien het begrip van investeringspatronen uit het verleden verbeteren en het ontwikkelen van voorspellingsmodellen ondersteunen. Het onderzoek begint met een literatuurstudie om de meest efficiënte NLP- en ML-strategieën te identificeren, waarna een proof-of-concept toepassing wordt ontwikkeld en geëvalueerd op nauwkeurigheid, efficiëntie en bruikbaarheid.
+De gestandaardiseerde gegevens zouden bovendien het begrip van investeringspatronen uit het verleden verbeteren en het ontwikkelen van voorspellingsmodellen ondersteunen. Het onderzoek begint met een literatuurstudie om de meest efficiënte NLP- en ML-strategieën te identificeren, waarna een proof of concept toepassing wordt ontwikkeld en geëvalueerd op nauwkeurigheid, efficiëntie en bruikbaarheid.
 
 De inleiding biedt een beknopt overzicht van de redenen, doelen en het belang van dit onderzoek. Het werk beoogt een waardevolle bijdrage te leveren aan de analyse van financiële gegevens en biedt onderzoekers en analisten een nuttig hulpmiddel door de uitdagingen aan te pakken die gepaard gaan met de verwerking van oudere 13F-meldingen.
 
@@ -42,12 +42,12 @@ Een voorbeeld van na 2013.
 \section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}%
 \label{sec:onderzoeksvraag}
 
-Hoe kunnen AI-technologieën zoals Natural Language Processing (NLP) en Machine Learning (ML) effectief worden toegepast om 13F-meldingen van de SEC van voor 2013 te standaardiseren en te integreren in een gestructureerde databank, zodat de historische gegevens efficiënter kunnen worden geanalyseerd en vergeleken en is dit überhaupt mogelijk?
+Hoe kunnen AI-technologieën zoals Text mining, Natural Language Processing (NLP) en Machine Learning (ML) effectief worden toegepast om 13F-meldingen van de SEC van voor 2013 te standaardiseren en te integreren in een gestructureerde databank, zodat de historische gegevens efficiënter kunnen worden geanalyseerd en vergeleken en is dit überhaupt mogelijk?
 
 \section{Deelsonderzoekvragen}
 \begin{enumerate}
     \item Welke specificaties en uitdagingen zijn verbonden aan 13F-meldingen van de SEC voor 2013?
-    \item Hoe kunnen NLP-technologieën worden ingezet om de tekstuele gegevens in 13F-meldingen te extraheren en te standardiseren?
+    \item Hoe kunnen NLP-technologieën worden ingezet om de tekstuele gegevens in 13F-meldingen te extraheren en te standaardiseren?
     \item Wat zijn de praktische implicaties en voordelen van het standaardiseren en integreren van 13F-meldingen met behulp van AI-technologieën?
     
 \end{enumerate}
@@ -71,9 +71,5 @@ In Hoofdstuk~\ref{ch:stand-van-zaken} wordt een overzicht gegeven van de stand v
 
 In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de gebruikte onderzoekstechnieken besproken om een antwoord te kunnen formuleren op de onderzoeksvragen.
 In Hoofdstuk~\ref{ch:benodigdheden}  worden de vereisten voor het ontwikkelen van de proof of concept besproken, inclusief een prioritering op basis van hun belang.
-
-
-In Hoofdstuk~\ref{ch:POC} wordt de proof-of-concept besproken. De inhoud omvat de ingewikkelde technische specificaties, structuur en tools, samen met de functionele elementen zoals de modellen en de databank.
-
-
+In Hoofdstuk~\ref{ch:proof of concept} wordt de proof of concept besproken. De inhoud omvat de ingewikkelde technische specificaties, structuur en tools, samen met de functionele elementen zoals de modellen en de databank.
 In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.

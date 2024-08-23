@@ -11,6 +11,7 @@
 % kader van het vak Research Methods dat ik (vorig/dit) academiejaar heb
 % uitgewerkt (met medesturent VOORNAAM NAAM als mede-auteur).
 % 
+
 \section{Inleiding}
 \label{sec:inleiding}
 \subsection{Achtergrond en Context}
@@ -25,7 +26,7 @@ AI-technologieën zoals NLP en ML kunnen helpen deze oudere documenten te standa
 
 \subsection{Hoofonderzoeksvraag}
 
-Hoe kunnen AI-technologieën zoals Natural Language Processing (NLP) en Machine Learning (ML) effectief worden toegepast om 13F-meldingen van de SEC van vóór 2013 te standaardiseren en te integreren in een gestructureerde databank, zodat de historische gegevens efficiënter kunnen worden geanalyseerd en vergeleken?
+Hoe kunnen AI-technologieën zoals Natural Language Processing (NLP) en Machine Learning (ML) effectief worden toegepast om 13F-meldingen van de SEC van voor 2013 te standaardiseren en te integreren in een gestructureerde databank, zodat de historische gegevens efficiënter kunnen worden geanalyseerd en vergeleken?
 
 \subsection{Deelonderzoeksvragen}
 \begin{enumerate}
@@ -43,21 +44,76 @@ Het hoofddoel van dit onderzoek is het ontwikkelen van een geautomatiseerde meth
 
 \section{Literatuurstudie}%
 \label{sec:literatuurstudie}
-SEC
-Textmining
-LLM
+In dit gedeelte van het voorstel worden verschillende componenten behandeld. Allereerst zal de focus liggen op de rol van de SEC en de aard van 13F-meldingen. Vervolgens zullen we ingaan op text mining en de diverse technieken die daarbij worden toegepast.
+
+
+\subsection{SEC en 13F}
+
+\subsubsection{Definitie en doel}
+13F-meldingen zijn wettelijke rapporten die de Amerikaanse Securities and Exchange Commission (SEC) vereist onder Sectie 13(f) van de Securities Exchange Act van 1934. Ze dienen om de portefeuilles van institutionele beleggingsbeheerders te rapporteren \textcite{SECform13F2024}. Het belangrijkste doel van deze meldingen is om transparantie te waarborgen over de beleggingsactiviteiten van grote institutionele beleggers zoals beleggingsfondsen en pensioenfondsen. Dit helpt zowel het publiek als regelgevende instanties om toezicht te houden op de beleggingsposities van deze instellingen.
+
+\subsubsection{Belangrijke kenmerken}
+
+\textbf{Vereisten voor rapportage:} Institutionele beleggers met een beheerd vermogen van minimaal USD 100 miljoen moeten elk kwartaal een 13F-melding indienen. Deze rapporten bevatten gedetailleerde informatie over hun aandelenportefeuille, zoals de naam van het aandeel, het CUSIP-nummer, het aantal gehouden aandelen en de marktwaarde ervan.
+
+\textbf{Omvang van de informatie:} De rapportages zijn voornamelijk gericht op aandelenbezit. Andere activa, zoals obligaties, derivaten en private equity, worden niet opgenomen in de meldingen \textcite{SECform13F2024}. Elk kwartaalrapport biedt een overzicht van de aandelenportefeuille aan het einde van de rapportageperiode, wat waardevolle inzichten geeft in de investeringsstrategieën en methoden van de instelling.
+
+\textbf{Opmaak en toegankelijkheid:} De 13F-meldingen voor 2013 en eerder hebben een variërende opmaak, wat het extractieproces van gegevens bemoeilijkt. Dit maakt het lastig om consistente en betrouwbare gegevens te verkrijgen uit deze oudere rapporten.
+
+Deze meldingen dragen bij aan de transparantie en helpen bij het begrijpen van de beleggingsbenaderingen van grote institutionele beleggers.
+
+\subsection{Textmining}
+Text mining, ook wel tekst datamining genoemd, is het proces waarbij ongestructureerde tekst wordt omgezet in een gestructureerd formaat om patronen te ontdekken en nieuwe inzichten te verwerven \autocite{IBM2024}. Deze techniek maakt het mogelijk om uit uitgebreide tekst datasets significante thema’s, patronen en verborgen verbanden te extraheren, wat cruciaal is voor analyse en besluitvorming.
+
+\subsection{Documentdatatypes}
+
+Text mining kan verschillende soorten gestructureerde gegevens omvatten, zoals:
+
+\begin{enumerate}
+    \item \textbf{Gestructureerde Gegevens:} Georganiseerd in tabelvorm, wat verwerking en analyse vergemakkelijkt, zoals in databanken met kolommen en rijen.
+    \item \textbf{Ongestructureerde Gegevens:} Tekst zonder vooraf gedefinieerd formaat, zoals sociale media of productrecensies, en rijke media zoals video- en audiobestanden. Financiële documenten vallen vaak onder deze categorie, waardoor text mining essentieel is om deze gegevens bruikbaar te maken.
+    \item \textbf{Semi-gestructureerde Gegevens:} Een mix van gestructureerde en ongestructureerde formaten, zoals XML, JSON en HTML-bestanden, die enige organisatie hebben maar niet volledig voldoen aan relationele databasevereisten \autocite{AWS2024}.
+\end{enumerate}
+
+Het begrijpen van deze datatypes is cruciaal voor het toepassen van text mining op verschillende datastructuren, wat mogelijkheden opent voor het extraheren van belangrijke inzichten.
+
+\subsection{Text Mining versus Text Analytics}
+
+Hoewel text mining en text analytics vaak door elkaar worden gebruikt, zijn er nuances in hun toepassingen. Text mining richt zich op het ontdekken van patronen en trends in ongestructureerde gegevens, terwijl text analytics zich richt op het afleiden van kwantitatieve inzichten door gestructureerde gegevens te analyseren \autocite{IBM2024}. Text mining omvat methoden zoals informatie-extractie, natuurlijke taalverwerking (NLP) en machinaal leren om verborgen patronen te ontdekken in grote hoeveelheden tekstuele gegevens \autocite{gaikwad2014text}.
+
+\subsection{Voor- en Nadelen van Text Mining}
+
+\textbf{Voordelen:}
+\begin{enumerate}
+    \item Analyse van grote tekst corpora om entiteiten en hun relaties te identificeren.
+    \item Omgaan met ongestructureerde gegevens om patronen te ontdekken.
+    \item Inzichten uit verschillende gegevensbronnen voor weloverwogen zakelijke beslissingen.
+\end{enumerate}
+
+\textbf{Nadelen:}
+\begin{enumerate}
+    \item Vereist aanzienlijke opslagruimte en rekenkracht.
+    \item Resultaten zijn afhankelijk van de gegevenskwaliteit, beïnvloed door structuur en voorbewerking \autocite{Kinter2024, gaikwad2014text}.
+\end{enumerate}
+
+\subsection{Tekstanalyse versus Text Mining}
+
+Tekstanalyse richt zich op het extraheren en interpreteren van specifieke informatie uit tekstgegevens, met behulp van semantische analysetechnieken en NLP voor taken zoals sentimentanalyse en onderwerpmodellering \autocite{gaikwad2014text}. Dit kan bijvoorbeeld worden gebruikt om relevante clausules uit contracten te halen, terwijl text mining wordt gebruikt om trends in juridische beslissingen te identificeren.
+
+In conclusie, text mining en tekstanalyse dienen verschillende doeleinden: text mining zoekt naar onbekende patronen, terwijl tekstanalyse zich richt op het extraheren van bestaande informatie van hoge kwaliteit.
+
 
 \section{Methodologie}
 \label{sec:methodologie}
 
-Dit onderzoek richt zich op het ontwikkelen van een proof-of-concept applicatie die AI- technologieën, zoals Natural Language Processing (NLP) en Machine Learning (ML), gebruikt om 13F-meldingen van vóór 2013 te standaardiseren en te integreren in een relationele databank. De methodologie omvat vier hoofdfasen: literatuurstudie, systeemontwikkeling, evaluatie, en implementatie.
+Dit onderzoek richt zich op het ontwikkelen van een proof-of-concept applicatie die AI- technologieën, zoals Natural Language Processing (NLP) en Machine Learning (ML), gebruikt om 13F-meldingen van voor 2013 te standaardiseren en te integreren in een relationele databank. De methodologie omvat vier hoofdfasen: literatuurstudie, systeemontwikkeling, evaluatie, en implementatie.
 
-In de eerste fase zal de literatuurstudie worden voorbereid, deze zal zich focussen op het analyseren van bestaande technieken en benaderingen te analyseren. Dit zal bestaan uit het verkennen van relevante NLP-technieken zoals Named Entity Recognition (NER), tekstclassificatie en tokenisatie, die nuttig kunnen zijn voor het extraheren van de nodige gegevens. Alssok zal er een analyse gedaan worden naar al bestaande modellen en bibliotheken zoals BERT, GPT en Spacy.
+In de eerste fase zal de literatuurstudie worden voorbereid, deze zal zich focussen op het analyseren van bestaande technieken en benaderingen te analyseren. Dit zal bestaan uit het verkennen van relevante NLP-technieken zoals Named Entity Recognition (NER), tekstclassificatie en tokenisatie, die nuttig kunnen zijn voor het extraheren van de nodige gegevens. Alsook zal er een analyse gedaan worden naar al bestaande modellen en bibliotheken zoals BERT, GPT en Spacy.
 
 Op basis van de bevindingen uit de eerste fase zal er een proof-of-concept systeem ontwikkeld met de volgende stappen:
 \begin{enumerate}
-    \item \textbf{Data Voorbereiding:} Verzamelen en voorbereiden van een dataset van 13F-meldingen van vóór 2013. Dit kan bestaan uit het downloaden van historische rapporten en het opschonen van gegevens om consistentie en kwaliteit te waarborgen.
-    \item \textbf{NLP- en ML-implementatie:} Het tepassen van NLP-technieken voor het extraheren van relevante informatie zoals bedrijfsnamen, aandelen en aantallen. Vervolgens worden ML-modellen getraind om patronen en structuren te herkennen, en om de gegevens te classificeren en te structureren.
+    \item \textbf{Data Voorbereiding:} Verzamelen en voorbereiden van een dataset van 13F- meldingen van voor 2013. Dit kan bestaan uit het downloaden van historische rapporten en het opschonen van gegevens om consistentie en kwaliteit te waarborgen.
+    \item \textbf{NLP- en ML-implementatie:} Het toepassen van NLP-technieken voor het extraheren van relevante informatie zoals bedrijfsnamen, aandelen en aantallen. Vervolgens worden ML-modellen getraind om patronen en structuren te herkennen, en om de gegevens te classificeren en te structureren.
     \item \textbf{Integratie:} Integreren van deze gegevens in een relationele databank die ontworpen is voor efficiënte opslag en toegang.
 \end{enumerate}
 
