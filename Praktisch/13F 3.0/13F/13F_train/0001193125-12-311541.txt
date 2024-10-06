@@ -1,0 +1,491 @@
+<SEC-DOCUMENT>0001193125-12-311541.txt : 20120724
+<SEC-HEADER>0001193125-12-311541.hdr.sgml : 20120724
+<ACCEPTANCE-DATETIME>20120724094355
+ACCESSION NUMBER:		0001193125-12-311541
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20120630
+FILED AS OF DATE:		20120724
+DATE AS OF CHANGE:		20120724
+EFFECTIVENESS DATE:		20120724
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Zebra Capital Management, LLC
+		CENTRAL INDEX KEY:			0001316915
+		IRS NUMBER:				061614133
+		STATE OF INCORPORATION:			CT
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-11061
+		FILM NUMBER:		12975743
+
+	BUSINESS ADDRESS:	
+		STREET 1:		612 WHEELERS FARMS ROAD
+		CITY:			MILFORD
+		STATE:			CT
+		ZIP:			06460
+		BUSINESS PHONE:		2038783223
+
+	MAIL ADDRESS:	
+		STREET 1:		612 WHEELERS FARMS ROAD
+		CITY:			MILFORD
+		STATE:			CT
+		ZIP:			06460
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>d383871d13fhr.txt
+<DESCRIPTION>FORM 13F-HR
+<TEXT>
+<PAGE>
+
+
+
+                                  UNITED STATES
+                       SECURITIES AND EXCHANGE COMMISSION
+                             WASHINGTON, D.C. 20549
+
+                                    FORM 13F
+
+                               FORM 13F COVER PAGE
+
+Report for the Calendar Year or Quarter Ended: 6.30.2012
+
+Check here if Amendment [_]; Amendment Number:
+                                              ----------
+ This Amendment (Check only one.): [_] is a restatement.
+                                   [_] adds new holdings entries.
+
+Institutional Investment Manager Filing this Report:
+
+Name:    Zebra Capital Management LLC
+Address: 612 Wheelers Farms Road
+         Milford CT 06461
+
+Form 13F File Number: 28-11061
+
+The institutional investment manager filing this report and the person by whom
+it is signed hereby represent that the person signing the report is authorized
+to submit it, that all information contained herein is true, correct and
+complete, and that it is understood that all required items, statements,
+schedules, lists, and tables, are considered integral parts of this form.
+
+Person Signing this Report on Behalf of Reporting Manager:
+
+Name:  Peter Schaffer
+Title: COO
+Phone: 203.878.3223
+
+Signature, Place, and Date of Signing:
+
+   /s/ Peter Schaffer              Milford, CT                  7/23/2012
+-------------------------   ------------------------   -------------------------
+       [Signature]               [City, State]                  [Date]
+
+Report Type (Check only one.):
+
+[X]  13F HOLDINGS REPORT. (Check here if all holdings of this reporting manager
+     are reported in this report.)
+
+[_]  13F NOTICE. (Check here if no holdings reported are in this report, and all
+     holdings are reported by other reporting manager(s).)
+
+[_]  13F COMBINATION REPORT. (Check here if a portion of the holdings for this
+     reporting manager are reported in this report and a portion are reported by
+     other reporting manager(s).)
+
+List of Other Managers Reporting for this Manager:
+
+[If there are no entries in this list, omit this section.]
+
+Form 13F File Number     Name
+----------------------   ----
+
+28-
+
+[Repeat as necessary.]
+
+
+<PAGE>
+
+
+
+                              FORM 13F SUMMARY PAGE
+
+Report Summary:
+
+Number of Other Included Managers:               0
+
+Form 13F Information Table Entry Total:        284
+
+Form 13F Information Table Value Total:    152,350
+                                        (thousands)
+
+List of Other Included Managers:
+
+Provide a numbered list of the name(s) and Form 13F file number(s) of all
+institutional investment managers with respect to which this report is filed,
+other than the manager filing this report.
+
+[If there are no entries in this list, state "NONE" and omit the column headings
+and list entries.]
+
+No.   Form 13F File Number   Name
+---   --------------------   ----
+
+      28-
+
+[Repeat as necessary.]
+
+
+<PAGE>
+
+
+Zebra Capital Management LLC
+FORM 13F
+
+                     6/29/2012
+
+<TABLE>
+<CAPTION>
+                                                                                                     Voting Authority
+                                                        Value    Shares/ Sh/ Put/ Invstmt Other    -------------------
+Name of Issuer                 Title of class   CUSIP   (x$1000) Prn Amt Prn Call Dscretn Managers   Sole  Shared None
+------------------------------ -------------- --------- -------- ------- --- ---- ------- -------- ------- ------ ----
+<S>                            <C>            <C>       <C>      <C>     <C> <C>  <C>     <C>      <C>     <C>    <C>
+1ST SOURCE CORP                Common Stock   336901103      306  13,531 SH       Sole              13,531
+ACE LTD                        Common Stock   H0023R105      247   3,332 SH       Sole               3,332
+ACTIVISION BLIZZARD INC        Common Stock   00507V109      268  22,349 SH       Sole              22,349
+AECOM TECHNOLOGY CORP          Common Stock   00766T100      229  13,945 SH       Sole              13,945
+AETNA INC                      Common Stock   00817Y108    1,046  26,983 SH       Sole              26,983
+AGL RESOURCES INC              Common Stock   001204106      211   5,453 SH       Sole               5,453
+AGRIUM INC                     Common Stock   008916108      513   5,802 SH       Sole               5,802
+AIR TRANSPORT SERVICES GROUP   Common Stock   00922R105      311  59,845 SH       Sole              59,845
+ALLETE INC                     Common Stock   018522300      206   4,930 SH       Sole               4,930
+ALLIANCE HOLDINGS GP LP        Ltd Part       01861G100      388   9,361 SH       Sole               9,361
+ALLIANT TECHSYSTEMS INC        Common Stock   018804104      243   4,805 SH       Sole               4,805
+ALON USA ENERGY INC            Common Stock   020520102      359  42,443 SH       Sole              42,443
+AMDOCS LTD                     Common Stock   G02602103      253   8,507 SH       Sole               8,507
+AMERCO                         Common Stock   023586100      681   7,565 SH       Sole               7,565
+AMERICAN CAPITAL LTD           Common Stock   02503Y103      300  29,842 SH       Sole              29,842
+AMERICAN FINANCIAL GROUP INC   Common Stock   025932104      438  11,153 SH       Sole              11,153
+AMERICAN NATIONAL INSURANCE    Common Stock   028591105      278   3,907 SH       Sole               3,907
+AMSURG CORP                    Common Stock   03232P405      238   7,937 SH       Sole               7,937
+AMTRUST FINANCIAL SERVICES     Common Stock   032359309      891  30,003 SH       Sole              30,003
+ARCHER-DANIELS-MIDLAND CO      Common Stock   039483102      564  19,117 SH       Sole              19,117
+ARROW ELECTRONICS INC          Common Stock   042735100      549  16,723 SH       Sole              16,723
+ASSURED GUARANTY LTD           Common Stock   G0585R106      440  31,224 SH       Sole              31,224
+ATLANTIC TELE-NETWORK INC      Common Stock   049079205      247   7,316 SH       Sole               7,316
+AVNET INC                      Common Stock   053807103      585  18,967 SH       Sole              18,967
+AVX CORP                       Common Stock   002444107      271  25,343 SH       Sole              25,343
+BANCFIRST CORP                 Common Stock   05945F103      388   9,253 SH       Sole               9,253
+BANK OF NEW YORK MELLON CORP   Common Stock   064058100      297  13,525 SH       Sole              13,525
+BAXTER INTERNATIONAL INC       Common Stock   071813109      681  12,817 SH       Sole              12,817
+BECTON DICKINSON AND CO        Common Stock   075887109      562   7,516 SH       Sole               7,516
+BELDEN INC                     Common Stock   077454106      517  15,511 SH       Sole              15,511
+BENCHMARK ELECTRONICS INC      Common Stock   08160H101      157  11,227 SH       Sole              11,227
+BERKSHIRE HILLS BANCORP INC    Common Stock   084680107      229  10,425 SH       Sole              10,425
+BLACK BOX CORP                 Common Stock   091826107      471  16,401 SH       Sole              16,401
+BLACKROCK INC                  Common Stock   09247X101      228   1,342 SH       Sole               1,342
+BLOUNT INTERNATIONAL INC       Common Stock   095180105      385  26,289 SH       Sole              26,289
+BOK FINANCIAL CORPORATION      Common Stock   05561Q201      519   8,911 SH       Sole               8,911
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<S>                            <C>            <C>       <C>      <C>     <C> <C>  <C>     <C>      <C>     <C>    <C>
+BROOKFIELD ASSET MANAGE-CL A   Common Stock   112585104    2,694  81,380 SH       Sole              81,380
+BROOKFIELD OFFICE PROPERTIES   Common Stock   112900105    2,277 130,710 SH       Sole             130,710
+BROOKS AUTOMATION INC          Common Stock   114340102      426  45,107 SH       Sole              45,107
+BROWN-FORMAN CORP-CLASS B      Common Stock   115637209      504   5,207 SH       Sole               5,207
+BUNGE LTD                      Common Stock   G16962105      770  12,267 SH       Sole              12,267
+CA INC                         Common Stock   12673P105      643  23,735 SH       Sole              23,735
+CAI INTERNATIONAL INC          Common Stock   12477X106      317  15,932 SH       Sole              15,932
+CAN IMPERIAL BK OF COMMERCE    Common Stock   136069101      959  13,636 SH       Sole              13,636
+CANADIAN PACIFIC RAILWAY LTD   Common Stock   13645T100      406   5,537 SH       Sole               5,537
+CAPITAL ONE FINANCIAL CORP     Common Stock   14040H105      264   4,823 SH       Sole               4,823
+CARLISLE COS INC               Common Stock   142339100      230   4,334 SH       Sole               4,334
+CASCADE CORP                   Common Stock   147195101      379   8,059 SH       Sole               8,059
+CELESTICA INC                  Common Stock   15101Q108      389  53,553 SH       Sole              53,553
+CENOVUS ENERGY INC             Common Stock   15135U109      654  20,577 SH       Sole              20,577
+CENTRAL PACIFIC FINANCIAL CO   Common Stock   154760409      808  57,192 SH       Sole              57,192
+CGI GROUP INC - CLASS A        Common Stock   39945C109      278  11,576 SH       Sole              11,576
+CHEMICAL FINANCIAL CORP        Common Stock   163731102      287  13,326 SH       Sole              13,326
+CHESAPEAKE UTILITIES CORP      Common Stock   165303108      205   4,694 SH       Sole               4,694
+CHUBB CORP                     Common Stock   171232101      201   2,754 SH       Sole               2,754
+CHURCHILL DOWNS INC            Common Stock   171484108      443   7,538 SH       Sole               7,538
+CIGNA CORP                     Common Stock   125509109      586  13,324 SH       Sole              13,324
+CNA FINANCIAL CORP             Common Stock   126117100    1,254  45,223 SH       Sole              45,223
+CNH GLOBAL N.V.                Common Stock   N20935206    1,672  43,038 SH       Sole              43,038
+CNO FINANCIAL GROUP INC        Common Stock   12621E103      107  13,664 SH       Sole              13,664
+COMMUNITY TRUST BANCORP INC    Common Stock   204149108      290   8,667 SH       Sole               8,667
+CONSTELLATION BRANDS INC-A     Common Stock   21036P108      630  23,289 SH       Sole              23,289
+COPA HOLDINGS SA-CLASS A       Common Stock   P31076105      545   6,606 SH       Sole               6,606
+CORNING INC                    Common Stock   219350105      161  12,478 SH       Sole              12,478
+COVENTRY HEALTH CARE INC       Common Stock   222862104      229   7,192 SH       Sole               7,192
+COVIDIEN PLC                   Common Stock   G2554F113      844  15,778 SH       Sole              15,778
+CREDIT ACCEPTANCE CORP         Common Stock   225310101      296   3,501 SH       Sole               3,501
+CRESTWOOD MIDSTREAM PARTNERS   Ltd Part       226372100      267  10,329 SH       Sole              10,329
+CSG SYSTEMS INTL INC           Common Stock   126349109      448  25,939 SH       Sole              25,939
+CUBIC CORP                     Common Stock   229669106      654  13,610 SH       Sole              13,610
+CUMULUS MEDIA INC-CL A         Common Stock   231082108      409 135,840 SH       Sole             135,840
+DELEK US HOLDINGS INC          Common Stock   246647101    1,539  87,516 SH       Sole              87,516
+DELL INC                       Common Stock   24702R101      802  64,125 SH       Sole              64,125
+DELTA AIR LINES INC            Common Stock   247361702    1,364 124,541 SH       Sole             124,541
+DELTEK INC                     Common Stock   24784L105      150  12,910 SH       Sole              12,910
+DELUXE CORP                    Common Stock   248019101    1,082  43,383 SH       Sole              43,383
+DIANA SHIPPING INC             Common Stock   Y2066G104      365  46,901 SH       Sole              46,901
+DISCOVER FINANCIAL SERVICES    Common Stock   254709108      305   8,811 SH       Sole               8,811
+DOLE FOOD CO INC               Common Stock   256603101      395  44,962 SH       Sole              44,962
+DOLLAR GENERAL CORP            Common Stock   256677105      994  18,276 SH       Sole              18,276
+DOMINION RESOURCES INC/VA      Common Stock   25746U109      250   4,636 SH       Sole               4,636
+DORMAN PRODUCTS INC            Common Stock   258278100      489  19,503 SH       Sole              19,503
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<S>                            <C>            <C>       <C>      <C>     <C> <C>  <C>     <C>      <C>     <C>    <C>
+DST SYSTEMS INC                Common Stock   233326107      240   4,425 SH       Sole               4,425
+EAGLE ROCK ENERGY PARTNERS     Ltd Part       26985R104      302  33,735 SH       Sole              33,735
+ELECTRO RENT CORP              Common Stock   285218103      173  10,652 SH       Sole              10,652
+ENBRIDGE ENERGY MANAGEMENT L   Common Stock   29250X103      259   8,093 SH       Sole               8,093
+ENCORE WIRE CORP               Common Stock   292562105      330  12,323 SH       Sole              12,323
+ENERGY TRANSFER EQUITY LP      Ltd Part       29273V100      549  13,377 SH       Sole              13,377
+ENNIS INC                      Common Stock   293389102      322  20,915 SH       Sole              20,915
+ENSIGN GROUP INC/THE           Common Stock   29358P101      296  10,473 SH       Sole              10,473
+ENSTAR GROUP LTD               Common Stock   G3075P101    1,394  14,086 SH       Sole              14,086
+EPIQ SYSTEMS INC               Common Stock   26882D109      157  12,844 SH       Sole              12,844
+ERIE INDEMNITY COMPANY-CL A    Common Stock   29530P102      235   3,277 SH       Sole               3,277
+EURONET WORLDWIDE INC          Common Stock   298736109      228  13,350 SH       Sole              13,350
+FBL FINANCIAL GROUP INC-CL A   Common Stock   30239F106      531  18,965 SH       Sole              18,965
+FEDERAL-MOGUL CORP             Common Stock   313549404      975  88,644 SH       Sole              88,644
+FIRST CITIZENS BCSHS  -CL A    Common Stock   31946M103      822   4,935 SH       Sole               4,935
+FIRST FINANCIAL CORP/INDIANA   Common Stock   320218100      236   8,152 SH       Sole               8,152
+FIRST REPUBLIC BANK/CA         Common Stock   33616C100      360  10,705 SH       Sole              10,705
+FISERV INC                     Common Stock   337738108      209   2,889 SH       Sole               2,889
+FLEXTRONICS INTL LTD           Common Stock   Y2573F102      608  98,071 SH       Sole              98,071
+FRANKLIN RESOURCES INC         Common Stock   354613101      252   2,269 SH       Sole               2,269
+FRESH DEL MONTE PRODUCE INC    Common Stock   G36738105      782  33,315 SH       Sole              33,315
+FUTUREFUEL CORP                Common Stock   36116M106      180  17,134 SH       Sole              17,134
+GANNETT CO                     Common Stock   364730101      164  11,103 SH       Sole              11,103
+GARMIN LTD                     Common Stock   H2906T109      471  12,294 SH       Sole              12,294
+GENERAC HOLDINGS INC           Common Stock   368736104      383  15,903 SH       Sole              15,903
+GENERAL DYNAMICS CORP          Common Stock   369550108    2,474  37,512 SH       Sole              37,512
+GENPACT LTD                    Common Stock   G3922B107      252  15,165 SH       Sole              15,165
+GORMAN-RUPP CO                 Common Stock   383082104      261   8,754 SH       Sole               8,754
+GRAN TIERRA ENERGY INC         Common Stock   38500T101      544 110,832 SH       Sole             110,832
+GRAPHIC PACKAGING HOLDING CO   Common Stock   388689101      445  80,820 SH       Sole              80,820
+HARRIS CORP                    Common Stock   413875105      559  13,358 SH       Sole              13,358
+HARTE-HANKS INC                Common Stock   416196103      287  31,405 SH       Sole              31,405
+HCA HOLDINGS INC               Common Stock   40412C101      936  30,747 SH       Sole              30,747
+HEALTHSOUTH CORP               Common Stock   421924309    1,484  63,797 SH       Sole              63,797
+HELEN OF TROY LTD              Common Stock   G4388N106      791  23,340 SH       Sole              23,340
+HENRY SCHEIN INC               Common Stock   806407102      367   4,680 SH       Sole               4,680
+HILLENBRAND INC                Common Stock   431571108      597  32,491 SH       Sole              32,491
+HOLLYFRONTIER CORP             Common Stock   436106108    1,374  38,789 SH       Sole              38,789
+HOLLYSYS AUTOMATION TECHNOLO   Common Stock   G45667105      186  21,789 SH       Sole              21,789
+HORMEL FOODS CORP              Common Stock   440452100      650  21,359 SH       Sole              21,359
+HUBBELL INC -CL B              Common Stock   443510201      323   4,148 SH       Sole               4,148
+ICAHN ENTERPRISES LP           Ltd Part       451100101    1,077  26,929 SH       Sole              26,929
+IGATE CORP                     Common Stock   45169U105      244  14,313 SH       Sole              14,313
+INNOSPEC INC                   Common Stock   45768S105      570  19,252 SH       Sole              19,252
+INSIGHT ENTERPRISES INC        Common Stock   45765U103      570  33,844 SH       Sole              33,844
+INTERVAL LEISURE GROUP         Common Stock   46113M108      331  17,389 SH       Sole              17,389
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<S>                            <C>            <C>       <C>      <C>     <C> <C>  <C>     <C>      <C>     <C>    <C>
+INVESTORS BANCORP INC          Common Stock   46146P102      400  26,528 SH       Sole              26,528
+ISHARES MSCI ACWI INDEX FUND   ETP            464288257      286   6,520 SH       Sole               6,520
+IXYS CORPORATION               Common Stock   46600W106      305  27,394 SH       Sole              27,394
+J & J SNACK FOODS CORP         Common Stock   466032109      381   6,453 SH       Sole               6,453
+JOHN BEAN TECHNOLOGIES CORP    Common Stock   477839104      171  12,597 SH       Sole              12,597
+KAPSTONE PAPER AND PACKAGING   Common Stock   48562P103      419  26,440 SH       Sole              26,440
+KELLOGG CO                     Common Stock   487836108      666  13,497 SH       Sole              13,497
+KIMBERLY-CLARK CORP            Common Stock   494368103      265   3,168 SH       Sole               3,168
+KKR FINANCIAL HOLDINGS LLC     Ltd Part       48248A306    2,082 244,399 SH       Sole             244,399
+KNOLOGY INC                    Common Stock   499183804      446  22,688 SH       Sole              22,688
+KRONOS WORLDWIDE INC           Common Stock   50105F105      230  14,593 SH       Sole              14,593
+LEGACY RESERVES LP             Ltd Part       524707304      587  23,462 SH       Sole              23,462
+LIBERTY MEDIA CORP - LIBER-A   Common Stock   530322106      881  10,023 SH       Sole              10,023
+LINCOLN ELECTRIC HOLDINGS      Common Stock   533900106      274   6,253 SH       Sole               6,253
+LINN ENERGY LLC-UNITS          Unit           536020100      720  18,895 SH       Sole              18,895
+LKQ CORP                       Common Stock   501889208      261   7,816 SH       Sole               7,816
+LOCKHEED MARTIN CORP           Common Stock   539830109      362   4,153 SH       Sole               4,153
+LOEWS CORP                     Common Stock   540424108      476  11,645 SH       Sole              11,645
+LORAL SPACE & COMMUNICATIONS   Common Stock   543881106    1,381  20,502 SH       Sole              20,502
+MAGELLAN MIDSTREAM PARTNERS    Ltd Part       559080106      599   8,479 SH       Sole               8,479
+MAGNA INTERNATIONAL INC        Common Stock   559222401    1,291  32,719 SH       Sole              32,719
+MAGNACHIP SEMICONDUCT          Common Stock   55933J203      194  20,383 SH       Sole              20,383
+MAIDEN HOLDINGS LTD            Common Stock   G5753U112      168  19,352 SH       Sole              19,352
+MANULIFE FINANCIAL CORP        Common Stock   56501R106      880  80,799 SH       Sole              80,799
+MATTHEWS INTL CORP-CLASS A     Common Stock   577128101      507  15,590 SH       Sole              15,590
+MCCORMICK & CO-NON VTG SHRS    Common Stock   579780206      454   7,481 SH       Sole               7,481
+MCGRATH RENTCORP               Common Stock   580589109      313  11,816 SH       Sole              11,816
+MEDICINES COMPANY              Common Stock   584688105      237  10,311 SH       Sole              10,311
+MERCER INTERNATIONAL INC       Common Stock   588056101      344  60,176 SH       Sole              60,176
+METALS USA HOLDINGS CORP       Common Stock   59132A104      487  30,592 SH       Sole              30,592
+METRO HEALTH NETWORKS INC      Common Stock   592142103      210  21,974 SH       Sole              21,974
+MFC INDUSTRIAL LTD             Common Stock   55278T105      276  40,937 SH       Sole              40,937
+MGE ENERGY INC                 Common Stock   55277P104      955  20,194 SH       Sole              20,194
+MINE SAFETY APPLIANCES CO      Common Stock   602720104      587  14,587 SH       Sole              14,587
+MKS INSTRUMENTS INC            Common Stock   55306N104      633  21,944 SH       Sole              21,944
+MOLSON COORS BREWING CO -B     Common Stock   60871R209      348   8,353 SH       Sole               8,353
+MOOG INC-CLASS A               Common Stock   615394202      750  18,126 SH       Sole              18,126
+MTS SYSTEMS CORP               Common Stock   553777103      400  10,374 SH       Sole              10,374
+MULTI-COLOR CORP               Common Stock   625383104      207   9,298 SH       Sole               9,298
+MULTI-FINELINE ELECTRONIX IN   Common Stock   62541B101      392  15,893 SH       Sole              15,893
+NACCO INDUSTRIES-CL A          Common Stock   629579103    1,228  10,566 SH       Sole              10,566
+NATIONAL BEVERAGE CORP         Common Stock   635017106      363  24,283 SH       Sole              24,283
+NATIONAL HEALTHCARE CORP       Common Stock   635906100      336   7,428 SH       Sole               7,428
+NATIONAL INTERSTATE CORP       Common Stock   63654U100      329  12,358 SH       Sole              12,358
+NATIONAL PRESTO INDS INC       Common Stock   637215104      201   2,885 SH       Sole               2,885
+NATL WESTERN LIFE INS-CL A     Common Stock   638522102      471   3,318 SH       Sole               3,318
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<S>                            <C>            <C>       <C>      <C>     <C> <C>  <C>     <C>      <C>     <C>    <C>
+NAVIOS MARITIME HOLDINGS INC   Common Stock   Y62196103      718 216,204 SH       Sole             216,204
+NELNET INC-CL A                Common Stock   64031N108    1,335  58,022 SH       Sole              58,022
+NET 1 UEPS TECHNOLOGIES INC    Common Stock   64107N206      222  26,576 SH       Sole              26,576
+NEWPORT CORP                   Common Stock   651824104      266  22,166 SH       Sole              22,166
+NEXTERA ENERGY INC             Common Stock   65339F101    2,221  32,281 SH       Sole              32,281
+NIELSEN HOLDINGS NV            Common Stock   N63218106      363  13,842 SH       Sole              13,842
+NL INDUSTRIES                  Common Stock   629156407      448  35,921 SH       Sole              35,921
+NORANDA ALUMINUM HOLDING COR   Common Stock   65542W107      226  28,392 SH       Sole              28,392
+NORDION INC                    Common Stock   65563C105      100  10,722 SH       Sole              10,722
+NORTHEAST UTILITIES            Common Stock   664397106      242   6,224 SH       Sole               6,224
+NORTHROP GRUMMAN CORP          Common Stock   666807102      254   3,983 SH       Sole               3,983
+NUSTAR ENERGY LP               Ltd Part       67058H102      227   4,210 SH       Sole               4,210
+NUSTAR GP HOLDINGS LLC         Ltd Part       67059L102      465  14,990 SH       Sole              14,990
+OGE ENERGY CORP                Common Stock   670837103      275   5,307 SH       Sole               5,307
+ORBOTECH LTD                   Common Stock   M75253100      353  46,310 SH       Sole              46,310
+PARK ELECTROCHEMICAL CORP      Common Stock   700416209      218   8,437 SH       Sole               8,437
+PDL BIOPHARMA INC              Common Stock   69329Y104      697 105,059 SH       Sole             105,059
+PENDRELL CORP                  Common Stock   70686R104      199 181,016 SH       Sole             181,016
+PILGRIM'S PRIDE CORP           Common Stock   72147K108      146  20,459 SH       Sole              20,459
+PIONEER SOUTHWEST ENERGY PAR   Ltd Part       72388B106      843  32,789 SH       Sole              32,789
+PLAINS ALL AMER PIPELINE LP    Ltd Part       726503105    1,673  20,708 SH       Sole              20,708
+POLYONE CORPORATION            Common Stock   73179P106      426  31,159 SH       Sole              31,159
+PRECISION DRILLING CORP        Common Stock   74022D308       79  11,633 SH       Sole              11,633
+PREMIERE GLOBAL SERVICES INC   Common Stock   740585104      127  15,143 SH       Sole              15,143
+PRESIDENTIAL LIFE CORP         Common Stock   740884101      149  15,108 SH       Sole              15,108
+PRESTIGE BRANDS HOLDINGS INC   Common Stock   74112D101      203  12,868 SH       Sole              12,868
+PRIMORIS SERVICES CORP         Common Stock   74164F103      145  12,075 SH       Sole              12,075
+PROASSURANCE CORP              Common Stock   74267C106      257   2,889 SH       Sole               2,889
+PRUDENTIAL FINANCIAL INC       Common Stock   744320102      319   6,597 SH       Sole               6,597
+PUBLIC SERVICE ENTERPRISE GP   Common Stock   744573106    1,272  39,152 SH       Sole              39,152
+QUAKER CHEMICAL CORP           Common Stock   747316107      320   6,917 SH       Sole               6,917
+RAYTHEON COMPANY               Common Stock   755111507    2,096  37,035 SH       Sole              37,035
+REINSURANCE GROUP OF AMERICA   Common Stock   759351604      408   7,674 SH       Sole               7,674
+REVLON INC-CLASS A             Common Stock   761525609      452  31,780 SH       Sole              31,780
+REYNOLDS AMERICAN INC          Common Stock   761713106    1,910  42,571 SH       Sole              42,571
+ROGERS COMMUNICATIONS INC-B    Common Stock   775109200      607  16,762 SH       Sole              16,762
+SABINE ROYALTY TRUST           Royalty Trst   785688102      311   6,200 SH       Sole               6,200
+SAFE BULKERS INC               Common Stock   Y7388L103      721 116,804 SH       Sole             116,804
+SAFEGUARD SCIENTIFICS INC      Common Stock   786449207      730  47,133 SH       Sole              47,133
+SAIC INC                       Common Stock   78390X101      493  40,640 SH       Sole              40,640
+SALLY BEAUTY HOLDINGS INC      Common Stock   79546E104      204   7,907 SH       Sole               7,907
+SANDY SPRING BANCORP INC       Common Stock   800363103      218  12,091 SH       Sole              12,091
+SAUER-DANFOSS INC              Common Stock   804137107      358  10,239 SH       Sole              10,239
+SCANSOURCE INC                 Common Stock   806037107      575  18,752 SH       Sole              18,752
+SCHOLASTIC CORP                Common Stock   807066105      317  11,248 SH       Sole              11,248
+SCHULMAN (A.) INC              Common Stock   808194104      328  16,500 SH       Sole              16,500
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<S>                            <C>            <C>       <C>      <C>     <C> <C>  <C>     <C>      <C>     <C>    <C>
+SCICLONE PHARMACEUTICALS INC   Common Stock   80862K104      296  42,179 SH       Sole              42,179
+SEABOARD CORP                  Common Stock   811543107      616     289 SH       Sole                 289
+SEAGATE TECHNOLOGY             Common Stock   G7945M107    1,258  50,864 SH       Sole              50,864
+SEI INVESTMENTS COMPANY        Common Stock   784117103      235  11,803 SH       Sole              11,803
+SELECT MEDICAL HOLDINGS CORP   Common Stock   81619Q105    1,020 100,877 SH       Sole             100,877
+SEMPRA ENERGY                  Common Stock   816851109    1,201  17,438 SH       Sole              17,438
+SERVICE CORP INTERNATIONAL     Common Stock   817565104      177  14,293 SH       Sole              14,293
+SHAW COMMUNICATIONS INC-B      Common Stock   82028K200      333  17,616 SH       Sole              17,616
+SHIP FINANCE INTL LTD          Common Stock   G81075106      280  17,945 SH       Sole              17,945
+SJW CORP                       Common Stock   784305104      295  12,270 SH       Sole              12,270
+SNAP-ON INC                    Common Stock   833034101      352   5,655 SH       Sole               5,655
+SONOCO PRODUCTS CO             Common Stock   835495102      207   6,858 SH       Sole               6,858
+SOUTHERN COPPER CORP           Common Stock   84265V105    2,501  79,379 SH       Sole              79,379
+SOUTHSIDE BANCSHARES INC       Common Stock   84470P109      288  12,817 SH       Sole              12,817
+SPEEDWAY MOTORSPORTS INC       Common Stock   847788106      453  26,764 SH       Sole              26,764
+SS&C TECHNOLOGIES HOLDINGS     Common Stock   78467J100      639  25,553 SH       Sole              25,553
+STANDEX INTERNATIONAL CORP     Common Stock   854231107      353   8,289 SH       Sole               8,289
+STATE STREET CORP              Common Stock   857477103      209   4,685 SH       Sole               4,685
+STEINER LEISURE LTD            Common Stock   P8744Y102      375   8,086 SH       Sole               8,086
+STEPAN CO                      Common Stock   858586100      653   6,931 SH       Sole               6,931
+STRYKER CORP                   Common Stock   863667101    1,166  21,170 SH       Sole              21,170
+SUNOCO LOGISTICS PARTNERS LP   Ltd Part       86764L108      522  14,381 SH       Sole              14,381
+SUPER MICRO COMPUTER INC       Common Stock   86800U104      327  20,645 SH       Sole              20,645
+SUPERIOR INDUSTRIES INTL       Common Stock   868168105      270  16,470 SH       Sole              16,470
+SUSSER HOLDINGS CORP           Common Stock   869233106      434  11,666 SH       Sole              11,666
+SYMETRA FINANCIAL CORP         Common Stock   87151Q106      946  74,940 SH       Sole              74,940
+SYNNEX CORP                    Common Stock   87162W100      731  21,208 SH       Sole              21,208
+SYSTEMAX INC                   Common Stock   871851101      295  24,916 SH       Sole              24,916
+TAYLOR CAPITAL GROUP INC       Common Stock   876851106      227  13,878 SH       Sole              13,878
+TC PIPELINES LP                Ltd Part       87233Q108      218   5,050 SH       Sole               5,050
+TE CONNECTIVITY LTD            Common Stock   H84989104    1,341  42,010 SH       Sole              42,010
+TEAM HEALTH HOLDINGS INC       Common Stock   87817A107      364  15,105 SH       Sole              15,105
+TELETECH HOLDINGS INC          Common Stock   879939106      480  30,000 SH       Sole              30,000
+TERRA NITROGEN COMPANY LP      Ltd Part       881005201      220   1,041 SH       Sole               1,041
+TEXTAINER GROUP HOLDINGS LTD   Common Stock   G8766E109    1,522  41,259 SH       Sole              41,259
+THOMSON REUTERS CORP           Common Stock   884903105    1,929  67,806 SH       Sole              67,806
+TIME WARNER CABLE              Common Stock   88732J207    1,132  13,787 SH       Sole              13,787
+TOMPKINS FINANCIAL CORP        Common Stock   890110109      240   6,381 SH       Sole               6,381
+TOWERS WATSON & CO-CL A        Common Stock   891894107      295   4,918 SH       Sole               4,918
+TRANSCANADA CORP               Common Stock   89353D107      843  20,118 SH       Sole              20,118
+TRANSGLOBE ENERGY CORP         Common Stock   893662106      155  17,368 SH       Sole              17,368
+TREDEGAR CORP                  Common Stock   894650100      193  13,245 SH       Sole              13,245
+TRIPLE-S MANAGEMENT CORP-B     Common Stock   896749108      231  12,638 SH       Sole              12,638
+TRW AUTOMOTIVE HOLDINGS CORP   Common Stock   87264S106      537  14,598 SH       Sole              14,598
+TUTOR PERINI CORP              Common Stock   901109108      189  14,923 SH       Sole              14,923
+UNIFIRST CORP/MA               Common Stock   904708104      486   7,622 SH       Sole               7,622
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<S>                            <C>            <C>       <C>      <C>     <C> <C>  <C>     <C>      <C>     <C>    <C>
+UNION FIRST MARKET BANKSHARE   Common Stock   90662P104      215  14,862 SH       Sole              14,862
+UNITED ONLINE INC              Common Stock   911268100      368  87,318 SH       Sole              87,318
+USANA HEALTH SCIENCES INC      Common Stock   90328M107      234   5,699 SH       Sole               5,699
+VALHI INC                      Common Stock   918905100      149  11,936 SH       Sole              11,936
+VIACOM INC-CLASS B             Common Stock   92553P201    1,991  42,353 SH       Sole              42,353
+VIRTUSA CORP                   Common Stock   92827P102      135  10,102 SH       Sole              10,102
+VISTEON CORP                   Common Stock   92839U206      289   7,696 SH       Sole               7,696
+W.P. CAREY & CO. LLC           Ltd Part       92930Y107      531  11,533 SH       Sole              11,533
+WARNER CHILCOTT PLC-CLASS A    Common Stock   G94368100      321  17,907 SH       Sole              17,907
+WASHINGTON TRUST BANCORP       Common Stock   940610108      226   9,276 SH       Sole               9,276
+WEIS MARKETS INC               Common Stock   948849104      526  11,822 SH       Sole              11,822
+WELLPOINT INC                  Common Stock   94973V107    1,806  28,318 SH       Sole              28,318
+WESBANCO INC                   Common Stock   950810101      329  15,486 SH       Sole              15,486
+WEST PHARMACEUTICAL SERVICES   Common Stock   955306105      545  10,786 SH       Sole              10,786
+WESTLAKE CHEMICAL CORP         Common Stock   960413102      225   4,313 SH       Sole               4,313
+WILEY (JOHN) & SONS-CLASS A    Common Stock   968223206      218   4,440 SH       Sole               4,440
+XCEL ENERGY INC                Common Stock   98389B100      279   9,815 SH       Sole               9,815
+XEROX CORP                     Common Stock   984121103      123  15,574 SH       Sole              15,574
+</TABLE>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

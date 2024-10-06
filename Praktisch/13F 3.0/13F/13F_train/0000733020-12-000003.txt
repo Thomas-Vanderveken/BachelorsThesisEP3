@@ -1,0 +1,180 @@
+<SEC-DOCUMENT>0000733020-12-000003.txt : 20120731
+<SEC-HEADER>0000733020-12-000003.hdr.sgml : 20120731
+<ACCEPTANCE-DATETIME>20120731135156
+ACCESSION NUMBER:		0000733020-12-000003
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20120630
+FILED AS OF DATE:		20120731
+DATE AS OF CHANGE:		20120731
+EFFECTIVENESS DATE:		20120731
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			SCHMEIDLER A R & CO INC
+		CENTRAL INDEX KEY:			0000733020
+		IRS NUMBER:				132684582
+		STATE OF INCORPORATION:			NY
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-00858
+		FILM NUMBER:		12996370
+
+	BUSINESS ADDRESS:	
+		STREET 1:		500 FIFTH AVENUE
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			2126879800
+		BUSINESS PHONE:		2126879800
+
+	MAIL ADDRESS:	
+		STREET 1:		500 FIFTH AVENUE
+		CITY:			NEW YORK
+		STATE:			NY
+		ZIP:			10110
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>06302012.txt
+<TEXT>
+DOCUMENT-COUNT 1
+SROS	NONE
+FILER
+CIK	OOOO733O2O
+CCC	ekuo6xa*
+FILER
+PERIOD		06/30/2012
+DOCUMENT
+TYPE	13F-HR
+DESCRIPTION	FORM 13F Holdings Report
+TEXT		UNITED STATES
+		SECURITIES AND EXCHANGE COMMISSION
+		Washington, D.C. 20549
+
+		Form 13F Cover Page
+
+Report for the Calendar Year or Quarter Ended:	June 30, 2012
+
+Check here if Amendment [ ]; Amendment Number:
+This Amendment (Check only one.)	[ ] is a restatement
+					[ ] adds a new holding entries.
+
+Institutional Investment Manager Filing this Report:
+
+Name:		A.R. Schmeidler & Co., Inc.
+Address:	500 Fifth Avenue
+		14th Floor
+		New York, NY 10110
+
+13-F File Number:
+
+The institutional investment manager filing this report and the
+person by whom it is signed hereby represents that the person
+signing the report is authorized to submit it, that all
+information contained herein is true, correct and complete,
+and that it is understood all required items, statements, schedules,
+lists, and tables, are considered integral parts of this form.
+
+Person Signing this report on Behalf of the Reporting Manager:
+
+Name:		Peter G. Kandel, Jr.
+Title:		Vice President
+Phone:		212-687-9800
+
+Signature, Place, and Date of Signing:
+
+Peter G. Kandel, Jr.	New York, New York	July 31, 2012
+Report Type (Check only one.):
+[x]	13F HOLDING REPORT
+[ ]	13F NOTICE
+[ ]	13F COMBINATION REPORT.
+
+List of Other Managers Reporting for this Manager:
+
+I AM SIGNING THIS REPORT AS REQUESTED BY THE SECURITIES EXCHANGE
+ACT OF 1934.
+PAGE
+
+<TABLE>
+                                                                  FORM 13F INFORMATION TABLE
+                                                           VALUE   SHARES/  SH/ PUT/ INVSTMT    OTHER          VOTING AUTHORITY
+        NAME OF ISSUER          TITLE OF CLASS    CUSIP   (x$1000) PRN AMT  PRN CALL DSCRETN   MANAGERS     SOLE    SHARED    NONE
+------------------------------ ---------------- --------- -------- -------- --- ---- ------- ------------ -------- -------- --------
+<S>                            <C>              <C>       <C>      <C>      <C> <C>  <C>     <C>          <C>      <C>      <C>
+Goldman Sachs Grp Inc                           38144x500     1145    45900 SH       Sole                                      45900
+3M Company                     COM              88579Y101      763     8513 SH       Sole                                       8513
+A T & T Corp                   COM              00206R102    22445   629425 SH       Sole                                     629425
+Abbott Laboratories            COM              002824100    12298   190752 SH       Sole                                     190752
+Agrium Inc                     COM              008916108    11041   124794 SH       Sole                                     124794
+Alexco Resource Corp           COM              01535P106      715   162160 SH       Sole                                     162160
+Allied Nevada Gold Corp        COM              019344100    15611   550087 SH       Sole                                     550087
+American Electric Power Inc    COM              025537101     9552   239400 SH       Sole                                     239400
+Amerigas Partners Inc          COM              030975106     9469   232361 SH       Sole                                     232361
+Anadarko Petroleum Corp        COM              032511107    26200   395767 SH       Sole                                     395767
+Apache Corp                    COM              037411105    14107   160509 SH       Sole                                     160509
+Ashland Inc                    COM              044209104    15072   217460 SH       Sole                                     217460
+BP P.L.C.                      COM              055622104      259     6388 SH       Sole                                       6388
+Bristol Myers Squibb Co        COM              110122108    23179   644765 SH       Sole                                     644765
+Canadian National Railroad     COM              136375102      943    11180 SH       Sole                                      11180
+CBS Corp Class B               COM              124857202    14341   437484 SH       Sole                                     437484
+Chevron Texaco Corp            COM              166764100     2594    24590 SH       Sole                                      24590
+Cliffs Natural Resources Corp  COM              18683K101    21957   445467 SH       Sole                                     445467
+Colgate-Palmolive Co           COM              194162103     4725    45389 SH       Sole                                      45389
+Con Edison Co Of NY            COM              209115104    10277   165250 SH       Sole                                     165250
+CSX Corp                       COM              126408103     9560   427555 SH       Sole                                     427555
+Deere & Co                     COM              244199105    12302   152120 SH       Sole                                     152120
+Devon Energy Corp              COM              25179M103    14061   242475 SH       Sole                                     242475
+Diageo Corp                    COM              25243Q205     1720    16684 SH       Sole                                      16684
+Duke Energy Corp               COM              26441c204    17329   751481 SH       Sole                                     751481
+Eaton Corp                     COM              278058102    15796   398586 SH       Sole                                     398586
+Energy Transfer Part LP        COM              29273r109     3038    68750 SH       Sole                                      68750
+Enterprise Products Partners L COM              293792107    34645   676134 SH       Sole                                     676134
+Equinix Inc                    COM              29444u502      783     4460 SH       Sole                                       4460
+Exxon Mobil Corp               COM              30231G102     2275    26591 SH       Sole                                      26591
+Freeport McMoran Copper & Gold COM              35671D857     6029   176952 SH       Sole                                     176952
+General Dynamics Corp          COM              369550108     3514    53282 SH       Sole                                      53282
+General Electric Co            COM              369604103    18185   872580 SH       Sole                                     872580
+General Mills Inc              COM              370334104     7960   206540 SH       Sole                                     206540
+H J Heinz Co                   COM              423074103     9005   165586 SH       Sole                                     165586
+Hess Corp                      COM              42809H107    11786   271248 SH       Sole                                     271248
+Integrys Energy Group Inc      COM              45822p105     1290    22685 SH       Sole                                      22685
+Interxion Holding N V          COM              N47279109     6068   335050 SH       Sole                                     335050
+Intl Business Machines Corp    COM              459200101     2520    12884 SH       Sole                                      12884
+ITT Industries Inc             COM              450911201     6620   376163 SH       Sole                                     376163
+Johnson & Johnson              COM              478160104     4240    62759 SH       Sole                                      62759
+Kinder Morgan Energy Partners  COM              494550106     4924    62660 SH       Sole                                      62660
+Kinder Morgan Inc              COM              49456B101    21006   651948 SH       Sole                                     651948
+Linn Energy LLC                COM              536020100    20399   535405 SH       Sole                                     535405
+Merck & Co Inc                 COM              58933y105     6737   161370 SH       Sole                                     161370
+Mesabi Trust                   COM              590672101      565    20550 SH       Sole                                      20550
+Molycorp Inc                   COM              608753109    18529   859799 SH       Sole                                     859799
+New Gold Inc                   COM              644535106    26725  2813210 SH       Sole                                    2813210
+Newmont Mining Corp            COM              651639106      668    13765 SH       Sole                                      13765
+Norfolk & Southern Corp        COM              655844108     9161   127649 SH       Sole                                     127649
+Northrop Grumman Corp          COM              666807102     9735   152615 SH       Sole                                     152615
+Novartis AG-Sponsored ADR      COM              66987V109     6364   113850 SH       Sole                                     113850
+Occidental Petroleum Corp      COM              674599105     2908    33904 SH       Sole                                      33904
+Pepsico Inc                    COM              713448108     5210    73731 SH       Sole                                      73731
+Phillips 66                    COM              718546104     5787   174093 SH       Sole                                     174093
+RIO Tinto PLC                  COM              767204100      246     5150 SH       Sole                                       5150
+San Juan Basin Royalty Tr      COM              798241105      381    25450 SH       Sole                                      25450
+South Jersey Industries        COM              838518108      436     8550 SH       Sole                                       8550
+Southern Co                    COM              842587107     6725   145250 SH       Sole                                     145250
+Spectra Energy Corp            COM              847560109      382    13140 SH       Sole                                      13140
+Street Tracks Gold Trust       COM              78463v107     2624    16909 SH       Sole                                      16909
+Target Corporation             COM              87612E106     5978   102726 SH       Sole                                     102726
+Teekay Offshore Partners L.P.  COM              y8565j101     6760   241865 SH       Sole                                     241865
+Union Pacific Corp             COM              907818108     5671    47529 SH       Sole                                      47529
+United Technologies            COM              913017109      411     5441 SH       Sole                                       5441
+Weingarten Realty SBI          COM              948741103     1078    40945 SH       Sole                                      40945
+Xcel Energy Inc                COM              98389B100     4629   162945 SH       Sole                                     162945
+Yukon Nevada Gold Corp         COM              98849q101     2634  8048100 SH       Sole                                    8048100
+</TABLE>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

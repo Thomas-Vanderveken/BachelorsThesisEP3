@@ -1,0 +1,201 @@
+<SEC-DOCUMENT>0001510201-12-000005.txt : 20120724
+<SEC-HEADER>0001510201-12-000005.hdr.sgml : 20120724
+<ACCEPTANCE-DATETIME>20120724115704
+ACCESSION NUMBER:		0001510201-12-000005
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20120630
+FILED AS OF DATE:		20120724
+DATE AS OF CHANGE:		20120724
+EFFECTIVENESS DATE:		20120724
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Grabill Bank
+		CENTRAL INDEX KEY:			0001510201
+		IRS NUMBER:				350804763
+		STATE OF INCORPORATION:			IN
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-14065
+		FILM NUMBER:		12976001
+
+	BUSINESS ADDRESS:	
+		STREET 1:		9031 STELLHORN CROSSING PARKWAY
+		CITY:			FORT WAYEN
+		STATE:			IN
+		ZIP:			46815
+		BUSINESS PHONE:		2604710169
+
+	MAIL ADDRESS:	
+		STREET 1:		9031 STELLHORN CROSSING PARKWAY
+		CITY:			FORT WAYEN
+		STATE:			IN
+		ZIP:			46815
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>13freport06302012.txt
+<TEXT>
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 22549
+
+Form 13F
+
+FORM 13F COVER PAGE
+
+Report for the Calendar Year or Quarter Ended:  06/30/2012
+
+Check here if Amendment [   ]; Amendment Number:  ______
+  This Amendment (Check only one):[  ]  is a restatement.
+					    [  ]  adds new holding entries.
+
+Institutional Investment Manager Filing this Report:
+
+Name:  		Grabill Bank Wealth Management
+Address:	9031 Stellhorn Crossing Parkway
+		Fort Wayne, IN 46815
+
+
+Form 13F File Number:   	028-14065
+
+The institutional investment manager filing this report and the person by whom
+it is signed hereby represent that the person signing the report is authorized
+to submit it, that all information contained herein is true, correct and
+complete, and that it is understood that all required items, statements,
+schedules, lists, and tables, are considered integral parts of this form.
+
+Person Signing this Report on Behalf of Reporting Manager:
+
+Name: Sherri Chaney
+Title: Assistant Vice President & Trust Officer
+Phone: (260) 469-6309
+
+Signature, Place, and Date of Signing:
+
+
+			   Fort Wayne, Indiana	07/24/2012
+
+
+Report Type (Check only one):
+
+[X]13F HOLDINGS REPORT. (Check here if all holdings of this reporting manager
+are reported in this report.)
+
+[ ]13F NOTICE. (Check here if no holdings reported are in this report and all
+holdings are reported by other reporting manager(s).)
+
+[ ]13F COMBINATION REPORT. (Check here if a portion of the holdings for this
+reporting manager are reported in this report and a portion are reported by
+other reporting managers(s).)
+
+
+FORM 13F SUMMARY PAGE
+
+Report Summary
+
+
+Number of Other Included Managers:	   0
+
+Form 13F Information Table Entry Total:	  68
+
+Form 13R Information Table Value Total:	 67,957
+					 (thousands)
+
+List of Other Included Managers:
+
+
+Provide a numbered list of the name(s) and Form 13R file number(s) of
+all institutional investment managers with respect to which this report
+is filed, other than the manager filing this report.
+
+NONE
+
+
+<table>
+<c>
+FORM 13F INFORMATION TABLE
+Name of Issurer 	Title of	Cusip     	Value	 Shs of	SH/PRN	Discrtn	Put/call   Voting
+			Class				(X1000)	 Prn amt			   Authority
+AFLAC Common            COM           001055102         1,427     33,500SH         SOLE            SOLE
+Abbott Labs Common      COM           002824100         1,441     22,350SH         SOLE            SOLE
+Apache Corp Common      COM           037411105           670      7,620SH         SOLE            SOLE
+Apple Inc Common        COM           037833100         1,170      2,003SH         SOLE            SOLE
+Becton Dickinson Common COM           075887109           206      2,750SH         SOLE            SOLE
+Berkshire Hathaway Cl B CL B          084670702           258      3,100SH         SOLE            SOLE
+BHP Billiton Lmtd Spd ADSPD ADR       088606108         1,476     22,600SH         SOLE            SOLE
+Blackrock Inc Common    COM           09247X101           276      1,625SH         SOLE            SOLE
+CVS Caremark Common     COM           126650100         1,354     28,985SH         SOLE            SOLE
+Canadian Natl RR Co     COM           136375102         1,922     22,775SH         SOLE            SOLE
+Caterpillar Inc Common  COM           149123101         1,272     14,975SH         SOLE            SOLE
+Cenovus Energy Inc.     COM           15135U109           622     19,550SH         SOLE            SOLE
+ChevronTexaco Corp com  COM           166764100         1,485     14,075SH         SOLE            SOLE
+China Fund Inc          COM           169373107           309     14,100SH         SOLE            SOLE
+Cincinnati Financial CorCOM           172062101           266      6,979SH         SOLE            SOLE
+Coca-Cola Co Common     COM           191216100           324      4,140SH         SOLE            SOLE
+Colgate-Palmolive Com   COM           194162103           947      9,100SH         SOLE            SOLE
+ConocoPhillips common   COM           20825C104           483      8,650SH         SOLE            SOLE
+Cummins Inc             COM           231021106         1,742     17,975SH         SOLE            SOLE
+Darden Restaurants Inc  COM           237194105           272      5,375SH         SOLE            SOLE
+Deere & Co              COM           244199105           297      3,675SH         SOLE            SOLE
+Du Pont Nemours&Co      COM           263534109           415      8,200SH         SOLE            SOLE
+Emerson Electric Co     COM           291011104           986     21,159SH         SOLE            SOLE
+Exxon Mobil Corp Com    COM           30231G102         1,631     19,057SH         SOLE            SOLE
+Franklin Electric Inc CoCOM           353514102        12,675    247,900SH         SOLE            SOLE
+Google Cl A             CL A          38259P508           429        740SH         SOLE            SOLE
+Intel Corp Common       COM           458140100         1,296     48,647SH         SOLE            SOLE
+Intntl Business Machs   COM           459200101           254      1,300SH         SOLE            SOLE
+iShares S&P US Pfd Stk IPFD IDX       464288687           457     11,700SH         SOLE            SOLE
+JPMorgan Chase & Co     COM           46625H100         3,385     94,745SH         SOLE            SOLE
+Johnson & Johnson Com   COM           478160104           297      4,400SH         SOLE            SOLE
+Lincoln Natl Corp Ind CoCOM           534187109           356     16,260SH         SOLE            SOLE
+McDonalds Corp Com      COM           580135101           276      3,115SH         SOLE            SOLE
+Medtronic Inc, Common   COM           585055106           318      8,200SH         SOLE            SOLE
+Microsoft Corp.         COM           594918104           799     26,120SH         SOLE            SOLE
+National Fuel Gas Co    COM           636180101           235      5,000SH         SOLE            SOLE
+Novartis Sponsored ADR  SPD ADR       66987V109           500      8,942SH         SOLE            SOLE
+Pepsico Inc, Common     COM           713448108         1,879     26,594SH         SOLE            SOLE
+Petroleo Brasileiro A ShSPD ADR       71654V101           382     21,050SH         SOLE            SOLE
+Philip Morris Intl CommoCOM           718172109           351      4,020SH         SOLE            SOLE
+Praxair Inc Common      COM           74005P104           457      4,200SH         SOLE            SOLE
+Procter & Gamble Common COM           742718109         1,415     23,094SH         SOLE            SOLE
+Qualcomm Inc, Common    COM           747525103           504      9,050SH         SOLE            SOLE
+Quest Diagnostics Inc   COM           74834L100           470      7,850SH         SOLE            SOLE
+SPDR Gold Trust Shares  GOLD SH       78463V107           384      2,475SH         SOLE            SOLE
+SPDR Dow Jones Global REETF           78463X749           516     13,000SH         SOLE            SOLE
+Schlumberger Ltd Common COM           806857108           758     11,680SH         SOLE            SOLE
+Southern Co             COM           842587107           208      4,500SH         SOLE            SOLE
+Stryker Corp            COM           863667101         1,375     24,947SH         SOLE            SOLE
+Suncor Energy Inc       COM           867224107           740     25,550SH         SOLE            SOLE
+TJX Cos Inc New         COM           872540109           404      9,400SH         SOLE            SOLE
+Target Corp, Common     COM           87612E106           498      8,550SH         SOLE            SOLE
+Teva Pharm Ind Adr      ADR           881624209           471     11,950SH         SOLE            SOLE
+3M Co                   COM           88579Y101           685      7,650SH         SOLE            SOLE
+United Parcel Svc Cl B  CL B          911312106           280      3,550SH         SOLE            SOLE
+United Technologies Com COM           913017109         1,064     14,093SH         SOLE            SOLE
+Valero Energy Corp      COM           91913Y100           382     15,800SH         SOLE            SOLE
+Vanguard Intmdt Tm Bd EtINT TRM       921937819           220      2,475SH         SOLE            SOLE
+Vanguard MSCI EAFE ETF  ETF           921943858           203      6,430SH         SOLE            SOLE
+Vanguard Emg Mkts ETF   ETF           922042858         1,525     38,200SH         SOLE            SOLE
+Vanguard Info Tech ETF  ETF           92204A702         2,682     39,020SH         SOLE            SOLE
+Vanguard REIT Index     ETF           922908553           815     12,462SH         SOLE            SOLE
+Vanguard Mid Cap ETF    ETF           922908629         1,133     14,675SH         SOLE            SOLE
+Vanguard Small Cap ETF  ETF           922908751         1,549     20,375SH         SOLE            SOLE
+Verizon Comm Inc Com    COM           92343V104           851     19,142SH         SOLE            SOLE
+Visa Common Cl A        CL A          92826C839         1,961     15,865SH         SOLE            SOLE
+Wells Fargo & Co New    COM           949746101         1,000     29,894SH         SOLE            SOLE
+Accenture               CL A          G1151C101           267      4,450SH         SOLE            SOLE
+
+
+
+</c>
+</table>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

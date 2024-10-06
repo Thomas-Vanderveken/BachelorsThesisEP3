@@ -1,0 +1,1169 @@
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>d385034d13fhr.txt
+<DESCRIPTION>13F-HR
+<TEXT>
+<PAGE>
+
+
+                                  UNITED STATES
+                       SECURITIES AND EXCHANGE COMMISSION
+                             Washington, D.C. 20549
+
+                                    FORM 13F
+
+                               FORM 13F COVERPAGE
+
+Report for the Calendar Quarter Ended: 6/30/12
+
+If amended report check here: [_]; Amendment Number:
+                                                     ---------
+
+Institutional Investment Manager Filing this Report:
+
+Name:    Winifred I. Li
+Address: 800 Boylston Street
+         Boston Ma 02199-3600
+
+Form 13F File Number: 28-11153
+
+The institutional investment manager filing this report and the person by whom
+it is signed here by represent that the person signing the report is authorized
+to submit it, that all information contained herein is true, correct and
+complete, that that it is understood that all required items, statements,
+schedules, lists and tables are considered integral parts of this form.
+
+Person Signing this Report on Behalf of Reporting Manager:
+
+Name:
+Title:
+Phone:
+
+Signature, Place, and Date of Signing:
+
+
+      Winifred I. Li               Boston, Ma.                   7/25/12
+-------------------------   -------------------------   ------------------------
+       (Signature)                (City, State)                  (Date)
+
+[_]  13F HOLDINGS REPORT. (Check here if all holdings of this reporting manager
+     are reported in this report)
+
+[_]  13F NOTICE. (Check here if no holdings reported are in this report, and all
+     holdings are reported by other reporting manager(s).)
+
+[X]  13F COMBINATION REPORT. (Check here if a portion of the holdings for this
+     reporting manager are reported in this report and apportion are reported by
+     other reporting manager(s).)
+
+<PAGE>
+
+
+                              FORM 13F SUMMARY PAGE
+
+Report Summary:
+
+Number of Other Included Managers:                   1
+Form 13F Information Table Entry Total:            406
+Form 13F Information Table Value Total:   $103,066,000
+
+List of Other Included Managers:
+
+Provide a numbered list of the name(s) and Form 13F file number(s) of all
+institutional investment managers with respect to which this report is filed,
+other than the manager filing this report.
+
+No.    Form 13F File Number    Name
+---    --------------------    ----------------------
+14     801-69700               Barclays Capital, Inc.
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+HOLOGIC CONV V-A             BONDPAYING
+   2.000% 12/15/37           PERIODIC                                   PAR          SHARED -
+                             INCOME      436440AA9    102.64     105000 VALUE        Other            14   102.64
+KINROSS GOLD CONV            BONDPAYING
+   1.750% 3/15/28            PERIODIC                                   PAR          SHARED -
+                             INCOME      496902AD9     88.99      90000 VALUE        Other            14    88.99
+L-3 COMM CORP CONV           BONDPAYING
+   3.000% 8/01/35            PERIODIC                                   PAR          SHARED -
+                             INCOME      502413AW7    136.50     140000 VALUE        Other            14   136.50
+MEDICIS PHARMA CONV          BONDPAYING
+   1.375% 6/01/17            PERIODIC                                   PAR          SHARED -
+                             INCOME      584690AC5     84.26      85000 VALUE        Other            14    84.26
+NUVASIVE INC CONV            BONDPAYING
+   2.750% 7/01/17            PERIODIC                                   PAR          SHARED -
+                             INCOME      670704AC9     88.76      90000 VALUE        Other            14    88.76
+PATRIOT COAL CONV            BONDPAYING
+   3.250% 5/31/13            PERIODIC                                   PAR          SHARED -
+                             INCOME      70336TAA2     25.65      95000 VALUE        Other            14    25.65
+RTI INTL METALS CONV         BONDPAYING
+   3.000% 12/01/15           PERIODIC                                   PAR          SHARED -
+                             INCOME      74973WAA5     65.98      65000 VALUE        Other            14    65.98
+WILSON GRTBTCH CONV          BONDPAYING
+   2.250% 6/15/13            PERIODIC                                   PAR          SHARED -
+                             INCOME      39153LAB2     79.30      80000 VALUE        Other            14    79.30
+WRIGHT MEDICAL CONV          BONDPAYING
+   2.625% 12/01/14           PERIODIC                                   PAR          SHARED -
+                             INCOME      98235TAA5    126.70     140000 VALUE        Other            14   126.70
+3M CO                        COMMON                                                  SHARED -
+                             STOCK       88579Y101    880.77       9830 SHARES       Other            14   880.77
+3M CO                        COMMON                                                  SHARED -
+                             STOCK       88579Y101     88.35        986 SHARES       Other                  88.35
+ABB LTD-SPON ADR             COMMON                                                  SHARED -
+                             STOCK       000375204    240.77      14753 SHARES       Other                 240.77
+ABBOTT LABS                  COMMON                                                  SHARED -
+                             STOCK       002824100    848.30      13158 SHARES       Other                 848.30
+ABBOTT LABS                  COMMON                                                  SHARED -
+                             STOCK       002824100    444.33       6892 SHARES       Other            14   444.33
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+ACCENTURE PLC CL A           COMMON                                                  SHARED -
+                             STOCK       G1151C101    620.43      10325 SHARES       Other            14   620.43
+ACCO BRANDS CORP             COMMON                                                  SHARED -
+                             STOCK       00081T108      2.29        221 SHARES       Other            14     2.29
+ACE LIMITED                  COMMON                                                  SHARED -
+                             STOCK       H0023R105    672.88       9077 SHARES       Other                 672.88
+ACUITY BRANDS INC            COMMON                                                  SHARED -
+                             STOCK       00508Y102     40.73        800 SHARES       Other            14    40.73
+ADOBE SYS INC                COMMON                                                  SHARED -
+                             STOCK       00724F101      3.88        120 SHARES       Other                   3.88
+AGL RES INC                  COMMON                                                  SHARED -
+                             STOCK       001204106    155.00       4000 SHARES       Other                 155.00
+AIR PRODUCTS & CHEMICALS INC COMMON                                                  SHARED -
+                             STOCK       009158106    322.60       3996 SHARES       Other                 322.60
+ALLERGAN INC                 COMMON                                                  SHARED -
+                             STOCK       018490102      4.63         50 SHARES       Other                   4.63
+ALLETE INC                   COMMON                                                  SHARED -
+                             STOCK       018522300     48.07       1150 SHARES       Other            14    48.07
+ALLIANT CORP                 COMMON                                                  SHARED -
+                             STOCK       018802108    132.15       2900 SHARES       Other            14   132.15
+AMAZON.COM INC               COMMON                                                  SHARED -
+                             STOCK       023135106     51.84        227 SHARES       Other                  51.84
+AMC NETWORKS-A               COMMON                                                  SHARED -
+                             STOCK       00164V103     11.45        322 SHARES       Other            14    11.45
+AMERICAN EXPRESS CO          COMMON                                                  SHARED -
+                             STOCK       025816109  1,025.60      17619 SHARES       Other            14 1,025.60
+AMERISOURCEBERGEN CORP       COMMON                                                  SHARED -
+                             STOCK       03073E105    550.51      13990 SHARES       Other            14   550.51
+AMGEN INC                    COMMON                                                  SHARED -
+                             STOCK       031162100    241.26       3309 SHARES       Other                 241.26
+ANHEUSER-BUSCH INVEV SPONS   COMMON                                                  SHARED -
+   ADR                       STOCK       03524A108     31.86        400 SHARES       Other                  31.86
+APACHE CORP                  COMMON                                                  SHARED -
+                             STOCK       037411105    353.58       4023 SHARES       Other            14   353.58
+APPLE INC                    COMMON                                                  SHARED -
+                             STOCK       037833100    896.44       1535 SHARES       Other            14   896.44
+APPLE INC                    COMMON                                                  SHARED -
+                             STOCK       037833100  1,225.23       2098 SHARES       Other               1,225.23
+APPLIED MATERIALS INC        COMMON                                                  SHARED -
+                             STOCK       038222105      5.72        500 SHARES       Other                   5.72
+AQUA AMERICA INC             COMMON                                                  SHARED -
+                             STOCK       03836W103     82.37       3300 SHARES       Other            14    82.37
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+ARRIS GROUP INC              COMMON                                                  SHARED -
+                             STOCK       04269Q100     22.12       1590 SHARES       Other            14    22.12
+AT&T INC                     COMMON                                                  SHARED -
+                             STOCK       00206R102    666.88      18701 SHARES       Other                 666.88
+ATMEL CORP                   COMMON                                                  SHARED -
+                             STOCK       049513104     40.19       5990 SHARES       Other            14    40.19
+AUTOMATIC DATA PROCESSING    COMMON                                                  SHARED -
+   INC                       STOCK       053015103    473.83       8513 SHARES       Other            14   473.83
+AUTOMATIC DATA PROCESSING    COMMON                                                  SHARED -
+   INC                       STOCK       053015103    587.05      10547 SHARES       Other                 587.05
+AVIS BUDGET GROUP            COMMON                                                  SHARED -
+                             STOCK       053774105     70.38       4630 SHARES       Other            14    70.38
+AVNET INC                    COMMON                                                  SHARED -
+                             STOCK       053807103     36.41       1180 SHARES       Other            14    36.41
+BABCOCK & WILCOX             COMMON                                                  SHARED -
+                             STOCK       05615F102     43.12       1760 SHARES       Other            14    43.12
+BAKER HUGHES INC             COMMON                                                  SHARED -
+                             STOCK       057224107     12.33        300 SHARES       Other            14    12.33
+BANK OF AMERICA CORP         COMMON                                                  SHARED -
+                             STOCK       060505104     25.03       3060 SHARES       Other                  25.03
+BANK OF NEW YORK MELLON CORP COMMON                                                  SHARED -
+                             STOCK       064058100    617.12      28115 SHARES       Other            14   617.12
+BELO CORPORATION             COMMON                                                  SHARED -
+                             STOCK       080555105     20.09       3120 SHARES       Other            14    20.09
+BENEFICIAL MUTUAL BANCORP    COMMON                                                  SHARED -
+   INC                       STOCK       08173R104     27.79       3220 SHARES       Other            14    27.79
+BERKSHIRE HATHAWAY INC-CL B  COMMON                                                  SHARED -
+                             STOCK       084670702    832.05       9985 SHARES       Other            14   832.05
+BERKSHIRE HATHAWAY INC-CL B  COMMON                                                  SHARED -
+                             STOCK       084670702    297.65       3572 SHARES       Other                 297.65
+BHP BILLITON LTD ADR         COMMON                                                  SHARED -
+                             STOCK       088606108    131.84       2019 SHARES       Other                 131.84
+BOEING CO                    COMMON                                                  SHARED -
+                             STOCK       097023105    273.87       3686 SHARES       Other                 273.87
+BP PLC SPONS ADR             COMMON                                                  SHARED -
+                             STOCK       055622104    293.92       7250 SHARES       Other                 293.92
+BRINKS CO                    COMMON                                                  SHARED -
+                             STOCK       109696104     12.29        530 SHARES       Other            14    12.29
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+BRISTOL MYERS SQUIBB CO      COMMON                                                  SHARED -
+                             STOCK       110122108    279.91       7786 SHARES       Other                 279.91
+BROADRIDGE FINL SOLUTIONS    COMMON                                                  SHARED -
+   INC                       STOCK       11133T103     60.41       2840 SHARES       Other            14    60.41
+BROOKS AUTOMATION INC        COMMON                                                  SHARED -
+                             STOCK       114340102     12.37       1310 SHARES       Other            14    12.37
+CABLEVISION NY GROUP CL A    COMMON                                                  SHARED -
+                             STOCK       12686C109     18.47       1390 SHARES       Other            14    18.47
+CABOT OIL & GAS CORP         COMMON                                                  SHARED -
+                             STOCK       127097103    415.75      10552 SHARES       Other            14   415.75
+CAE INC                      COMMON                                                  SHARED -
+                             STOCK       124765108     22.75       2350 SHARES       Other            14    22.75
+CAMECO CORP                  COMMON                                                  SHARED -
+                             STOCK       13321L108     49.17       2240 SHARES       Other            14    49.17
+CANADIAN NATIONAL RAILWAY CO COMMON                                                  SHARED -
+                             STOCK       136375102     33.75        400 SHARES       Other            14    33.75
+CANADIAN NATIONAL RAILWAY CO COMMON                                                  SHARED -
+                             STOCK       136375102  1,322.49      15673 SHARES       Other               1,322.49
+CAPITOL FEDERAL FINANCIAL    COMMON                                                  SHARED -
+   INC.                      STOCK       14057J101     66.41       5590 SHARES       Other            14    66.41
+CARRIZO OIL & GAS INC        COMMON                                                  SHARED -
+                             STOCK       144577103     31.24       1330 SHARES       Other            14    31.24
+CATERPILLAR INC              COMMON                                                  SHARED -
+                             STOCK       149123101     70.05        825 SHARES       Other            14    70.05
+CATERPILLAR INC              COMMON                                                  SHARED -
+                             STOCK       149123101    181.03       2132 SHARES       Other                 181.03
+CBOE HOLDINGS INC            COMMON                                                  SHARED -
+                             STOCK       12503M108     51.76       1870 SHARES       Other            14    51.76
+CENOVUS ENERGY INC           COMMON                                                  SHARED -
+                             STOCK       15135U109    319.91      10060 SHARES       Other            14   319.91
+CENTERPOINT ENERGY INC       COMMON                                                  SHARED -
+                             STOCK       15189T107    103.35       5000 SHARES       Other            14   103.35
+CHEMTURA CORP                COMMON                                                  SHARED -
+                             STOCK       163893209     56.99       3930 SHARES       Other            14    56.99
+CHEVRON CORP                 COMMON                                                  SHARED -
+                             STOCK       166764100    512.94       4862 SHARES       Other                 512.94
+CHEVRON CORP                 COMMON                                                  SHARED -
+                             STOCK       166764100    395.63       3750 SHARES       Other            14   395.63
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+CHICAGO BRIDGE & IRON CO     COMMON                                                  SHARED -
+                             STOCK       167250109     69.09       1820 SHARES       Other            14    69.09
+CHINA MOBILE LIMITED SPONS   COMMON                                                  SHARED -
+   ADR                       STOCK       16941M109    123.01       2250 SHARES       Other            14   123.01
+CHUBB CORP                   COMMON                                                  SHARED -
+                             STOCK       171232101    161.22       2214 SHARES       Other                 161.22
+CHUNGHWA TELECOM LTD SPONS   COMMON                                                  SHARED -
+   ADR                       STOCK       17133Q502    110.63       3520 SHARES       Other            14   110.63
+CHURCH & DWIGHT INC          COMMON                                                  SHARED -
+                             STOCK       171340102    271.91       4902 SHARES       Other            14   271.91
+CINCINNATI BELL INC          COMMON                                                  SHARED -
+                             STOCK       171871106     31.06       8350 SHARES       Other            14    31.06
+CINTAS CORP                  COMMON                                                  SHARED -
+                             STOCK       172908105    458.69      11880 SHARES       Other            14   458.69
+CIRCOR INTL INC              COMMON                                                  SHARED -
+                             STOCK       17273K109     39.20       1150 SHARES       Other            14    39.20
+CISCO SYSTEMS INC            COMMON                                                  SHARED -
+                             STOCK       17275R102     99.52       5796 SHARES       Other            14    99.52
+CISCO SYSTEMS INC            COMMON                                                  SHARED -
+                             STOCK       17275R102    732.99      42690 SHARES       Other                 732.99
+COCA COLA CO                 COMMON                                                  SHARED -
+                             STOCK       191216100    656.33       8394 SHARES       Other                 656.33
+COCA COLA CO                 COMMON                                                  SHARED -
+                             STOCK       191216100     39.10        500 SHARES       Other            14    39.10
+COGNEX CORP                  COMMON                                                  SHARED -
+                             STOCK       192422103     15.51        490 SHARES       Other            14    15.51
+COLGATE PALMOLIVE CO         COMMON                                                  SHARED -
+                             STOCK       194162103    554.44       5326 SHARES       Other                 554.44
+COMERICA INC                 COMMON                                                  SHARED -
+                             STOCK       200340107    551.86      17970 SHARES       Other            14   551.86
+COMPANHIA ENERGETICA DE      COMMON                                                  SHARED -
+   MINAS GERAIS              STOCK       204409601    183.44       9959 SHARES       Other                 183.44
+COMPASS MINERALS             COMMON                                                  SHARED -
+                             STOCK       20451N101     42.72        560 SHARES       Other            14    42.72
+CONOCOPHILLIPS               COMMON                                                  SHARED -
+                             STOCK       20825C104    437.76       7834 SHARES       Other                 437.76
+COVIDIEN PLC                 COMMON                                                  SHARED -
+                             STOCK       G2554F113    527.51       9860 SHARES       Other            14   527.51
+CUMMINS INC                  COMMON                                                  SHARED -
+                             STOCK       231021106     58.15        600 SHARES       Other            14    58.15
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+CVS CAREMARK CORP            COMMON                                                  SHARED -
+                             STOCK       126650100    314.26       6725 SHARES       Other                 314.26
+DANA HOLDING CORP            COMMON                                                  SHARED -
+                             STOCK       235825205     37.28       2910 SHARES       Other            14    37.28
+DANAHER CORP                 COMMON                                                  SHARED -
+                             STOCK       235851102     73.75       1416 SHARES       Other                  73.75
+DANAHER CORP                 COMMON                                                  SHARED -
+                             STOCK       235851102    444.09       8527 SHARES       Other            14   444.09
+DELTIC TIMBER CORP           COMMON                                                  SHARED -
+                             STOCK       247850100     56.71        930 SHARES       Other            14    56.71
+DENBURY RES INC              COMMON                                                  SHARED -
+                             STOCK       247916208    145.06       9600 SHARES       Other                 145.06
+DENNY'S CORPORATION          COMMON                                                  SHARED -
+                             STOCK       24869P104     37.35       8450 SHARES       Other            14    37.35
+DEVON ENERGY CORPORATION NEW COMMON                                                  SHARED -
+                             STOCK       25179M103    629.08      10848 SHARES       Other            14   629.08
+DEVON ENERGY CORPORATION NEW COMMON                                                  SHARED -
+                             STOCK       25179M103     17.40        300 SHARES       Other                  17.40
+DIAGEO PLC ADR               COMMON                                                  SHARED -
+                             STOCK       25243Q205    371.05       3600 SHARES       Other            14   371.05
+DIEBOLD INC                  COMMON                                                  SHARED -
+                             STOCK       253651103     14.39        390 SHARES       Other            14    14.39
+DINEEQUITY INC               COMMON                                                  SHARED -
+                             STOCK       254423106     44.19        990 SHARES       Other            14    44.19
+DISCOVERY COMMUNICATIONS CL  COMMON                                                  SHARED -
+   C                         STOCK       25470F302     63.11       1260 SHARES       Other            14    63.11
+DISNEY WALT CO NEW           COMMON                                                  SHARED -
+                             STOCK       254687106     40.01        825 SHARES       Other            14    40.01
+DISNEY WALT CO NEW           COMMON                                                  SHARED -
+                             STOCK       254687106    341.34       7038 SHARES       Other                 341.34
+DOVER CORP                   COMMON                                                  SHARED -
+                             STOCK       260003108    403.15       7520 SHARES       Other            14   403.15
+DRESSER-RAND GRO             COMMON                                                  SHARED -
+                             STOCK       261608103     38.75        870 SHARES       Other            14    38.75
+DU PONT E I DE NEMOURS & CO  COMMON                                                  SHARED -
+                             STOCK       263534109  1,269.26      25099 SHARES       Other               1,269.26
+DUKE ENERGY CORP             COMMON                                                  SHARED -
+                             STOCK       26441C105     30.67       1330 SHARES       Other                  30.67
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+ECOLAB INC                   COMMON                                                  SHARED -
+                             STOCK       278865100    123.35       1800 SHARES       Other                 123.35
+EDWARDS LIFESCIENCES CORP    COMMON                                                  SHARED -
+                             STOCK       28176E108    298.64       2891 SHARES       Other            14   298.64
+EDWARDS LIFESCIENCES CORP    COMMON                                                  SHARED -
+                             STOCK       28176E108    361.55       3500 SHARES       Other                 361.55
+ELECTRONIC ARTS INC          COMMON                                                  SHARED -
+                             STOCK       285512109      3.40        275 SHARES       Other                   3.40
+EMC CORP MASS                COMMON                                                  SHARED -
+                             STOCK       268648102    338.70      13215 SHARES       Other            14   338.70
+EMC CORP MASS                COMMON                                                  SHARED -
+                             STOCK       268648102    787.25      30716 SHARES       Other                 787.25
+EMERSON ELEC CO              COMMON                                                  SHARED -
+                             STOCK       291011104    418.01       8974 SHARES       Other                 418.01
+EMERSON ELEC CO              COMMON                                                  SHARED -
+                             STOCK       291011104     69.87       1500 SHARES       Other            14    69.87
+ENERSIS SA SPONS ADR         COMMON                                                  SHARED -
+                             STOCK       29274F104     77.61       4150 SHARES       Other            14    77.61
+ENPRO INDUSTRIES INC         COMMON                                                  SHARED -
+                             STOCK       29355X107     61.29       1640 SHARES       Other            14    61.29
+EOG RES INC                  COMMON                                                  SHARED -
+                             STOCK       26875P101    248.97       2763 SHARES       Other                 248.97
+EOG RES INC                  COMMON                                                  SHARED -
+                             STOCK       26875P101    379.27       4209 SHARES       Other            14   379.27
+EXELON CORP                  COMMON                                                  SHARED -
+                             STOCK       30161N101    141.34       3757 SHARES       Other                 141.34
+EXPEDITORS INTL WASH INC     COMMON                                                  SHARED -
+                             STOCK       302130109    477.98      12335 SHARES       Other            14   477.98
+EXPRESS SCRIPTS HLDG         COMMON                                                  SHARED -
+                             STOCK       30219G108    361.83       6481 SHARES       Other            14   361.83
+EXXON MOBIL CORP             COMMON                                                  SHARED -
+                             STOCK       30231G102    458.66       5360 SHARES       Other            14   458.66
+EXXON MOBIL CORP             COMMON                                                  SHARED -
+                             STOCK       30231G102  3,119.20      36452 SHARES       Other               3,119.20
+FIRST AMERICAN FINANCIAL     COMMON                                                  SHARED -
+   CORPORATION               STOCK       31847R102     53.08       3130 SHARES       Other            14    53.08
+FIRST NIAGARA FINANCIAL GRP  COMMON                                                  SHARED -
+                             STOCK       33582V108     39.78       5200 SHARES       Other            14    39.78
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+FIRSTMERIT CORP              COMMON                                                  SHARED -
+                             STOCK       337915102     44.91       2720 SHARES       Other            14    44.91
+FISERV INC                   COMMON                                                  SHARED -
+                             STOCK       337738108    214.64       2972 SHARES       Other            14   214.64
+FLOWERS FOODS INC            COMMON                                                  SHARED -
+                             STOCK       343498101     80.38       3460 SHARES       Other            14    80.38
+FLOWSERVE CORP               COMMON                                                  SHARED -
+                             STOCK       34354P105     57.38        500 SHARES       Other            14    57.38
+FMC TECHNOLOGIES INC         COMMON                                                  SHARED -
+                             STOCK       30249U101    257.03       6552 SHARES       Other            14   257.03
+FORESTAR GROUP INC           COMMON                                                  SHARED -
+                             STOCK       346233109     29.85       2330 SHARES       Other            14    29.85
+FORTUNE BRANDS HOME &        COMMON                                                  SHARED -
+   SECURITY, INC             STOCK       34964C106     21.38        960 SHARES       Other            14    21.38
+FOSTER LB COMPANY            COMMON                                                  SHARED -
+                             STOCK       350060109     28.32        990 SHARES       Other            14    28.32
+FOSTER WHEELER AG            COMMON                                                  SHARED -
+                             STOCK       H27178104     29.01       1680 SHARES       Other            14    29.01
+FRANCO NEVADA CORP           COMMON                                                  SHARED -
+                             STOCK       351858105    216.96       4800 SHARES       Other            14   216.96
+GANNETT INC                  COMMON                                                  SHARED -
+                             STOCK       364730101     40.95       2780 SHARES       Other            14    40.95
+GENERAL DYNAMICS CORP        COMMON                                                  SHARED -
+                             STOCK       369550108     92.34       1400 SHARES       Other                  92.34
+GENERAL ELECTRIC CO          COMMON                                                  SHARED -
+                             STOCK       369604103    565.87      27153 SHARES       Other            14   565.87
+GENERAL ELECTRIC CO          COMMON                                                  SHARED -
+                             STOCK       369604103    716.12      34363 SHARES       Other                 716.12
+GENERAL MLS INC              COMMON                                                  SHARED -
+                             STOCK       370334104     75.65       1963 SHARES       Other            14    75.65
+GENERAL MLS INC              COMMON                                                  SHARED -
+                             STOCK       370334104    973.60      25262 SHARES       Other                 973.60
+GENESEE & WYOMING INC CL A   COMMON                                                  SHARED -
+                             STOCK       371559105     32.23        610 SHARES       Other            14    32.23
+GENTEX CORP                  COMMON                                                  SHARED -
+                             STOCK       371901109     79.31       3800 SHARES       Other                  79.31
+GENTEX CORP                  COMMON                                                  SHARED -
+                             STOCK       371901109    246.54      11813 SHARES       Other            14   246.54
+GENUINE PARTS CO             COMMON                                                  SHARED -
+                             STOCK       372460105    144.60       2400 SHARES       Other                 144.60
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+GILEAD SCIENCES INC          COMMON                                                  SHARED -
+                             STOCK       375558103     46.15        900 SHARES       Other                  46.15
+GLAXO SMITHKLINE SPONSORED   COMMON                                                  SHARED -
+   ADR                       STOCK       37733W105    552.31      12120 SHARES       Other            14   552.31
+GOLDMAN SACHS GROUP INC      COMMON                                                  SHARED -
+                             STOCK       38141G104     52.82        551 SHARES       Other                  52.82
+GOOGLE INC-CL A              COMMON                                                  SHARED -
+                             STOCK       38259P508    197.22        340 SHARES       Other            14   197.22
+GOOGLE INC-CL A              COMMON                                                  SHARED -
+                             STOCK       38259P508    515.68        889 SHARES       Other                 515.68
+GULFPORT ENERGY CORP         COMMON                                                  SHARED -
+                             STOCK       402635304     40.23       1950 SHARES       Other            14    40.23
+HALLIBURTON CO               COMMON                                                  SHARED -
+                             STOCK       406216101     16.32        575 SHARES       Other                  16.32
+HANESBRANDS INC              COMMON                                                  SHARED -
+                             STOCK       410345102     69.05       2490 SHARES       Other            14    69.05
+HANOVER INSURANCE GROUP INC  COMMON                                                  SHARED -
+                             STOCK       410867105     64.17       1640 SHARES       Other            14    64.17
+HARMONIC LIGHTWAVES INC      COMMON                                                  SHARED -
+                             STOCK       413160102     14.23       3340 SHARES       Other            14    14.23
+HEALTHCARE SVCS GROUP INC    COMMON                                                  SHARED -
+                             STOCK       421906108     89.15       4600 SHARES       Other                  89.15
+HELMERICH & PAYNE INC        COMMON                                                  SHARED -
+                             STOCK       423452101     32.18        740 SHARES       Other            14    32.18
+HEWLETT PACKARD CO           COMMON                                                  SHARED -
+                             STOCK       428236103     47.60       2367 SHARES       Other                  47.60
+HEXCEL CORP                  COMMON                                                  SHARED -
+                             STOCK       428291108     30.43       1180 SHARES       Other            14    30.43
+HILL-ROM HOLDING             COMMON                                                  SHARED -
+                             STOCK       431475102     63.55       2060 SHARES       Other            14    63.55
+HOME DEPOT INC               COMMON                                                  SHARED -
+                             STOCK       437076102     93.58       1766 SHARES       Other                  93.58
+HONEYWELL INTERNATIONAL INC  COMMON                                                  SHARED -
+                             STOCK       438516106    125.64       2250 SHARES       Other                 125.64
+IAC INTERACTIVECORP          COMMON                                                  SHARED -
+                             STOCK       44919P508     20.52        450 SHARES       Other            14    20.52
+IBERIABANK CORP              COMMON                                                  SHARED -
+                             STOCK       450828108     46.92        930 SHARES       Other            14    46.92
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+IDEXX LABS INC               COMMON                                                  SHARED -
+                             STOCK       45168D104    464.88       4836 SHARES       Other                 464.88
+ILLINOIS TOOL WKS INC        COMMON                                                  SHARED -
+                             STOCK       452308109    500.34       9460 SHARES       Other            14   500.34
+IMMUNOGEN INC                COMMON                                                  SHARED -
+                             STOCK       45253H101     14.40        860 SHARES       Other            14    14.40
+INGERSOLL-RAND PLC           COMMON                                                  SHARED -
+                             STOCK       G47791101    412.94       9790 SHARES       Other            14   412.94
+INGERSOLL-RAND PLC           COMMON                                                  SHARED -
+                             STOCK       G47791101     97.01       2300 SHARES       Other                  97.01
+INTEL CORP                   COMMON                                                  SHARED -
+                             STOCK       458140100     90.61       3400 SHARES       Other            14    90.61
+INTEL CORP                   COMMON                                                  SHARED -
+                             STOCK       458140100    543.71      20402 SHARES       Other                 543.71
+INTERNATIONAL BUSINESS       COMMON                                                  SHARED -
+   MACHINES CORP             STOCK       459200101    656.56       3357 SHARES       Other            14   656.56
+INTERNATIONAL BUSINESS       COMMON                                                  SHARED -
+   MACHINES CORP             STOCK       459200101  1,754.16       8969 SHARES       Other               1,754.16
+INTERXION HOLDING NV         COMMON                                                  SHARED -
+                             STOCK       N47279109     12.68        700 SHARES       Other            14    12.68
+INTUIT                       COMMON                                                  SHARED -
+                             STOCK       461202103      5.94        100 SHARES       Other                   5.94
+INVESCO LIMITED              COMMON                                                  SHARED -
+                             STOCK       G491BT108    149.16       6600 SHARES       Other                 149.16
+ION GEOPHYSICAL CORP         COMMON                                                  SHARED -
+                             STOCK       462044108     12.26       1860 SHARES       Other            14    12.26
+ISIS PHARMACEUTICALS         COMMON                                                  SHARED -
+                             STOCK       464330109     20.88       1740 SHARES       Other            14    20.88
+ITT CORP                     COMMON                                                  SHARED -
+                             STOCK       450911201     39.25       2230 SHARES       Other            14    39.25
+JANUS CAPITAL GROUP INC      COMMON                                                  SHARED -
+                             STOCK       47102X105     14.55       1860 SHARES       Other            14    14.55
+JDS UNIPHASE CORP            COMMON                                                  SHARED -
+                             STOCK       46612J507     12.98       1180 SHARES       Other            14    12.98
+JOHN BEAN TECHNOLOGIES       COMMON                                                  SHARED -
+                             STOCK       477839104     27.55       2030 SHARES       Other            14    27.55
+JOHNSON & JOHNSON            COMMON                                                  SHARED -
+                             STOCK       478160104  1,192.16      17646 SHARES       Other               1,192.16
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+JOHNSON & JOHNSON            COMMON                                                  SHARED -
+                             STOCK       478160104    266.19       3940 SHARES       Other            14   266.19
+JP MORGAN CHASE & CO         COMMON                                                  SHARED -
+                             STOCK       46625H100    594.44      16637 SHARES       Other                 594.44
+KAISER ALUMINUM CORP         COMMON                                                  SHARED -
+                             STOCK       483007704     62.73       1210 SHARES       Other            14    62.73
+KANSAS CITY SOUTHERN         COMMON                                                  SHARED -
+                             STOCK       485170302    105.73       1520 SHARES       Other            14   105.73
+KBW INC                      COMMON                                                  SHARED -
+                             STOCK       482423100     31.75       1930 SHARES       Other            14    31.75
+KIMBERLY CLARK CORP          COMMON                                                  SHARED -
+                             STOCK       494368103    778.22       9290 SHARES       Other            14   778.22
+KIMBERLY CLARK CORP          COMMON                                                  SHARED -
+                             STOCK       494368103    434.60       5188 SHARES       Other                 434.60
+KINDER MORGAN INC            COMMON                                                  SHARED -
+                             STOCK       49456B101     77.33       2400 SHARES       Other            14    77.33
+KINDER MORGAN MANAGEMENT LLC COMMON                                                  SHARED -
+                             STOCK       49455U100    308.73       4205 SHARES       Other                 308.73
+KOHLS CORP                   COMMON                                                  SHARED -
+                             STOCK       500255104    361.42       7945 SHARES       Other            14   361.42
+KOPPERS HOLDINGS INC         COMMON                                                  SHARED -
+                             STOCK       50060P106     28.56        840 SHARES       Other            14    28.56
+KRAFT FOODS INC CL A         COMMON                                                  SHARED -
+                             STOCK       50075N104    108.14       2800 SHARES       Other                 108.14
+LAM RESEARCH CORP            COMMON                                                  SHARED -
+                             STOCK       512807108     68.50       1815 SHARES       Other            14    68.50
+LAS VEGAS SANDS CORP         COMMON                                                  SHARED -
+                             STOCK       517834107     65.24       1500 SHARES       Other            14    65.24
+LENNAR CORP-CL A             COMMON                                                  SHARED -
+                             STOCK       526057104    308.64       9985 SHARES       Other            14   308.64
+LEVEL 3 COMMUNICATIONS, INC  COMMON                                                  SHARED -
+                             STOCK       52729N308     17.43        787 SHARES       Other            14    17.43
+LIBERTY MEDIA CORP - LIBER-A COMMON                                                  SHARED -
+                             STOCK       530322106     27.25        310 SHARES       Other            14    27.25
+LILLY ELI & CO               COMMON                                                  SHARED -
+                             STOCK       532457108    232.70       5423 SHARES       Other                 232.70
+LIMITED BRANDS INC           COMMON                                                  SHARED -
+                             STOCK       532716107    295.63       6951 SHARES       Other            14   295.63
+LINEAR TECHNOLOGY CORP       COMMON                                                  SHARED -
+                             STOCK       535678106     79.89       2550 SHARES       Other            14    79.89
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+LINEAR TECHNOLOGY CORP       COMMON                                                  SHARED -
+                             STOCK       535678106     11.75        375 SHARES       Other                  11.75
+LOWES COS INC                COMMON                                                  SHARED -
+                             STOCK       548661107    475.15      16707 SHARES       Other                 475.15
+LSI CORP                     COMMON                                                  SHARED -
+                             STOCK       502161102     22.42       3520 SHARES       Other            14    22.42
+LUXOTTICA GROUP SPA SPONS    COMMON                                                  SHARED -
+   ADR                       STOCK       55068R202    535.09      15319 SHARES       Other            14   535.09
+M & T BANK CORP              COMMON                                                  SHARED -
+                             STOCK       55261F104      6.44         78 SHARES       Other                   6.44
+MADISON SQUARE GARDEN CO CL  COMMON                                                  SHARED -
+   A                         STOCK       55826P100     11.98        320 SHARES       Other            14    11.98
+MANNING & NAPIER             COMMON                                                  SHARED -
+                             STOCK       56382Q102     22.20       1560 SHARES       Other            14    22.20
+MCDERMOTT INTERNATIONAL INC  COMMON                                                  SHARED -
+                             STOCK       580037109     49.46       4440 SHARES       Other            14    49.46
+MCDONALDS CORP               COMMON                                                  SHARED -
+                             STOCK       580135101    472.22       5334 SHARES       Other            14   472.22
+MCDONALDS CORP               COMMON                                                  SHARED -
+                             STOCK       580135101    467.00       5275 SHARES       Other                 467.00
+MEAD JOHNSON NUTRITION CO    COMMON                                                  SHARED -
+                             STOCK       582839106    239.11       2970 SHARES       Other                 239.11
+MEADWESTVACO CORP            COMMON                                                  SHARED -
+                             STOCK       583334107     19.26        670 SHARES       Other            14    19.26
+MERCK & CO INC               COMMON                                                  SHARED -
+                             STOCK       58933Y105    522.46      12514 SHARES       Other                 522.46
+MERCK & CO INC               COMMON                                                  SHARED -
+                             STOCK       58933Y105    117.15       2806 SHARES       Other            14   117.15
+MEREDITH CORP                COMMON                                                  SHARED -
+                             STOCK       589433101     87.84       2750 SHARES       Other            14    87.84
+MICROCHIP TECHNOLOGY INC     COMMON                                                  SHARED -
+                             STOCK       595017104     89.32       2700 SHARES       Other            14    89.32
+MICROSOFT CORP               COMMON                                                  SHARED -
+                             STOCK       594918104  1,986.91      64953 SHARES       Other               1,986.91
+MICROSOFT CORP               COMMON                                                  SHARED -
+                             STOCK       594918104    892.37      29172 SHARES       Other            14   892.37
+MONSANTO CO NEW              COMMON                                                  SHARED -
+                             STOCK       61166W101    177.48       2144 SHARES       Other                 177.48
+MONSANTO CO NEW              COMMON                                                  SHARED -
+                             STOCK       61166W101    352.64       4260 SHARES       Other            14   352.64
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+MOODYS CORP                  COMMON                                                  SHARED -
+                             STOCK       615369105    374.86      10256 SHARES       Other            14   374.86
+MURPHY OIL CORP              COMMON                                                  SHARED -
+                             STOCK       626717102     90.52       1800 SHARES       Other                  90.52
+MYRIAD GENETICS INC          COMMON                                                  SHARED -
+                             STOCK       62855J104     28.29       1190 SHARES       Other            14    28.29
+NATIONAL GRID PLC SPONS ADR  COMMON                                                  SHARED -
+                             STOCK       636274300    178.26       3364 SHARES       Other                 178.26
+NATIONAL-OILWELL INC         COMMON                                                  SHARED -
+                             STOCK       637071101     52.84        820 SHARES       Other                  52.84
+NCR CORP                     COMMON                                                  SHARED -
+                             STOCK       62886E108     59.10       2600 SHARES       Other            14    59.10
+NEW JERSEY RES CORP          COMMON                                                  SHARED -
+                             STOCK       646025106    109.03       2500 SHARES       Other            14   109.03
+NEXTERA ENERGY INC           COMMON                                                  SHARED -
+                             STOCK       65339F101    147.94       2150 SHARES       Other            14   147.94
+NEXTERA ENERGY INC           COMMON                                                  SHARED -
+                             STOCK       65339F101    808.04      11743 SHARES       Other                 808.04
+NII HOLDINGS INC             COMMON                                                  SHARED -
+                             STOCK       62913F201     13.50       1320 SHARES       Other            14    13.50
+NISOURCE INC                 COMMON                                                  SHARED -
+                             STOCK       65473P105    423.99      17131 SHARES       Other            14   423.99
+NOBLE ENERGY INC             COMMON                                                  SHARED -
+                             STOCK       655044105    208.83       2462 SHARES       Other                 208.83
+NORTH AMERN ENERGY PARTNERS  COMMON                                                  SHARED -
+                             STOCK       656844107      4.88       1890 SHARES       Other            14     4.88
+NORTHWEST BANCSHARES INC     COMMON                                                  SHARED -
+                             STOCK       667340103     49.65       4240 SHARES       Other            14    49.65
+NORTHWESTERN CORP            COMMON                                                  SHARED -
+                             STOCK       668074305     34.87        950 SHARES       Other            14    34.87
+NOVARTIS AG SPONSORED ADR    COMMON                                                  SHARED -
+                             STOCK       66987V109    176.14       3151 SHARES       Other                 176.14
+NOVARTIS AG SPONSORED ADR    COMMON                                                  SHARED -
+                             STOCK       66987V109    625.63      11192 SHARES       Other            14   625.63
+OASIS PETROLEUM INC          COMMON                                                  SHARED -
+                             STOCK       674215108     40.38       1670 SHARES       Other            14    40.38
+OCCIDENTAL PETE CORP         COMMON                                                  SHARED -
+                             STOCK       674599105    277.98       3241 SHARES       Other            14   277.98
+OCCIDENTAL PETE CORP         COMMON                                                  SHARED -
+                             STOCK       674599105    240.16       2800 SHARES       Other                 240.16
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+OGE ENERGY CORP              COMMON                                                  SHARED -
+                             STOCK       670837103     25.90        500 SHARES       Other                  25.90
+OMNICOM GROUP                COMMON                                                  SHARED -
+                             STOCK       681919106  1,050.93      21624 SHARES       Other            14 1,050.93
+ONYX PHARMACEUTICALS INC     COMMON                                                  SHARED -
+                             STOCK       683399109     46.52        700 SHARES       Other            14    46.52
+ORACLE CORPORATION           COMMON                                                  SHARED -
+                             STOCK       68389X105    524.26      17652 SHARES       Other            14   524.26
+ORACLE CORPORATION           COMMON                                                  SHARED -
+                             STOCK       68389X105    975.59      32848 SHARES       Other                 975.59
+ORIENT-EXPRESS HOTELS LTD    COMMON                                                  SHARED -
+                             STOCK       G67743107     32.98       3940 SHARES       Other            14    32.98
+PALL CORP                    COMMON                                                  SHARED -
+                             STOCK       696429307    347.88       6347 SHARES       Other                 347.88
+PALL CORP                    COMMON                                                  SHARED -
+                             STOCK       696429307    134.83       2460 SHARES       Other            14   134.83
+PARKER HANNIFIN CORP         COMMON                                                  SHARED -
+                             STOCK       701094104    332.51       4325 SHARES       Other                 332.51
+PATTERSON COS INC            COMMON                                                  SHARED -
+                             STOCK       703395103     53.43       1550 SHARES       Other            14    53.43
+PAYCHEX INC                  COMMON                                                  SHARED -
+                             STOCK       704326107     22.77        725 SHARES       Other                  22.77
+PENSKE AUTO GROUP            COMMON                                                  SHARED -
+                             STOCK       70959W103     53.31       2510 SHARES       Other            14    53.31
+PEPSICO INC                  COMMON                                                  SHARED -
+                             STOCK       713448108  1,987.74      28131 SHARES       Other               1,987.74
+PEPSICO INC                  COMMON                                                  SHARED -
+                             STOCK       713448108    268.51       3800 SHARES       Other            14   268.51
+PETROLEO BRASILEIRO S.A. ADR COMMON                                                  SHARED -
+                             STOCK       71654V408    198.25      10562 SHARES       Other                 198.25
+PFIZER INC                   COMMON                                                  SHARED -
+                             STOCK       717081103    256.45      11150 SHARES       Other            14   256.45
+PFIZER INC                   COMMON                                                  SHARED -
+                             STOCK       717081103    704.79      30643 SHARES       Other                 704.79
+PG & E CORP                  COMMON                                                  SHARED -
+                             STOCK       69331C108     81.49       1800 SHARES       Other            14    81.49
+PHH CORP                     COMMON                                                  SHARED -
+                             STOCK       693320202     56.98       3260 SHARES       Other            14    56.98
+PHILIP MORRIS INTERNATIONAL  COMMON                                                  SHARED -
+                             STOCK       718172109     78.53        900 SHARES       Other            14    78.53
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+PHILLIPS 66                  COMMON                                                  SHARED -
+                             STOCK       718546104    130.07       3913 SHARES       Other                 130.07
+PNC FINANCIAL SERVICES GROUP COMMON                                                  SHARED -
+                             STOCK       693475105    204.60       3348 SHARES       Other                 204.60
+POST HOLDINGS INC            COMMON                                                  SHARED -
+                             STOCK       737446104     10.30        335 SHARES       Other                  10.30
+PRAXAIR INC                  COMMON                                                  SHARED -
+                             STOCK       74005P104    326.52       3003 SHARES       Other            14   326.52
+PRECISION CASTPARTS CORP     COMMON                                                  SHARED -
+                             STOCK       740189105    530.32       3224 SHARES       Other            14   530.32
+PRECISION CASTPARTS CORP     COMMON                                                  SHARED -
+                             STOCK       740189105    340.49       2070 SHARES       Other                 340.49
+PROCTER & GAMBLE CO          COMMON                                                  SHARED -
+                             STOCK       742718109     73.50       1200 SHARES       Other            14    73.50
+PROCTER & GAMBLE CO          COMMON                                                  SHARED -
+                             STOCK       742718109  2,065.78      33727 SHARES       Other               2,065.78
+QUALCOMM INC                 COMMON                                                  SHARED -
+                             STOCK       747525103    125.89       2261 SHARES       Other                 125.89
+QUEST DIAGNOSTICS INC        COMMON                                                  SHARED -
+                             STOCK       74834L100    118.30       1975 SHARES       Other                 118.30
+RALCORP HOLDINGS INC         COMMON                                                  SHARED -
+                             STOCK       751028101     45.05        675 SHARES       Other                  45.05
+RANGE RESOURCES CORP         COMMON                                                  SHARED -
+                             STOCK       75281A109    135.50       2190 SHARES       Other                 135.50
+RAYMOND JAMES FINANCIAL INC  COMMON                                                  SHARED -
+                             STOCK       754730109     23.63        690 SHARES       Other            14    23.63
+RAYTHEON COMPANY             COMMON                                                  SHARED -
+                             STOCK       755111507     56.59       1000 SHARES       Other                  56.59
+REGAL BELOIT CORP            COMMON                                                  SHARED -
+                             STOCK       758750103     49.81        800 SHARES       Other            14    49.81
+REGENERON PHARMACEUTICALS    COMMON                                                  SHARED -
+   INC                       STOCK       75886F107     81.10        710 SHARES       Other            14    81.10
+REGIS CORP                   COMMON                                                  SHARED -
+                             STOCK       758932107     30.17       1680 SHARES       Other            14    30.17
+RF MICRO DEVICES INC         COMMON                                                  SHARED -
+                             STOCK       749941100     10.54       2480 SHARES       Other            14    10.54
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+RIO TINTO PLC SPNSD ADR      COMMON                                                  SHARED -
+                             STOCK       767204100    323.00       6756 SHARES       Other                 323.00
+ROBERT HALF INTL INC         COMMON                                                  SHARED -
+                             STOCK       770323103     17.71        620 SHARES       Other            14    17.71
+ROPER INDS INC NEW           COMMON                                                  SHARED -
+                             STOCK       776696106    684.44       6943 SHARES       Other                 684.44
+ROPER INDS INC NEW           COMMON                                                  SHARED -
+                             STOCK       776696106    437.79       4441 SHARES       Other            14   437.79
+ROWAN COMPANIES PLC          COMMON                                                  SHARED -
+                             STOCK       G7665A101     31.68        980 SHARES       Other            14    31.68
+ROYAL CARIBBEAN CRUISES LTD  COMMON                                                  SHARED -
+                             STOCK       V7780T103     33.32       1280 SHARES       Other            14    33.32
+ROYAL DUTCH-ADR A            COMMON                                                  SHARED -
+                             STOCK       780259206     53.94        800 SHARES       Other                  53.94
+RTI INTERNATIONAL METALS INC COMMON                                                  SHARED -
+                             STOCK       74973W107     18.56        820 SHARES       Other            14    18.56
+SAKS INC                     COMMON                                                  SHARED -
+                             STOCK       79377W108     18.53       1740 SHARES       Other            14    18.53
+SALLY BEAUTY CO-W/I          COMMON                                                  SHARED -
+                             STOCK       79546E104     60.23       2340 SHARES       Other            14    60.23
+SANOFI SPONS ADR             COMMON                                                  SHARED -
+                             STOCK       80105N105    181.34       4800 SHARES       Other            14   181.34
+SCHLUMBERGER LTD             COMMON                                                  SHARED -
+                             STOCK       806857108    829.61      12781 SHARES       Other            14   829.61
+SCHLUMBERGER LTD             COMMON                                                  SHARED -
+                             STOCK       806857108    745.43      11484 SHARES       Other                 745.43
+SEACHANGE INTL INC           COMMON                                                  SHARED -
+                             STOCK       811699107     20.16       2450 SHARES       Other            14    20.16
+SEALED AIR CORP NEW          COMMON                                                  SHARED -
+                             STOCK       81211K100    148.22       9600 SHARES       Other                 148.22
+SEATTLE GENETICS INC         COMMON                                                  SHARED -
+                             STOCK       812578102     33.77       1330 SHARES       Other            14    33.77
+SHAW GROUP INC               COMMON                                                  SHARED -
+                             STOCK       820280105     16.66        610 SHARES       Other            14    16.66
+SINCLAIR BROADCAST GROUP     COMMON                                                  SHARED -
+   INC CL A                  STOCK       829226109     19.84       2190 SHARES       Other            14    19.84
+SIRONA DENTAL SYSTEMS        COMMON                                                  SHARED -
+                             STOCK       82966C103    492.14      10934 SHARES       Other            14   492.14
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+SMITH A O CORPORATION        COMMON                                                  SHARED -
+                             STOCK       831865209     59.16       1210 SHARES       Other            14    59.16
+SOTHEBY'S (DELAWARE)         COMMON                                                  SHARED -
+                             STOCK       835898107    305.68       9163 SHARES       Other            14   305.68
+SPECTRA ENERGY CORP          COMMON                                                  SHARED -
+                             STOCK       847560109     68.29       2350 SHARES       Other            14    68.29
+STAPLES INC                  COMMON                                                  SHARED -
+                             STOCK       855030102     37.04       2838 SHARES       Other                  37.04
+STAPLES INC                  COMMON                                                  SHARED -
+                             STOCK       855030102    302.11      23150 SHARES       Other            14   302.11
+STATE STREET CORP            COMMON                                                  SHARED -
+                             STOCK       857477103    232.49       5208 SHARES       Other                 232.49
+STERICYCLE INC               COMMON                                                  SHARED -
+                             STOCK       858912108    302.51       3300 SHARES       Other                 302.51
+STILLWATER MINING COMPANY    COMMON                                                  SHARED -
+                             STOCK       86074Q102     18.87       2210 SHARES       Other            14    18.87
+STRYKER CORP                 COMMON                                                  SHARED -
+                             STOCK       863667101    212.14       3850 SHARES       Other                 212.14
+SUNCOKE ENERGY INC           COMMON                                                  SHARED -
+                             STOCK       86722A103     36.80       2512 SHARES       Other            14    36.80
+SUNCOR ENERGY INC            COMMON                                                  SHARED -
+                             STOCK       867224107    337.64      11663 SHARES       Other                 337.64
+SUNOCO INC                   COMMON                                                  SHARED -
+                             STOCK       86764P109     28.03        590 SHARES       Other            14    28.03
+SYSCO CORP                   COMMON                                                  SHARED -
+                             STOCK       871829107    374.06      12548 SHARES       Other                 374.06
+SYSCO CORP                   COMMON                                                  SHARED -
+                             STOCK       871829107    809.34      27150 SHARES       Other            14   809.34
+TE CONNECTIVITY LIMITED      COMMON                                                  SHARED -
+                             STOCK       H84989104    585.87      18360 SHARES       Other            14   585.87
+TEVA PHARMACEUTICAL INDS     COMMON                                                  SHARED -
+   LTD ADR                   STOCK       881624209    385.57       9776 SHARES       Other                 385.57
+TEXAS INSTRUMENTS INC        COMMON                                                  SHARED -
+                             STOCK       882508104    328.99      11467 SHARES       Other                 328.99
+THE MOSAIC COMPANY           COMMON                                                  SHARED -
+                             STOCK       61945C103     38.88        710 SHARES       Other            14    38.88
+THERMO FISHER SCIENTIFIC INC COMMON                                                  SHARED -
+                             STOCK       883556102     91.78       1768 SHARES       Other                  91.78
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+TIFFANY & CO                 COMMON                                                  SHARED -
+                             STOCK       886547108     33.36        630 SHARES       Other                  33.36
+TIFFANY & CO                 COMMON                                                  SHARED -
+                             STOCK       886547108    328.03       6195 SHARES       Other            14   328.03
+TIME WARNER CABLE INC        COMMON                                                  SHARED -
+                             STOCK       88732J207     16.42        200 SHARES       Other                  16.42
+TIME WARNER INC              COMMON                                                  SHARED -
+                             STOCK       887317303    424.27      11020 SHARES       Other            14   424.27
+TIME WARNER INC              COMMON                                                  SHARED -
+                             STOCK       887317303     59.75       1552 SHARES       Other                  59.75
+TIMKEN CO                    COMMON                                                  SHARED -
+                             STOCK       887389104     27.47        600 SHARES       Other            14    27.47
+TREEHOUSE FOODS              COMMON                                                  SHARED -
+                             STOCK       89469A104     66.03       1060 SHARES       Other            14    66.03
+TRIMBLE NAVIGATION LTD       COMMON                                                  SHARED -
+                             STOCK       896239100     55.67       1210 SHARES       Other            14    55.67
+TRINITY INDUSTRIES INC       COMMON                                                  SHARED -
+                             STOCK       896522109     47.96       1920 SHARES       Other            14    47.96
+TRIQUINT SEMICONDUCTOR INC   COMMON                                                  SHARED -
+                             STOCK       89674K103     18.43       3350 SHARES       Other            14    18.43
+TW TELECOM INC               COMMON                                                  SHARED -
+                             STOCK       87311L104     38.49       1500 SHARES       Other            14    38.49
+TYCO INTERNATIONAL LTD       COMMON                                                  SHARED -
+                             STOCK       H89128104    461.70       8736 SHARES       Other            14   461.70
+UBS AG                       COMMON                                                  SHARED -
+                             STOCK       H89231338      5.27        450 SHARES       Other                   5.27
+UNIFI INC                    COMMON                                                  SHARED -
+                             STOCK       904677200     12.68       1119 SHARES       Other            14    12.68
+UNILEVER NV NY SHARES        COMMON                                                  SHARED -
+                             STOCK       904784709    175.09       5250 SHARES       Other            14   175.09
+UNILEVER NV NY SHARES        COMMON                                                  SHARED -
+                             STOCK       904784709    385.79      11568 SHARES       Other                 385.79
+UNITED PARCEL SERVICE-CLASS  COMMON                                                  SHARED -
+   B                         STOCK       911312106    456.81       5800 SHARES       Other                 456.81
+UNITED STATES CELLULAR CORP  COMMON                                                  SHARED -
+                             STOCK       911684108     16.61        430 SHARES       Other            14    16.61
+UNITED STATES STEEL CORP     COMMON                                                  SHARED -
+                             STOCK       912909108      8.03        390 SHARES       Other            14     8.03
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+UNITED TECHNOLOGIES CORP     COMMON                                                  SHARED -
+                             STOCK       913017109    710.59       9408 SHARES       Other                 710.59
+UNITED TECHNOLOGIES CORP     COMMON                                                  SHARED -
+                             STOCK       913017109    149.93       1985 SHARES       Other            14   149.93
+US BANCORP NEW               COMMON                                                  SHARED -
+                             STOCK       902973304    304.52       9469 SHARES       Other                 304.52
+VAIL RESORTS INC             COMMON                                                  SHARED -
+                             STOCK       91879Q109     62.10       1240 SHARES       Other            14    62.10
+VALE S.A. ADR                COMMON                                                  SHARED -
+                             STOCK       91912E105    164.02       8263 SHARES       Other                 164.02
+VALSPAR CORP                 COMMON                                                  SHARED -
+                             STOCK       920355104     45.14        860 SHARES       Other            14    45.14
+VARIAN MEDICAL SYSTEMS INC   COMMON                                                  SHARED -
+                             STOCK       92220P105     21.27        350 SHARES       Other                  21.27
+VARIAN MEDICAL SYSTEMS INC   COMMON                                                  SHARED -
+                             STOCK       92220P105    270.12       4445 SHARES       Other            14   270.12
+VECTREN CORP                 COMMON                                                  SHARED -
+                             STOCK       92240G101     51.96       1760 SHARES       Other            14    51.96
+VERIZON COMMUNICATIONS       COMMON                                                  SHARED -
+                             STOCK       92343V104     92.75       2087 SHARES       Other            14    92.75
+VERIZON COMMUNICATIONS       COMMON                                                  SHARED -
+                             STOCK       92343V104    729.48      16415 SHARES       Other                 729.48
+VIACOM INC CL B              COMMON                                                  SHARED -
+                             STOCK       92553P201     27.04        575 SHARES       Other                  27.04
+VIEWPOINT FINL GROUP INC     COMMON                                                  SHARED -
+                             STOCK       92672A101     43.17       2760 SHARES       Other            14    43.17
+VIRTUS INVESTMENT PARTNERS   COMMON                                                  SHARED -
+                             STOCK       92828Q109      1.46         18 SHARES       Other                   1.46
+VISHAY INTERTECHNOLOGY INC   COMMON                                                  SHARED -
+                             STOCK       928298108     18.67       1980 SHARES       Other            14    18.67
+VODAFONE GROUP ADR           COMMON                                                  SHARED -
+                             STOCK       92857W209    307.16      10900 SHARES       Other                 307.16
+WABTEC CORP                  COMMON                                                  SHARED -
+                             STOCK       929740108     80.35       1030 SHARES       Other            14    80.35
+WADDELL & REED FINL INC      COMMON                                                  SHARED -
+                             STOCK       930059100     48.75       1610 SHARES       Other            14    48.75
+WAL MART STORES INC          COMMON                                                  SHARED -
+                             STOCK       931142103    382.27       5483 SHARES       Other                 382.27
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+WAL MART STORES INC          COMMON                                                  SHARED -
+                             STOCK       931142103    829.67      11900 SHARES       Other            14   829.67
+WALGREEN CO                  COMMON                                                  SHARED -
+                             STOCK       931422109    302.31      10220 SHARES       Other                 302.31
+WALGREEN CO                  COMMON                                                  SHARED -
+                             STOCK       931422109    135.27       4573 SHARES       Other            14   135.27
+WEATHERFORD INTNTL LTD       COMMON                                                  SHARED -
+                             STOCK       H27013103      4.36        345 SHARES       Other                   4.36
+WELLS FARGO & CO             COMMON                                                  SHARED -
+                             STOCK       949746101    595.13      17797 SHARES       Other                 595.13
+WEYERHAEUSER CO              COMMON                                                  SHARED -
+                             STOCK       962166104     76.36       3415 SHARES       Other            14    76.36
+WILLIS GROUP HOLDINS PLC     COMMON                                                  SHARED -
+                             STOCK       G96666105    356.32       9765 SHARES       Other            14   356.32
+WINTRUST FINANCIAL CORP      COMMON                                                  SHARED -
+                             STOCK       97650W108     52.19       1470 SHARES       Other            14    52.19
+WISCONSIN ENERGY CORP        COMMON                                                  SHARED -
+                             STOCK       976657106    142.45       3600 SHARES       Other            14   142.45
+WRIGHT EXPRESS CORP          COMMON                                                  SHARED -
+                             STOCK       98233Q105     77.77       1260 SHARES       Other            14    77.77
+WYNDHAM WORLDWIDE CORP       COMMON                                                  SHARED -
+                             STOCK       98310W108     95.99       1820 SHARES       Other            14    95.99
+ZIMMER HLDGS INC             COMMON                                                  SHARED -
+                             STOCK       98956P102     73.69       1145 SHARES       Other                  73.69
+ALLIANCE HOLDING GP LP       MASTER
+                             LIMITED                                                 SHARED -
+                             PARTNERSHIP 01861G100    141.03       3400 SHARES       Other                 141.03
+ENERGY TRANSFER              MASTER
+                             LIMITED                                                 SHARED -
+                             PARTNERSHIP 29273V100     61.53       1500 SHARES       Other                  61.53
+ENTERPRISE PRODS PARTNERS LP MASTER
+                             LIMITED                                                 SHARED -
+                             PARTNERSHIP 293792107    702.35      13707 SHARES       Other                 702.35
+LAZARD LTD CL A              MASTER
+                             LIMITED                                                 SHARED -
+                             PARTNERSHIP G54050102     14.29        550 SHARES       Other            14    14.29
+MAGELLAN MIDSTREAM PARTNERS  MASTER
+                             LIMITED                                                 SHARED -
+                             PARTNERSHIP 559080106    165.23       2339 UNITS        Other                 165.23
+PIONEER SOUTHWST ENRG PRTNR  MASTER
+   LP                        LIMITED                                                 SHARED -
+                             PARTNERSHIP 72388B106    192.90       7500 SHARES       Other                 192.90
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+PLAINS ALL AMERICAN          MASTER
+   PIPELINE LP               LIMITED                                                 SHARED -
+                             PARTNERSHIP 726503105     80.81       1000 SHARES       Other                  80.81
+ISHARES BARCLAYS AGGREGATE   MUTUAL                                                  SHARED -
+   BOND FUND                 FUND        464287226      0.45          4 UNITS        Other                   0.45
+ISHARES DJ US MEDICAL DEVICE MUTUAL                                                  SHARED -
+                             FUND        464288810    410.70       6234 SHARES       Other                 410.70
+ISHARES FTSE CHINA 25 INDEX  MUTUAL                                                  SHARED -
+   FUND                      FUND        464287184     70.70       2100 SHARES       Other                  70.70
+ISHARES MSCI EAFE INDEX FUND MUTUAL                                                  SHARED -
+                             FUND        464287465  6,488.41     129872 UNITS        Other               6,488.41
+ISHARES MSCI EMERGING        MUTUAL                                                  SHARED -
+   MARKETS INDEX             FUND        464287234     23.48        600 UNITS        Other                  23.48
+ISHARES RUSSELL 2000 INDEX   MUTUAL                                                  SHARED -
+   FUND                      FUND        464287655     22.04        277 UNITS        Other                  22.04
+JF CHINA REGION FUND INC     MUTUAL                                                  SHARED -
+                             FUND        46614T107     96.88       8000 UNITS        Other                  96.88
+JPMORGAN ALERIAN MLP INDEX   MUTUAL                                                  SHARED -
+   FUND                      FUND        46625H365     85.27       2200 UNITS        Other            14    85.27
+SPDR S&P BIOTECH ETF         MUTUAL                                                  SHARED -
+                             FUND        78464A870    618.32       6989 SHARES       Other                 618.32
+VANGUARD MSCI EMERGING       MUTUAL                                                  SHARED -
+   MARKETS ETF               FUND        922042858    981.72      24586 UNITS        Other                 981.72
+VANGUARD TOTAL STOCK MARKET  MUTUAL                                                  SHARED -
+   ETF                       FUND        922908769      1.05         15 UNITS        Other                   1.05
+AMERICAN CAMPUS COMMUNITIES                                                          SHARED -
+   REIT                      REIT        024835100    143.94       3200 SHARES       Other            14   143.94
+DIGITAL REALTY TRUST INC                                                             SHARED -
+   REIT                      REIT        253868103     56.30        750 SHARES       Other            14    56.30
+</TABLE>
+
+<PAGE>
+
+
+<TABLE>
+<CAPTION>
+                                                                                                           Voting Authority
+                               Title of              Value   Shares/Par   SH    Put  Investment   Other  --------------------
+Name of Issuer                  Class      CUSIP   (x 1,000)   Amount    /PRN  /Call Discretion Managers   Sole   Shared None
+---------------------------- ----------- --------- --------- ---------- ------ ----- ---------- -------- -------- ------ ----
+<S>                          <C>         <C>       <C>       <C>        <C>    <C>   <C>        <C>      <C>      <C>    <C>
+DUKE REALTY CORP REIT                                                                SHARED -
+                             REIT        264411505    102.48       7000 SHARES       Other                 102.48
+HCP INC REIT                                                                         SHARED -
+                             REIT        40414L109    132.45       3000 SHARES       Other            14   132.45
+LIBERTY PROPERTY TRUST                                                               SHARED -
+                             REIT        531172104    165.78       4500 SHARES       Other                 165.78
+PLUM CREEK TIMBER CO INC                                                             SHARED -
+                             REIT        729251108     61.54       1550 SHARES       Other            14    61.54
+PUBLIC STORAGE INC REIT                                                              SHARED -
+                             REIT        74460D109     86.65        600 SHARES       Other            14    86.65
+RAYONIER INC                                                                         SHARED -
+                             REIT        754907103    168.38       3750 SHARES       Other            14   168.38
+RESOURCE CAPITAL CORP REIT                                                           SHARED -
+                             REIT        76120W302     95.94      18000 SHARES       Other                  95.94
+RLJ LODGING TRUST REIT                                                               SHARED -
+                             REIT        74965L101     87.02       4800 SHARES       Other            14    87.02
+VENTAS INC                                                                           SHARED -
+                             REIT        92276F100    138.99       2202 SHARES       Other            14   138.99
+</TABLE>
+</TEXT>
+</DOCUMENT>

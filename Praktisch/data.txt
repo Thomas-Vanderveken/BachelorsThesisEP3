@@ -1,0 +1,31 @@
+<S>                     <C>              <C>        <C>       <C>       <C>  <C>              <C>      <C>     <C>
+Test 
+ NV ADR                  Common             937102   27486     1497900   SH     SOLE           1424355            73545
+ NV ADR                  Common             937102     322       17530   SH     UNKNOWN          17530
+ACMAT CORP CLASS A       Common            4616207     490       51890   SH     SOLE             51890
+ SPONSORED ADR           ADR              10199305   31141      752646   SH     SOLE            721408            31238
+ SPONSORED ADR           ADR              10199305      84        2030   SH     UNKNOWN           2030
+ALAMO GROUP INC          Common           11311107    2293      160348   SH     SOLE            159148             1200
+ COMPANY                 Common           24022105    2223      169342   SH     SOLE            169342
+ COMPANY                 Common           25816109  158305     3833056   SH     SOLE           3716471           116585
+ COMPANY                 Common           25816109    1773       42931   SH     UNKNOWN          42931
+ INSURANCE CO            Common           28591105   55250      802903   SH     SOLE            774803            28100
+ INSURANCE CO            Common           28591105     231        3350   SH     UNKNOWN           3350
+APRIL INDUSTRIES INC.    Common          0383299A8      23       42000   SH     SOLE             42000
+BANCFIRST CORP           Common          05945F103    1784       45300   SH     SOLE             45300
+BELL & HOWELL CO NEW     Common           77852101   69098     3064203   SH     SOLE           2942118           122085
+BELL & HOWELL CO NEW     Common           77852101     801       35530   SH     UNKNOWN          35530
+ SQUIBB CO               Common          110122108   36791      619375   SH     SOLE            591895            27480
+ SQUIBB CO               Common          110122108     336        5655   SH     UNKNOWN           5655
+ COMPANIES INC           Common          12500Q102     446       20400   SH     SOLE             20400
+ INC.                    Common          160903100     494       17465   SH     SOLE             17465
+ COMPANY                 Common          191098102    9940      245818   SH     SOLE            245408              410
+ COMPANY                 Common          191098102       5         128   SH     UNKNOWN            128
+ CLASS A                 CL A            200300200   63002     1502274   SH     SOLE           1466434            35840
+ CLASS A                 CL A            200300200      49        1173   SH     UNKNOWN           1173
+COMERICA INCORPORATED    Common          200340107   29455      478948   SH     SOLE            478756              192
+ ENTERPRISES             Common          203349105   16186      469165   SH     SOLE            468112             1053
+ ENTERPRISES             Common          203349105     120        3483   SH     UNKNOWN           3483
+ GROUP INC.              Common          20365M108     789       59825   SH     SOLE             59825
+ GROUP INC.              Common          20365M108      52        3945   SH     UNKNOWN           3945
+ CORP-MICH               Common          225310101    6084     1145251   SH     SOLE           1141886             3365

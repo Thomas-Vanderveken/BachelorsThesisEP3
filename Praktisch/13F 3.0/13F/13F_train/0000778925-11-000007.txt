@@ -1,0 +1,140 @@
+<SEC-DOCUMENT>0000778925-11-000007.txt : 20110811
+<SEC-HEADER>0000778925-11-000007.hdr.sgml : 20110811
+<ACCEPTANCE-DATETIME>20110811142632
+ACCESSION NUMBER:		0000778925-11-000007
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20110630
+FILED AS OF DATE:		20110811
+DATE AS OF CHANGE:		20110811
+EFFECTIVENESS DATE:		20110811
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			TUKMAN GROSSMAN CAPITAL MANAGEMENT INC
+		CENTRAL INDEX KEY:			0000778925
+		IRS NUMBER:				942661270
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-01445
+		FILM NUMBER:		111027311
+
+	BUSINESS ADDRESS:	
+		STREET 1:		60 EAST SIR FRANCIS DRAKE BLVD
+		STREET 2:		SUITE 204
+		CITY:			LARKSPUR
+		STATE:			CA
+		ZIP:			94939
+		BUSINESS PHONE:		4154616833
+
+	MAIL ADDRESS:	
+		STREET 1:		60 E SIR FRANCIS DRAKE BLVD STE 204
+		CITY:			LARKSPUR
+		STATE:			CA
+		ZIP:			94939
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	TUKMAN CAPITAL MANAGEMENT INC
+		DATE OF NAME CHANGE:	19940124
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>q21113f.txt
+<DESCRIPTION>JUNE 30, 2011 FILING
+<TEXT>
+                                  UNITED STATES
+                           SECURITIES AND EXCHANGE COMMISSION
+                                 Washington, D.C.  20549
+
+                                       FORM 13F
+
+                                 FORM 13F COVER PAGE
+
+Report for the Calendar Year or Quarter Ended:  June 30, 2011
+
+Check here if Amendment [     ]; Amendment Number:
+This Amendment (Check only one.):   [     ]  is a restatement.
+                                    [     ]  adds new holdings entries.
+
+Institutional Investment Manager Filing this Report:
+
+Name:      Tukman Grossman Capital Management, Inc.
+Address:   60 E. Sir Francis Drake Blvd., Suite 204
+           Larkspur, CA  94939
+
+13F File Number:    28-1445
+
+The institutional investment manager filing this report and the person by whom
+it is signed hereby represent that the person signing the report is authorized
+to submit it, that all information contained herein is true, correct and
+complete, and that it is understood that all required items, statements,
+schedules, lists, and tables, are considered integral parts of this form.
+
+Person Signing this Report on Behalf of Reporting Manager:
+
+Name:        Daniel L. Grossman
+Title:       Vice President
+Phone:       415-461-6833
+Signature, Place, and Date of Signing:
+
+/s/ Daniel L. Grossman        Larkspur, California        August 11, 2011
+
+
+Report Type (Check only one.):
+
+[ X ]        13F HOLDINGS REPORT.
+
+[   ]        13F NOTICE.
+
+[   ]        13F COMBINATION REPORT.
+
+I AM SIGNING THIS REPORT AS REQUIRED BY THE SECURITIES EXCHANGE ACT OF 1934.
+<PAGE>
+
+                          FORM 13F SUMMARY PAGE
+
+Report Summary:
+
+Number of Other Included Managers:          0
+
+Form 13F Information Table Entry Total:    18
+
+Form 13F Information Table Value Total:    $2,217,207 (K)
+
+List of Other Included Managers:           None
+
+<PAGE>
+
+<TABLE>
+                       <C>                                                   <C>
+NAME OF ISSUER         TITLE OF CLASS             CUSIP   VALUE(K) SH/P AMT S/P P/C  INV DSC   MANAGERS    SOLE    SHARED    NONE
+ABBOTT LABS			COMMON		002824100   51694   982400 SH		SOLE			0   953000   29400
+AUTOMATIC DATA PROCESSIN	COMMON		053015103  185140  3514433 SH		SOLE			0  3391733  122700
+AVON PRODS INC			COMMON		054303102   80208  2864583 SH		SOLE			0  2766433   98150
+BERKSHIRE HATHAWAY INC DELCL B	COMMON		084670702   40021   517134 SH		SOLE			0   499084   18050
+COCA COLA CO			COMMON		191216100  144373  2145533 SH		SOLE			0  2071133   74400
+DISNEY WALT CO			COM DISNEY	254687106  151484  3880214 SH		SOLE			0  3751940  128274
+GENERAL ELEC CO			COMMON		369604103   44869  2379053 SH		SOLE			0  2296253   82800
+GOLDMAN SACHS GROUP INC		COMMON		38141G104  121065   909650 SH		SOLE			0   878100   31550
+INTERNATIONAL BUSINESS M	COMMON		459200101  221943  1293749 SH		SOLE			0  1249199   44550
+JOHNSON & JOHNSON		COMMON		478160104  152730  2296000 SH		SOLE			0  2215600   80400
+LOWES COS INC			COMMON		548661107  129758  5566633 SH		SOLE			0  5379333  187300
+MICROSOFT CORP			COMMON		594918104  115066  4425600 SH		SOLE			0  4272500  153100
+PEPSICO INC			COMMON		713448108  104435  1482817 SH		SOLE			0  1431167   51650
+PROCTER & GAMBLE CO		COMMON		742718109  174856  2750600 SH		SOLE			0  2655100   95500
+SCHLUMBERGER LTD		COMMON		806857108  138218  1599750 SH		SOLE			0  1545300   54450
+3M CO				COMMON		88579Y101  139540  1471167 SH		SOLE			0  1420867   50300
+WAL MART STORES INC		COMMON		931142103  116281  2188200 SH		SOLE			0  2111900   76300
+WELLS FARGO & CO NEW		COMMON		949746101  105526  3760733 SH		SOLE			0  3642833  117900
+
+
+</TABLE>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
