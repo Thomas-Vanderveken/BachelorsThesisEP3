@@ -16,7 +16,7 @@
 \label{sec:inleiding}
 \subsection{Achtergrond en Context}
 
-13F-meldingen, bij de SEC zijn ingediend, bevatten essentiële informatie over de beleggingsportefeuilles van institutionele investeerders en zijn van cruciaal belang voor financieel onderzoek en investeringsanalyse. Maar voorafgaand aan 2013 vertonen 13F-rapporten vaak inconsistenties in formaat en structuur, waardoor handmatige verwerking extreem tijdrovend en foutgevoelig is. 
+13F-meldingen die bij de Securities And Exchange Commission (SEC) zijn ingediend, bevatten essentiële informatie over de beleggingsportefeuilles van institutionele investeerders en zijn van cruciaal belang voor financieel onderzoek en investeringsanalyse. Maar voorafgaand aan 2013 vertonen 13F-rapporten vaak inconsistenties in formaat en structuur, waardoor handmatige verwerking extreem tijdrovend en foutgevoelig is. 
 
 AI-technologieën zoals NLP en ML kunnen helpen deze oudere documenten te standaardiseren en vervolgens te integreren in een gestructureerde databank. Dit zou de efficiëntie van gegevensverwerking verbeteren en de toegankelijkheid van historische financiële data vergroten. Een proof-of-concept applicatie die deze AI-technieken toepast, zal niet alleen de analyse van historische beleggingstrends vergemakkelijken, maar ook het ontwikkelen van voorspellende modellen eenvoudiger maken.
 
@@ -113,7 +113,9 @@ In de eerste fase zal de literatuurstudie worden voorbereid, deze zal zich focus
 Op basis van de bevindingen uit de eerste fase zal er een proof-of-concept systeem ontwikkeld met de volgende stappen:
 \begin{enumerate}
     \item \textbf{Data Voorbereiding:} Verzamelen en voorbereiden van een dataset van 13F- meldingen van voor 2013. Dit kan bestaan uit het downloaden van historische rapporten en het opschonen van gegevens om consistentie en kwaliteit te waarborgen.
+    \item \textbf{Handmatige Dataset Creatie:} Creëren van een handmatige dataset die dient als referentie voor validatie, met aandacht voor consistentie en nauwkeurigheid.
     \item \textbf{NLP- en ML-implementatie:} Het toepassen van NLP-technieken voor het extraheren van relevante informatie zoals bedrijfsnamen, aandelen en aantallen. Vervolgens worden ML-modellen getraind om patronen en structuren te herkennen, en om de gegevens te classificeren en te structureren.
+    \item \textbf{Validatie:} Voor de validatie van het extractieproces worden de geëxtraheerde gegevens vergeleken met een representatieve steekproef van handmatig gecodeerde gegevens. Statistische analysemethoden worden gebruikt om de accuraatheid en consistentie van de data te beoordelen. Daarnaast wordt de verwerkingstijd gemeten om de efficiëntie van het systeem te evalueren, wat bijdraagt aan de algehele beoordeling van de proof-of-concept applicatie.
     \item \textbf{Integratie:} Integreren van deze gegevens in een relationele databank die ontworpen is voor efficiënte opslag en toegang.
 \end{enumerate}
 
